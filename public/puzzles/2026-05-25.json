@@ -16,55 +16,55 @@
     },
     {
       "id": "tile_4",
-      "text": "I have a horrible feeling that I'm a greedy, perverted, selfish, apathetic, cynical, depraved, morally bankrupt woman"
+      "text": "This is a love story"
     },
     {
       "id": "tile_5",
-      "text": "Cersei Lannister"
+      "text": "Knives Out"
     },
     {
       "id": "tile_6",
-      "text": "Stormborn"
+      "text": "Glass Onion"
     },
     {
       "id": "tile_7",
-      "text": "Shame"
+      "text": "Poker Face"
     },
     {
       "id": "tile_8",
-      "text": "Lena Headey"
+      "text": "Only Murders in the Building"
     },
     {
       "id": "tile_9",
-      "text": "Tony Soprano"
+      "text": "Betty Draper"
     },
     {
       "id": "tile_10",
-      "text": "Nucky Thompson"
+      "text": "Skyler White"
     },
     {
       "id": "tile_11",
-      "text": "Jimmy McNulty"
+      "text": "Carmela Soprano"
     },
     {
       "id": "tile_12",
-      "text": "Frank Underwood"
+      "text": "Lois Wilkerson"
     },
     {
       "id": "tile_13",
-      "text": "Hinoki"
+      "text": "Banshee"
     },
     {
       "id": "tile_14",
-      "text": "Greendale Community College"
+      "text": "Orphan Black"
     },
     {
       "id": "tile_15",
-      "text": "Paddy's Pub"
+      "text": "Rectify"
     },
     {
       "id": "tile_16",
-      "text": "The Bamboo"
+      "text": "Halt and Catch Fire"
     }
   ],
   "groups": [
@@ -79,12 +79,12 @@
         "tile_3",
         "tile_4"
       ],
-      "explanation": "Fleabag (show title and protagonist nickname), Phoebe Waller-Bridge (writer/actor), The Priest (character played by Andrew Scott), and the self-flagellating monologue quote are all from the BBC series Fleabag."
+      "explanation": "Fleabag (show title/character name), Phoebe Waller-Bridge (creator/actor), The Priest (character played by Andrew Scott), and 'This is a love story' (the show's closing line/tagline) are all from the BBC/Amazon series Fleabag."
     },
     {
       "id": "group_2",
-      "name": "TRAP — Queens of Ruthless Ambition (But NOT All the Same Show)",
-      "connection_type": "trap_same_character_type_different_shows",
+      "name": "TRAP — Whodunit Mystery Titles (But One Is a TV Series, Not a Film)",
+      "connection_type": "trap_one_is_tv_not_film",
       "difficulty": 2,
       "tiles": [
         "tile_5",
@@ -92,12 +92,12 @@
         "tile_7",
         "tile_8"
       ],
-      "explanation": "These tiles look like they all belong to Game of Thrones, but only Cersei Lannister and Lena Headey are directly from GoT. 'Stormborn' is a Daenerys Targaryen title from GoT, while 'Shame' is the infamous GoT walk-of-atonement chant — yet Lena Headey also starred in Terminator: The Sarah Connor Chronicles and The Purge TV series, making her the trap tile that bridges shows. The intended grouping is: tiles that are associated specifically with Cersei Lannister/Lena Headey's Game of Thrones storyline — Cersei Lannister (character), Stormborn (episode title in which Cersei's power is challenged), Shame (the septa's chant during Cersei's walk), and Lena Headey (actress who played Cersei)."
+      "explanation": "Knives Out and Glass Onion are theatrical films; Only Murders in the Building is a Hulu TV series; Poker Face is a Peacock TV series. All four share the whodunit mystery genre and are associated with Rian Johnson or share his aesthetic DNA, but players may assume all four are films — in fact two are movies and two are TV shows, making them a trap for anyone grouping by 'Rian Johnson Knives Out universe' (Poker Face and Only Murders are NOT Rian Johnson properties)."
     },
     {
       "id": "group_3",
-      "name": "TV Antiheroes Who Address the Camera Directly",
-      "connection_type": "characters_who_break_fourth_wall",
+      "name": "Long-Suffering Wives of TV Antiheroes",
+      "connection_type": "antihero_spouse",
       "difficulty": 3,
       "tiles": [
         "tile_9",
@@ -105,12 +105,12 @@
         "tile_11",
         "tile_12"
       ],
-      "explanation": "Tony Soprano (The Sopranos) addresses the camera in dream sequences and asides; Nucky Thompson (Boardwalk Empire) in certain theatrical monologue moments; Jimmy McNulty (The Wire) occasionally winks at the absurdity of the system in near-direct address; and Frank Underwood (House of Cards) is one of TV's most famous fourth-wall-breakers. All are male antihero protagonists in prestige cable/streaming dramas who at least once speak directly to or acknowledge the audience."
+      "explanation": "Betty Draper (wife of Don Draper in Mad Men), Skyler White (wife of Walter White in Breaking Bad), Carmela Soprano (wife of Tony Soprano in The Sopranos), and Lois Wilkerson (wife of Hal in Malcolm in the Middle) are all wives of complex, morally compromised male protagonists — women who are frequently criticized by audiences for 'getting in the way' of the antihero, a noted TV trope."
     },
     {
       "id": "group_4",
-      "name": "TV Bar/Hangout Spots Named After a Type of Wood",
-      "connection_type": "fictional_hangout_named_after_wood",
+      "name": "Critically Acclaimed Cable Shows That Ended Before Their Time on Cinemax or Sundance",
+      "connection_type": "cult_cable_cancelled_underrated",
       "difficulty": 4,
       "tiles": [
         "tile_13",
@@ -118,7 +118,7 @@
         "tile_15",
         "tile_16"
       ],
-      "explanation": "Each tile is a fictional TV gathering place whose name contains or references a type of wood: Hinoki (Japanese cypress wood — the upscale bar in Succession Season 3 used for deal-making), Greendale Community College (GREENDALE contains 'alder' wood inside: greenDALE — and the show Community hinges on the study group room 'The Greendale Study Room'), Paddy's Pub (PADDY contains 'padauk' wood resonance — trap tile, actually from It's Always Sunny in Philadelphia), and The Bamboo (bamboo is a woody grass — the beach bar in Survivor: Pearl Islands, used as a recurring set). NOTE: This group is the hardest and most lateral — the intended connection is fictional TV locations whose names conceal or reference a type of timber/wood material."
+      "explanation": "Banshee (Cinemax), Orphan Black (BBC America), Rectify (Sundance Channel), and Halt and Catch Fire (AMC) are all critically acclaimed cult cable dramas from roughly 2012–2017 that were praised by critics as criminally underseen, frequently appeared on 'most underrated shows' lists, and ended with modest but devoted fanbases — none of them ever became mainstream hits despite being considered some of the best TV of their era."
     }
   ]
 }
