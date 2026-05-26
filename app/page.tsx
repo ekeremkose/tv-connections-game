@@ -215,7 +215,7 @@ export default function Home() {
     if (Math.max(...Array.from(groupCounts.values())) === 3) {
       showToastMsg('One away!')
       setShakingIds(selectedIds)
-      setTimeout(() => setShakingIds([]), 600)
+      setTimeout(() => { setShakingIds([]); setSelectedIds([]) }, 600)
       const newHistory: GuessRecord[] = [...guessHistory, { tileIds: selectedIds, correct: false }]
       setGuessHistory(newHistory)
       persistState(solvedGroupIds, lives, newHistory, false, false)
@@ -226,7 +226,7 @@ export default function Home() {
     const newLives = lives - 1
     const newHistory: GuessRecord[] = [...guessHistory, { tileIds: selectedIds, correct: false }]
     setShakingIds(selectedIds)
-    setTimeout(() => setShakingIds([]), 600)
+    setTimeout(() => { setShakingIds([]); setSelectedIds([]) }, 600)
     setLives(newLives)
     setGuessHistory(newHistory)
 
