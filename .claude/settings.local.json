@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(claude-api)",
+      "Skill(claude-api:*)",
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --no-src-dir --import-alias=\"@/*\" --yes)",
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --no-src-dir --import-alias=\"@/*\" --yes --name=\"tv-connections\")",
+      "Bash(npm install *)",
+      "Bash(npx tsc *)",
+      "Bash(npm run *)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(node -e ' *)",
+      "Bash(mkdir -p \"/Users/efekeremkose/Desktop/projects-ideas/show connections/app/admin/[date]\" \"/Users/efekeremkose/Desktop/projects-ideas/show connections/app/api/admin/puzzle\" \"/Users/efekeremkose/Desktop/projects-ideas/show connections/app/api/admin/generate\")"
+    ]
+  }
+}

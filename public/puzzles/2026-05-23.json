@@ -1,0 +1,124 @@
+{
+  "date": "2026-05-23",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Greendale"
+    },
+    {
+      "id": "tile_2",
+      "text": "Abed Nadir"
+    },
+    {
+      "id": "tile_3",
+      "text": "Joel McHale"
+    },
+    {
+      "id": "tile_4",
+      "text": "Six Seasons and a Movie"
+    },
+    {
+      "id": "tile_5",
+      "text": "Hawkins"
+    },
+    {
+      "id": "tile_6",
+      "text": "Starcourt Mall"
+    },
+    {
+      "id": "tile_7",
+      "text": "Eleven"
+    },
+    {
+      "id": "tile_8",
+      "text": "Friends Don't Lie"
+    },
+    {
+      "id": "tile_9",
+      "text": "Dillon"
+    },
+    {
+      "id": "tile_10",
+      "text": "Rosewood"
+    },
+    {
+      "id": "tile_11",
+      "text": "Stars Hollow"
+    },
+    {
+      "id": "tile_12",
+      "text": "Pawnee"
+    },
+    {
+      "id": "tile_13",
+      "text": "Saul Goodman"
+    },
+    {
+      "id": "tile_14",
+      "text": "Keyser Söze"
+    },
+    {
+      "id": "tile_15",
+      "text": "Boo Radley"
+    },
+    {
+      "id": "tile_16",
+      "text": "Chuck McGill"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Community",
+      "connection_type": "same_show",
+      "difficulty": 1,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Greendale (the community college location), Abed Nadir (character), Joel McHale (actor who plays Jeff Winger), and 'Six Seasons and a Movie' (the fan rallying cry / eventual reality) are all from Community."
+    },
+    {
+      "id": "group_2",
+      "name": "Stranger Things",
+      "connection_type": "same_show",
+      "difficulty": 2,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Hawkins (the town setting), Starcourt Mall (iconic location), Eleven (character/alias), and 'Friends Don't Lie' (Eleven's recurring quote) are all from Stranger Things. The trap: Eleven looks like it could be a 'contains_number' tile, and Hawkins/Starcourt look like fictional towns — but all four belong together."
+    },
+    {
+      "id": "group_3",
+      "name": "Fictional TV Towns",
+      "connection_type": "fictional_town",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Dillon (Friday Night Lights), Rosewood (Pretty Little Liars), Stars Hollow (Gilmore Girls), and Pawnee (Parks and Recreation) are all iconic fictional small towns from different TV shows. The trap: Hawkins and Greendale also sound like fictional towns, but those belong to their respective show groups."
+    },
+    {
+      "id": "group_4",
+      "name": "Characters Who Aren't Who They Say They Are",
+      "connection_type": "secret_identity",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Saul Goodman is the alias of Jimmy McGill (Better Call Saul); Keyser Söze is the secret identity of Verbal Kint in The Usual Suspects (adapted as a TV reference in crime dramas); Boo Radley is the misunderstood recluse whose true gentle identity is hidden from the town in To Kill a Mockingbird adaptations including the CBS drama; Chuck McGill conceals his electromagnetic hypersensitivity as a fabricated condition masking his true psychological instability and jealousy of Jimmy — each tile represents a character whose publicly known identity conceals a hidden, truer self across TV drama. NOTE: Saul Goodman and Chuck McGill both appear in Better Call Saul, creating a deliberate red herring suggesting a same_show grouping, but the real connection is secret/hidden identity across shows."
+    }
+  ]
+}

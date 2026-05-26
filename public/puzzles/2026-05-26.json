@@ -1,0 +1,124 @@
+{
+  "date": "2026-05-26",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Hawkins, Indiana"
+    },
+    {
+      "id": "tile_2",
+      "text": "Eleven"
+    },
+    {
+      "id": "tile_3",
+      "text": "Winona Ryder"
+    },
+    {
+      "id": "tile_4",
+      "text": "The Upside Down"
+    },
+    {
+      "id": "tile_5",
+      "text": "Greendale"
+    },
+    {
+      "id": "tile_6",
+      "text": "Pawnee"
+    },
+    {
+      "id": "tile_7",
+      "text": "Eagleton"
+    },
+    {
+      "id": "tile_8",
+      "text": "Springfield"
+    },
+    {
+      "id": "tile_9",
+      "text": "Don Draper"
+    },
+    {
+      "id": "tile_10",
+      "text": "Dick Whitman"
+    },
+    {
+      "id": "tile_11",
+      "text": "Jon Hamm"
+    },
+    {
+      "id": "tile_12",
+      "text": "Sterling Cooper"
+    },
+    {
+      "id": "tile_13",
+      "text": "Albuquerque"
+    },
+    {
+      "id": "tile_14",
+      "text": "Dillon"
+    },
+    {
+      "id": "tile_15",
+      "text": "Cicely"
+    },
+    {
+      "id": "tile_16",
+      "text": "Stars Hollow"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Stranger Things",
+      "connection_type": "same_show",
+      "difficulty": 1,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Hawkins, Indiana (location), Eleven (character), Winona Ryder (actor), and The Upside Down (location/concept) are all from Stranger Things."
+    },
+    {
+      "id": "group_2",
+      "name": "Fictional Towns in Indiana or Ohio-Alike Midwest Comedies — TRAP: these are all fictional TV towns but NOT from the same show",
+      "connection_type": "fictional_town",
+      "difficulty": 2,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Greendale (Community), Pawnee (Parks and Recreation), Eagleton (Parks and Recreation — yes, a second P&R town is the trap), and Springfield (The Simpsons) are all fictional towns from different TV shows. The trap: Pawnee AND Eagleton are both from Parks and Rec, making players second-guess, but the group connection is fictional TV towns, not same-show towns."
+    },
+    {
+      "id": "group_3",
+      "name": "Mad Men universe",
+      "connection_type": "same_show",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Don Draper (character), Dick Whitman (Don Draper's real name / secret identity), Jon Hamm (actor), and Sterling Cooper (fictional ad agency / location) are all from Mad Men. The trap is that Dick Whitman looks unrelated and Don Draper might seem to belong to an 'antihero' group."
+    },
+    {
+      "id": "group_4",
+      "name": "Fictional TV towns that are also real U.S. city names",
+      "connection_type": "fictional_town",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Albuquerque (Breaking Bad), Dillon (Friday Night Lights), Cicely (Northern Exposure), and Stars Hollow (Gilmore Girls) are all fictional or semi-fictional small-town TV settings that share their names with real American places — and each is the defining small-town or city setting of its respective show. The difficulty comes from Albuquerque (a real major city used as a fictional backdrop) sitting alongside tiny invented towns, and players may wrongly assume Albuquerque belongs with a Breaking Bad group."
+    }
+  ]
+}

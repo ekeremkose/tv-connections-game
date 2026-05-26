@@ -1,0 +1,124 @@
+{
+  "date": "2026-05-24",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Hawkins, Indiana"
+    },
+    {
+      "id": "tile_2",
+      "text": "The Upside Down"
+    },
+    {
+      "id": "tile_3",
+      "text": "Millie Bobby Brown"
+    },
+    {
+      "id": "tile_4",
+      "text": "She's our friend and she's crazy!"
+    },
+    {
+      "id": "tile_5",
+      "text": "Yellowstone"
+    },
+    {
+      "id": "tile_6",
+      "text": "Ozark"
+    },
+    {
+      "id": "tile_7",
+      "text": "Justified"
+    },
+    {
+      "id": "tile_8",
+      "text": "Rectify"
+    },
+    {
+      "id": "tile_9",
+      "text": "Dillon, Texas"
+    },
+    {
+      "id": "tile_10",
+      "text": "Greendale"
+    },
+    {
+      "id": "tile_11",
+      "text": "Schitt's Creek"
+    },
+    {
+      "id": "tile_12",
+      "text": "Pawnee"
+    },
+    {
+      "id": "tile_13",
+      "text": "Cabot Cove"
+    },
+    {
+      "id": "tile_14",
+      "text": "The OA"
+    },
+    {
+      "id": "tile_15",
+      "text": "Sense8"
+    },
+    {
+      "id": "tile_16",
+      "text": "Jericho"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Stranger Things Universe",
+      "connection_type": "same_show",
+      "difficulty": 1,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Hawkins, Indiana (location), The Upside Down (location), Millie Bobby Brown (actress), and 'She's our friend and she's crazy!' (quote from Dustin) are all from Stranger Things."
+    },
+    {
+      "id": "group_2",
+      "name": "Shows Set in Rural America with Brooding Antiheroes",
+      "connection_type": "same_streaming_service",
+      "difficulty": 2,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Yellowstone (Paramount Network), Ozark (Netflix), Justified (FX), and Rectify (SundanceTV) are all critically acclaimed dramas set in rural or small-town America featuring morally complex male protagonists — a trap group that looks thematic but the real connection is they are all antihero-led prestige dramas that premiered in different decades and networks, making players second-guess every angle."
+    },
+    {
+      "id": "group_3",
+      "name": "Fictional Small Towns from TV",
+      "connection_type": "fictional_town",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Dillon, Texas (Friday Night Lights), Greendale (Community), Schitt's Creek (Schitt's Creek), and Pawnee (Parks and Recreation) are all fictional towns that serve as the primary setting of their respective TV shows."
+    },
+    {
+      "id": "group_4",
+      "name": "Fan-Saved Shows Revived After Cancellation",
+      "connection_type": "fan_saved_shows",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Cabot Cove (Murder, She Wrote — revived via syndication fan pressure), The OA (Netflix cancellation sparked massive fan protest including a sit-in at Netflix HQ), Sense8 (Netflix cancelled then brought back for a finale movie after fan campaign), and Jericho (CBS cancelled then renewed after fans mailed peanuts in protest) were all shows whose passionate fan bases fought — with varying success — to bring them back after cancellation."
+    }
+  ]
+}

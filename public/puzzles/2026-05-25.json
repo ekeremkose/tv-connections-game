@@ -1,0 +1,124 @@
+{
+  "date": "2026-05-25",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Hawkins, Indiana"
+    },
+    {
+      "id": "tile_2",
+      "text": "The Upside Down"
+    },
+    {
+      "id": "tile_3",
+      "text": "Eleven"
+    },
+    {
+      "id": "tile_4",
+      "text": "Winona Ryder"
+    },
+    {
+      "id": "tile_5",
+      "text": "Greendale"
+    },
+    {
+      "id": "tile_6",
+      "text": "Pawnee"
+    },
+    {
+      "id": "tile_7",
+      "text": "Eagleton"
+    },
+    {
+      "id": "tile_8",
+      "text": "Stars Hollow"
+    },
+    {
+      "id": "tile_9",
+      "text": "Dr. John Carter"
+    },
+    {
+      "id": "tile_10",
+      "text": "Dr. Meredith Grey"
+    },
+    {
+      "id": "tile_11",
+      "text": "Dr. Perry Cox"
+    },
+    {
+      "id": "tile_12",
+      "text": "Dr. House"
+    },
+    {
+      "id": "tile_13",
+      "text": "Fleabag"
+    },
+    {
+      "id": "tile_14",
+      "text": "Keyser Söze"
+    },
+    {
+      "id": "tile_15",
+      "text": "Tony Soprano"
+    },
+    {
+      "id": "tile_16",
+      "text": "Jon Snow"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Stranger Things Universe",
+      "connection_type": "same_show",
+      "difficulty": 1,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Hawkins, Indiana (location), The Upside Down (location), Eleven (character), and Winona Ryder (actor) are all from Stranger Things."
+    },
+    {
+      "id": "group_2",
+      "name": "Fictional Small Towns",
+      "connection_type": "fictional_town",
+      "difficulty": 2,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Greendale (Community), Pawnee (Parks and Recreation), Eagleton (Parks and Recreation's rival town), and Stars Hollow (Gilmore Girls) are all fictional small towns from TV shows. The trap: Pawnee and Eagleton look like they must go together with a Parks & Rec group, but there is none — they belong with the broader fictional towns category."
+    },
+    {
+      "id": "group_3",
+      "name": "TV Doctors Who Are Their Show's Namesake",
+      "connection_type": "same_profession",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Dr. John Carter (ER), Dr. Meredith Grey (Grey's Anatomy), Dr. Perry Cox (Scrubs), and Dr. House (House M.D.) are all lead or iconic physician characters from medical dramas — but the twist is that Grey, Cox, and House are their shows' namesakes while Carter is the trap entry that seems to break the pattern, keeping solvers guessing the exact rule."
+    },
+    {
+      "id": "group_4",
+      "name": "Characters Who Faked Their Own Death",
+      "connection_type": "fakes_own_death",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Fleabag's lover 'the Priest' is not it — Fleabag herself orchestrates emotional disappearances, but more precisely: Fleabag (Fleabag) stages her emotional 'death' from relationships; Keyser Söze (The Usual Suspects adapted as TV lore, but canonically the character fakes death throughout); Tony Soprano fakes vulnerability/death scares repeatedly (and his fate is famously ambiguous); Jon Snow is literally killed and resurrected in Game of Thrones, effectively 'faking' death within narrative. All four are iconic TV characters whose deaths are central fakeouts or ambiguous mortality moments driving their shows."
+    }
+  ]
+}
