@@ -21,29 +21,46 @@ FACTUAL/STRAIGHTFORWARD (difficulty 1–2):
 - same_show: tiles from the same TV show (mix types: character + actor + location + quote)
 - same_showrunner: shows created/run by the same person
 - same_city: shows set in the same city
+- same_state: shows set in the same U.S. state
 - same_network: shows that aired on the same network
+- same_streaming_service: shows originally released on the same platform (Netflix, HBO, Hulu, etc.)
 - same_actor_across_shows: an actor who appeared in all four shows
+- emmy_winners: shows or people who won Emmy awards in a specific category/year
 - cancelled_after_one_season: shows cancelled after exactly one season
 - spinoffs: four shows that are all spin-offs of the same parent show
+- same_genre: shows belonging to the same genre (crime, sitcom, sci-fi, fantasy, etc.)
+- adapted_from_book: shows based on novels or book series
+- based_on_true_story: shows inspired by real events or real people
 
 THEMATIC/TRIVIA (difficulty 2–3):
 - same_profession: characters who share the same job across different shows
+- fan_saved_shows: shows cancelled then revived by fan campaigns or streaming
 - one_word_alias: characters known by a single-word alias or nickname
+- same_decade: shows that premiered in the same decade
 - antihero_protagonist: shows whose main character is an antihero
+- workplace_show: shows where the workplace is the primary setting
+- small_town_setting: shows primarily set in a small town
 - secret_identity: shows where a hidden identity is central to the plot
+- time_travel: shows where time travel is a major plot element
 - dysfunctional_family: shows centered on family dysfunction
 
 WORDPLAY/PATTERN (difficulty 2–3):
 - contains_color: each tile text contains a color word
 - contains_number: each tile text contains a number word
+- contains_animal: each tile text contains an animal
+- contains_city: each tile text contains a city name
 - starts_with_same_word: each tile text starts with the same word
+- ends_with_same_word: each tile text ends with the same word
 - exactly_one_word: each tile is exactly one word
 
 SURPRISING/LATERAL (difficulty 3–4):
 - fakes_own_death: characters who fake their own death
+- identical_twins_plot: shows featuring identical twins as a major plot point
+- two_actors_same_character: shows where two different actors played the same iconic character
 - fictional_company: tiles are fictional companies from different TV shows (Dunder Mifflin, Waystar Royco, etc.)
 - fictional_town: tiles are fictional towns from different TV shows (Stars Hollow, Pawnee, etc.)
 - character_never_seen: important characters frequently referenced but never shown on screen
+- actor_plays_self: shows where a real actor appears as a fictionalized version of themselves
 
 Feel free to invent entirely new connection types — e.g. "characters who are doctors but never practice medicine", "shows whose title is a character's full name", "finales that ended on a cliffhanger", etc. Creativity is rewarded.
 
