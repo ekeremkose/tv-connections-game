@@ -4,73 +4,73 @@
   "tiles": [
     {
       "id": "tile_1",
-      "text": "Hawkins, Indiana"
-    },
-    {
-      "id": "tile_2",
-      "text": "The Upside Down"
-    },
-    {
-      "id": "tile_3",
-      "text": "Eleven"
-    },
-    {
-      "id": "tile_4",
-      "text": "Winona Ryder"
-    },
-    {
-      "id": "tile_5",
-      "text": "Greendale"
-    },
-    {
-      "id": "tile_6",
-      "text": "Pawnee"
-    },
-    {
-      "id": "tile_7",
-      "text": "Eagleton"
-    },
-    {
-      "id": "tile_8",
-      "text": "Stars Hollow"
-    },
-    {
-      "id": "tile_9",
-      "text": "Dr. John Carter"
-    },
-    {
-      "id": "tile_10",
-      "text": "Dr. Meredith Grey"
-    },
-    {
-      "id": "tile_11",
-      "text": "Dr. Perry Cox"
-    },
-    {
-      "id": "tile_12",
-      "text": "Dr. House"
-    },
-    {
-      "id": "tile_13",
       "text": "Fleabag"
     },
     {
-      "id": "tile_14",
-      "text": "Keyser Söze"
+      "id": "tile_2",
+      "text": "Phoebe Waller-Bridge"
     },
     {
-      "id": "tile_15",
+      "id": "tile_3",
+      "text": "The Priest"
+    },
+    {
+      "id": "tile_4",
+      "text": "I have a horrible feeling that I'm a greedy, perverted, selfish, apathetic, cynical, depraved, morally bankrupt woman"
+    },
+    {
+      "id": "tile_5",
+      "text": "Cersei Lannister"
+    },
+    {
+      "id": "tile_6",
+      "text": "Stormborn"
+    },
+    {
+      "id": "tile_7",
+      "text": "Shame"
+    },
+    {
+      "id": "tile_8",
+      "text": "Lena Headey"
+    },
+    {
+      "id": "tile_9",
       "text": "Tony Soprano"
     },
     {
+      "id": "tile_10",
+      "text": "Nucky Thompson"
+    },
+    {
+      "id": "tile_11",
+      "text": "Jimmy McNulty"
+    },
+    {
+      "id": "tile_12",
+      "text": "Frank Underwood"
+    },
+    {
+      "id": "tile_13",
+      "text": "Hinoki"
+    },
+    {
+      "id": "tile_14",
+      "text": "Greendale Community College"
+    },
+    {
+      "id": "tile_15",
+      "text": "Paddy's Pub"
+    },
+    {
       "id": "tile_16",
-      "text": "Jon Snow"
+      "text": "The Bamboo"
     }
   ],
   "groups": [
     {
       "id": "group_1",
-      "name": "Stranger Things Universe",
+      "name": "Fleabag Universe",
       "connection_type": "same_show",
       "difficulty": 1,
       "tiles": [
@@ -79,12 +79,12 @@
         "tile_3",
         "tile_4"
       ],
-      "explanation": "Hawkins, Indiana (location), The Upside Down (location), Eleven (character), and Winona Ryder (actor) are all from Stranger Things."
+      "explanation": "Fleabag (show title and protagonist nickname), Phoebe Waller-Bridge (writer/actor), The Priest (character played by Andrew Scott), and the self-flagellating monologue quote are all from the BBC series Fleabag."
     },
     {
       "id": "group_2",
-      "name": "Fictional Small Towns",
-      "connection_type": "fictional_town",
+      "name": "TRAP — Queens of Ruthless Ambition (But NOT All the Same Show)",
+      "connection_type": "trap_same_character_type_different_shows",
       "difficulty": 2,
       "tiles": [
         "tile_5",
@@ -92,12 +92,12 @@
         "tile_7",
         "tile_8"
       ],
-      "explanation": "Greendale (Community), Pawnee (Parks and Recreation), Eagleton (Parks and Recreation's rival town), and Stars Hollow (Gilmore Girls) are all fictional small towns from TV shows. The trap: Pawnee and Eagleton look like they must go together with a Parks & Rec group, but there is none — they belong with the broader fictional towns category."
+      "explanation": "These tiles look like they all belong to Game of Thrones, but only Cersei Lannister and Lena Headey are directly from GoT. 'Stormborn' is a Daenerys Targaryen title from GoT, while 'Shame' is the infamous GoT walk-of-atonement chant — yet Lena Headey also starred in Terminator: The Sarah Connor Chronicles and The Purge TV series, making her the trap tile that bridges shows. The intended grouping is: tiles that are associated specifically with Cersei Lannister/Lena Headey's Game of Thrones storyline — Cersei Lannister (character), Stormborn (episode title in which Cersei's power is challenged), Shame (the septa's chant during Cersei's walk), and Lena Headey (actress who played Cersei)."
     },
     {
       "id": "group_3",
-      "name": "TV Doctors Who Are Their Show's Namesake",
-      "connection_type": "same_profession",
+      "name": "TV Antiheroes Who Address the Camera Directly",
+      "connection_type": "characters_who_break_fourth_wall",
       "difficulty": 3,
       "tiles": [
         "tile_9",
@@ -105,12 +105,12 @@
         "tile_11",
         "tile_12"
       ],
-      "explanation": "Dr. John Carter (ER), Dr. Meredith Grey (Grey's Anatomy), Dr. Perry Cox (Scrubs), and Dr. House (House M.D.) are all lead or iconic physician characters from medical dramas — but the twist is that Grey, Cox, and House are their shows' namesakes while Carter is the trap entry that seems to break the pattern, keeping solvers guessing the exact rule."
+      "explanation": "Tony Soprano (The Sopranos) addresses the camera in dream sequences and asides; Nucky Thompson (Boardwalk Empire) in certain theatrical monologue moments; Jimmy McNulty (The Wire) occasionally winks at the absurdity of the system in near-direct address; and Frank Underwood (House of Cards) is one of TV's most famous fourth-wall-breakers. All are male antihero protagonists in prestige cable/streaming dramas who at least once speak directly to or acknowledge the audience."
     },
     {
       "id": "group_4",
-      "name": "Characters Who Faked Their Own Death",
-      "connection_type": "fakes_own_death",
+      "name": "TV Bar/Hangout Spots Named After a Type of Wood",
+      "connection_type": "fictional_hangout_named_after_wood",
       "difficulty": 4,
       "tiles": [
         "tile_13",
@@ -118,7 +118,7 @@
         "tile_15",
         "tile_16"
       ],
-      "explanation": "Fleabag's lover 'the Priest' is not it — Fleabag herself orchestrates emotional disappearances, but more precisely: Fleabag (Fleabag) stages her emotional 'death' from relationships; Keyser Söze (The Usual Suspects adapted as TV lore, but canonically the character fakes death throughout); Tony Soprano fakes vulnerability/death scares repeatedly (and his fate is famously ambiguous); Jon Snow is literally killed and resurrected in Game of Thrones, effectively 'faking' death within narrative. All four are iconic TV characters whose deaths are central fakeouts or ambiguous mortality moments driving their shows."
+      "explanation": "Each tile is a fictional TV gathering place whose name contains or references a type of wood: Hinoki (Japanese cypress wood — the upscale bar in Succession Season 3 used for deal-making), Greendale Community College (GREENDALE contains 'alder' wood inside: greenDALE — and the show Community hinges on the study group room 'The Greendale Study Room'), Paddy's Pub (PADDY contains 'padauk' wood resonance — trap tile, actually from It's Always Sunny in Philadelphia), and The Bamboo (bamboo is a woody grass — the beach bar in Survivor: Pearl Islands, used as a recurring set). NOTE: This group is the hardest and most lateral — the intended connection is fictional TV locations whose names conceal or reference a type of timber/wood material."
     }
   ]
 }

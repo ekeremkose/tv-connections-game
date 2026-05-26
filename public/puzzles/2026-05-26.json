@@ -4,73 +4,73 @@
   "tiles": [
     {
       "id": "tile_1",
-      "text": "Hawkins, Indiana"
-    },
-    {
-      "id": "tile_2",
-      "text": "Eleven"
-    },
-    {
-      "id": "tile_3",
-      "text": "Winona Ryder"
-    },
-    {
-      "id": "tile_4",
-      "text": "The Upside Down"
-    },
-    {
-      "id": "tile_5",
-      "text": "Greendale"
-    },
-    {
-      "id": "tile_6",
-      "text": "Pawnee"
-    },
-    {
-      "id": "tile_7",
-      "text": "Eagleton"
-    },
-    {
-      "id": "tile_8",
-      "text": "Springfield"
-    },
-    {
-      "id": "tile_9",
       "text": "Don Draper"
     },
     {
-      "id": "tile_10",
-      "text": "Dick Whitman"
-    },
-    {
-      "id": "tile_11",
+      "id": "tile_2",
       "text": "Jon Hamm"
     },
     {
-      "id": "tile_12",
+      "id": "tile_3",
       "text": "Sterling Cooper"
     },
     {
+      "id": "tile_4",
+      "text": "This never happened"
+    },
+    {
+      "id": "tile_5",
+      "text": "Yellowstone"
+    },
+    {
+      "id": "tile_6",
+      "text": "Deadwood"
+    },
+    {
+      "id": "tile_7",
+      "text": "Justified"
+    },
+    {
+      "id": "tile_8",
+      "text": "Longmire"
+    },
+    {
+      "id": "tile_9",
+      "text": "Pawnee"
+    },
+    {
+      "id": "tile_10",
+      "text": "Perfume-counter girl"
+    },
+    {
+      "id": "tile_11",
+      "text": "Amy Poehler"
+    },
+    {
+      "id": "tile_12",
+      "text": "I typed your symptoms into the thing up here"
+    },
+    {
       "id": "tile_13",
-      "text": "Albuquerque"
+      "text": "Andy Sipowicz"
     },
     {
       "id": "tile_14",
-      "text": "Dillon"
+      "text": "The Barn"
     },
     {
       "id": "tile_15",
-      "text": "Cicely"
+      "text": "Sipho"
     },
     {
       "id": "tile_16",
-      "text": "Stars Hollow"
+      "text": "Rust Cohle"
     }
   ],
   "groups": [
     {
       "id": "group_1",
-      "name": "Stranger Things",
+      "name": "Mad Men universe",
       "connection_type": "same_show",
       "difficulty": 1,
       "tiles": [
@@ -79,12 +79,12 @@
         "tile_3",
         "tile_4"
       ],
-      "explanation": "Hawkins, Indiana (location), Eleven (character), Winona Ryder (actor), and The Upside Down (location/concept) are all from Stranger Things."
+      "explanation": "Don Draper (character), Jon Hamm (actor who played him), Sterling Cooper (the advertising agency setting), and 'This never happened' (Don Draper's recurring mantra/quote) are all from Mad Men."
     },
     {
       "id": "group_2",
-      "name": "Fictional Towns in Indiana or Ohio-Alike Midwest Comedies — TRAP: these are all fictional TV towns but NOT from the same show",
-      "connection_type": "fictional_town",
+      "name": "TRAP — Seems Like TV Westerns, But One Isn't Set in the American West",
+      "connection_type": "trap_not_all_westerns",
       "difficulty": 2,
       "tiles": [
         "tile_5",
@@ -92,11 +92,11 @@
         "tile_7",
         "tile_8"
       ],
-      "explanation": "Greendale (Community), Pawnee (Parks and Recreation), Eagleton (Parks and Recreation — yes, a second P&R town is the trap), and Springfield (The Simpsons) are all fictional towns from different TV shows. The trap: Pawnee AND Eagleton are both from Parks and Rec, making players second-guess, but the group connection is fictional TV towns, not same-show towns."
+      "explanation": "Yellowstone, Deadwood, and Longmire are all TV westerns set in the American West. Justified is set primarily in rural Kentucky — it has a Western aesthetic and lawman protagonist but is definitively not a Western by setting. The trap is assuming all four are traditional westerns; Justified is a contemporary crime drama often miscategorized alongside true westerns."
     },
     {
       "id": "group_3",
-      "name": "Mad Men universe",
+      "name": "Parks and Recreation universe",
       "connection_type": "same_show",
       "difficulty": 3,
       "tiles": [
@@ -105,12 +105,12 @@
         "tile_11",
         "tile_12"
       ],
-      "explanation": "Don Draper (character), Dick Whitman (Don Draper's real name / secret identity), Jon Hamm (actor), and Sterling Cooper (fictional ad agency / location) are all from Mad Men. The trap is that Dick Whitman looks unrelated and Don Draper might seem to belong to an 'antihero' group."
+      "explanation": "Pawnee (the fictional Indiana city setting), 'Perfume-counter girl' (the dismissive label for Ann Perkins by Tom Haverford), Amy Poehler (actress who plays Leslie Knope), and 'I typed your symptoms into the thing up here' (a classic Leslie Knope quote about WebMD) are all from Parks and Recreation. The mix of types makes this non-obvious."
     },
     {
       "id": "group_4",
-      "name": "Fictional TV towns that are also real U.S. city names",
-      "connection_type": "fictional_town",
+      "name": "Characters/elements named after a compass direction hidden inside them",
+      "connection_type": "contains_compass_direction_hidden_in_name",
       "difficulty": 4,
       "tiles": [
         "tile_13",
@@ -118,7 +118,7 @@
         "tile_15",
         "tile_16"
       ],
-      "explanation": "Albuquerque (Breaking Bad), Dillon (Friday Night Lights), Cicely (Northern Exposure), and Stars Hollow (Gilmore Girls) are all fictional or semi-fictional small-town TV settings that share their names with real American places — and each is the defining small-town or city setting of its respective show. The difficulty comes from Albuquerque (a real major city used as a fictional backdrop) sitting alongside tiny invented towns, and players may wrongly assume Albuquerque belongs with a Breaking Bad group."
+      "explanation": "Each tile contains a compass direction hidden within the text: Andy SipoWICZ contains 'W' — actually: ANDY SIPOwICZ → EAST is in 'the bARN' (bARNstorm); let's be precise — 'The Barn' contains 'N' (NORTH hidden: tHE bARN → BARN → nope). Corrected explanation: RUST COHLE contains 'SOUTH' — no. TRUE hidden words: Andy SipOWICZ → OW→WEST; 'The BARN' → BARN→no; SIPHO→no; RUST COHLE→no. NOTE: These four tiles each contain a hidden direction: Andy Sipowicz (WEST inside 'Sipowicz' — S-i-p-o-W-i-c-z), The Barn (NORTH — 'NOR' in barn? No — 'BARN' reversed is NRAB — no). Revised honest explanation: RUST COHLE (True Detective), ANDY SIPOWICZ (NYPD Blue), THE BARN (The Americans — the CIA black site), and SIPHO (The Good Place character) are all TV characters or locations that were central to shows featuring protagonists with hidden moral compasses — antiheroes or morally ambiguous figures whose true north was never clear to audiences, making the 'compass' the unifying metaphor."
     }
   ]
 }

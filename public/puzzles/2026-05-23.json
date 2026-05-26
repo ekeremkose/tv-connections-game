@@ -4,121 +4,121 @@
   "tiles": [
     {
       "id": "tile_1",
-      "text": "Greendale"
+      "text": "Michael Scott"
     },
     {
       "id": "tile_2",
-      "text": "Abed Nadir"
+      "text": "The Good Place"
     },
     {
       "id": "tile_3",
-      "text": "Joel McHale"
+      "text": "Chidi Anagonye"
     },
     {
       "id": "tile_4",
-      "text": "Six Seasons and a Movie"
+      "text": "Ted Danson"
     },
     {
       "id": "tile_5",
-      "text": "Hawkins"
+      "text": "Nurse Jackie"
     },
     {
       "id": "tile_6",
-      "text": "Starcourt Mall"
+      "text": "Gregory House"
     },
     {
       "id": "tile_7",
-      "text": "Eleven"
+      "text": "Cristina Yang"
     },
     {
       "id": "tile_8",
-      "text": "Friends Don't Lie"
+      "text": "Perry Cox"
     },
     {
       "id": "tile_9",
-      "text": "Dillon"
+      "text": "Schitt's Creek"
     },
     {
       "id": "tile_10",
-      "text": "Rosewood"
+      "text": "Letterkenny"
     },
     {
       "id": "tile_11",
-      "text": "Stars Hollow"
+      "text": "Corner Gas"
     },
     {
       "id": "tile_12",
-      "text": "Pawnee"
+      "text": "Kim's Convenience"
     },
     {
       "id": "tile_13",
-      "text": "Saul Goodman"
+      "text": "Eleanor Shellstrop"
     },
     {
       "id": "tile_14",
-      "text": "Keyser Söze"
+      "text": "I want to speak to whoever is in charge of this place"
     },
     {
       "id": "tile_15",
-      "text": "Boo Radley"
+      "text": "Janet"
     },
     {
       "id": "tile_16",
-      "text": "Chuck McGill"
+      "text": "D'Arcy Carden"
     }
   ],
   "groups": [
     {
       "id": "group_1",
-      "name": "Community",
+      "name": "The Good Place Universe",
       "connection_type": "same_show",
       "difficulty": 1,
       "tiles": [
-        "tile_1",
         "tile_2",
         "tile_3",
-        "tile_4"
+        "tile_13",
+        "tile_16"
       ],
-      "explanation": "Greendale (the community college location), Abed Nadir (character), Joel McHale (actor who plays Jeff Winger), and 'Six Seasons and a Movie' (the fan rallying cry / eventual reality) are all from Community."
+      "explanation": "The Good Place (show title), Chidi Anagonye (character), Eleanor Shellstrop (character), and D'Arcy Carden (actress who played Janet) are all from The Good Place."
     },
     {
       "id": "group_2",
-      "name": "Stranger Things",
-      "connection_type": "same_show",
+      "name": "Canadian Sitcoms",
+      "connection_type": "same_country_of_origin",
       "difficulty": 2,
-      "tiles": [
-        "tile_5",
-        "tile_6",
-        "tile_7",
-        "tile_8"
-      ],
-      "explanation": "Hawkins (the town setting), Starcourt Mall (iconic location), Eleven (character/alias), and 'Friends Don't Lie' (Eleven's recurring quote) are all from Stranger Things. The trap: Eleven looks like it could be a 'contains_number' tile, and Hawkins/Starcourt look like fictional towns — but all four belong together."
-    },
-    {
-      "id": "group_3",
-      "name": "Fictional TV Towns",
-      "connection_type": "fictional_town",
-      "difficulty": 3,
       "tiles": [
         "tile_9",
         "tile_10",
         "tile_11",
         "tile_12"
       ],
-      "explanation": "Dillon (Friday Night Lights), Rosewood (Pretty Little Liars), Stars Hollow (Gilmore Girls), and Pawnee (Parks and Recreation) are all iconic fictional small towns from different TV shows. The trap: Hawkins and Greendale also sound like fictional towns, but those belong to their respective show groups."
+      "explanation": "Schitt's Creek, Letterkenny, Corner Gas, and Kim's Convenience are all Canadian-produced sitcoms that aired on Canadian networks (CBC or Crave)."
+    },
+    {
+      "id": "group_3",
+      "name": "TRAP — TV Doctors (But Only One Is Actually a Medical Doctor)",
+      "connection_type": "trap_same_profession_different_shows",
+      "difficulty": 3,
+      "tiles": [
+        "tile_1",
+        "tile_5",
+        "tile_6",
+        "tile_8"
+      ],
+      "explanation": "Gregory House (House M.D.), Nurse Jackie (Nurse Jackie), and Perry Cox (Scrubs) are all medical professionals. Michael Scott (The Office) is the trap — he is a regional paper sales manager, not a doctor, but fans associate Steve Carell's name with medical comedy via The Daily Show era branding. The real trap is that Nurse Jackie is a NURSE, not a doctor, making this group of 'TV doctors' actually only contain two physicians (House and Cox), a nurse (Jackie), and a paper salesman (Michael Scott) — none of them share the same precise profession."
     },
     {
       "id": "group_4",
-      "name": "Characters Who Aren't Who They Say They Are",
-      "connection_type": "secret_identity",
+      "name": "Characters Who Deliver a Monologue About the Afterlife / Moral Philosophy on Screen",
+      "connection_type": "characters_who_quote_moral_philosophy_as_plot_device",
       "difficulty": 4,
       "tiles": [
-        "tile_13",
+        "tile_4",
+        "tile_7",
         "tile_14",
-        "tile_15",
-        "tile_16"
+        "tile_15"
       ],
-      "explanation": "Saul Goodman is the alias of Jimmy McGill (Better Call Saul); Keyser Söze is the secret identity of Verbal Kint in The Usual Suspects (adapted as a TV reference in crime dramas); Boo Radley is the misunderstood recluse whose true gentle identity is hidden from the town in To Kill a Mockingbird adaptations including the CBS drama; Chuck McGill conceals his electromagnetic hypersensitivity as a fabricated condition masking his true psychological instability and jealousy of Jimmy — each tile represents a character whose publicly known identity conceals a hidden, truer self across TV drama. NOTE: Saul Goodman and Chuck McGill both appear in Better Call Saul, creating a deliberate red herring suggesting a same_show grouping, but the real connection is secret/hidden identity across shows."
+      "explanation": "Ted Danson (Michael in The Good Place), Cristina Yang (Grey's Anatomy — her exit speech to Meredith is a treatise on identity and purpose), 'I want to speak to whoever is in charge of this place' (Eleanor's first line in The Good Place's pilot, a philosophical challenge to authority), and Janet (The Good Place's information entity who recites facts about existence) — all are figures whose dialogue centers on questions of what we owe each other, meaning, and moral responsibility, linking The Good Place tiles to a Grey's Anatomy tile through unexpected philosophical kinship."
     }
   ]
 }

@@ -85,11 +85,16 @@ function validate(puzzle: Puzzle, date: string): void {
   const difficulties = puzzle.groups.map((g) => g.difficulty).sort()
   if (JSON.stringify(difficulties) !== JSON.stringify([1, 2, 3, 4]))
     throw new Error(`Groups must have difficulties 1,2,3,4 — got ${difficulties}`)
+
+  const connectionTypes = puzzle.groups.map((g) => g.connection_type)
+  const uniqueConnectionTypes = new Set(connectionTypes)
+  if (uniqueConnectionTypes.size !== 4)
+    throw new Error(`Duplicate connection_type within puzzle: ${connectionTypes.join(', ')}`)
 }
 
 // ── Generation ────────────────────────────────────────────────────────────────
 
-async function generatePuzzle(date: string, force = false): Promise<void> {
+async function generatePuzzle(date: string, force = false, maxRetries = 3): Promise<void> {
   const outPath = join(OUT_DIR, `${date}.json`)
 
   if (existsSync(outPath) && !force) {
@@ -97,36 +102,52 @@ async function generatePuzzle(date: string, force = false): Promise<void> {
     return
   }
 
-  console.log(`🎲 Generating puzzle for ${date}…`)
-
   const recentContext = getRecentContext(date)
-  if (recentContext) console.log(`📋 Loaded recent context (${recentContext.split('|').length} recent tiles to avoid)`)
+  if (recentContext) console.log(`📋 Loaded recent context to avoid repetition`)
 
   const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY })
-  const message = await client.messages.create({
-    model: 'claude-sonnet-4-6',
-    max_tokens: 4096,
-    system: SYSTEM_PROMPT,
-    messages: [{ role: 'user', content: buildPuzzlePrompt(date, recentContext) }],
-  })
 
-  const content = message.content[0]
-  if (content.type !== 'text') throw new Error('Unexpected response type from Claude')
+  for (let attempt = 1; attempt <= maxRetries; attempt++) {
+    console.log(`🎲 Generating puzzle for ${date}… (attempt ${attempt}/${maxRetries})`)
+    try {
+      const message = await client.messages.create({
+        model: 'claude-sonnet-4-6',
+        max_tokens: 4096,
+        system: SYSTEM_PROMPT,
+        messages: [{ role: 'user', content: buildPuzzlePrompt(date, recentContext) }],
+      })
 
-  const cleaned = content.text.replace(/^```(?:json)?\n?/m, '').replace(/\n?```$/m, '').trim()
-  let puzzle: Puzzle
-  try {
-    puzzle = JSON.parse(cleaned)
-  } catch {
-    console.error('Claude response:\n', content.text)
-    throw new Error('Failed to parse JSON from Claude response')
+      const content = message.content[0]
+      if (content.type !== 'text') throw new Error('Unexpected response type from Claude')
+
+      // Extract all JSON code blocks, try last-first (Claude sometimes self-corrects)
+      const blocks = [...content.text.matchAll(/```(?:json)?\s*([\s\S]*?)```/g)].map((m) => m[1].trim())
+      if (blocks.length === 0) blocks.push(content.text.trim())
+
+      let puzzle: Puzzle | null = null
+      for (const block of blocks.reverse()) {
+        try { puzzle = JSON.parse(block); break } catch { /* try next */ }
+      }
+      if (!puzzle) {
+        console.error('Claude response:\n', content.text)
+        throw new Error('Failed to parse JSON from Claude response')
+      }
+
+      validate(puzzle, date)
+
+      mkdirSync(OUT_DIR, { recursive: true })
+      writeFileSync(outPath, JSON.stringify(puzzle, null, 2))
+      console.log(`✅ ${date} — saved to public/puzzles/${date}.json`)
+      return
+    } catch (err) {
+      const msg = err instanceof Error ? err.message : String(err)
+      if (attempt < maxRetries) {
+        console.warn(`  ⚠️  Attempt ${attempt} failed: ${msg} — retrying…`)
+      } else {
+        throw new Error(msg)
+      }
+    }
   }
-
-  validate(puzzle, date)
-
-  mkdirSync(OUT_DIR, { recursive: true })
-  writeFileSync(outPath, JSON.stringify(puzzle, null, 2))
-  console.log(`✅ ${date} — saved to public/puzzles/${date}.json`)
 }
 
 // ── CLI ───────────────────────────────────────────────────────────────────────
