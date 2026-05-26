@@ -13,6 +13,7 @@ const MONTHS = [
 
 interface CalendarModalProps {
   todayDate: string
+  activeDate: string
   onPlay: (date: string) => void
   onClose: () => void
 }
@@ -38,7 +39,7 @@ function getMonthGrid(year: number, month: number): (number | null)[] {
   return grid
 }
 
-export default function CalendarModal({ todayDate, onPlay, onClose }: CalendarModalProps) {
+export default function CalendarModal({ todayDate, activeDate, onPlay, onClose }: CalendarModalProps) {
   const [ty, tm, td] = todayDate.split('-').map(Number)
   const [sy, sm, sd] = START_DATE.split('-').map(Number)
 
@@ -171,7 +172,7 @@ export default function CalendarModal({ todayDate, onPlay, onClose }: CalendarMo
 
             const dateStr = localDateStr(year, month, day)
             const dayMs = new Date(year, month - 1, day).getTime()
-            const isToday = dateStr === todayDate
+            const isToday = dateStr === activeDate
             const isPlayable = dayMs >= startMs && dayMs <= todayMs
             const s = dayStates[dateStr]
 

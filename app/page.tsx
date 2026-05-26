@@ -334,6 +334,7 @@ export default function Home() {
       {showHistory && (
         <CalendarModal
           todayDate={todayDate}
+          activeDate={activeDate}
           onPlay={(d) => { setShowHistory(false); setActiveDate(d) }}
           onClose={() => setShowHistory(false)}
         />
