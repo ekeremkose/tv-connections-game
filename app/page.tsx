@@ -14,7 +14,7 @@ import SolvedRow from '@/components/SolvedRow'
 import LivesDots from '@/components/LivesDots'
 import EndScreen from '@/components/EndScreen'
 import Toast from '@/components/Toast'
-import HistoryModal from '@/components/HistoryModal'
+import CalendarModal from '@/components/CalendarModal'
 
 const MAX_LIVES = 4
 const MAX_SELECTION = 4
@@ -332,7 +332,7 @@ export default function Home() {
       )}
 
       {showHistory && (
-        <HistoryModal
+        <CalendarModal
           todayDate={todayDate}
           onPlay={(d) => { setShowHistory(false); setActiveDate(d) }}
           onClose={() => setShowHistory(false)}
@@ -346,7 +346,7 @@ export default function Home() {
             onClick={() => setShowHistory(true)}
             className="absolute right-0 top-1 text-gray-400 hover:text-gray-700 transition-colors text-sm font-medium"
           >
-            History
+            Calendar
           </button>
           <h1 className="text-2xl font-bold tracking-tight text-gray-900">TV Connections</h1>
           <p className="text-gray-400 text-xs mt-1 uppercase tracking-widest">
