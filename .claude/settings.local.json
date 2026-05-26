@@ -10,7 +10,11 @@
       "Bash(npm run *)",
       "mcp__Claude_Preview__preview_start",
       "Bash(node -e ' *)",
-      "Bash(mkdir -p \"/Users/efekeremkose/Desktop/projects-ideas/show connections/app/admin/[date]\" \"/Users/efekeremkose/Desktop/projects-ideas/show connections/app/api/admin/puzzle\" \"/Users/efekeremkose/Desktop/projects-ideas/show connections/app/api/admin/generate\")"
+      "Bash(mkdir -p \"/Users/efekeremkose/Desktop/projects-ideas/show connections/app/admin/[date]\" \"/Users/efekeremkose/Desktop/projects-ideas/show connections/app/api/admin/puzzle\" \"/Users/efekeremkose/Desktop/projects-ideas/show connections/app/api/admin/generate\")",
+      "Bash(git remote *)",
+      "Bash(git push *)",
+      "Bash(git add *)",
+      "Bash(git commit *)"
     ]
   }
 }
