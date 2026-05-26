@@ -216,23 +216,17 @@ export default function Home() {
       const key = g?.id
       groupCounts.set(key, (groupCounts.get(key) ?? 0) + 1)
     }
-    if (Math.max(...Array.from(groupCounts.values())) === 3) {
-      showToastMsg('One away!')
-      setShakingIds(selectedIds)
-      setTimeout(() => { setShakingIds([]); setSelectedIds([]) }, 600)
-      const newHistory: GuessRecord[] = [...guessHistory, { tileIds: selectedIds, correct: false }]
-      setGuessHistory(newHistory)
-      persistState(solvedGroupIds, lives, newHistory, false, false)
-      return
-    }
+    const isOneAway = Math.max(...Array.from(groupCounts.values())) === 3
 
-    // Wrong guess
+    // Wrong guess (includes "one away")
     const newLives = lives - 1
     const newHistory: GuessRecord[] = [...guessHistory, { tileIds: selectedIds, correct: false }]
     setShakingIds(selectedIds)
     setTimeout(() => { setShakingIds([]); setSelectedIds([]) }, 600)
     setLives(newLives)
     setGuessHistory(newHistory)
+
+    if (isOneAway) showToastMsg('One away!')
 
     if (newLives === 0) {
       setIsComplete(true)
