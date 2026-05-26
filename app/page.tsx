@@ -8,6 +8,7 @@ import {
   savePuzzleToStorage,
   getGameStateFromStorage,
   saveGameStateToStorage,
+  clearGameStateFromStorage,
 } from '@/lib/storage'
 import TileComponent from '@/components/Tile'
 import SolvedRow from '@/components/SolvedRow'
@@ -84,17 +85,7 @@ export default function Home() {
       setIsWon(false)
       setShowEndScreen(false)
 
-      // Check localStorage cache first
-      const cached = getPuzzleFromStorage(activeDate)
-      if (cached) {
-        if (cancelled) return
-        setPuzzle(cached)
-        restoreState(cached, activeDate)
-        setIsLoading(false)
-        return
-      }
-
-      // Fetch static JSON from /public/puzzles/
+      // Always fetch from server to detect puzzle updates
       try {
         const res = await fetch(`/puzzles/${activeDate}.json`)
         if (res.status === 404) {
@@ -104,11 +95,24 @@ export default function Home() {
         if (!res.ok) throw new Error(`HTTP ${res.status}`)
         const data: Puzzle = await res.json()
         if (cancelled) return
+
+        // If puzzle tiles changed since last cache, reset game state
+        const cached = getPuzzleFromStorage(activeDate)
+        if (cached && JSON.stringify(cached.tiles) !== JSON.stringify(data.tiles)) {
+          clearGameStateFromStorage(activeDate)
+        }
+
         savePuzzleToStorage(data)
         setPuzzle(data)
         restoreState(data, activeDate)
       } catch (e) {
-        if (!cancelled) setError(e instanceof Error ? e.message : 'Failed to load puzzle')
+        // Network failed — fall back to cached version if available
+        const cached = getPuzzleFromStorage(activeDate)
+        if (cached) {
+          if (!cancelled) { setPuzzle(cached); restoreState(cached, activeDate) }
+        } else {
+          if (!cancelled) setError(e instanceof Error ? e.message : 'Failed to load puzzle')
+        }
       } finally {
         if (!cancelled) setIsLoading(false)
       }

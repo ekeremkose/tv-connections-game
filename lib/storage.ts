@@ -38,3 +38,11 @@ export function saveGameStateToStorage(state: GameState): void {
     localStorage.setItem(STATE_KEY_PREFIX + state.date, JSON.stringify(state))
   } catch { /* quota exceeded or private mode */ }
 }
+
+export function clearGameStateFromStorage(date: string): void {
+  if (typeof window === 'undefined') return
+  try {
+    localStorage.removeItem(STATE_KEY_PREFIX + date)
+    localStorage.removeItem(PUZZLE_KEY_PREFIX + date)
+  } catch { /* ignore */ }
+}
