@@ -1,5 +1,5 @@
 import Anthropic from '@anthropic-ai/sdk'
-import { writeFileSync, existsSync, mkdirSync } from 'fs'
+import { writeFileSync, existsSync, mkdirSync, readdirSync, readFileSync } from 'fs'
 import { join } from 'path'
 import { config } from 'dotenv'
 
@@ -9,6 +9,47 @@ import { SYSTEM_PROMPT, buildPuzzlePrompt } from '../lib/prompt'
 import type { Puzzle } from '../lib/types'
 
 const OUT_DIR = join(process.cwd(), 'public', 'puzzles')
+
+// ── Recent context ────────────────────────────────────────────────────────────
+
+function getRecentContext(excludeDate: string, lookback = 14): string {
+  let files: string[] = []
+  try {
+    files = readdirSync(OUT_DIR)
+      .filter((f) => f.endsWith('.json') && f !== `${excludeDate}.json`)
+      .sort()
+      .slice(-lookback)
+  } catch {
+    return ''
+  }
+  if (files.length === 0) return ''
+
+  const tiles: string[] = []
+  const themes: string[] = []
+  const connectionTypes: string[] = []
+
+  for (const file of files) {
+    try {
+      const raw = readFileSync(join(OUT_DIR, file), 'utf-8')
+      const p: Puzzle = JSON.parse(raw)
+      for (const t of p.tiles) tiles.push(t.text)
+      for (const g of p.groups) {
+        themes.push(g.name)
+        connectionTypes.push(g.connection_type)
+      }
+    } catch {
+      // skip malformed files
+    }
+  }
+
+  if (tiles.length === 0) return ''
+
+  return `RECENTLY USED CONTENT (last ${files.length} puzzles) — do NOT repeat ANY of these tiles, shows, people, or themes:
+Tiles already used: ${tiles.join(' | ')}
+Group themes already used: ${themes.join(' | ')}
+Connection types already used: ${connectionTypes.join(', ')} — use different ones today.
+Be completely fresh. Invent new angles, pick different shows, different eras, different genres.`
+}
 
 // ── Validation ────────────────────────────────────────────────────────────────
 
@@ -58,12 +99,15 @@ async function generatePuzzle(date: string, force = false): Promise<void> {
 
   console.log(`🎲 Generating puzzle for ${date}…`)
 
+  const recentContext = getRecentContext(date)
+  if (recentContext) console.log(`📋 Loaded recent context (${recentContext.split('|').length} recent tiles to avoid)`)
+
   const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY })
   const message = await client.messages.create({
     model: 'claude-sonnet-4-6',
     max_tokens: 4096,
     system: SYSTEM_PROMPT,
-    messages: [{ role: 'user', content: buildPuzzlePrompt(date) }],
+    messages: [{ role: 'user', content: buildPuzzlePrompt(date, recentContext) }],
   })
 
   const content = message.content[0]

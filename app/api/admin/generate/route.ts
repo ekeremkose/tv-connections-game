@@ -1,10 +1,35 @@
 import Anthropic from '@anthropic-ai/sdk'
-import { writeFileSync, mkdirSync } from 'fs'
+import { writeFileSync, mkdirSync, readdirSync, readFileSync, existsSync } from 'fs'
 import { join } from 'path'
 import { SYSTEM_PROMPT, buildPuzzlePrompt } from '@/lib/prompt'
 import type { Puzzle } from '@/lib/types'
 
 // NOTE: Local dev only — writes to public/puzzles/ on the local filesystem.
+
+function getRecentContext(excludeDate: string, lookback = 14): string {
+  const outDir = join(process.cwd(), 'public', 'puzzles')
+  if (!existsSync(outDir)) return ''
+  let files: string[] = []
+  try {
+    files = readdirSync(outDir)
+      .filter((f) => f.endsWith('.json') && f !== `${excludeDate}.json`)
+      .sort()
+      .slice(-lookback)
+  } catch { return '' }
+  if (files.length === 0) return ''
+  const tiles: string[] = []
+  const themes: string[] = []
+  const connectionTypes: string[] = []
+  for (const file of files) {
+    try {
+      const p: Puzzle = JSON.parse(readFileSync(join(outDir, file), 'utf-8'))
+      for (const t of p.tiles) tiles.push(t.text)
+      for (const g of p.groups) { themes.push(g.name); connectionTypes.push(g.connection_type) }
+    } catch { /* skip */ }
+  }
+  if (tiles.length === 0) return ''
+  return `RECENTLY USED CONTENT (last ${files.length} puzzles) — do NOT repeat ANY of these tiles, shows, people, or themes:\nTiles already used: ${tiles.join(' | ')}\nGroup themes already used: ${themes.join(' | ')}\nConnection types already used: ${connectionTypes.join(', ')} — use different ones today.\nBe completely fresh. Invent new angles, pick different shows, different eras, different genres.`
+}
 
 export async function POST(request: Request) {
   const date = new URL(request.url).searchParams.get('date')
@@ -13,13 +38,14 @@ export async function POST(request: Request) {
     return Response.json({ error: 'ANTHROPIC_API_KEY not configured' }, { status: 500 })
 
   const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY })
+  const recentContext = getRecentContext(date)
 
   try {
     const message = await client.messages.create({
       model: 'claude-sonnet-4-6',
       max_tokens: 4096,
       system: SYSTEM_PROMPT,
-      messages: [{ role: 'user', content: buildPuzzlePrompt(date) }],
+      messages: [{ role: 'user', content: buildPuzzlePrompt(date, recentContext) }],
     })
 
     const content = message.content[0]
