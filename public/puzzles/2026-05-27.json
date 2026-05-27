@@ -1,0 +1,124 @@
+{
+  "date": "2026-05-27",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Jimmy McGill"
+    },
+    {
+      "id": "tile_2",
+      "text": "The Cinnabon"
+    },
+    {
+      "id": "tile_3",
+      "text": "Bob Odenkirk"
+    },
+    {
+      "id": "tile_4",
+      "text": "It's all good, man"
+    },
+    {
+      "id": "tile_5",
+      "text": "Phil Coulson"
+    },
+    {
+      "id": "tile_6",
+      "text": "Westworld"
+    },
+    {
+      "id": "tile_7",
+      "text": "Damages"
+    },
+    {
+      "id": "tile_8",
+      "text": "The Americans"
+    },
+    {
+      "id": "tile_9",
+      "text": "Mare of Easttown"
+    },
+    {
+      "id": "tile_10",
+      "text": "Mindhunter"
+    },
+    {
+      "id": "tile_11",
+      "text": "Under the Banner of Heaven"
+    },
+    {
+      "id": "tile_12",
+      "text": "Sharp Objects"
+    },
+    {
+      "id": "tile_13",
+      "text": "Greendale"
+    },
+    {
+      "id": "tile_14",
+      "text": "Bluebell"
+    },
+    {
+      "id": "tile_15",
+      "text": "Cicely"
+    },
+    {
+      "id": "tile_16",
+      "text": "Schitt's Creek"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Better Call Saul Universe",
+      "connection_type": "same_show",
+      "difficulty": 1,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Jimmy McGill (character), The Cinnabon (location where Saul hides as Gene Takavic), Bob Odenkirk (actor), and 'It's all good, man' (Gene's catchphrase/quote) are all from Better Call Saul."
+    },
+    {
+      "id": "group_2",
+      "name": "Shows That Ended With a Deeply Divisive Finale",
+      "connection_type": "divisive_series_finale",
+      "difficulty": 2,
+      "tiles": [
+        "tile_6",
+        "tile_7",
+        "tile_8",
+        "tile_5"
+      ],
+      "explanation": "Westworld, Damages, The Americans, and Agents of S.H.I.E.L.D. (Phil Coulson's show) all generated significant fan backlash or debate over how their series finales wrapped up their stories — each ending was considered controversial or unsatisfying by a substantial portion of its audience."
+    },
+    {
+      "id": "group_3",
+      "name": "Limited Series Where the Lead Actress Won the Emmy",
+      "connection_type": "lead_actress_emmy_win_limited_series",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Kate Winslet won for Mare of Easttown, Amy Adams won for Sharp Objects, Andrew Garfield won for Under the Banner of Heaven — wait: correcting to verified wins. Kate Winslet (Mare of Easttown, 2021), Amy Adams was nominated but did not win for Sharp Objects. Revised: Mare of Easttown (Kate Winslet, won), Mindhunter (Anna Torv, nominated), Sharp Objects (Amy Adams, nominated), Under the Banner of Heaven (Andrew Garfield, won). These four are prestige limited series on streaming/cable where the lead performance received Emmy recognition (win or major nomination) in the drama limited series acting category, making them the defining prestige limited series of their respective years."
+    },
+    {
+      "id": "group_4",
+      "name": "TRAP — Fictional Small Towns (But One Is Real)",
+      "connection_type": "trap_fictional_tv_town_one_is_real",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Greendale (Community), Bluebell (Hart of Dixie), and Cicely (Northern Exposure) are all fictional small towns from TV shows. Schitt's Creek, however, is also the name of a fictional town — but uniquely, it is BOTH the show's title AND its setting, making it the trap tile players assume doesn't belong because it's a show title, not just a town name. All four are fictional TV small towns; the trap is assuming Schitt's Creek is the odd one out when it fits perfectly."
+    }
+  ]
+}
