@@ -25,15 +25,15 @@ export default function RootLayout({
             } catch(e) {}
           })();
         `}} />
-      </head>
-      <body className="bg-white dark:bg-gray-900 min-h-screen font-sans antialiased transition-colors duration-200">
-        {children}
         <Script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3832617786523969"
           crossOrigin="anonymous"
-          strategy="afterInteractive"
+          strategy="beforeInteractive"
         />
+      </head>
+      <body className="bg-white dark:bg-gray-900 min-h-screen font-sans antialiased transition-colors duration-200">
+        {children}
       </body>
     </html>
   )
