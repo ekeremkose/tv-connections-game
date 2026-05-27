@@ -480,6 +480,15 @@ export default function Home() {
           See Results
         </button>
       )}
+
+      {/* SEO footer */}
+      <footer className="w-full max-w-[480px] mt-12 pt-6 border-t border-gray-100 dark:border-gray-800 text-center">
+        <p className="text-xs text-gray-400 dark:text-gray-600 leading-relaxed">
+          <strong className="font-medium text-gray-500 dark:text-gray-500">TV Connections Game</strong> is a free daily puzzle inspired by the NYT Connections format.
+          Every day, 16 TV-related tiles — show titles, characters, actors, catchphrases — are hidden in 4 secret groups.
+          Find all four groups before you run out of lives!
+        </p>
+      </footer>
     </main>
   )
 }
