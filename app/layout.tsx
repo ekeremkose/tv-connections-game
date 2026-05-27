@@ -34,6 +34,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://tvconnectionsgame.com',
   },
+  verification: {
+    google: 'MgKOK7INWHrNvKA3NFKmSDOxqHlDtGLgMYhMY9RhtFI',
+  },
   robots: {
     index: true,
     follow: true,
