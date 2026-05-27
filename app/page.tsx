@@ -270,15 +270,31 @@ export default function Home() {
               ? "Today's puzzle is not available yet. Please check back later."
               : `No puzzle available for ${formatDateLabel(activeDate)}.`}
           </p>
-          {!isToday && (
+          <div className="flex gap-3 justify-center">
             <button
-              onClick={() => setActiveDate(todayDate)}
+              onClick={() => setShowHistory(true)}
               className="bg-gray-900 text-white px-5 py-2 rounded-lg text-sm font-medium hover:bg-gray-700 transition-colors"
             >
-              Back to Today
+              Browse Calendar
             </button>
-          )}
+            {!isToday && (
+              <button
+                onClick={() => setActiveDate(todayDate)}
+                className="border border-gray-300 px-5 py-2 rounded-lg text-sm font-medium text-gray-600 hover:bg-gray-50 transition-colors"
+              >
+                Back to Today
+              </button>
+            )}
+          </div>
         </div>
+        {showHistory && (
+          <CalendarModal
+            todayDate={todayDate}
+            activeDate={activeDate}
+            onPlay={(d) => { setShowHistory(false); setActiveDate(d) }}
+            onClose={() => setShowHistory(false)}
+          />
+        )}
       </main>
     )
   }
