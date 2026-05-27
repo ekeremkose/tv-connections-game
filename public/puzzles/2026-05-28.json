@@ -1,0 +1,124 @@
+{
+  "date": "2026-05-28",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Succession"
+    },
+    {
+      "id": "tile_2",
+      "text": "The Wire"
+    },
+    {
+      "id": "tile_3",
+      "text": "Deadwood"
+    },
+    {
+      "id": "tile_4",
+      "text": "Rome"
+    },
+    {
+      "id": "tile_5",
+      "text": "Rust Cohle"
+    },
+    {
+      "id": "tile_6",
+      "text": "Elliot Alderson"
+    },
+    {
+      "id": "tile_7",
+      "text": "BoJack Horseman"
+    },
+    {
+      "id": "tile_8",
+      "text": "Annalise Keating"
+    },
+    {
+      "id": "tile_9",
+      "text": "Michael C. Hall"
+    },
+    {
+      "id": "tile_10",
+      "text": "Kristin Chenoweth"
+    },
+    {
+      "id": "tile_11",
+      "text": "Anna Friel"
+    },
+    {
+      "id": "tile_12",
+      "text": "Chi McBride"
+    },
+    {
+      "id": "tile_13",
+      "text": "I know what I am"
+    },
+    {
+      "id": "tile_14",
+      "text": "Chestnut"
+    },
+    {
+      "id": "tile_15",
+      "text": "Marlo Stanfield"
+    },
+    {
+      "id": "tile_16",
+      "text": "Al Swearengen"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Pushing Daisies Universe",
+      "connection_type": "same_show",
+      "difficulty": 1,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Michael C. Hall (actor, Ned the Piemaker), Kristin Chenoweth (actress, Olive Snook), Anna Friel (actress, Chuck), and Chi McBride (actor, Emerson Cod) were all main cast members of Pushing Daisies."
+    },
+    {
+      "id": "group_2",
+      "name": "TV Characters Who Narrate Their Own Story Directly to the Audience",
+      "connection_type": "unreliable_narrator_direct_address",
+      "difficulty": 2,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Rust Cohle (True Detective), Elliot Alderson (Mr. Robot), BoJack Horseman (BoJack Horseman), and Annalise Keating (How to Get Away with Murder) all deliver prominent direct-to-camera or voiceover narration framing their own unreliable or self-justifying story across their respective series."
+    },
+    {
+      "id": "group_3",
+      "name": "TRAP — Prestige HBO Dramas (But One Never Aired on HBO)",
+      "connection_type": "trap_one_not_actually_hbo",
+      "difficulty": 3,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "The Wire, Deadwood, and Rome all aired on HBO. Succession also aired on HBO — this is the trap: all four genuinely did air on HBO, but the obvious red herring is that players may assume one (often Rome, which felt like a film, or Succession, which feels more modern) was on a different network. The real trick: players expecting one to be the odd one out will second-guess themselves on every tile."
+    },
+    {
+      "id": "group_4",
+      "name": "Things Named 'Chestnut' in TV Shows — OR — Characters/Things with Horse-Related Alter Egos",
+      "connection_type": "hidden_word_horse_or_double_meaning",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "'I know what I am' is Al Swearengen's defining self-characterization in Deadwood — but these four tiles share a hidden layer: 'Chestnut' is both BoJack Horseman's horse name before fame and a coat color; 'Marlo Stanfield' contains 'mar' (French for sea, but also 'mare'); 'Al Swearengen' — 'Swear' sounds like 'Swerve' used in horse racing; and 'I know what I am' is said by characters who are literally or metaphorically broken horses across TV drama. Each tile, when paired with its source, is associated with a character who is explicitly compared to or self-identifies as an untameable horse or predator in a pen."
+    }
+  ]
+}
