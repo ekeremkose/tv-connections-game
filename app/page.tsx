@@ -64,9 +64,29 @@ export default function Home() {
   const [toast, setToast] = useState<string | null>(null)
   const [showEndScreen, setShowEndScreen] = useState(false)
   const [showHistory, setShowHistory] = useState(false)
+  const [isDark, setIsDark] = useState(false)
 
   const activeDateRef = useRef(activeDate)
   activeDateRef.current = activeDate
+
+  // Sync dark mode state with <html> class
+  useEffect(() => {
+    const dark = document.documentElement.classList.contains('dark')
+    setIsDark(dark)
+  }, [])
+
+  function toggleDark() {
+    const html = document.documentElement
+    if (html.classList.contains('dark')) {
+      html.classList.remove('dark')
+      localStorage.setItem('tv-connections-theme', 'light')
+      setIsDark(false)
+    } else {
+      html.classList.add('dark')
+      localStorage.setItem('tv-connections-theme', 'dark')
+      setIsDark(true)
+    }
+  }
 
   // Load puzzle whenever activeDate changes
   useEffect(() => {
@@ -253,9 +273,9 @@ export default function Home() {
   // ── Loading / error states ──────────────────────────────────────────────────
   if (isLoading) {
     return (
-      <main className="min-h-screen flex flex-col items-center justify-center bg-white">
-        <div className="text-2xl font-bold text-gray-900 mb-3">TV Connections</div>
-        <div className="text-gray-400 text-sm animate-pulse">Loading puzzle…</div>
+      <main className="min-h-screen flex flex-col items-center justify-center bg-white dark:bg-gray-900">
+        <div className="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-3">TV Connections</div>
+        <div className="text-gray-400 dark:text-gray-500 text-sm animate-pulse">Loading puzzle…</div>
       </main>
     )
   }
@@ -330,7 +350,7 @@ export default function Home() {
 
   // ── Game UI ─────────────────────────────────────────────────────────────────
   return (
-    <main className="min-h-screen flex flex-col items-center bg-white pt-8 pb-16 px-4">
+    <main className="min-h-screen flex flex-col items-center bg-white dark:bg-gray-900 pt-8 pb-16 px-4">
       <Toast message={toast} onDismiss={() => setToast(null)} />
 
       {showEndScreen && (
@@ -356,22 +376,29 @@ export default function Home() {
 
       {/* Header */}
       <div className="w-full max-w-[480px] mb-6">
-        <div className="relative border-b border-gray-200 pb-4 text-center">
+        <div className="relative border-b border-gray-200 dark:border-gray-700 pb-4 text-center">
+          <button
+            onClick={toggleDark}
+            className="absolute left-0 top-1 text-gray-400 hover:text-gray-700 dark:hover:text-gray-200 transition-colors text-lg leading-none"
+            title="Toggle dark mode"
+          >
+            {isDark ? '☀️' : '🌙'}
+          </button>
           <button
             onClick={() => setShowHistory(true)}
-            className="absolute right-0 top-1 text-gray-400 hover:text-gray-700 transition-colors text-sm font-medium"
+            className="absolute right-0 top-1 text-gray-400 hover:text-gray-700 dark:hover:text-gray-200 transition-colors text-sm font-medium"
           >
             Calendar
           </button>
-          <h1 className="text-2xl font-bold tracking-tight text-gray-900">TV Connections</h1>
-          <p className="text-gray-400 text-xs mt-1 uppercase tracking-widest">
+          <h1 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-100">TV Connections</h1>
+          <p className="text-gray-400 dark:text-gray-500 text-xs mt-1 uppercase tracking-widest">
             {formatDateLabel(activeDate)}
           </p>
         </div>
 
         {!isToday && (
           <div className="flex items-center justify-between mt-3 px-3 py-2 bg-amber-50 border border-amber-200 rounded-lg">
-            <span className="text-xs text-amber-700 font-medium">Playing a past puzzle</span>
+            <span className="text-xs text-amber-700 dark:text-amber-400 font-medium">Playing a past puzzle</span>
             <button
               onClick={() => setActiveDate(todayDate)}
               className="text-xs text-amber-800 font-semibold underline hover:no-underline"
@@ -382,7 +409,7 @@ export default function Home() {
         )}
 
         {isToday && (
-          <p className="text-center text-sm text-gray-500 mt-3">
+          <p className="text-center text-sm text-gray-500 dark:text-gray-400 mt-3">
             Create four groups of four TV-related items
           </p>
         )}
@@ -424,21 +451,21 @@ export default function Home() {
         <div className="flex gap-3">
           <button
             onClick={() => { setShuffledTiles((p) => shuffle(p)); setSelectedIds([]) }}
-            className="px-5 py-2.5 rounded-full border border-gray-300 text-sm font-medium text-gray-700 hover:bg-gray-50 transition-colors"
+            className="px-5 py-2.5 rounded-full border border-gray-300 dark:border-gray-600 text-sm font-medium text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors"
           >
             Shuffle
           </button>
           <button
             onClick={() => setSelectedIds([])}
             disabled={selectedIds.length === 0}
-            className="px-5 py-2.5 rounded-full border border-gray-300 text-sm font-medium text-gray-700 hover:bg-gray-50 transition-colors disabled:opacity-40 disabled:cursor-not-allowed"
+            className="px-5 py-2.5 rounded-full border border-gray-300 dark:border-gray-600 text-sm font-medium text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors disabled:opacity-40 disabled:cursor-not-allowed"
           >
             Deselect All
           </button>
           <button
             onClick={handleSubmit}
             disabled={selectedIds.length !== MAX_SELECTION}
-            className="px-5 py-2.5 rounded-full bg-gray-900 text-white text-sm font-medium hover:bg-gray-700 transition-colors disabled:opacity-40 disabled:cursor-not-allowed"
+            className="px-5 py-2.5 rounded-full bg-gray-900 dark:bg-gray-100 text-white dark:text-gray-900 text-sm font-medium hover:bg-gray-700 dark:hover:bg-gray-300 transition-colors disabled:opacity-40 disabled:cursor-not-allowed"
           >
             Submit
           </button>

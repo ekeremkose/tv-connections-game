@@ -18,8 +18,8 @@ export default function Tile({ tile, isSelected, isShaking, onClick }: TileProps
         'transition-all duration-100 select-none cursor-pointer',
         'flex items-center justify-center text-center px-2 leading-tight',
         isSelected
-          ? 'bg-gray-700 text-white scale-[0.97] border-2 border-gray-700'
-          : 'bg-gray-100 text-gray-900 hover:bg-gray-200 border-2 border-transparent',
+          ? 'bg-gray-700 text-white scale-[0.97] border-2 border-gray-700 dark:bg-gray-200 dark:text-gray-900 dark:border-gray-200'
+          : 'bg-gray-100 text-gray-900 hover:bg-gray-200 border-2 border-transparent dark:bg-gray-700 dark:text-gray-100 dark:hover:bg-gray-600',
         isShaking ? 'animate-shake' : '',
       ].filter(Boolean).join(' ')}
     >

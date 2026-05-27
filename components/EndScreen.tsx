@@ -59,14 +59,14 @@ export default function EndScreen({ isWon, lives, guessHistory, groups, tileMap,
 
   return (
     <div className="fixed inset-0 z-40 flex items-center justify-center bg-black/50 animate-fade-in">
-      <div className="bg-white rounded-2xl shadow-2xl max-w-md w-full mx-4 p-6 animate-pop-in">
+      <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-2xl max-w-md w-full mx-4 p-6 animate-pop-in">
         <div className="text-center mb-5">
           <div className="text-4xl mb-2">{isWon ? '🎉' : '😔'}</div>
-          <h2 className="text-2xl font-bold text-gray-900">
+          <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100">
             {isWon ? 'Brilliant!' : 'Better luck tomorrow'}
           </h2>
           {isWon && (
-            <p className="text-gray-500 text-sm mt-1">
+            <p className="text-gray-500 dark:text-gray-400 text-sm mt-1">
               {lives === 4 ? 'Perfect game!' : `Solved with ${lives} ${lives === 1 ? 'life' : 'lives'} remaining`}
             </p>
           )}
@@ -91,7 +91,7 @@ export default function EndScreen({ isWon, lives, guessHistory, groups, tileMap,
           </button>
           <button
             onClick={onClose}
-            className="px-4 py-3 rounded-xl border border-gray-300 text-gray-600 hover:bg-gray-50 transition-colors text-sm font-medium"
+            className="px-4 py-3 rounded-xl border border-gray-300 dark:border-gray-600 text-gray-600 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors text-sm font-medium"
           >
             Close
           </button>

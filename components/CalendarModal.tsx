@@ -107,12 +107,12 @@ export default function CalendarModal({ todayDate, activeDate, onPlay, onClose }
 
   return (
     <div className="fixed inset-0 z-40 flex items-center justify-center bg-black/50 animate-fade-in">
-      <div className="bg-white rounded-2xl shadow-2xl w-full max-w-sm mx-4 animate-pop-in overflow-hidden">
+      <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-2xl w-full max-w-sm mx-4 animate-pop-in overflow-hidden">
 
         {/* Header */}
-        <div className="flex items-center justify-between px-5 py-4 border-b border-gray-100">
-          <h2 className="text-lg font-bold text-gray-900">Puzzles</h2>
-          <button onClick={onClose} className="text-gray-400 hover:text-gray-700 text-xl leading-none transition-colors">✕</button>
+        <div className="flex items-center justify-between px-5 py-4 border-b border-gray-100 dark:border-gray-700">
+          <h2 className="text-lg font-bold text-gray-900 dark:text-gray-100">Puzzles</h2>
+          <button onClick={onClose} className="text-gray-400 hover:text-gray-700 dark:hover:text-gray-200 text-xl leading-none transition-colors">✕</button>
         </div>
 
         {/* Month + Year navigation */}
@@ -122,15 +122,15 @@ export default function CalendarModal({ todayDate, activeDate, onPlay, onClose }
             <button
               onClick={prevYear}
               disabled={!canGoPrevYear}
-              className="w-7 h-7 flex items-center justify-center rounded-full hover:bg-gray-100 text-gray-500 disabled:opacity-20 transition-colors text-xs font-bold"
+              className="w-7 h-7 flex items-center justify-center rounded-full hover:bg-gray-100 dark:hover:bg-gray-700 text-gray-500 dark:text-gray-400 disabled:opacity-20 transition-colors text-xs font-bold"
             >
               ««
             </button>
-            <span className="text-sm font-semibold text-gray-500">{year}</span>
+            <span className="text-sm font-semibold text-gray-500 dark:text-gray-400">{year}</span>
             <button
               onClick={nextYear}
               disabled={!canGoNextYear}
-              className="w-7 h-7 flex items-center justify-center rounded-full hover:bg-gray-100 text-gray-500 disabled:opacity-20 transition-colors text-xs font-bold"
+              className="w-7 h-7 flex items-center justify-center rounded-full hover:bg-gray-100 dark:hover:bg-gray-700 text-gray-500 dark:text-gray-400 disabled:opacity-20 transition-colors text-xs font-bold"
             >
               »»
             </button>
@@ -141,15 +141,15 @@ export default function CalendarModal({ todayDate, activeDate, onPlay, onClose }
             <button
               onClick={prevMonth}
               disabled={!canGoPrevMonth}
-              className="w-8 h-8 flex items-center justify-center rounded-full hover:bg-gray-100 text-gray-700 disabled:opacity-20 transition-colors font-bold text-lg"
+              className="w-8 h-8 flex items-center justify-center rounded-full hover:bg-gray-100 dark:hover:bg-gray-700 text-gray-700 dark:text-gray-300 disabled:opacity-20 transition-colors font-bold text-lg"
             >
               ‹
             </button>
-            <span className="font-bold text-gray-900 text-base">{MONTHS[month - 1]}</span>
+            <span className="font-bold text-gray-900 dark:text-gray-100 text-base">{MONTHS[month - 1]}</span>
             <button
               onClick={nextMonth}
               disabled={!canGoNextMonth}
-              className="w-8 h-8 flex items-center justify-center rounded-full hover:bg-gray-100 text-gray-700 disabled:opacity-20 transition-colors font-bold text-lg"
+              className="w-8 h-8 flex items-center justify-center rounded-full hover:bg-gray-100 dark:hover:bg-gray-700 text-gray-700 dark:text-gray-300 disabled:opacity-20 transition-colors font-bold text-lg"
             >
               ›
             </button>
@@ -159,7 +159,7 @@ export default function CalendarModal({ todayDate, activeDate, onPlay, onClose }
         {/* Weekday headers */}
         <div className="grid grid-cols-7 px-4 mb-1">
           {WEEKDAYS.map((d) => (
-            <div key={d} className="text-center text-xs text-gray-400 font-medium py-1">
+            <div key={d} className="text-center text-xs text-gray-400 dark:text-gray-500 font-medium py-1">
               {d[0]}
             </div>
           ))}
@@ -193,10 +193,10 @@ export default function CalendarModal({ todayDate, activeDate, onPlay, onClose }
                 className={[
                   'flex flex-col items-center justify-center rounded-xl py-1.5 gap-0.5 transition-colors',
                   isToday
-                    ? 'bg-gray-900 text-white font-bold'
+                    ? 'bg-gray-900 text-white font-bold dark:bg-gray-100 dark:text-gray-900'
                     : isPlayable
-                    ? 'hover:bg-gray-100 text-gray-800 cursor-pointer'
-                    : 'text-gray-300 cursor-default',
+                    ? 'hover:bg-gray-100 dark:hover:bg-gray-700 text-gray-800 dark:text-gray-200 cursor-pointer'
+                    : 'text-gray-300 dark:text-gray-600 cursor-default',
                 ].join(' ')}
               >
                 <span className="text-sm leading-none">{day}</span>
@@ -216,13 +216,13 @@ export default function CalendarModal({ todayDate, activeDate, onPlay, onClose }
         </div>
 
         {/* Legend */}
-        <div className="flex items-center justify-center gap-5 pb-4 border-t border-gray-100 pt-3">
+        <div className="flex items-center justify-center gap-5 pb-4 border-t border-gray-100 dark:border-gray-700 pt-3">
           {[
             { color: 'bg-green-500', label: 'Won' },
             { color: 'bg-red-400', label: 'Lost' },
             { color: 'bg-blue-400', label: 'In progress' },
           ].map(({ color, label }) => (
-            <span key={label} className="flex items-center gap-1.5 text-xs text-gray-400">
+            <span key={label} className="flex items-center gap-1.5 text-xs text-gray-400 dark:text-gray-500">
               <span className={`w-2 h-2 rounded-full ${color}`} />
               {label}
             </span>

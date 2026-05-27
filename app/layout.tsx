@@ -13,7 +13,19 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-white min-h-screen font-sans antialiased">
+      <head>
+        {/* Prevent flash of wrong theme */}
+        <script dangerouslySetInnerHTML={{ __html: `
+          (function() {
+            try {
+              if (localStorage.getItem('tv-connections-theme') === 'dark') {
+                document.documentElement.classList.add('dark');
+              }
+            } catch(e) {}
+          })();
+        `}} />
+      </head>
+      <body className="bg-white dark:bg-gray-900 min-h-screen font-sans antialiased transition-colors duration-200">
         {children}
       </body>
     </html>
