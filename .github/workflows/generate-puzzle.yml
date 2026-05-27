@@ -35,7 +35,9 @@ jobs:
           if [ -n "${{ github.event.inputs.date }}" ]; then
             npm run generate:puzzle -- --date ${{ github.event.inputs.date }}
           else
-            npm run generate:puzzle
+            # Use Turkey time (UTC+3) to get the correct date
+            TURKEY_DATE=$(TZ="Europe/Istanbul" date +%Y-%m-%d)
+            npm run generate:puzzle -- --date $TURKEY_DATE
           fi
 
       - name: Commit and push
