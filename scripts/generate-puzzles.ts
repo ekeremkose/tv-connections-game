@@ -100,98 +100,37 @@ function validate(puzzle: Puzzle, date: string): void {
     throw new Error(`same_show used ${sameShowCount} times — maximum 1 per puzzle`)
 }
 
-// ── Fact checking ────────────────────────────────────────────────────────────
+// ── Review & fix ─────────────────────────────────────────────────────────────
 
-interface FactIssue {
-  group_id: string
-  wrong_tile_id: string
-  wrong_tile_text: string
-  correct_tile_text: string
-  reason: string
-}
+async function reviewAndFix(puzzle: Puzzle, client: Anthropic): Promise<Puzzle> {
+  const prompt = `You just created this TV Connections puzzle. Now step back and act as your own editor.
 
-interface FactCheckResult {
-  ok: boolean
-  issues: FactIssue[]
-}
-
-async function factCheck(puzzle: Puzzle, client: Anthropic): Promise<FactCheckResult> {
-  const puzzleDescription = puzzle.groups.map((g) => {
-    const tileTexts = g.tiles
-      .map((tileId) => {
-        const tile = puzzle.tiles.find((t) => t.id === tileId)
-        return `  - ${tileId}: "${tile?.text}"`
-      })
-      .join('\n')
-    return `Group "${g.name}":\n${tileTexts}\n  Explanation: ${g.explanation}`
-  }).join('\n\n')
-
-  const prompt = `You are a TV trivia fact-checker. Review this Connections puzzle and verify every factual claim.
-
-PUZZLE:
-${puzzleDescription}
-
-Check each of the following:
-1. FACTUAL ACCURACY: For each group, verify every tile truly belongs there.
-   - If a group is "cast of Show X" — did each person actually appear in that show?
-   - If a group is "characters from Show Y" — are they actually from that show?
-   - Are all actor/character/show/network associations accurate?
-
-2. TRIVIALLY LINKED PAIRS: Are any two tiles on the entire board instantly and obviously connected to each other? This includes:
-   - Same character under two names ("Saul Goodman" + "Jimmy McGill")
-   - An actor paired with their most famous character ("Bob Odenkirk" + "Jimmy McGill", "Bryan Cranston" + "Walter White")
-   - A show title paired with its most iconic character in the same group ("Breaking Bad" + "Walter White")
-   If any such pair exists anywhere on the board, flag the more redundant tile as wrong.
-
-3. SELF-REVEALING TILES: Do any tiles within the same group make the group's answer immediately obvious just by seeing them together?
-   (e.g. "Heisenberg" + "Walter White" in the same group instantly reveals the answer — bad puzzle design)
-
-Only flag errors you are HIGHLY CONFIDENT about. When in doubt, do not flag.
-
-Return ONLY raw JSON (no markdown, no code blocks):
-{"ok":true,"issues":[]}
-
-If any tile is wrong, return:
-{"ok":false,"issues":[{"group_id":"group_1","wrong_tile_id":"tile_9","wrong_tile_text":"Wrong Name","correct_tile_text":"Correct Name","reason":"Short explanation"}]}`
-
-  const message = await client.messages.create({
-    model: 'claude-sonnet-4-6',
-    max_tokens: 1024,
-    messages: [{ role: 'user', content: prompt }],
-  })
-
-  const content = message.content[0]
-  if (content.type !== 'text') throw new Error('Unexpected response from fact-checker')
-
-  const raw = content.text.trim()
-  try {
-    return JSON.parse(raw) as FactCheckResult
-  } catch {
-    const match = raw.match(/\{[\s\S]*\}/)
-    if (match) return JSON.parse(match[0]) as FactCheckResult
-    console.warn('  ⚠️  Could not parse fact-check response — skipping')
-    return { ok: true, issues: [] }
-  }
-}
-
-// ── Targeted fix ─────────────────────────────────────────────────────────────
-
-async function fixPuzzle(puzzle: Puzzle, problem: string, client: Anthropic): Promise<Puzzle | null> {
-  const prompt = `You are fixing a specific problem in an existing TV Connections puzzle. Make the MINIMAL change needed to fix the problem. Keep everything else identical.
-
-CURRENT PUZZLE:
+PUZZLE TO REVIEW:
 ${JSON.stringify(puzzle, null, 2)}
 
-PROBLEM TO FIX:
-${problem}
+Go through every group and every tile carefully. Ask yourself:
 
-Instructions:
-- Change ONLY what is necessary to fix the problem
-- Do not redesign the whole puzzle
-- Do not change tiles or groups that are not involved in the problem
-- Return the complete corrected puzzle as valid JSON
+**FACTS**
+- Is every tile genuinely accurate for its group? (actor in that show? character from that show? network correct?)
+- Would a knowledgeable TV fan immediately dispute any tile?
 
-Return ONLY valid JSON, no markdown, no explanation.`
+**TILE INDEPENDENCE**
+- Are any two tiles on the board trivially linked? (same character under two names, an actor + the character they famously play, a show + its most iconic character in the same group)
+- Example of what to catch: "Bob Odenkirk" and "Jimmy McGill" on the same board — a viewer instantly connects them, ruining the puzzle
+- Example of what to catch: "Saul Goodman" and "Jimmy McGill" — same character, two names
+
+**GROUP DESIGN**
+- Does each group hold up under scrutiny? Would a smart TV fan agree all 4 tiles truly fit?
+- Is the easiest group (difficulty 1) genuinely easy for a casual fan?
+- Is the hardest group (difficulty 4) genuinely hard even for enthusiasts?
+- Is the trap group actually deceptive? Do the tiles look like one thing but connect differently?
+
+**FIX ANYTHING YOU FIND**
+Make whatever changes are needed — fix wrong tiles, replace redundant pairs, adjust group concepts. You can change tile text, group names, explanations. Keep the overall structure (16 tiles, 4 groups of 4, one per difficulty).
+
+If everything looks good, return it unchanged.
+
+Return ONLY the final corrected puzzle as valid JSON. No markdown, no explanation, no commentary.`
 
   const message = await client.messages.create({
     model: 'claude-sonnet-4-6',
@@ -200,7 +139,10 @@ Return ONLY valid JSON, no markdown, no explanation.`
   })
 
   const content = message.content[0]
-  if (content.type !== 'text') return null
+  if (content.type !== 'text') {
+    console.warn('  ⚠️  Review step returned unexpected type — keeping original')
+    return puzzle
+  }
 
   const blocks = [...content.text.matchAll(/```(?:json)?\s*([\s\S]*?)```/g)].map((m) => m[1].trim())
   if (blocks.length === 0) blocks.push(content.text.trim())
@@ -208,7 +150,9 @@ Return ONLY valid JSON, no markdown, no explanation.`
   for (const block of blocks.reverse()) {
     try { return JSON.parse(block) as Puzzle } catch { /* try next */ }
   }
-  return null
+
+  console.warn('  ⚠️  Could not parse review response — keeping original')
+  return puzzle
 }
 
 // ── Generation ────────────────────────────────────────────────────────────────
@@ -253,69 +197,17 @@ async function generatePuzzle(date: string, force = false, maxRetries = 5): Prom
         throw new Error('Failed to parse JSON from Claude response')
       }
 
-      // ── Structural validation (with targeted fix on failure) ─────────────────
-      try {
-        validate(puzzle, date)
-      } catch (validErr) {
-        const validMsg = validErr instanceof Error ? validErr.message : String(validErr)
-        console.warn(`  ⚠️  Validation failed: ${validMsg} — attempting targeted fix…`)
-        const fixed = await fixPuzzle(puzzle, validMsg, client)
-        if (!fixed) throw new Error(`Validation failed and could not be fixed: ${validMsg}`)
-        try {
-          validate(fixed, date)
-          puzzle = fixed
-          console.log(`  ✏️  Targeted fix applied`)
-        } catch {
-          throw new Error(`Validation failed even after targeted fix: ${validMsg}`)
-        }
-      }
+      // ── Structural validation ─────────────────────────────────────────────────
+      validate(puzzle, date)
 
-      // ── Fact-check ───────────────────────────────────────────────────────────
-      console.log(`🔍 Fact-checking…`)
-      const factResult = await factCheck(puzzle, client)
-
-      const validIssues = (factResult.issues ?? []).filter(
-        (i) => i.wrong_tile_id && i.wrong_tile_text && i.correct_tile_text && i.reason
-      )
-      if (!factResult.ok && validIssues.length > 0) {
-        console.warn(`  ⚠️  Found ${validIssues.length} factual issue(s):`)
-        let allFixed = true
-
-        for (const issue of validIssues) {
-          console.warn(`     ✗ "${issue.wrong_tile_text}" → "${issue.correct_tile_text}"`)
-          console.warn(`       Reason: ${issue.reason}`)
-
-          const tile = puzzle.tiles.find((t) => t.id === issue.wrong_tile_id)
-          if (tile) {
-            tile.text = issue.correct_tile_text
-            const group = puzzle.groups.find((g) => g.id === issue.group_id)
-            if (group) {
-              group.explanation = group.explanation.replace(issue.wrong_tile_text, issue.correct_tile_text)
-            }
-          } else {
-            allFixed = false
-          }
-        }
-
-        if (!allFixed) {
-          // Can't auto-fix tile names → ask Claude to fix the whole group
-          const problems = validIssues
-            .filter((i) => !puzzle!.tiles.find((t) => t.id === i.wrong_tile_id))
-            .map((i) => `"${i.wrong_tile_text}" in group "${puzzle!.groups.find(g => g.id === i.group_id)?.name}" is wrong: ${i.reason}`)
-            .join('\n')
-          console.warn(`  ↩️  Requesting targeted fix for unfixable fact errors…`)
-          const fixed = await fixPuzzle(puzzle, `Fix these factual errors:\n${problems}`, client)
-          if (!fixed) throw new Error(`Fact errors could not be fixed`)
-          validate(fixed, date)
-          puzzle = fixed
-          console.log(`  ✏️  Fact errors fixed via targeted rewrite`)
-        } else {
-          console.log(`  ✏️  Auto-fixed ${validIssues.length} tile(s)`)
-          validate(puzzle, date)
-        }
-      } else {
-        console.log(`  ✅ Facts verified`)
-      }
+      // ── Self-review & fix ─────────────────────────────────────────────────────
+      console.log(`🧠 Reviewing puzzle…`)
+      const reviewed = await reviewAndFix(puzzle, client)
+      validate(reviewed, date)   // make sure review didn't break structure
+      const changed = JSON.stringify(reviewed) !== JSON.stringify(puzzle)
+      if (changed) console.log(`  ✏️  Review made corrections`)
+      else console.log(`  ✅ No issues found`)
+      puzzle = reviewed
       // ─────────────────────────────────────────────────────────────────────────
 
       mkdirSync(OUT_DIR, { recursive: true })
