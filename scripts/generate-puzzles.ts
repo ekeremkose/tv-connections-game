@@ -137,9 +137,11 @@ Check each of the following:
    - If a group is "characters from Show Y" — are they actually from that show?
    - Are all actor/character/show/network associations accurate?
 
-2. DUPLICATE IDENTITY: Are any two tiles in the puzzle the same person or character under different names?
-   (e.g. "Saul Goodman" and "Jimmy McGill" are the same character — this is a puzzle design error)
-   If yes, flag the duplicate as a wrong tile.
+2. TRIVIALLY LINKED PAIRS: Are any two tiles on the entire board instantly and obviously connected to each other? This includes:
+   - Same character under two names ("Saul Goodman" + "Jimmy McGill")
+   - An actor paired with their most famous character ("Bob Odenkirk" + "Jimmy McGill", "Bryan Cranston" + "Walter White")
+   - A show title paired with its most iconic character in the same group ("Breaking Bad" + "Walter White")
+   If any such pair exists anywhere on the board, flag the more redundant tile as wrong.
 
 3. SELF-REVEALING TILES: Do any tiles within the same group make the group's answer immediately obvious just by seeing them together?
    (e.g. "Heisenberg" + "Walter White" in the same group instantly reveals the answer — bad puzzle design)
