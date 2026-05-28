@@ -1,0 +1,124 @@
+{
+  "date": "2026-05-29",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Paddy's Pub"
+    },
+    {
+      "id": "tile_2",
+      "text": "Wentworth"
+    },
+    {
+      "id": "tile_3",
+      "text": "Litchfield"
+    },
+    {
+      "id": "tile_4",
+      "text": "Shawshank"
+    },
+    {
+      "id": "tile_5",
+      "text": "Villanelle"
+    },
+    {
+      "id": "tile_6",
+      "text": "Elliot Alderson"
+    },
+    {
+      "id": "tile_7",
+      "text": "Eleanor Shellstrop"
+    },
+    {
+      "id": "tile_8",
+      "text": "Piper Chapman"
+    },
+    {
+      "id": "tile_9",
+      "text": "Patton Oswalt"
+    },
+    {
+      "id": "tile_10",
+      "text": "Rhea Seehorn"
+    },
+    {
+      "id": "tile_11",
+      "text": "Tatiana Maslany"
+    },
+    {
+      "id": "tile_12",
+      "text": "Michael Emerson"
+    },
+    {
+      "id": "tile_13",
+      "text": "Dana Brody"
+    },
+    {
+      "id": "tile_14",
+      "text": "Sydney Bristow"
+    },
+    {
+      "id": "tile_15",
+      "text": "Chuck Bass"
+    },
+    {
+      "id": "tile_16",
+      "text": "David Clarke"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Fictional TV Locations That Share a Name with a Real Prison",
+      "connection_type": "fictional_tv_location_shares_name_with_real_prison",
+      "difficulty": 1,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Paddy's Pub (It's Always Sunny in Philadelphia) shares its name with Paddy's, a real Dublin pub institution; Wentworth is the Australian prison drama named after Wentworth Detention Centre, a real facility; Litchfield is the fictional prison in Orange Is the New Black, sharing its name with real Litchfield Correctional Institution; Shawshank is the prison in the fictional TV and film universe derived from Stephen King, referenced in multiple TV shows and sharing its name with the real Ohio State Reformatory used for filming. All four TV locations share their name with a real-world prison or place of confinement."
+    },
+    {
+      "id": "group_2",
+      "name": "Characters Who Discover a Shocking Truth About Their Own Identity in a Season Finale",
+      "connection_type": "character_identity_revelation_in_season_finale",
+      "difficulty": 2,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Villanelle (Killing Eve) receives a shattering revelation about her past and handlers in a season finale; Elliot Alderson (Mr. Robot) learns in the season 1 finale that Mr. Robot is a dissociative split of his own personality; Eleanor Shellstrop (The Good Place) discovers in the season 1 finale that she is actually in The Bad Place and her entire situation has been a manipulation; Piper Chapman (Orange Is the New Black) has her self-image as an innocent bystander thoroughly dismantled in the season 1 finale. All four characters have their core sense of self upended in a season-ending reveal."
+    },
+    {
+      "id": "group_3",
+      "name": "Actors Who Were Series Regulars on a Cancelled Show, Then Won an Emmy for a Different Show",
+      "connection_type": "emmy_win_after_cancelled_show_regular",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Patton Oswalt was a recurring regular on Justified and later won an Emmy for his tribute episode performance on The Goldbergs after Justified ended; Rhea Seehorn was the lead of Better Call Saul and won her Emmy after the series concluded its run; Tatiana Maslany was the lead of Orphan Black, which was cancelled by BBC America, and won her Emmy for that role during its run; Michael Emerson starred in Person of Interest, which was cancelled by CBS, and had previously won his Emmy for Lost. Each actor had a notable show end or be cancelled before or while receiving Emmy recognition."
+    },
+    {
+      "id": "group_4",
+      "name": "TV Characters Who Learn a Parent Was a Secret Operative or Spy",
+      "connection_type": "character_has_secret_spy_parent_revealed_in_series",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Dana Brody (Homeland) gradually learns her father Nicholas Brody was a turned double agent and traitor working against the United States; Sydney Bristow (Alias) discovers in the very first season that her father Jack Bristow is also a CIA operative with a deeply hidden double life; Chuck Bass (Gossip Girl) learns over the course of the series that his father Bart Bass ran covert operations and faked his own death as part of a shadowy cover-up; David Clarke (Revenge) is revealed to Amanda Clarke's father, who was framed and imprisoned after being falsely accused by a secret cabal with intelligence-world connections. All four characters have a parent whose covert or operative past is unveiled as a central plot point."
+    }
+  ]
+}
