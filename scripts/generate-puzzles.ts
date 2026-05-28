@@ -70,6 +70,9 @@ function validate(puzzle: Puzzle, date: string): void {
     if (!g.connection_type) throw new Error(`Group "${g.id}" missing connection_type`)
     if (![1, 2, 3, 4].includes(g.difficulty)) throw new Error(`Group "${g.id}" has invalid difficulty: ${g.difficulty}`)
     if (!g.explanation) throw new Error(`Group "${g.id}" missing explanation`)
+    const nameLower = g.name.toLowerCase()
+    if (/\btrap\b/.test(nameLower) || /but one/i.test(nameLower) || /misdirect/i.test(nameLower))
+      throw new Error(`Group "${g.id}" has a spoiler name ("${g.name}") — trap must be in the tiles, not the name`)
     if (!Array.isArray(g.tiles) || g.tiles.length !== 4)
       throw new Error(`Group "${g.id}" must have exactly 4 tiles, got ${g.tiles?.length}`)
 

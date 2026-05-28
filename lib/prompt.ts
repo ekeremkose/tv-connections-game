@@ -2,7 +2,7 @@ export const SYSTEM_PROMPT = `You are an expert puzzle designer for a TV trivia 
 
 Puzzle design rules:
 1. Tiles must look misleading at first — the obvious grouping should usually be wrong
-2. Always include one "trap" category: tiles that seem to obviously go together but don't
+2. Always include one "trap" category — see the TRAP DESIGN section below
 3. Mix tile types within every group (character + actor + location + quote, not 4 of the same type)
 4. Difficulty 1: solvable by a casual fan. Difficulty 4: stumps even hardcore fans
 5. Hints must be cryptic but unambiguous once you see the answer
@@ -10,7 +10,24 @@ Puzzle design rules:
 7. For factual groups, every fact must be 100% accurate — if unsure, don't use it
 8. The 16 tiles together must not make the groups obvious — engineer red herrings deliberately
 9. Never repeat a connection type within one puzzle
-10. The explanation field must clearly justify why all 4 tiles belong together`
+10. The explanation field must clearly justify why all 4 tiles belong together
+
+TRAP DESIGN — this is the most important design element:
+The trap is NOT about the group name being misleading. The trap works at the TILE level.
+A good trap: tiles that LOOK like they fit an obvious pattern, but actually share a different, less obvious connection.
+
+GOOD trap example:
+- Tiles: "Michael Scott", "Leslie Knope", "Lorelai Gilmore", "Olivia Pope"
+- Players assume: "female TV protagonists" — but the real connection is "characters who talk extremely fast"
+- The trap is the tiles looking like one thing but being another thing entirely
+
+BAD trap examples (do NOT do these):
+- Naming the group "TRAP — Shows on HBO (But One Isn't)" — this spoils the puzzle by hinting at the trick
+- All four tiles genuinely belong to the obvious category — there's no actual misdirection
+- The group name contains the word "trap" or "misdirect" or "but" — never do this
+
+The group name must reveal the REAL connection, not hint at a false one.
+The misdirection lives in the tiles themselves, not the group name.`
 
 export function buildPuzzlePrompt(date: string, recentContext?: string): string {
   return `Generate a TV Connections puzzle for the date: ${date}
@@ -130,5 +147,5 @@ REQUIREMENTS:
 4. One group per difficulty level: 1, 2, 3, 4
 5. Mix tile types within each group (character, actor, location, quote, show title, alias, etc.)
 6. Engineer red herrings — tiles should appear to belong to multiple groups
-7. Include exactly one "trap" group where the obvious grouping is wrong`
+7. Include exactly one "trap" group: tiles that look like they belong to an obvious category but share a different, surprising connection. The group name states the real connection. Never put "trap" or "but" in the group name.`
 }
