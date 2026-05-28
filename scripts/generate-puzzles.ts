@@ -164,6 +164,43 @@ If any tile is factually wrong, return:
   }
 }
 
+// ── Targeted fix ─────────────────────────────────────────────────────────────
+
+async function fixPuzzle(puzzle: Puzzle, problem: string, client: Anthropic): Promise<Puzzle | null> {
+  const prompt = `You are fixing a specific problem in an existing TV Connections puzzle. Make the MINIMAL change needed to fix the problem. Keep everything else identical.
+
+CURRENT PUZZLE:
+${JSON.stringify(puzzle, null, 2)}
+
+PROBLEM TO FIX:
+${problem}
+
+Instructions:
+- Change ONLY what is necessary to fix the problem
+- Do not redesign the whole puzzle
+- Do not change tiles or groups that are not involved in the problem
+- Return the complete corrected puzzle as valid JSON
+
+Return ONLY valid JSON, no markdown, no explanation.`
+
+  const message = await client.messages.create({
+    model: 'claude-sonnet-4-6',
+    max_tokens: 4096,
+    messages: [{ role: 'user', content: prompt }],
+  })
+
+  const content = message.content[0]
+  if (content.type !== 'text') return null
+
+  const blocks = [...content.text.matchAll(/```(?:json)?\s*([\s\S]*?)```/g)].map((m) => m[1].trim())
+  if (blocks.length === 0) blocks.push(content.text.trim())
+
+  for (const block of blocks.reverse()) {
+    try { return JSON.parse(block) as Puzzle } catch { /* try next */ }
+  }
+  return null
+}
+
 // ── Generation ────────────────────────────────────────────────────────────────
 
 async function generatePuzzle(date: string, force = false, maxRetries = 5): Promise<void> {
@@ -206,13 +243,27 @@ async function generatePuzzle(date: string, force = false, maxRetries = 5): Prom
         throw new Error('Failed to parse JSON from Claude response')
       }
 
-      validate(puzzle, date)
+      // ── Structural validation (with targeted fix on failure) ─────────────────
+      try {
+        validate(puzzle, date)
+      } catch (validErr) {
+        const validMsg = validErr instanceof Error ? validErr.message : String(validErr)
+        console.warn(`  ⚠️  Validation failed: ${validMsg} — attempting targeted fix…`)
+        const fixed = await fixPuzzle(puzzle, validMsg, client)
+        if (!fixed) throw new Error(`Validation failed and could not be fixed: ${validMsg}`)
+        try {
+          validate(fixed, date)
+          puzzle = fixed
+          console.log(`  ✏️  Targeted fix applied`)
+        } catch {
+          throw new Error(`Validation failed even after targeted fix: ${validMsg}`)
+        }
+      }
 
-      // ── Fact-check + Quality review ─────────────────────────────────────────
-      console.log(`🔍 Fact-checking and reviewing puzzle quality…`)
+      // ── Fact-check ───────────────────────────────────────────────────────────
+      console.log(`🔍 Fact-checking…`)
       const factResult = await factCheck(puzzle, client)
 
-      // Factual errors — try to auto-fix, otherwise retry
       const validIssues = (factResult.issues ?? []).filter(
         (i) => i.wrong_tile_id && i.wrong_tile_text && i.correct_tile_text && i.reason
       )
@@ -232,21 +283,30 @@ async function generatePuzzle(date: string, force = false, maxRetries = 5): Prom
               group.explanation = group.explanation.replace(issue.wrong_tile_text, issue.correct_tile_text)
             }
           } else {
-            console.warn(`     Could not find tile ${issue.wrong_tile_id} to auto-fix — will retry`)
             allFixed = false
           }
         }
 
         if (!allFixed) {
-          const details = validIssues.map((i) => `"${i.wrong_tile_text}" is factually wrong for group "${puzzle!.groups.find(g => g.id === i.group_id)?.name}": ${i.reason}`).join('; ')
-          throw new Error(`Factual errors that could not be auto-fixed: ${details}`)
+          // Can't auto-fix tile names → ask Claude to fix the whole group
+          const problems = validIssues
+            .filter((i) => !puzzle!.tiles.find((t) => t.id === i.wrong_tile_id))
+            .map((i) => `"${i.wrong_tile_text}" in group "${puzzle!.groups.find(g => g.id === i.group_id)?.name}" is wrong: ${i.reason}`)
+            .join('\n')
+          console.warn(`  ↩️  Requesting targeted fix for unfixable fact errors…`)
+          const fixed = await fixPuzzle(puzzle, `Fix these factual errors:\n${problems}`, client)
+          if (!fixed) throw new Error(`Fact errors could not be fixed`)
+          validate(fixed, date)
+          puzzle = fixed
+          console.log(`  ✏️  Fact errors fixed via targeted rewrite`)
+        } else {
+          console.log(`  ✏️  Auto-fixed ${validIssues.length} tile(s)`)
+          validate(puzzle, date)
         }
-        console.log(`  ✏️  Auto-fixed ${validIssues.length} tile(s)`)
-        validate(puzzle, date)
       } else {
         console.log(`  ✅ Facts verified`)
       }
-      // ────────────────────────────────────────────────────────────────────────
+      // ─────────────────────────────────────────────────────────────────────────
 
       mkdirSync(OUT_DIR, { recursive: true })
       writeFileSync(outPath, JSON.stringify(puzzle, null, 2))
