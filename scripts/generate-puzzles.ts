@@ -131,17 +131,25 @@ async function factCheck(puzzle: Puzzle, client: Anthropic): Promise<FactCheckRe
 PUZZLE:
 ${puzzleDescription}
 
-For each group, verify that every tile truly belongs there:
-- If a group is "cast of Show X" — did each person actually appear in that show?
-- If a group is "characters from Show Y" — are they actually from that show?
-- Are all actor/character/show associations accurate?
+Check each of the following:
+1. FACTUAL ACCURACY: For each group, verify every tile truly belongs there.
+   - If a group is "cast of Show X" — did each person actually appear in that show?
+   - If a group is "characters from Show Y" — are they actually from that show?
+   - Are all actor/character/show/network associations accurate?
+
+2. DUPLICATE IDENTITY: Are any two tiles in the puzzle the same person or character under different names?
+   (e.g. "Saul Goodman" and "Jimmy McGill" are the same character — this is a puzzle design error)
+   If yes, flag the duplicate as a wrong tile.
+
+3. SELF-REVEALING TILES: Do any tiles within the same group make the group's answer immediately obvious just by seeing them together?
+   (e.g. "Heisenberg" + "Walter White" in the same group instantly reveals the answer — bad puzzle design)
 
 Only flag errors you are HIGHLY CONFIDENT about. When in doubt, do not flag.
 
 Return ONLY raw JSON (no markdown, no code blocks):
 {"ok":true,"issues":[]}
 
-If any tile is factually wrong, return:
+If any tile is wrong, return:
 {"ok":false,"issues":[{"group_id":"group_1","wrong_tile_id":"tile_9","wrong_tile_text":"Wrong Name","correct_tile_text":"Correct Name","reason":"Short explanation"}]}`
 
   const message = await client.messages.create({
