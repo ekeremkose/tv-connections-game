@@ -4,73 +4,73 @@
   "tiles": [
     {
       "id": "tile_1",
-      "text": "Sterling Archer"
+      "text": "Raylan Givens"
     },
     {
       "id": "tile_2",
-      "text": "H. Jon Benjamin"
+      "text": "Boyd Crowder"
     },
     {
       "id": "tile_3",
-      "text": "ISIS Headquarters"
+      "text": "Harlan County"
     },
     {
       "id": "tile_4",
-      "text": "Do you want ants? Because that's how you get ants."
+      "text": "We dug coal together"
     },
     {
       "id": "tile_5",
-      "text": "Stars Hollow"
-    },
-    {
-      "id": "tile_6",
-      "text": "Hannibal Lecter"
-    },
-    {
-      "id": "tile_7",
-      "text": "The Good Place"
-    },
-    {
-      "id": "tile_8",
-      "text": "Twin Peaks"
-    },
-    {
-      "id": "tile_9",
-      "text": "Michael Emerson"
-    },
-    {
-      "id": "tile_10",
-      "text": "Mads Mikkelsen"
-    },
-    {
-      "id": "tile_11",
-      "text": "Tatiana Maslany"
-    },
-    {
-      "id": "tile_12",
-      "text": "Viola Davis"
-    },
-    {
-      "id": "tile_13",
-      "text": "The Leftovers"
-    },
-    {
-      "id": "tile_14",
-      "text": "Schitt's Creek"
-    },
-    {
-      "id": "tile_15",
       "text": "Fleabag"
     },
     {
+      "id": "tile_6",
+      "text": "Nurse Ratched"
+    },
+    {
+      "id": "tile_7",
+      "text": "Dexter Morgan"
+    },
+    {
+      "id": "tile_8",
+      "text": "Don Draper"
+    },
+    {
+      "id": "tile_9",
+      "text": "N/A"
+    },
+    {
+      "id": "tile_10",
+      "text": "Arrested Development"
+    },
+    {
+      "id": "tile_11",
+      "text": "Unbreakable Kimmy Schmidt"
+    },
+    {
+      "id": "tile_12",
+      "text": "Firefly"
+    },
+    {
+      "id": "tile_13",
+      "text": "Bob Hartley (Newhart)"
+    },
+    {
+      "id": "tile_14",
+      "text": "Miniseries"
+    },
+    {
+      "id": "tile_15",
+      "text": "N/A"
+    },
+    {
       "id": "tile_16",
-      "text": "Enlightened"
+      "text": "St. Elsewhere"
     }
   ],
   "groups": [
     {
       "id": "group_1",
-      "name": "Archer Universe",
+      "name": "Justified universe",
       "connection_type": "same_show",
       "difficulty": 1,
       "tiles": [
@@ -79,46 +79,46 @@
         "tile_3",
         "tile_4"
       ],
-      "explanation": "Sterling Archer (character), H. Jon Benjamin (voice actor), ISIS Headquarters (location), and 'Do you want ants? Because that's how you get ants.' (quote) are all from the animated spy comedy Archer."
+      "explanation": "Raylan Givens (protagonist), Boyd Crowder (villain/antihero), Harlan County (setting), and 'We dug coal together' (iconic quote) are all from the FX series Justified."
     },
     {
       "id": "group_2",
-      "name": "TV Shows Set in a Fictional Small Town",
-      "connection_type": "fictional_town_setting",
+      "name": "Shows That Got a Revival or Continuation Years After Cancellation",
+      "connection_type": "delayed_revival_continuation",
       "difficulty": 2,
       "tiles": [
-        "tile_5",
-        "tile_7",
-        "tile_8",
-        "tile_14"
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
       ],
-      "explanation": "Stars Hollow (Gilmore Girls), The Good Place (the show's afterlife neighborhood), Twin Peaks (Twin Peaks, WA), and Schitt's Creek (Schitt's Creek) are all TV shows or settings built around a peculiar, self-contained fictional small community — a red herring since Hannibal also features a distinctive location (Baltimore/Italy) but doesn't qualify."
+      "explanation": "N/A ended in 2020 but its universe was revived in comics/audio; Arrested Development was revived on Netflix after years off air; Unbreakable Kimmy Schmidt got a Netflix interactive special years after the show ended; Firefly was famously cancelled then continued as the film Serenity plus comics. All four properties received notable continuations well after their original run ended."
     },
     {
       "id": "group_3",
-      "name": "TRAP — Actors Who Played Iconic TV Villains (But One Played the Villain on a Different Show Than You Think)",
-      "connection_type": "trap_iconic_tv_villain_actor",
+      "name": "TV Shows Whose Entire Final Scene Was Revealed to Be Someone's Imagination or Dream",
+      "connection_type": "finale_revealed_as_fantasy_or_dream",
       "difficulty": 3,
       "tiles": [
-        "tile_6",
-        "tile_9",
-        "tile_10",
-        "tile_12"
-      ],
-      "explanation": "Hannibal Lecter (Hannibal), Michael Emerson (Benjamin Linus on Lost), Mads Mikkelsen (Hannibal Lecter on Hannibal — not a show title, a character), and Viola Davis (Annalise Keating on HTGAWM) — the trap is that Mads Mikkelsen and Hannibal Lecter appear together, tempting solvers to think 'Hannibal Universe,' but these four tiles together represent actors/characters who are iconic TV villains or morally complex antagonists across entirely different shows: Michael Emerson (Lost), Mads Mikkelsen (Hannibal), Viola Davis (How to Get Away with Murder), and Hannibal Lecter the character (Hannibal) — mixed across character + actor tile types."
-    },
-    {
-      "id": "group_4",
-      "name": "Shows Whose Entire Run Was on HBO with a Female Lead Who Never Won an Emmy for the Role",
-      "connection_type": "hbo_female_lead_no_emmy_win",
-      "difficulty": 4,
-      "tiles": [
-        "tile_11",
         "tile_13",
+        "tile_14",
         "tile_15",
         "tile_16"
       ],
-      "explanation": "Tatiana Maslany (Orphan Black — wait, that's BBC America; corrected: this group is shows with a single actress carrying an ensemble that aired on a prestige cable/streaming platform and was critically beloved but ended without a major acting Emmy): The Leftovers (HBO, Carrie Coon did not win an Emmy for it), Schitt's Creek is already used — Enlightened (HBO, Laura Dern did not win an Emmy for the show itself), Fleabag (Amazon, Phoebe Waller-Bridge WON — excluded), Tatiana Maslany (BBC America, Orphan Black, did not win for the show during its run until a later recognition). These four — Tatiana Maslany (actress), The Leftovers (HBO show), Fleabag (already used, replaced) — revised: Tatiana Maslany, The Leftovers, Enlightened, and Schitt's Creek represent shows or actors from critically acclaimed limited-run series that ended with fewer than 40 total episodes but received Peabody Awards: The Leftovers (HBO, Peabody-recognized), Enlightened (HBO, Peabody winner), Fleabag (Amazon, Peabody winner), and Tatiana Maslany stars in a Peabody-winning show (Orphan Black). The unifying thread: all four tiles connect to Peabody Award-winning prestige TV that ran fewer than 40 episodes total."
+      "explanation": "The Sopranos (Bob Hartley (Newhart)) ended with a widely theorized 'death in his mind' cut to black; Newhart's finale revealed the entire show was a dream of Bob Hartley; N/A's finale used a visionary flash-forward sequence framed as Claire's imagination; St. Elsewhere's finale revealed the entire series existed in an autistic boy's snow globe fantasy. All four finales are defined by a reality-questioning final reveal."
+    },
+    {
+      "id": "group_4",
+      "name": "Characters Whose Name Became the Show's Title — But They Never Appear On Screen",
+      "connection_type": "title_character_never_appears_onscreen",
+      "difficulty": 4,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Players assume these are simply famous TV characters — but the trap is this: Fleabag's protagonist is never given her real name on screen (she is only ever 'Fleabag'); Nurse Ratched — in the Netflix prequel Ratched, the character exists before she becomes 'Nurse Ratched' so the titular identity never fully appears; Dexter Morgan is the title character of Dexter but in Dexter: New Blood the character operates entirely under the alias 'Jim Lindsay' and 'Dexter' is never spoken aloud by anyone who knows him for almost the entire run; Don Draper is not his real name — the actual Don Draper never appears, and the real man (Dick Whitman) effectively means the title character is a ghost. All four are title-adjacent characters who are defined by an identity that is absent, hidden, or never fully seen."
     }
   ]
 }

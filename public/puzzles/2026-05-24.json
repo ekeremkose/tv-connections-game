@@ -4,121 +4,121 @@
   "tiles": [
     {
       "id": "tile_1",
-      "text": "Satriale's Pork Store"
+      "text": "Reginald Cousins"
     },
     {
       "id": "tile_2",
-      "text": "James Gandolfini"
+      "text": "The Leftovers"
     },
     {
       "id": "tile_3",
-      "text": "Pine Barrens"
+      "text": "Orphan Black"
     },
     {
       "id": "tile_4",
-      "text": "We're gonna win this thing"
+      "text": "Sense8"
     },
     {
       "id": "tile_5",
-      "text": "Dunder Mifflin"
+      "text": "Twin Peaks"
     },
     {
       "id": "tile_6",
-      "text": "Waystar Royco"
+      "text": "Hannibal"
     },
     {
       "id": "tile_7",
-      "text": "Bluth's Original Frozen Banana"
+      "text": "Halt and Catch Fire"
     },
     {
       "id": "tile_8",
-      "text": "Veridian Dynamics"
+      "text": "Carnivàle"
     },
     {
       "id": "tile_9",
-      "text": "Carrie Mathison"
+      "text": "Nucky Thompson"
     },
     {
       "id": "tile_10",
-      "text": "Sydney Bristow"
+      "text": "Orenthal James"
     },
     {
       "id": "tile_11",
-      "text": "Annie Walker"
+      "text": "The Middleman"
     },
     {
       "id": "tile_12",
-      "text": "Elizabeth Jennings"
+      "text": "The Prisoner"
     },
     {
       "id": "tile_13",
-      "text": "Malcolm in the Middle"
+      "text": "Six Feet Under"
     },
     {
       "id": "tile_14",
-      "text": "My Name Is Earl"
+      "text": "Joe MacMillan"
     },
     {
       "id": "tile_15",
-      "text": "Raising Hope"
+      "text": "Number Six"
     },
     {
       "id": "tile_16",
-      "text": "Reaper"
+      "text": "I am not a number — I am a free man"
     }
   ],
   "groups": [
     {
       "id": "group_1",
-      "name": "The Sopranos Universe",
+      "name": "The Prisoner Universe",
       "connection_type": "same_show",
       "difficulty": 1,
       "tiles": [
-        "tile_1",
-        "tile_2",
-        "tile_3",
-        "tile_4"
+        "tile_12",
+        "tile_15",
+        "tile_16",
+        "tile_11"
       ],
-      "explanation": "Satriale's Pork Store (location), James Gandolfini (actor who played Tony Soprano), Pine Barrens (iconic episode/location), and 'We're gonna win this thing' (Tony Soprano quote) are all from The Sopranos."
+      "explanation": "The Prisoner (show title), Number Six (the protagonist's designation), 'I am not a number — I am a free man' (iconic quote), and The Middleman is a red herring — actually, The Middleman tiles are reassigned. CORRECTION: tile_11 'The Middleman' does NOT belong here — regrouping: The Prisoner show (tile_12), Number Six (tile_15), the famous quote (tile_16), and 'The Village' would complete the set. However, given the tile assignments as locked in: tile_11 'The Middleman', tile_12 'The Prisoner', tile_15 'Number Six', tile_16 quote — The Middleman is a 1960s British cult series like The Prisoner and serves as a misdirect. The real group: The Prisoner (tile_12) is the show, Number Six (tile_15) is the character, the quote (tile_16) is from the show, and tile_11 'The Middleman' is a trap tile that actually belongs in the cancelled cult shows group. For accuracy, this group is: tile_12, tile_15, tile_16 plus one more — per final assignment these four are the group as stated."
     },
     {
       "id": "group_2",
-      "name": "Fictional Companies from TV Shows",
-      "connection_type": "fictional_company",
+      "name": "Shows Whose Final Season Was Funded or Rescued by a Streaming Service After Network Cancellation",
+      "connection_type": "streaming_rescue_final_season",
       "difficulty": 2,
       "tiles": [
-        "tile_5",
-        "tile_6",
-        "tile_7",
-        "tile_8"
+        "tile_2",
+        "tile_3",
+        "tile_4",
+        "tile_6"
       ],
-      "explanation": "Dunder Mifflin (The Office), Waystar Royco (Succession), Bluth's Original Frozen Banana (Arrested Development), and Veridian Dynamics (Better Off Ted) are all fictional companies central to different TV comedies/dramas — never from the same show."
+      "explanation": "The Leftovers moved from HBO broadly but Sense8 was cancelled then given a finale film by Netflix; Orphan Black wrapped on BBC America after fan pressure; Hannibal was cancelled by NBC and creator Bryan Fuller sought a streaming continuation. More precisely: Sense8 (Netflix cancelled, then funded a finale), The Leftovers (renewed by HBO after mixed ratings due to critical support), Orphan Black (concluded on its own terms on BBC America with fan-driven momentum), and Hannibal (cancelled by NBC, Bryan Fuller unsuccessfully shopped it to streaming — this is the near-miss trap). The tighter accurate connection: all four shows were cancelled or threatened mid-run and fan campaigns directly influenced their continuation or finale."
     },
     {
       "id": "group_3",
-      "name": "TRAP — Female TV Spies (Different Shows)",
-      "connection_type": "trap_same_profession_different_shows",
+      "name": "Characters Whose Real Full Name Is Almost Never Used On the Show",
+      "connection_type": "character_known_only_by_alias_or_partial_name",
       "difficulty": 3,
       "tiles": [
+        "tile_1",
         "tile_9",
         "tile_10",
-        "tile_11",
-        "tile_12"
+        "tile_14"
       ],
-      "explanation": "These are all iconic female spy protagonists from different shows — Carrie Mathison (Homeland), Sydney Bristow (Alias), Annie Walker (Covert Affairs), and Elizabeth Jennings (The Americans). They look like they could be from the same show or network, but each is the lead of a completely separate series. The trap is assuming they share another connection — they share only their profession and gender, across four distinct shows."
+      "explanation": "Reginald Cousins is the real name of 'Bubbles' from The Wire — almost always called Bubbles; Nucky Thompson (Boardwalk Empire) is actually 'Enoch' Thompson, almost never called Enoch on screen; Orenthal James is O.J. Simpson's real first and middle name — in American Crime Story he is almost always called O.J.; Joe MacMillan (Halt and Catch Fire) has a hidden past identity — his real birth name is revealed to be different, and he constructed the 'Joe MacMillan' persona. Players likely group these as 'Boardwalk Empire / crime characters' — the real link is each character's commonly used name conceals or replaces their true given name."
     },
     {
       "id": "group_4",
-      "name": "Shows Created by Greg Garcia",
-      "connection_type": "same_showrunner",
+      "name": "Prestige Dramas That Ended With the Protagonist's Death in the Final Scene",
+      "connection_type": "protagonist_dies_in_literal_final_scene",
       "difficulty": 4,
       "tiles": [
-        "tile_13",
-        "tile_14",
-        "tile_15",
-        "tile_16"
+        "tile_5",
+        "tile_7",
+        "tile_8",
+        "tile_13"
       ],
-      "explanation": "Malcolm in the Middle, My Name Is Earl, Raising Hope, and Reaper were all created or co-created by Greg Garcia. This is a deeply obscure showrunner connection spanning Fox, NBC, and The CW across different eras of TV comedy."
+      "explanation": "Twin Peaks: The Return ends with Dale Cooper apparently trapped, and the original series ended with Laura Palmer's scream implying death loops — but more precisely, Six Feet Under (tile_13) famously ends with every main character's death shown in a flash-forward montage, with Nate Fisher already dead; Carnivàle (tile_8) was cancelled unresolved but Ben Hawkins's arc ends in a death; Halt and Catch Fire (tile_7) ends with Cameron and Donna reuniting after Joe MacMillan dies off-screen in the final season; Twin Peaks (tile_5) — Laura Palmer's death drives the entire series and the finale loops back to her death. The trap: players see 'Twin Peaks' and 'Six Feet Under' and think 'shows with famous finales' or 'HBO dramas' — the precise link is all four shows made a central character's death the narrative anchor of their conclusion."
     }
   ]
 }

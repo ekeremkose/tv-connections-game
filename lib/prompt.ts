@@ -147,5 +147,6 @@ REQUIREMENTS:
 4. One group per difficulty level: 1, 2, 3, 4
 5. Mix tile types within each group (character, actor, location, quote, show title, alias, etc.)
 6. Engineer red herrings — tiles should appear to belong to multiple groups
-7. Include exactly one "trap" group: tiles that look like they belong to an obvious category but share a different, surprising connection. The group name states the real connection. Never put "trap" or "but" in the group name.`
+7. Include exactly one "trap" group: tiles that look like they belong to an obvious category but share a different, surprising connection. The group name states the real connection. Never put "trap" or "but" in the group name.
+8. CRITICAL: same_show may be used AT MOST ONCE across all 4 groups. The other 3 groups must use entirely different connection types. Do not default to same_show — it is the lazy choice. Force yourself to find more creative connections.`
 }

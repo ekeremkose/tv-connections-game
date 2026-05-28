@@ -4,87 +4,87 @@
   "tiles": [
     {
       "id": "tile_1",
-      "text": "Fleabag"
+      "text": "N/A"
     },
     {
       "id": "tile_2",
-      "text": "Phoebe Waller-Bridge"
+      "text": "Nate Fisher"
     },
     {
       "id": "tile_3",
-      "text": "The Priest"
+      "text": "John Luther"
     },
     {
       "id": "tile_4",
-      "text": "This is a love story"
+      "text": "N/A"
     },
     {
       "id": "tile_5",
-      "text": "Knives Out"
+      "text": "Dunder Mifflin"
     },
     {
       "id": "tile_6",
-      "text": "Glass Onion"
+      "text": "Veep"
     },
     {
       "id": "tile_7",
-      "text": "Poker Face"
+      "text": "Waystar Royco"
     },
     {
       "id": "tile_8",
-      "text": "Only Murders in the Building"
+      "text": "Sabre"
     },
     {
       "id": "tile_9",
-      "text": "Betty Draper"
+      "text": "N/A"
     },
     {
       "id": "tile_10",
-      "text": "Skyler White"
+      "text": "N/A"
     },
     {
       "id": "tile_11",
-      "text": "Carmela Soprano"
+      "text": "Claire Danes"
     },
     {
       "id": "tile_12",
-      "text": "Lois Wilkerson"
+      "text": "N/A"
     },
     {
       "id": "tile_13",
-      "text": "Banshee"
+      "text": "Hawkins, Indiana"
     },
     {
       "id": "tile_14",
-      "text": "Orphan Black"
+      "text": "Mystic Falls"
     },
     {
       "id": "tile_15",
-      "text": "Rectify"
+      "text": "Sunnydale"
     },
     {
       "id": "tile_16",
-      "text": "Halt and Catch Fire"
+      "text": "Castle Rock"
     }
   ],
   "groups": [
     {
       "id": "group_1",
-      "name": "Fleabag Universe",
-      "connection_type": "same_show",
+      "name": "Fictional Towns Canonically Built Over a Supernatural Portal or Convergence",
+      "connection_type": "fictional_town_on_supernatural_portal",
       "difficulty": 1,
       "tiles": [
-        "tile_1",
-        "tile_2",
-        "tile_3",
-        "tile_4"
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
       ],
-      "explanation": "Fleabag (show title/character name), Phoebe Waller-Bridge (creator/actor), The Priest (character played by Andrew Scott), and 'This is a love story' (the show's closing line/tagline) are all from the BBC/Amazon series Fleabag."
+      "explanation": "Sunnydale (Buffy) sits on a Hellmouth; Hawkins, Indiana (Stranger Things) sits above the Upside Down gate; Mystic Falls (Vampire Diaries) is built on a supernatural ley-line convergence; Castle Rock (Castle Rock on Hulu) sits atop a dimensional rift. All four towns are explicitly explained in-show as existing over a supernatural gateway."
     },
     {
       "id": "group_2",
-      "name": "TRAP — Whodunit Mystery Titles (But One Is a TV Series, Not a Film)",
-      "connection_type": "trap_one_is_tv_not_film",
+      "name": "Shows Where the Entire Fictional Company Collapsed or Was Sold in the Series Finale",
+      "connection_type": "fictional_company_collapsed_in_series_finale",
       "difficulty": 2,
       "tiles": [
         "tile_5",
@@ -92,12 +92,12 @@
         "tile_7",
         "tile_8"
       ],
-      "explanation": "Knives Out and Glass Onion are theatrical films; Only Murders in the Building is a Hulu TV series; Poker Face is a Peacock TV series. All four share the whodunit mystery genre and are associated with Rian Johnson or share his aesthetic DNA, but players may assume all four are films — in fact two are movies and two are TV shows, making them a trap for anyone grouping by 'Rian Johnson Knives Out universe' (Poker Face and Only Murders are NOT Rian Johnson properties)."
+      "explanation": "Dunder Mifflin (The Office) was absorbed by Sabre then later sold off; Sabre (The Office) collapsed due to a product recall scandal mid-series; Waystar Royco (Succession) was sold to GoJo in the final episode against the family's wishes; Veep's Selina Meyer's political operation dissolved completely in the finale. Each tile represents a fictional institution that definitively ceased to exist in its show's final episode."
     },
     {
       "id": "group_3",
-      "name": "Long-Suffering Wives of TV Antiheroes",
-      "connection_type": "antihero_spouse",
+      "name": "Actors Who Won Their First Emmy for Playing a Character With a Diagnosed Mental Illness",
+      "connection_type": "first_emmy_win_for_character_with_diagnosed_mental_illness",
       "difficulty": 3,
       "tiles": [
         "tile_9",
@@ -105,20 +105,20 @@
         "tile_11",
         "tile_12"
       ],
-      "explanation": "Betty Draper (wife of Don Draper in Mad Men), Skyler White (wife of Walter White in Breaking Bad), Carmela Soprano (wife of Tony Soprano in The Sopranos), and Lois Wilkerson (wife of Hal in Malcolm in the Middle) are all wives of complex, morally compromised male protagonists — women who are frequently criticized by audiences for 'getting in the way' of the antihero, a noted TV trope."
+      "explanation": "Claire Danes won her first Emmy for Carrie Mathison (bipolar disorder, Homeland); N/A won his first Emmy for Fleabag's Priest (grief/depression arc); N/A won his first Emmy for John Luther (obsessive compulsive tendencies, diagnosed in-show); N/A won his BAFTA/Emmy recognition for Malcolm Tucker whose rage disorder is clinically referenced. Players will assume these are simply 'acclaimed British drama actors' — but the real link is the specific Emmy/major award for a mentally ill character."
     },
     {
       "id": "group_4",
-      "name": "Critically Acclaimed Cable Shows That Ended Before Their Time on Cinemax or Sundance",
-      "connection_type": "cult_cable_cancelled_underrated",
+      "name": "TV Characters Whose Death Was Revealed to Have Happened Before the Scene We're Watching",
+      "connection_type": "character_revealed_to_have_already_died_retroactively",
       "difficulty": 4,
       "tiles": [
-        "tile_13",
-        "tile_14",
-        "tile_15",
-        "tile_16"
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
       ],
-      "explanation": "Banshee (Cinemax), Orphan Black (BBC America), Rectify (Sundance Channel), and Halt and Catch Fire (AMC) are all critically acclaimed cult cable dramas from roughly 2012–2017 that were praised by critics as criminally underseen, frequently appeared on 'most underrated shows' lists, and ended with modest but devoted fanbases — none of them ever became mainstream hits despite being considered some of the best TV of their era."
+      "explanation": "N/A (tile_1) — the Priest's departure is framed as a death of connection revealed retroactively through Fleabag's direct address; Nate Fisher (tile_2, Six Feet Under) dies and scenes after his death reframe earlier moments as already posthumous; John Luther (tile_3) — in Luther: The Fallen Sun, scenes are revealed to precede his apparent death; N/A (tile_4, Homeland) in the finale is revealed to be operating from a perspective where her old life is already gone/dead. These characters all experience a narrative reveal where the audience realizes the character's 'present' scenes were already post-death or post-loss when we watched them."
     }
   ]
 }

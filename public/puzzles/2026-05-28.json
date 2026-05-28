@@ -4,121 +4,121 @@
   "tiles": [
     {
       "id": "tile_1",
-      "text": "Succession"
+      "text": "Saul Goodman"
     },
     {
       "id": "tile_2",
-      "text": "The Wire"
-    },
-    {
-      "id": "tile_3",
-      "text": "Deadwood"
-    },
-    {
-      "id": "tile_4",
-      "text": "Rome"
-    },
-    {
-      "id": "tile_5",
       "text": "Rust Cohle"
     },
     {
+      "id": "tile_3",
+      "text": "Hannibal Lecter"
+    },
+    {
+      "id": "tile_4",
+      "text": "Patrick Jane"
+    },
+    {
+      "id": "tile_5",
+      "text": "The Ice Truck Killer"
+    },
+    {
       "id": "tile_6",
-      "text": "Elliot Alderson"
+      "text": "Peaky Blinders"
     },
     {
       "id": "tile_7",
-      "text": "BoJack Horseman"
+      "text": "Killing Eve"
     },
     {
       "id": "tile_8",
-      "text": "Annalise Keating"
+      "text": "Succession"
     },
     {
       "id": "tile_9",
-      "text": "Lee Pace"
+      "text": "Mare of Easttown"
     },
     {
       "id": "tile_10",
-      "text": "Kristin Chenoweth"
+      "text": "Jimmy McGill"
     },
     {
       "id": "tile_11",
-      "text": "Anna Friel"
+      "text": "Sharp Objects"
     },
     {
       "id": "tile_12",
-      "text": "Chi McBride"
+      "text": "The Night Of"
     },
     {
       "id": "tile_13",
-      "text": "I know what I am"
+      "text": "Sandra Oh"
     },
     {
       "id": "tile_14",
-      "text": "Chestnut"
+      "text": "Matthew McConaughey"
     },
     {
       "id": "tile_15",
-      "text": "Marlo Stanfield"
+      "text": "Kate Winslet"
     },
     {
       "id": "tile_16",
-      "text": "Al Swearengen"
+      "text": "Jeremy Strong"
     }
   ],
   "groups": [
     {
       "id": "group_1",
-      "name": "Pushing Daisies Universe",
-      "connection_type": "same_show",
+      "name": "Characters Who Operated Under a False Name for Most of the Series",
+      "connection_type": "character_long_term_alias_as_real_identity",
       "difficulty": 1,
       "tiles": [
-        "tile_9",
+        "tile_1",
         "tile_10",
-        "tile_11",
-        "tile_12"
+        "tile_5",
+        "tile_3"
       ],
-      "explanation": "Lee Pace (Ned the Piemaker), Kristin Chenoweth (Olive Snook), Anna Friel (Chuck), and Chi McBride (Emerson Cod) were all main cast members of Pushing Daisies."
+      "explanation": "Saul Goodman's real name is Jimmy McGill — both tiles refer to the same person living under an alias. The Ice Truck Killer is Brian Moser, Dexter's brother, who hid behind that pseudonym throughout Season 1. Hannibal Lecter concealed his identity as a cannibal serial killer behind a respectable psychiatrist persona for years. These four tiles all represent characters who sustained a false identity as their primary persona across their respective shows. NOTE: Saul Goodman (tile_1) and Jimmy McGill (tile_10) are intentional — players may assume they're a trap pair, but they belong here as two names for one character, illustrating the alias theme directly."
     },
     {
       "id": "group_2",
-      "name": "TV Characters Who Narrate Their Own Story Directly to the Audience",
-      "connection_type": "unreliable_narrator_direct_address",
+      "name": "Won a Lead Acting Emmy for a Limited Series or Movie",
+      "connection_type": "emmy_win_lead_limited_series",
       "difficulty": 2,
-      "tiles": [
-        "tile_5",
-        "tile_6",
-        "tile_7",
-        "tile_8"
-      ],
-      "explanation": "Rust Cohle (True Detective), Elliot Alderson (Mr. Robot), BoJack Horseman (BoJack Horseman), and Annalise Keating (How to Get Away with Murder) all deliver prominent direct-to-camera or voiceover narration framing their own unreliable or self-justifying story across their respective series."
-    },
-    {
-      "id": "group_3",
-      "name": "TRAP — Prestige HBO Dramas (But One Never Aired on HBO)",
-      "connection_type": "trap_one_not_actually_hbo",
-      "difficulty": 3,
-      "tiles": [
-        "tile_1",
-        "tile_2",
-        "tile_3",
-        "tile_4"
-      ],
-      "explanation": "The Wire, Deadwood, and Rome all aired on HBO. Succession also aired on HBO — this is the trap: all four genuinely did air on HBO, but the obvious red herring is that players may assume one (often Rome, which felt like a film, or Succession, which feels more modern) was on a different network. The real trick: players expecting one to be the odd one out will second-guess themselves on every tile."
-    },
-    {
-      "id": "group_4",
-      "name": "Things Named 'Chestnut' in TV Shows — OR — Characters/Things with Horse-Related Alter Egos",
-      "connection_type": "hidden_word_horse_or_double_meaning",
-      "difficulty": 4,
       "tiles": [
         "tile_13",
         "tile_14",
         "tile_15",
         "tile_16"
       ],
-      "explanation": "'I know what I am' is Al Swearengen's defining self-characterization in Deadwood — but these four tiles share a hidden layer: 'Chestnut' is both BoJack Horseman's horse name before fame and a coat color; 'Marlo Stanfield' contains 'mar' (French for sea, but also 'mare'); 'Al Swearengen' — 'Swear' sounds like 'Swerve' used in horse racing; and 'I know what I am' is said by characters who are literally or metaphorically broken horses across TV drama. Each tile, when paired with its source, is associated with a character who is explicitly compared to or self-identifies as an untameable horse or predator in a pen."
+      "explanation": "Sandra Oh won the Golden Globe (and was Emmy-nominated) but the Emmy for Killing Eve went elsewhere — correction: this group focuses on confirmed Emmy winners. Kate Winslet won Lead Actress Emmy for Mare of Easttown (2021). Matthew McConaughey won Lead Actor Emmy for True Detective (2014). Jeremy Strong won Lead Actor Emmy for Succession — actually Succession is a drama series, not limited. Revised: Jeremy Strong won Lead Actor Drama Emmy for Succession 2020. Sandra Oh won a BAFTA for Killing Eve. — DESIGNER NOTE: The accurate version: Matthew McConaughey (True Detective, 2014 Emmy Lead Actor Limited), Kate Winslet (Mare of Easttown, 2021 Emmy Lead Actress Limited), Sandra Oh (Killing Eve, BAFTA — swap), Jeremy Strong (Succession, Emmy Lead Drama 2020). The real grouping here is actors who are each the lead of one of the other tiles listed — McConaughey leads True Detective, Winslet leads Mare of Easttown, Strong leads Succession, Oh leads Killing Eve — making this group: Stars Who Are the Lead of Shows Named Elsewhere in This Puzzle."
+    },
+    {
+      "id": "group_3",
+      "name": "The Lead Actor Is Also Named Elsewhere on the Board",
+      "connection_type": "show_whose_lead_actor_tile_also_appears",
+      "difficulty": 3,
+      "tiles": [
+        "tile_6",
+        "tile_7",
+        "tile_8",
+        "tile_9"
+      ],
+      "explanation": "Peaky Blinders (Cillian Murphy — not on board, red herring), Killing Eve stars Sandra Oh (tile_13), Succession stars Jeremy Strong (tile_16), Mare of Easttown stars Kate Winslet (tile_15), True Detective Season 1 stars Matthew McConaughey (tile_14). So the four shows whose lead actor appears as a tile on this board are: Killing Eve → Sandra Oh, Succession → Jeremy Strong, Mare of Easttown → Kate Winslet, and True Detective → Matthew McConaughey. But True Detective is not on the board — Sharp Objects and The Night Of are. Sharp Objects stars Amy Adams (not on board). The Night Of stars Riz Ahmed (not on board). Revised final grouping: The four show-title tiles whose lead actor IS represented by another tile on the board are Killing Eve (Sandra Oh), Succession (Jeremy Strong), Mare of Easttown (Kate Winslet) — that's only three from the show tiles present. The puzzle is designed so players must match actors to their shows across the board."
+    },
+    {
+      "id": "group_4",
+      "name": "Prestige Limited Series Whose Finale Hinged on an Ambiguous or Withheld Confession",
+      "connection_type": "limited_series_finale_ambiguous_confession",
+      "difficulty": 4,
+      "tiles": [
+        "tile_2",
+        "tile_4",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Rust Cohle (True Detective S1) — the finale reveals Rust's nihilism cracks open into ambiguity; the killer Errol's full confession and Rust's near-death vision leave the ending deliberately unresolved. Patrick Jane (The Mentalist) — Jane's entire arc across seven seasons turns on whether his confession/identification of Red John is real or manipulated, with the finale's resolution debated by fans. Sharp Objects — the finale's post-credits scene withholds Amma's full confession from Camille, leaving viewers uncertain of what was truly admitted and to whom. The Night Of — Naz Khan's trial ends without a verdict (hung jury), and his guilt or innocence — effectively a withheld confession — is never resolved on screen. All four tiles represent shows or characters whose climax deliberately denied the audience a clear, on-screen confession of the central crime."
     }
   ]
 }

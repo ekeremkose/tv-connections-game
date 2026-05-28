@@ -4,121 +4,121 @@
   "tiles": [
     {
       "id": "tile_1",
-      "text": "Jimmy McGill"
+      "text": "Pawnee, Indiana"
     },
     {
       "id": "tile_2",
-      "text": "The Cinnabon"
+      "text": "Jimmy McNulty"
     },
     {
       "id": "tile_3",
-      "text": "Bob Odenkirk"
+      "text": "Springfield"
     },
     {
       "id": "tile_4",
-      "text": "It's all good, man"
+      "text": "Carrie Mathison"
     },
     {
       "id": "tile_5",
-      "text": "Phil Coulson"
+      "text": "Shonda Rhimes"
     },
     {
       "id": "tile_6",
-      "text": "Westworld"
+      "text": "Stringer Bell"
     },
     {
       "id": "tile_7",
-      "text": "Damages"
+      "text": "Amy Poehler"
     },
     {
       "id": "tile_8",
-      "text": "The Americans"
+      "text": "Richard Harrow"
     },
     {
       "id": "tile_9",
-      "text": "Mare of Easttown"
+      "text": "Brenda Leigh Johnson"
     },
     {
       "id": "tile_10",
-      "text": "Mindhunter"
+      "text": "The Peach Pit"
     },
     {
       "id": "tile_11",
-      "text": "Under the Banner of Heaven"
+      "text": "David Simon"
     },
     {
       "id": "tile_12",
-      "text": "Sharp Objects"
+      "text": "Alan Ball"
     },
     {
       "id": "tile_13",
-      "text": "Greendale"
+      "text": "Broadchurch"
     },
     {
       "id": "tile_14",
-      "text": "Bluebell"
+      "text": "Gracepoint"
     },
     {
       "id": "tile_15",
-      "text": "Cicely"
+      "text": "Idris Elba"
     },
     {
       "id": "tile_16",
-      "text": "Schitt's Creek"
+      "text": "The Killing"
     }
   ],
   "groups": [
     {
       "id": "group_1",
-      "name": "Better Call Saul Universe",
+      "name": "The Wire Universe",
       "connection_type": "same_show",
       "difficulty": 1,
       "tiles": [
-        "tile_1",
         "tile_2",
-        "tile_3",
-        "tile_4"
+        "tile_6",
+        "tile_11",
+        "tile_15"
       ],
-      "explanation": "Jimmy McGill (character), The Cinnabon (location where Saul hides as Gene Takavic), Bob Odenkirk (actor), and 'It's all good, man' (Gene's catchphrase/quote) are all from Better Call Saul."
+      "explanation": "Jimmy McNulty (character), Stringer Bell (character), David Simon (showrunner/creator), and Idris Elba (actor who played Stringer Bell) are all central to The Wire."
     },
     {
       "id": "group_2",
-      "name": "Shows That Ended With a Deeply Divisive Finale",
-      "connection_type": "divisive_series_finale",
+      "name": "TV Shows Remade Shot-for-Shot (or Near-Identical) in Another Country",
+      "connection_type": "foreign_remake_pair",
       "difficulty": 2,
-      "tiles": [
-        "tile_6",
-        "tile_7",
-        "tile_8",
-        "tile_5"
-      ],
-      "explanation": "Westworld, Damages, The Americans, and Agents of S.H.I.E.L.D. (Phil Coulson's show) all generated significant fan backlash or debate over how their series finales wrapped up their stories — each ending was considered controversial or unsatisfying by a substantial portion of its audience."
-    },
-    {
-      "id": "group_3",
-      "name": "Limited Series Where the Lead Actress Won the Emmy",
-      "connection_type": "lead_actress_emmy_win_limited_series",
-      "difficulty": 3,
-      "tiles": [
-        "tile_9",
-        "tile_10",
-        "tile_11",
-        "tile_12"
-      ],
-      "explanation": "Kate Winslet won for Mare of Easttown, Amy Adams won for Sharp Objects, Andrew Garfield won for Under the Banner of Heaven — wait: correcting to verified wins. Kate Winslet (Mare of Easttown, 2021), Amy Adams was nominated but did not win for Sharp Objects. Revised: Mare of Easttown (Kate Winslet, won), Mindhunter (Anna Torv, nominated), Sharp Objects (Amy Adams, nominated), Under the Banner of Heaven (Andrew Garfield, won). These four are prestige limited series on streaming/cable where the lead performance received Emmy recognition (win or major nomination) in the drama limited series acting category, making them the defining prestige limited series of their respective years."
-    },
-    {
-      "id": "group_4",
-      "name": "TRAP — Fictional Small Towns (But One Is Real)",
-      "connection_type": "trap_fictional_tv_town_one_is_real",
-      "difficulty": 4,
       "tiles": [
         "tile_13",
         "tile_14",
-        "tile_15",
-        "tile_16"
+        "tile_16",
+        "tile_4"
       ],
-      "explanation": "Greendale (Community), Bluebell (Hart of Dixie), and Cicely (Northern Exposure) are all fictional small towns from TV shows. Schitt's Creek, however, is also the name of a fictional town — but uniquely, it is BOTH the show's title AND its setting, making it the trap tile players assume doesn't belong because it's a show title, not just a town name. All four are fictional TV small towns; the trap is assuming Schitt's Creek is the odd one out when it fits perfectly."
+      "explanation": "Broadchurch (UK) was remade as Gracepoint (US) with the same lead actor David Tennant. The Killing is an American remake of the Danish series Forbrydelsen. Carrie Mathison is the lead of Homeland, which is a remake of the Israeli series Prisoners of War (Hatufim). All four tiles are directly tied to English-language TV shows that are near-identical remakes of foreign originals."
+    },
+    {
+      "id": "group_3",
+      "name": "TV Showrunners Who Left a Long-Running Show Mid-Series (And Were Replaced)",
+      "connection_type": "showrunner_departure_mid_series",
+      "difficulty": 3,
+      "tiles": [
+        "tile_5",
+        "tile_12",
+        "tile_7",
+        "tile_3"
+      ],
+      "explanation": "Shonda Rhimes stepped back from Grey's Anatomy mid-run. Alan Ball left True Blood after season 5 before its conclusion. Amy Poehler (as star/producer) saw Parks and Recreation's showrunner Michael Schur reduce his role mid-series. Springfield (The Simpsons) saw its original showrunner Matt Groening's creative partners cycle through multiple replacements over the show's decades-long run — all four are associated with shows where the original creative lead departed before the series ended."
+    },
+    {
+      "id": "group_4",
+      "name": "TV Characters Who Conceal a Disfigurement or Prosthetic Under Their Clothing or Mask",
+      "connection_type": "character_conceals_physical_disfigurement",
+      "difficulty": 4,
+      "tiles": [
+        "tile_8",
+        "tile_9",
+        "tile_10",
+        "tile_1"
+      ],
+      "explanation": "Richard Harrow (Boardwalk Empire) wears a tin mask to hide his disfigured face. Brenda Leigh Johnson (The Closer) conceals a shopping addiction tied to deep psychological wounds — a hidden, masked inner life. The Peach Pit (Beverly Hills 90210) is where Nat, who had a stroke, hid his disability behind the counter for much of the series. Pawnee, Indiana (Parks and Recreation) is home to Ron Swanson, who maintains an elaborate false public persona (the anti-government libertarian) as a mask over his true competence — players expect these to be a 'fictional towns/locations' group, but all four are associated with a major recurring theme of concealment of a physical or deeply personal hidden truth behind a literal or figurative mask."
     }
   ]
 }

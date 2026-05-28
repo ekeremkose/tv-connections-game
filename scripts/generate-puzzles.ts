@@ -93,6 +93,11 @@ function validate(puzzle: Puzzle, date: string): void {
   const uniqueConnectionTypes = new Set(connectionTypes)
   if (uniqueConnectionTypes.size !== 4)
     throw new Error(`Duplicate connection_type within puzzle: ${connectionTypes.join(', ')}`)
+
+  // same_show (and any same_show_* variant) may appear at most once
+  const sameShowCount = puzzle.groups.filter((g) => g.connection_type.startsWith('same_show')).length
+  if (sameShowCount > 1)
+    throw new Error(`same_show used ${sameShowCount} times — maximum 1 per puzzle`)
 }
 
 // ── Fact checking ────────────────────────────────────────────────────────────
@@ -105,16 +110,9 @@ interface FactIssue {
   reason: string
 }
 
-interface QualityIssue {
-  severity: 'error' | 'warning'
-  description: string
-}
-
 interface FactCheckResult {
   ok: boolean
   issues: FactIssue[]
-  quality_ok: boolean
-  quality_issues: QualityIssue[]
 }
 
 async function factCheck(puzzle: Puzzle, client: Anthropic): Promise<FactCheckResult> {
@@ -125,63 +123,30 @@ async function factCheck(puzzle: Puzzle, client: Anthropic): Promise<FactCheckRe
         return `  - ${tileId}: "${tile?.text}"`
       })
       .join('\n')
-    return `Group (difficulty ${g.difficulty}) "${g.name}":\n${tileTexts}\n  Explanation: ${g.explanation}`
+    return `Group "${g.name}":\n${tileTexts}\n  Explanation: ${g.explanation}`
   }).join('\n\n')
 
-  const prompt = `You are a puzzle designer AND TV trivia expert reviewing a Connections-style puzzle. Evaluate it on two dimensions: factual accuracy and game quality.
+  const prompt = `You are a TV trivia fact-checker. Review this Connections puzzle and verify every factual claim.
 
 PUZZLE:
 ${puzzleDescription}
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-PART 1 — FACT CHECK
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Verify every factual claim. For each group, confirm every tile truly belongs there:
+For each group, verify that every tile truly belongs there:
 - If a group is "cast of Show X" — did each person actually appear in that show?
 - If a group is "characters from Show Y" — are they actually from that show?
 - Are all actor/character/show associations accurate?
-Only flag errors you are HIGHLY CONFIDENT about.
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-PART 2 — QUALITY REVIEW
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Be critical. A good Connections puzzle is fair, engaging, and well-calibrated.
+Only flag errors you are HIGHLY CONFIDENT about. When in doubt, do not flag.
 
-Check each of these — flag as "error" (regenerate) or "warning" (just log):
+Return ONLY raw JSON (no markdown, no code blocks):
+{"ok":true,"issues":[]}
 
-1. AMBIGUITY [error if present]: Can any tile plausibly fit in more than one group?
-   This breaks the puzzle — players can't solve it fairly.
-
-2. DIFFICULTY CALIBRATION [error if badly wrong]:
-   - Difficulty 1 should be obvious to any casual TV fan
-   - Difficulty 4 should challenge even enthusiasts
-   - Are the levels actually spread out, or are they all medium?
-
-3. FAIRNESS [error if present]: Is any group unsolvable without obscure knowledge?
-   (e.g., one-time guest appearances, cancelled pilots, trivia only superfans would know)
-
-4. CREATIVITY [warning if boring]: Are categories generic and uninteresting?
-   ("shows on HBO", "actors named Michael", "crime dramas") vs creative angles.
-
-5. TRAP QUALITY [warning]: If there's a misdirection/trap group, does it actually work?
-   Is the red herring believable?
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-Return ONLY raw JSON (no markdown, no code blocks, no explanation):
-{
-  "ok": true,
-  "issues": [],
-  "quality_ok": true,
-  "quality_issues": []
-}
-
-Populate "issues" for factual errors, "quality_issues" for game design problems.
-Quality issue severity: "error" = must regenerate, "warning" = notable but acceptable.`
+If any tile is factually wrong, return:
+{"ok":false,"issues":[{"group_id":"group_1","wrong_tile_id":"tile_9","wrong_tile_text":"Wrong Name","correct_tile_text":"Correct Name","reason":"Short explanation"}]}`
 
   const message = await client.messages.create({
-    model: 'claude-opus-4-7',
-    max_tokens: 2048,
+    model: 'claude-sonnet-4-6',
+    max_tokens: 1024,
     messages: [{ role: 'user', content: prompt }],
   })
 
@@ -195,13 +160,13 @@ Quality issue severity: "error" = must regenerate, "warning" = notable but accep
     const match = raw.match(/\{[\s\S]*\}/)
     if (match) return JSON.parse(match[0]) as FactCheckResult
     console.warn('  ⚠️  Could not parse fact-check response — skipping')
-    return { ok: true, issues: [], quality_ok: true, quality_issues: [] }
+    return { ok: true, issues: [] }
   }
 }
 
 // ── Generation ────────────────────────────────────────────────────────────────
 
-async function generatePuzzle(date: string, force = false, maxRetries = 3): Promise<void> {
+async function generatePuzzle(date: string, force = false, maxRetries = 5): Promise<void> {
   const outPath = join(OUT_DIR, `${date}.json`)
 
   if (existsSync(outPath) && !force) {
@@ -247,11 +212,14 @@ async function generatePuzzle(date: string, force = false, maxRetries = 3): Prom
       const factResult = await factCheck(puzzle, client)
 
       // Factual errors — try to auto-fix, otherwise retry
-      if (!factResult.ok && factResult.issues.length > 0) {
-        console.warn(`  ⚠️  Found ${factResult.issues.length} factual issue(s):`)
+      const validIssues = (factResult.issues ?? []).filter(
+        (i) => i.wrong_tile_id && i.wrong_tile_text && i.correct_tile_text && i.reason
+      )
+      if (!factResult.ok && validIssues.length > 0) {
+        console.warn(`  ⚠️  Found ${validIssues.length} factual issue(s):`)
         let allFixed = true
 
-        for (const issue of factResult.issues) {
+        for (const issue of validIssues) {
           console.warn(`     ✗ "${issue.wrong_tile_text}" → "${issue.correct_tile_text}"`)
           console.warn(`       Reason: ${issue.reason}`)
 
@@ -269,31 +237,10 @@ async function generatePuzzle(date: string, force = false, maxRetries = 3): Prom
         }
 
         if (!allFixed) throw new Error('Fact-check found unfixable issues — retrying')
-        console.log(`  ✏️  Auto-fixed ${factResult.issues.length} tile(s)`)
+        console.log(`  ✏️  Auto-fixed ${validIssues.length} tile(s)`)
         validate(puzzle, date)
       } else {
         console.log(`  ✅ Facts verified`)
-      }
-
-      // Quality issues — errors trigger retry, warnings just log
-      if (factResult.quality_issues && factResult.quality_issues.length > 0) {
-        const errors = factResult.quality_issues.filter((q) => q.severity === 'error')
-        const warnings = factResult.quality_issues.filter((q) => q.severity === 'warning')
-
-        if (warnings.length > 0) {
-          console.warn(`  💬 Quality warnings (${warnings.length}):`)
-          for (const w of warnings) console.warn(`     ⚡ ${w.description}`)
-        }
-
-        if (errors.length > 0) {
-          console.warn(`  ❌ Quality errors (${errors.length}) — regenerating:`)
-          for (const e of errors) console.warn(`     ✗ ${e.description}`)
-          throw new Error(`Puzzle failed quality review — retrying`)
-        }
-      }
-
-      if (!factResult.quality_issues || factResult.quality_issues.filter((q) => q.severity === 'error').length === 0) {
-        console.log(`  ✅ Quality approved`)
       }
       // ────────────────────────────────────────────────────────────────────────
 

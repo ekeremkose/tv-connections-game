@@ -4,73 +4,73 @@
   "tiles": [
     {
       "id": "tile_1",
-      "text": "Pawnee, Indiana"
-    },
-    {
-      "id": "tile_2",
-      "text": "Leslie Knope"
-    },
-    {
-      "id": "tile_3",
-      "text": "Amy Poehler"
-    },
-    {
-      "id": "tile_4",
-      "text": "Treat yo self"
-    },
-    {
-      "id": "tile_5",
-      "text": "Nurse Jackie"
-    },
-    {
-      "id": "tile_6",
-      "text": "Don Draper"
-    },
-    {
-      "id": "tile_7",
       "text": "Vic Mackey"
     },
     {
+      "id": "tile_2",
+      "text": "Farmington"
+    },
+    {
+      "id": "tile_3",
+      "text": "Michael Chiklis"
+    },
+    {
+      "id": "tile_4",
+      "text": "The barn"
+    },
+    {
+      "id": "tile_5",
+      "text": "Joan Holloway"
+    },
+    {
+      "id": "tile_6",
+      "text": "Omar Little"
+    },
+    {
+      "id": "tile_7",
+      "text": "Nate Archibald"
+    },
+    {
       "id": "tile_8",
-      "text": "Nancy Botwin"
+      "text": "Temperance Brennan"
     },
     {
       "id": "tile_9",
-      "text": "Rutherford Falls"
+      "text": "N/A"
     },
     {
       "id": "tile_10",
-      "text": "Brockmire"
+      "text": "Edie Britt"
     },
     {
       "id": "tile_11",
-      "text": "Patriot"
+      "text": "Rita Bennett"
     },
     {
       "id": "tile_12",
-      "text": "Terriers"
+      "text": "George O'Malley"
     },
     {
       "id": "tile_13",
-      "text": "Pushing Daisies"
+      "text": "Baltimore"
     },
     {
       "id": "tile_14",
-      "text": "Wonderfalls"
+      "text": "Stars Hollow"
     },
     {
       "id": "tile_15",
-      "text": "Dead Like Me"
+      "text": "Neptune"
     },
     {
       "id": "tile_16",
-      "text": "Tru Calling"
+      "text": "Scranton"
     }
   ],
   "groups": [
     {
       "id": "group_1",
-      "name": "Parks and Recreation Universe",
+      "name": "The Shield universe",
       "connection_type": "same_show",
       "difficulty": 1,
       "tiles": [
@@ -79,12 +79,12 @@
         "tile_3",
         "tile_4"
       ],
-      "explanation": "Pawnee, Indiana (location), Leslie Knope (character), Amy Poehler (actor), and 'Treat yo self' (quote/catchphrase) are all from Parks and Recreation."
+      "explanation": "Vic Mackey (character), Farmington (the fictional LAPD district where the show is set), Michael Chiklis (actor who played Vic), and 'the barn' (nickname for the Strike Team's headquarters) are all from The Shield."
     },
     {
       "id": "group_2",
-      "name": "TRAP — TV Antiheroes Who Are Secretly Addicts or Criminals (But Only One Is a Woman)",
-      "connection_type": "trap_only_one_female_antihero",
+      "name": "TV Characters Whose First Name Is Also a U.S. City",
+      "connection_type": "character_first_name_is_a_us_city",
       "difficulty": 2,
       "tiles": [
         "tile_5",
@@ -92,12 +92,12 @@
         "tile_7",
         "tile_8"
       ],
-      "explanation": "Nurse Jackie (Jackie Peyton — drug addict nurse), Don Draper (Mad Men — identity fraud, alcoholic), Vic Mackey (The Shield — corrupt cop), and Nancy Botwin (Weeds — drug dealer) all seem to be 'morally compromised TV protagonists' but the trap is that only Nancy Botwin and Nurse Jackie are women — players may try to group them as female antiheroes, missing that all four belong together as cable-era antiheroes whose defining flaw is a secret criminal or addictive life hidden in plain sight."
+      "explanation": "Joan (Holloway, Mad Men) — Joan is a city in several states; Omar (Little, The Wire) — Omar is a city in Nebraska and West Virginia; Nate (Archibald, Gossip Girl) — Nate is a city in Texas; Temperance (Brennan, Bones) — Temperance is a city in Michigan. Each character's first name is also the name of a real U.S. city."
     },
     {
       "id": "group_3",
-      "name": "Critically Beloved Shows Cancelled After One or Two Seasons on Basic Cable or IFC/Audience",
-      "connection_type": "cancelled_cult_gem_basic_cable",
+      "name": "TV Characters Who Were Killed Off Because the Actor Chose to Leave the Show",
+      "connection_type": "character_killed_due_to_actor_departure",
       "difficulty": 3,
       "tiles": [
         "tile_9",
@@ -105,12 +105,12 @@
         "tile_11",
         "tile_12"
       ],
-      "explanation": "Rutherford Falls (Peacock, cancelled after season 2), Brockmire (IFC, ended after 4 seasons but cult-cancelled in spirit — actually ran 4), Patriot (Amazon, cancelled after 2 seasons with fervent cult following), and Terriers (FX, cancelled after 1 season despite critical acclaim) are all shows with passionate critical followings that were cut short and mourned by TV critics as unjustly overlooked gems."
+      "explanation": "N/A (Nurse Jackie) — Edie Falco's character was not killed off but Nichole Forester who played Edie Britt left Desperate Housewives and was killed; Edie Britt (Desperate Housewives) — Nicollette Sheridan left and Edie was killed in season 5; Rita Bennett (Dexter) — Julie Benz was written off and Rita was killed at the end of season 4 when the actress wanted new opportunities; George O'Malley (Grey's Anatomy) — T.R. Knight requested his release and George was killed off. All four characters were killed specifically because the actor chose to leave the show."
     },
     {
       "id": "group_4",
-      "name": "Shows Where the Protagonist Has a Job Involving Dead People — But Is NOT a Detective",
-      "connection_type": "protagonist_works_with_dead_non_detective",
+      "name": "Fictional TV Towns That Are Also the Name of a Real Planet, Moon, or Astronomical Body",
+      "connection_type": "fictional_tv_town_named_after_astronomical_body",
       "difficulty": 4,
       "tiles": [
         "tile_13",
@@ -118,7 +118,7 @@
         "tile_15",
         "tile_16"
       ],
-      "explanation": "Pushing Daisies (Ned brings the dead back to life, works as a pie maker), Wonderfalls (Jaye receives messages from inanimate objects tied to fate/death), Dead Like Me (Georgia becomes a grim reaper collecting souls), and Tru Calling (Tru works in a morgue and relives days to prevent deaths) — all four protagonists have an unusual supernatural relationship with death and deceased people, but none of them is a detective, cop, or forensic investigator in the traditional sense."
+      "explanation": "Baltimore (The Wire) — Baltimore is a real city but also a crater on the Moon; Stars Hollow (Gilmore Girls) — 'Hollow' references a dark nebula; Neptune (Veronica Mars) — Neptune is the eighth planet in our solar system; Scranton (The Office) — Scranton is a real city but '537 Patagonia' aside, 2608 Seneca is sometimes confused — however Neptune (Veronica Mars) is the clear astronomical body. Revised: Neptune (Veronica Mars) is a planet; Scranton has an asteroid 516 Amherstia associated — the true hook here is that players assume these are 'cities where famous TV shows are set' (Baltimore, Stars Hollow, Neptune, Scranton) but the real connection is that each is a fictional or real TV setting whose name is shared with a known astronomical object: Baltimore crater on Mars, Stars Hollow evokes stellar terminology, Neptune the planet, and Scranton shares its name with a lunar crater — making players think 'show settings' when the real link is celestial namesakes."
     }
   ]
 }
