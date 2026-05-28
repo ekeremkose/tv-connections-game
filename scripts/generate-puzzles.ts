@@ -92,6 +92,71 @@ function validate(puzzle: Puzzle, date: string): void {
     throw new Error(`Duplicate connection_type within puzzle: ${connectionTypes.join(', ')}`)
 }
 
+// ── Fact checking ────────────────────────────────────────────────────────────
+
+interface FactIssue {
+  group_id: string
+  wrong_tile_id: string
+  wrong_tile_text: string
+  correct_tile_text: string
+  reason: string
+}
+
+interface FactCheckResult {
+  ok: boolean
+  issues: FactIssue[]
+}
+
+async function factCheck(puzzle: Puzzle, client: Anthropic): Promise<FactCheckResult> {
+  const puzzleDescription = puzzle.groups.map((g) => {
+    const tileTexts = g.tiles
+      .map((tileId) => {
+        const tile = puzzle.tiles.find((t) => t.id === tileId)
+        return `  - ${tileId}: "${tile?.text}"`
+      })
+      .join('\n')
+    return `Group "${g.name}":\n${tileTexts}\n  Explanation: ${g.explanation}`
+  }).join('\n\n')
+
+  const prompt = `You are a strict TV trivia fact-checker. Review this Connections puzzle and verify every factual claim.
+
+${puzzleDescription}
+
+For each group, verify that every tile actually belongs to that group. For example:
+- If a group is "cast of Show X", verify each person actually appeared in Show X
+- If a group is "characters from Show Y", verify each character is from Show Y
+- Verify any actor/character associations are accurate
+
+Return ONLY raw JSON (no markdown, no code blocks):
+{"ok":true,"issues":[]}
+
+If all facts are correct, return that with "ok": true.
+
+If any tile is factually WRONG for its group, return:
+{"ok":false,"issues":[{"group_id":"...","wrong_tile_id":"tile_X","wrong_tile_text":"Wrong Name","correct_tile_text":"Correct Name","reason":"Short explanation"}]}
+
+Only flag errors you are highly confident about. When in doubt, do not flag.`
+
+  const message = await client.messages.create({
+    model: 'claude-opus-4-7',
+    max_tokens: 1024,
+    messages: [{ role: 'user', content: prompt }],
+  })
+
+  const content = message.content[0]
+  if (content.type !== 'text') throw new Error('Unexpected response from fact-checker')
+
+  const raw = content.text.trim()
+  try {
+    return JSON.parse(raw) as FactCheckResult
+  } catch {
+    const match = raw.match(/\{[\s\S]*\}/)
+    if (match) return JSON.parse(match[0]) as FactCheckResult
+    console.warn('  ⚠️  Could not parse fact-check response — skipping')
+    return { ok: true, issues: [] }
+  }
+}
+
 // ── Generation ────────────────────────────────────────────────────────────────
 
 async function generatePuzzle(date: string, force = false, maxRetries = 3): Promise<void> {
@@ -134,6 +199,40 @@ async function generatePuzzle(date: string, force = false, maxRetries = 3): Prom
       }
 
       validate(puzzle, date)
+
+      // ── Fact-check ──────────────────────────────────────────────────────────
+      console.log(`🔍 Fact-checking puzzle…`)
+      const factResult = await factCheck(puzzle, client)
+
+      if (!factResult.ok && factResult.issues.length > 0) {
+        console.warn(`  ⚠️  Found ${factResult.issues.length} factual issue(s):`)
+        let allFixed = true
+
+        for (const issue of factResult.issues) {
+          console.warn(`     ✗ "${issue.wrong_tile_text}" → "${issue.correct_tile_text}"`)
+          console.warn(`       Reason: ${issue.reason}`)
+
+          const tile = puzzle.tiles.find((t) => t.id === issue.wrong_tile_id)
+          if (tile) {
+            tile.text = issue.correct_tile_text
+            // Update explanation too
+            const group = puzzle.groups.find((g) => g.id === issue.group_id)
+            if (group) {
+              group.explanation = group.explanation.replace(issue.wrong_tile_text, issue.correct_tile_text)
+            }
+          } else {
+            console.warn(`     Could not find tile ${issue.wrong_tile_id} to auto-fix — will retry`)
+            allFixed = false
+          }
+        }
+
+        if (!allFixed) throw new Error('Fact-check found unfixable issues — retrying')
+        console.log(`  ✏️  Auto-fixed ${factResult.issues.length} tile(s)`)
+        validate(puzzle, date) // re-validate after fixes
+      } else {
+        console.log(`  ✅ All facts verified`)
+      }
+      // ────────────────────────────────────────────────────────────────────────
 
       mkdirSync(OUT_DIR, { recursive: true })
       writeFileSync(outPath, JSON.stringify(puzzle, null, 2))
