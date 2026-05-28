@@ -29,9 +29,13 @@ BAD trap examples (do NOT do these):
 The group name must reveal the REAL connection, not hint at a false one.
 The misdirection lives in the tiles themselves, not the group name.`
 
-export function buildPuzzlePrompt(date: string, recentContext?: string): string {
+export function buildPuzzlePrompt(date: string, recentContext?: string, failureHistory?: string[]): string {
+  const failureBlock = failureHistory && failureHistory.length > 0
+    ? `\nPREVIOUS ATTEMPTS FAILED — learn from these mistakes and do NOT repeat them:\n${failureHistory.map((f, i) => `Attempt ${i + 1} failed: ${f}`).join('\n')}\n`
+    : ''
+
   return `Generate a TV Connections puzzle for the date: ${date}
-${recentContext ? `\n${recentContext}\n` : ''}
+${recentContext ? `\n${recentContext}\n` : ''}${failureBlock}
 CONNECTION TYPE INSPIRATION — these are just examples to spark ideas. You are STRONGLY ENCOURAGED to invent your own connection types. The list below is a starting point only, not a menu to pick from:
 
 FACTUAL/STRAIGHTFORWARD (difficulty 1–2):

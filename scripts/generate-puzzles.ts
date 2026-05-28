@@ -178,6 +178,7 @@ async function generatePuzzle(date: string, force = false, maxRetries = 5): Prom
   if (recentContext) console.log(`📋 Loaded recent context to avoid repetition`)
 
   const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY })
+  const failureHistory: string[] = []
 
   for (let attempt = 1; attempt <= maxRetries; attempt++) {
     console.log(`🎲 Generating puzzle for ${date}… (attempt ${attempt}/${maxRetries})`)
@@ -186,7 +187,7 @@ async function generatePuzzle(date: string, force = false, maxRetries = 5): Prom
         model: 'claude-sonnet-4-6',
         max_tokens: 4096,
         system: SYSTEM_PROMPT,
-        messages: [{ role: 'user', content: buildPuzzlePrompt(date, recentContext) }],
+        messages: [{ role: 'user', content: buildPuzzlePrompt(date, recentContext, failureHistory) }],
       })
 
       const content = message.content[0]
@@ -236,7 +237,10 @@ async function generatePuzzle(date: string, force = false, maxRetries = 5): Prom
           }
         }
 
-        if (!allFixed) throw new Error('Fact-check found unfixable issues — retrying')
+        if (!allFixed) {
+          const details = validIssues.map((i) => `"${i.wrong_tile_text}" is factually wrong for group "${puzzle!.groups.find(g => g.id === i.group_id)?.name}": ${i.reason}`).join('; ')
+          throw new Error(`Factual errors that could not be auto-fixed: ${details}`)
+        }
         console.log(`  ✏️  Auto-fixed ${validIssues.length} tile(s)`)
         validate(puzzle, date)
       } else {
@@ -250,6 +254,7 @@ async function generatePuzzle(date: string, force = false, maxRetries = 5): Prom
       return
     } catch (err) {
       const msg = err instanceof Error ? err.message : String(err)
+      failureHistory.push(msg)
       if (attempt < maxRetries) {
         console.warn(`  ⚠️  Attempt ${attempt} failed: ${msg} — retrying…`)
       } else {
