@@ -92,6 +92,40 @@ export function validate(puzzle: Puzzle, date: string): void {
     throw new Error(`same_show used ${sameShowCount} times — maximum 1 per puzzle`)
 }
 
+// ── JSON extraction ───────────────────────────────────────────────────────────
+
+/**
+ * Extract all top-level {...} objects from arbitrary text.
+ * Handles cases where Claude writes reasoning prose before/after the JSON.
+ */
+export function extractJsonCandidates(text: string): string[] {
+  const candidates: string[] = []
+
+  // 1. Markdown code blocks first (```json ... ``` or ``` ... ```)
+  for (const m of text.matchAll(/```(?:json)?\s*([\s\S]*?)```/g)) {
+    candidates.push(m[1].trim())
+  }
+
+  // 2. Bare JSON objects — scan for balanced { } blocks
+  let depth = 0
+  let start = -1
+  for (let i = 0; i < text.length; i++) {
+    if (text[i] === '{') {
+      if (depth === 0) start = i
+      depth++
+    } else if (text[i] === '}') {
+      depth--
+      if (depth === 0 && start !== -1) {
+        candidates.push(text.slice(start, i + 1))
+        start = -1
+      }
+    }
+  }
+
+  // Return longest candidates last so we try the fullest JSON first when reversed
+  return candidates.sort((a, b) => a.length - b.length)
+}
+
 // ── Self-review & fix ─────────────────────────────────────────────────────────
 
 export async function reviewAndFix(puzzle: Puzzle, client: Anthropic): Promise<Puzzle> {
@@ -122,7 +156,7 @@ Make whatever changes are needed — fix wrong tiles, replace redundant pairs, a
 
 If everything looks good, return it unchanged.
 
-Return ONLY the final corrected puzzle as valid JSON. No markdown, no explanation, no commentary.`
+Return ONLY the final corrected puzzle as valid JSON. No markdown, no explanation, no commentary. Begin your response with { immediately.`
 
   const message = await client.messages.create({
     model: 'claude-sonnet-4-6',
@@ -133,10 +167,9 @@ Return ONLY the final corrected puzzle as valid JSON. No markdown, no explanatio
   const content = message.content[0]
   if (content.type !== 'text') return puzzle
 
-  const blocks = [...content.text.matchAll(/```(?:json)?\s*([\s\S]*?)```/g)].map((m) => m[1].trim())
-  if (blocks.length === 0) blocks.push(content.text.trim())
+  const candidates = extractJsonCandidates(content.text)
 
-  for (const block of blocks.reverse()) {
+  for (const block of candidates.reverse()) {
     try { return JSON.parse(block) as Puzzle } catch { /* try next */ }
   }
 
@@ -172,11 +205,10 @@ export async function generateOnePuzzle(
       const content = message.content[0]
       if (content.type !== 'text') throw new Error('Unexpected response type from Claude')
 
-      const blocks = [...content.text.matchAll(/```(?:json)?\s*([\s\S]*?)```/g)].map((m) => m[1].trim())
-      if (blocks.length === 0) blocks.push(content.text.trim())
+      const candidates = extractJsonCandidates(content.text)
 
       let puzzle: Puzzle | null = null
-      for (const block of blocks.reverse()) {
+      for (const block of candidates.reverse()) {
         try { puzzle = JSON.parse(block); break } catch { /* try next */ }
       }
       if (!puzzle) throw new Error('Failed to parse JSON from Claude response')

@@ -85,7 +85,7 @@ SURPRISING/LATERAL (difficulty 3–4):
 
 Feel free to invent entirely new connection types — e.g. "characters who are doctors but never practice medicine", "shows whose title is a character's full name", "finales that ended on a cliffhanger", etc. Creativity is rewarded.
 
-OUTPUT FORMAT — respond with ONLY valid JSON, no markdown, no explanation:
+OUTPUT FORMAT — your response must be ONLY the JSON object below. No thinking, no planning, no explanation, no markdown fences. The very first character of your response must be `{` and the very last must be `}`. Nothing else.
 
 {
   "date": "${date}",
@@ -158,5 +158,7 @@ REQUIREMENTS:
    - An actor and a character they famously played ("Bob Odenkirk" + "Jimmy McGill", "Bryan Cranston" + "Walter White")
    - A show and its most iconic character where the link is too direct ("Breaking Bad" + "Walter White" in the same group)
    Any pair a casual viewer would INSTANTLY connect is too obvious and should not share the board. Every tile must stand independently without giving away another tile.
-10. A tile must not make its own group obvious. Each tile should be ambiguous on its own; the group connection only becomes clear when all four tiles are found together.`
+10. A tile must not make its own group obvious. Each tile should be ambiguous on its own; the group connection only becomes clear when all four tiles are found together.
+
+START YOUR RESPONSE WITH { NOW. NO PREAMBLE. NO THINKING OUT LOUD. JUST THE JSON.`
 }
