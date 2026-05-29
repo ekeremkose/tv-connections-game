@@ -85,7 +85,7 @@ SURPRISING/LATERAL (difficulty 3–4):
 
 Feel free to invent entirely new connection types — e.g. "characters who are doctors but never practice medicine", "shows whose title is a character's full name", "finales that ended on a cliffhanger", etc. Creativity is rewarded.
 
-OUTPUT FORMAT — your response must be ONLY the JSON object below. No thinking, no planning, no explanation, no markdown fences. The very first character of your response must be `{` and the very last must be `}`. Nothing else.
+OUTPUT FORMAT — your response must be ONLY the JSON object below. No thinking, no planning, no explanation, no markdown fences. The very first character of your response must be { and the very last must be }. Nothing else.
 
 {
   "date": "${date}",
