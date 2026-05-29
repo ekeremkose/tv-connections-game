@@ -57,13 +57,16 @@ async function main() {
 
   console.log(`Generating ${dates.length} puzzle(s): ${dates.join(', ')}\n`)
 
+  let failed = false
   for (const date of dates) {
     try {
       await generatePuzzle(date, force)
     } catch (err) {
       console.error(`❌ ${date} — ${err instanceof Error ? err.message : err}`)
+      failed = true
     }
   }
+  if (failed) process.exit(1)
 }
 
 main()
