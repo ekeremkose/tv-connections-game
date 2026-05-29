@@ -4,121 +4,121 @@
   "tiles": [
     {
       "id": "tile_1",
-      "text": "Saul Goodman"
+      "text": "Tony Soprano"
     },
     {
       "id": "tile_2",
-      "text": "Rust Cohle"
+      "text": "Pine Barrens"
     },
     {
       "id": "tile_3",
-      "text": "Hannibal Lecter"
+      "text": "Edie Falco"
     },
     {
       "id": "tile_4",
-      "text": "Patrick Jane"
+      "text": "Made in America"
     },
     {
       "id": "tile_5",
-      "text": "The Ice Truck Killer"
+      "text": "Rust Cohle"
     },
     {
       "id": "tile_6",
-      "text": "Peaky Blinders"
+      "text": "Cersei Lannister"
     },
     {
       "id": "tile_7",
-      "text": "Killing Eve"
+      "text": "Frank Underwood"
     },
     {
       "id": "tile_8",
-      "text": "Succession"
+      "text": "Nurse Jackie"
     },
     {
       "id": "tile_9",
-      "text": "Mare of Easttown"
+      "text": "Deadwood"
     },
     {
       "id": "tile_10",
-      "text": "Jimmy McGill"
+      "text": "Battlestar Galactica"
     },
     {
       "id": "tile_11",
-      "text": "Sharp Objects"
+      "text": "Rome"
     },
     {
       "id": "tile_12",
-      "text": "The Night Of"
+      "text": "Luck"
     },
     {
       "id": "tile_13",
-      "text": "Sandra Oh"
+      "text": "Elizabeth Jennings"
     },
     {
       "id": "tile_14",
-      "text": "Matthew McConaughey"
+      "text": "Villanelle"
     },
     {
       "id": "tile_15",
-      "text": "Kate Winslet"
+      "text": "Patty Hewes"
     },
     {
       "id": "tile_16",
-      "text": "Jeremy Strong"
+      "text": "Nancy Botwin"
     }
   ],
   "groups": [
     {
       "id": "group_1",
-      "name": "Characters Who Operated Under a False Name for Most of the Series",
-      "connection_type": "character_long_term_alias_as_real_identity",
+      "name": "The Sopranos universe",
+      "connection_type": "same_show",
       "difficulty": 1,
       "tiles": [
         "tile_1",
-        "tile_10",
-        "tile_5",
-        "tile_3"
+        "tile_2",
+        "tile_3",
+        "tile_4"
       ],
-      "explanation": "Saul Goodman's real name is Jimmy McGill — both tiles refer to the same person living under an alias. The Ice Truck Killer is Brian Moser, Dexter's brother, who hid behind that pseudonym throughout Season 1. Hannibal Lecter concealed his identity as a cannibal serial killer behind a respectable psychiatrist persona for years. These four tiles all represent characters who sustained a false identity as their primary persona across their respective shows. NOTE: Saul Goodman (tile_1) and Jimmy McGill (tile_10) are intentional — players may assume they're a trap pair, but they belong here as two names for one character, illustrating the alias theme directly."
+      "explanation": "Tony Soprano (character), Pine Barrens (iconic episode/location), Edie Falco (actress), and 'Made in America' (series finale episode title) are all from The Sopranos."
     },
     {
       "id": "group_2",
-      "name": "Won a Lead Acting Emmy for a Limited Series or Movie",
-      "connection_type": "emmy_win_lead_limited_series",
+      "name": "HBO Shows Cancelled Mid-Story and Later Revived as a Film or Limited Event",
+      "connection_type": "cancelled_then_revived_as_film_or_event",
       "difficulty": 2,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Deadwood was cancelled after season 3 then got a 2019 reunion movie; Battlestar Galactica was followed by the TV movie 'The Plan' after its run; Rome was cancelled after season 2 with plans for a revival film; Luck was cancelled after animal welfare concerns and later revisited. All four are HBO productions that ended prematurely and later received or were slated for revival as a film or special event."
+    },
+    {
+      "id": "group_3",
+      "name": "TV Characters Who Deliver a Monologue Directly to the Camera in Their Show's Opening Scene",
+      "connection_type": "character_breaks_fourth_wall_in_series_premiere",
+      "difficulty": 3,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Rust Cohle (True Detective S1 opens with his philosophical interview monologue), Cersei Lannister (Game of Thrones pilot opens with her direct-address voiceover framing), Frank Underwood (House of Cards opens with Frank kneeling over a dying dog and speaking directly to camera), and Nurse Jackie (the pilot opens with Jackie addressing the audience about her life and pills). All four characters break the fourth wall or deliver a direct-address monologue in the very first scene of their respective series."
+    },
+    {
+      "id": "group_4",
+      "name": "Female TV Antiheroes Who Were Fluent Speakers of a Second Language Critical to Their Crimes or Cover",
+      "connection_type": "female_antihero_uses_second_language_for_criminal_cover",
+      "difficulty": 4,
       "tiles": [
         "tile_13",
         "tile_14",
         "tile_15",
         "tile_16"
       ],
-      "explanation": "Sandra Oh won the Golden Globe (and was Emmy-nominated) but the Emmy for Killing Eve went elsewhere — correction: this group focuses on confirmed Emmy winners. Kate Winslet won Lead Actress Emmy for Mare of Easttown (2021). Matthew McConaughey won Lead Actor Emmy for True Detective (2014). Jeremy Strong won Lead Actor Emmy for Succession — actually Succession is a drama series, not limited. Revised: Jeremy Strong won Lead Actor Drama Emmy for Succession 2020. Sandra Oh won a BAFTA for Killing Eve. — DESIGNER NOTE: The accurate version: Matthew McConaughey (True Detective, 2014 Emmy Lead Actor Limited), Kate Winslet (Mare of Easttown, 2021 Emmy Lead Actress Limited), Sandra Oh (Killing Eve, BAFTA — swap), Jeremy Strong (Succession, Emmy Lead Drama 2020). The real grouping here is actors who are each the lead of one of the other tiles listed — McConaughey leads True Detective, Winslet leads Mare of Easttown, Strong leads Succession, Oh leads Killing Eve — making this group: Stars Who Are the Lead of Shows Named Elsewhere in This Puzzle."
-    },
-    {
-      "id": "group_3",
-      "name": "The Lead Actor Is Also Named Elsewhere on the Board",
-      "connection_type": "show_whose_lead_actor_tile_also_appears",
-      "difficulty": 3,
-      "tiles": [
-        "tile_6",
-        "tile_7",
-        "tile_8",
-        "tile_9"
-      ],
-      "explanation": "Peaky Blinders (Cillian Murphy — not on board, red herring), Killing Eve stars Sandra Oh (tile_13), Succession stars Jeremy Strong (tile_16), Mare of Easttown stars Kate Winslet (tile_15), True Detective Season 1 stars Matthew McConaughey (tile_14). So the four shows whose lead actor appears as a tile on this board are: Killing Eve → Sandra Oh, Succession → Jeremy Strong, Mare of Easttown → Kate Winslet, and True Detective → Matthew McConaughey. But True Detective is not on the board — Sharp Objects and The Night Of are. Sharp Objects stars Amy Adams (not on board). The Night Of stars Riz Ahmed (not on board). Revised final grouping: The four show-title tiles whose lead actor IS represented by another tile on the board are Killing Eve (Sandra Oh), Succession (Jeremy Strong), Mare of Easttown (Kate Winslet) — that's only three from the show tiles present. The puzzle is designed so players must match actors to their shows across the board."
-    },
-    {
-      "id": "group_4",
-      "name": "Prestige Limited Series Whose Finale Hinged on an Ambiguous or Withheld Confession",
-      "connection_type": "limited_series_finale_ambiguous_confession",
-      "difficulty": 4,
-      "tiles": [
-        "tile_2",
-        "tile_4",
-        "tile_11",
-        "tile_12"
-      ],
-      "explanation": "Rust Cohle (True Detective S1) — the finale reveals Rust's nihilism cracks open into ambiguity; the killer Errol's full confession and Rust's near-death vision leave the ending deliberately unresolved. Patrick Jane (The Mentalist) — Jane's entire arc across seven seasons turns on whether his confession/identification of Red John is real or manipulated, with the finale's resolution debated by fans. Sharp Objects — the finale's post-credits scene withholds Amma's full confession from Camille, leaving viewers uncertain of what was truly admitted and to whom. The Night Of — Naz Khan's trial ends without a verdict (hung jury), and his guilt or innocence — effectively a withheld confession — is never resolved on screen. All four tiles represent shows or characters whose climax deliberately denied the audience a clear, on-screen confession of the central crime."
+      "explanation": "Elizabeth Jennings (The Americans) is a Russian KGB spy who speaks fluent Russian as part of her deep-cover operation; Villanelle (Killing Eve) is a multilingual assassin who uses French, Russian, and Italian as tools of her tradecraft and disguise; Patty Hewes (Damages) uses her fluency in legalese and foreign deposition tactics — crucially, she conducts key scenes in French and Spanish to manipulate international witnesses; Nancy Botwin (Weeds) uses Spanish extensively in her dealings with the Agrestic and Tijuana cartel worlds as cover and negotiation. All four are female antiheroes for whom a second language is a documented, critical tool of their criminal enterprise or cover identity."
     }
   ]
 }

@@ -1,0 +1,124 @@
+{
+  "date": "2026-05-30",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Melisandre"
+    },
+    {
+      "id": "tile_2",
+      "text": "Caprica City"
+    },
+    {
+      "id": "tile_3",
+      "text": "The Man in Black"
+    },
+    {
+      "id": "tile_4",
+      "text": "Dolores"
+    },
+    {
+      "id": "tile_5",
+      "text": "Tatiana Maslany"
+    },
+    {
+      "id": "tile_6",
+      "text": "Penn Badgley"
+    },
+    {
+      "id": "tile_7",
+      "text": "Carice van Houten"
+    },
+    {
+      "id": "tile_8",
+      "text": "Evan Rachel Wood"
+    },
+    {
+      "id": "tile_9",
+      "text": "Maeve Millay"
+    },
+    {
+      "id": "tile_10",
+      "text": "Henry Cavill"
+    },
+    {
+      "id": "tile_11",
+      "text": "Katee Sackhoff"
+    },
+    {
+      "id": "tile_12",
+      "text": "You only exist because of me"
+    },
+    {
+      "id": "tile_13",
+      "text": "Elim Garak"
+    },
+    {
+      "id": "tile_14",
+      "text": "Mozzie"
+    },
+    {
+      "id": "tile_15",
+      "text": "Saul Tigh"
+    },
+    {
+      "id": "tile_16",
+      "text": "Shepherd Book"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Westworld Universe",
+      "connection_type": "same_show",
+      "difficulty": 1,
+      "tiles": [
+        "tile_3",
+        "tile_4",
+        "tile_9",
+        "tile_12"
+      ],
+      "explanation": "The Man in Black (character), Dolores (character), Maeve Millay (character), and 'You only exist because of me' (quote spoken in Westworld) are all from HBO's Westworld."
+    },
+    {
+      "id": "group_2",
+      "name": "Characters Who Were Secretly Much Older Than They Appeared",
+      "connection_type": "character_revealed_ancient_or_centuries_old",
+      "difficulty": 2,
+      "tiles": [
+        "tile_1",
+        "tile_15",
+        "tile_13",
+        "tile_2"
+      ],
+      "explanation": "Melisandre (Game of Thrones) was revealed to be centuries old beneath her illusion; Saul Tigh (Battlestar Galactica) was revealed to be an ancient Cylon who had lived thousands of years without knowing it; Elim Garak (DS9) was much older than his demeanor suggested and concealed a full hidden life; Caprica City is the ancestral home city tied to the Cylons' ancient origins — all connect to characters or places whose true age/history was concealed and then shockingly revealed."
+    },
+    {
+      "id": "group_3",
+      "name": "Actors Who Played a Character With a Double Identity Hidden From Their Closest Ally for Multiple Seasons",
+      "connection_type": "actor_played_character_with_long_hidden_double_identity",
+      "difficulty": 3,
+      "tiles": [
+        "tile_6",
+        "tile_7",
+        "tile_8",
+        "tile_10"
+      ],
+      "explanation": "Penn Badgley (Joe in You — hid his true murderous identity from love interests for seasons); Carice van Houten (Melisandre in Game of Thrones — hid her true ancient form from all allies for years); Evan Rachel Wood (Dolores in Westworld — hid that she had absorbed other identities and was orchestrating events); Henry Cavill (Geralt in The Witcher — his true nature and timeline were hidden from viewers and characters for the whole first season). Each actor played a character whose double identity was concealed from their closest ally across multiple seasons."
+    },
+    {
+      "id": "group_4",
+      "name": "TV Characters Who Were Given a Backstory Reveal Only in the Final Season — But Fans Had Already Correctly Theorized It Years Earlier",
+      "connection_type": "character_backstory_confirmed_late_but_long_fan_theorized",
+      "difficulty": 4,
+      "tiles": [
+        "tile_5",
+        "tile_11",
+        "tile_14",
+        "tile_16"
+      ],
+      "explanation": "Tatiana Maslany's Sarah Manning (Orphan Black) — fans theorized the full clone conspiracy scope before it was confirmed in the final season; Katee Sackhoff's Starbuck (BSG) — fans theorized she was an angel/harbinger of death from early on, confirmed in the finale; Mozzie (White Collar) — fans theorized for years his real name and identity were a spy cover, confirmed very late; Shepherd Book (Firefly/Serenity) — fans widely theorized his Alliance past years before Serenity confirmed it. These are characters whose long-theorized secret backstory was only officially confirmed in the show's final season or film."
+    }
+  ]
+}
