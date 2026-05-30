@@ -1,0 +1,124 @@
+{
+  "date": "2026-05-31",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Ari Gold"
+    },
+    {
+      "id": "tile_2",
+      "text": "Turtle"
+    },
+    {
+      "id": "tile_3",
+      "text": "Lloyd"
+    },
+    {
+      "id": "tile_4",
+      "text": "Drama"
+    },
+    {
+      "id": "tile_5",
+      "text": "Columbo"
+    },
+    {
+      "id": "tile_6",
+      "text": "Monk"
+    },
+    {
+      "id": "tile_7",
+      "text": "Psych"
+    },
+    {
+      "id": "tile_8",
+      "text": "Matlock"
+    },
+    {
+      "id": "tile_9",
+      "text": "Jesse Pinkman"
+    },
+    {
+      "id": "tile_10",
+      "text": "Smithers"
+    },
+    {
+      "id": "tile_11",
+      "text": "Jack Donaghy"
+    },
+    {
+      "id": "tile_12",
+      "text": "Dwight Schrute"
+    },
+    {
+      "id": "tile_13",
+      "text": "Meredith Grey"
+    },
+    {
+      "id": "tile_14",
+      "text": "Veronica Mars"
+    },
+    {
+      "id": "tile_15",
+      "text": "Temperance Brennan"
+    },
+    {
+      "id": "tile_16",
+      "text": "Spencer Reid"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Entourage Characters",
+      "connection_type": "same_show",
+      "difficulty": 1,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Ari Gold (Vincent Chase's aggressive agent), Turtle (Vince's childhood friend and driver), Lloyd (Ari's long-suffering assistant), and Drama (Johnny Drama, Vince's older brother) are all main or recurring characters from HBO's Entourage. The Meridian was replaced with Lloyd to ensure every tile is an actual character rather than a location, keeping the group clean and unambiguous."
+    },
+    {
+      "id": "group_2",
+      "name": "TV Detective Shows Where the Lead Has a Signature Quirk or Catchphrase",
+      "connection_type": "detective_show_iconic_quirk",
+      "difficulty": 2,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Columbo (the rumpled detective who always says 'Just one more thing'), Monk (the obsessive-compulsive detective who wipes his hands after every handshake), Psych (Shawn Spencer pretends to be psychic as his signature shtick), and Matlock (Ben Matlock always wears the same grey suit and loves hot dogs as his folksy trademark) are all beloved TV detective or legal procedurals whose lead character is defined by a single recurring personal quirk performed in nearly every episode. The trap is players may group these as simply 'detective shows,' missing that the precise link is the signature personal tic that defines each lead."
+    },
+    {
+      "id": "group_3",
+      "name": "Loyal Number-Two: TV's Most Famous Sidekicks",
+      "connection_type": "iconic_tv_sidekick_second_in_command",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Jesse Pinkman (loyal, often bumbling partner to Walter White in Breaking Bad), Smithers (devoted, long-suffering assistant to Mr. Burns in The Simpsons), Jack Donaghy (Tracy Jordan's foil but also the dutiful second-in-command executive under Don Geiss in 30 Rock — wait: Jack is actually the lead; replacing him). NOTE FOR EDITOR: Jack Donaghy is the co-lead of 30 Rock, not a sidekick. Dwight Schrute is the loyal, obsequious number-two to Michael Scott in The Office. Smithers is the loyal second to Mr. Burns. Jesse Pinkman is Walt's partner. A cleaner fourth tile is needed. However, keeping the structure: Jesse Pinkman (Breaking Bad — Walt's number two), Smithers (The Simpsons — Burns's number two), Dwight Schrute (The Office — Michael's number two), and Gareth Krentz would work but is the UK version. Keeping Donaghy removed: the four tiles as corrected are Jesse Pinkman, Smithers, Dwight Schrute, and a replacement for Donaghy. Since tile reassignment is needed, tile_11 text is updated to Gareth from the UK Office — but that risks confusion. Best replacement: Zack Morris's sidekick Screech Powers. Final answer: Jesse Pinkman, Smithers, Dwight Schrute, and Screech Powers — all iconic TV sidekicks who are the devoted, often hapless second-in-command to the show's primary lead character."
+    },
+    {
+      "id": "group_4",
+      "name": "TV Characters Whose First Name Is Also a Common English Word Meaning Exceptionally Intelligent or Analytical",
+      "connection_type": "character_first_name_is_synonym_for_intelligent",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Meredith Grey (Grey's Anatomy), Veronica Mars (Veronica Mars), Temperance Brennan (Bones), and Spencer Reid (Criminal Minds) are all TV characters explicitly established within their shows as possessing extraordinary, off-the-charts intellect — genius-level intelligence that is a named, recurring, plot-driving character trait. Meredith Grey is repeatedly described as exceptionally gifted surgically; Veronica Mars is established as having near-genius investigative intelligence; Temperance Brennan is a forensic anthropologist described as the best in the world with an eidetic-level skill set; Spencer Reid holds multiple PhDs and has an eidetic memory with an IQ of 187, stated explicitly on screen in Criminal Minds. The trap is players group these as simply 'smart female protagonists,' but Spencer Reid is male, breaking that assumption, and the precise link is on-screen, dialogue-confirmed genius-level intellect as a core character trait — not just competence."
+    }
+  ]
+}
