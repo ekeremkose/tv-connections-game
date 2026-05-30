@@ -38,8 +38,8 @@ jobs:
           if [ -n "${{ github.event.inputs.date }}" ]; then
             npm run generate:puzzle -- --date ${{ github.event.inputs.date }}
           else
-            # Use Turkey time (UTC+3) to get the correct date
-            TURKEY_DATE=$(TZ="Europe/Istanbul" date +%Y-%m-%d)
+            # Generate tomorrow's puzzle (Turkey time UTC+3) so it's ready at midnight
+            TURKEY_DATE=$(TZ="Europe/Istanbul" date -d "+1 day" +%Y-%m-%d)
             npm run generate:puzzle -- --date $TURKEY_DATE
           fi
 
