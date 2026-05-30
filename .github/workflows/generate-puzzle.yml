@@ -2,8 +2,8 @@ name: Generate Daily Puzzle
 
 on:
   schedule:
-    # Her gün saat 21:05 UTC = gece 00:05 Türkiye saati (UTC+3)
-    - cron: '5 21 * * *'
+    # Her gün saat 18:00 UTC = 21:00 Türkiye saati (UTC+3)
+    - cron: '0 18 * * *'
   workflow_dispatch:
     # GitHub Actions sayfasından elle de tetiklenebilir
     inputs:
