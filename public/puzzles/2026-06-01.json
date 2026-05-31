@@ -1,0 +1,124 @@
+{
+  "date": "2026-06-01",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Stars Hollow"
+    },
+    {
+      "id": "tile_2",
+      "text": "Cabot Cove"
+    },
+    {
+      "id": "tile_3",
+      "text": "Cicely"
+    },
+    {
+      "id": "tile_4",
+      "text": "Pawnee"
+    },
+    {
+      "id": "tile_5",
+      "text": "Olivia Pope"
+    },
+    {
+      "id": "tile_6",
+      "text": "Annalise Keating"
+    },
+    {
+      "id": "tile_7",
+      "text": "Meredith Grey"
+    },
+    {
+      "id": "tile_8",
+      "text": "Miranda Bailey"
+    },
+    {
+      "id": "tile_9",
+      "text": "Walter White"
+    },
+    {
+      "id": "tile_10",
+      "text": "Don Draper"
+    },
+    {
+      "id": "tile_11",
+      "text": "Tony Soprano"
+    },
+    {
+      "id": "tile_12",
+      "text": "Frank Underwood"
+    },
+    {
+      "id": "tile_13",
+      "text": "Nurse Jackie"
+    },
+    {
+      "id": "tile_14",
+      "text": "Ted Lasso"
+    },
+    {
+      "id": "tile_15",
+      "text": "Fleabag"
+    },
+    {
+      "id": "tile_16",
+      "text": "Bojack Horseman"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Fictional TV Towns in States Beginning with a Vowel",
+      "connection_type": "fictional_tv_town_located_in_us_state_starting_with_vowel",
+      "difficulty": 1,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Stars Hollow is in Connecticut (Gilmore Girls); Cabot Cove is in Maine (Murder, She Wrote); Cicely is in Alaska (Northern Exposure); Pawnee is in Indiana (Parks and Recreation). Connecticut, Maine, Alaska, and Indiana all begin with a vowel."
+    },
+    {
+      "id": "group_2",
+      "name": "Shonda Rhimes Characters",
+      "connection_type": "character_created_by_shonda_rhimes",
+      "difficulty": 2,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Olivia Pope (Scandal), Annalise Keating (How to Get Away with Murder), Meredith Grey (Grey's Anatomy), and Miranda Bailey (Grey's Anatomy) are all characters created by Shonda Rhimes for her Shondaland productions."
+    },
+    {
+      "id": "group_3",
+      "name": "TV Antihero Protagonists Who Go by an Alias or Assumed Name",
+      "connection_type": "tv_antihero_protagonist_uses_alias_or_assumed_identity",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Walter White adopts the alias Heisenberg (Breaking Bad); Don Draper is actually Dick Whitman, living under a stolen identity (Mad Men); Tony Soprano uses various cover stories and pseudonyms in his criminal life (The Sopranos); Frank Underwood operates through calculated deception and a constructed public persona, and his political machinations involve hidden identities of purpose (House of Cards). All four are celebrated TV antiheroes whose true selves are masked by a false or constructed identity."
+    },
+    {
+      "id": "group_4",
+      "name": "Shows Whose Protagonist Is Never Named in the Show's Dialogue",
+      "connection_type": "show_title_is_protagonists_name_never_spoken_as_such_in_dialogue",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "In Nurse Jackie, the title character is called Jackie by colleagues, never formally 'Nurse Jackie'; in Ted Lasso, characters call him Ted or Coach, rarely his full name as a unit; in Fleabag, the protagonist is never named at all in the dialogue — 'Fleabag' is only the production nickname; in Bojack Horseman, the name Bojack is used but 'Horseman' as a surname is almost never spoken in conversation. Each show's full title functions as a label existing outside the world of the show rather than as dialogue spoken to or about the character."
+    }
+  ]
+}
