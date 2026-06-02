@@ -1,0 +1,124 @@
+{
+  "date": "2026-06-02",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Nucky Thompson"
+    },
+    {
+      "id": "tile_2",
+      "text": "Chalky White"
+    },
+    {
+      "id": "tile_3",
+      "text": "Atlantic City"
+    },
+    {
+      "id": "tile_4",
+      "text": "You can't be half a gangster"
+    },
+    {
+      "id": "tile_5",
+      "text": "Sharp Objects"
+    },
+    {
+      "id": "tile_6",
+      "text": "Big Little Lies"
+    },
+    {
+      "id": "tile_7",
+      "text": "Mare of Easttown"
+    },
+    {
+      "id": "tile_8",
+      "text": "The White Lotus"
+    },
+    {
+      "id": "tile_9",
+      "text": "Don Draper"
+    },
+    {
+      "id": "tile_10",
+      "text": "Lito Rodriguez"
+    },
+    {
+      "id": "tile_11",
+      "text": "Dexter Morgan"
+    },
+    {
+      "id": "tile_12",
+      "text": "Walter White"
+    },
+    {
+      "id": "tile_13",
+      "text": "Arrested Development"
+    },
+    {
+      "id": "tile_14",
+      "text": "Veronica Mars"
+    },
+    {
+      "id": "tile_15",
+      "text": "Futurama"
+    },
+    {
+      "id": "tile_16",
+      "text": "Brooklyn Nine-Nine"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Boardwalk Empire",
+      "connection_type": "same_show",
+      "difficulty": 1,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Nucky Thompson and Chalky White are characters, Atlantic City is the setting, and 'You can't be half a gangster' is Nucky's famous quote — all from Boardwalk Empire."
+    },
+    {
+      "id": "group_2",
+      "name": "Won the Emmy for Outstanding Limited Series",
+      "connection_type": "emmy_outstanding_limited_series_winner",
+      "difficulty": 2,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Sharp Objects (2019), Big Little Lies (2017), Mare of Easttown (2021), and The White Lotus (2022) all won the Primetime Emmy Award for Outstanding Limited or Anthology Series or Movie."
+    },
+    {
+      "id": "group_3",
+      "name": "TV Characters Living a Secret Double Life",
+      "connection_type": "character_with_hidden_secret_identity_or_double_life",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Don Draper (Mad Men) lives under a stolen identity; Lito Rodriguez (Sense8) hides his homosexuality from his public; Dexter Morgan (Dexter) is a secret serial killer; Walter White (Breaking Bad) hides his drug empire from his family."
+    },
+    {
+      "id": "group_4",
+      "name": "Cancelled by One Network, Revived by Another",
+      "connection_type": "tv_show_cancelled_and_revived_by_different_network",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Arrested Development was cancelled by Fox and revived by Netflix; Veronica Mars was cancelled by The CW and revived by Hulu; Futurama was cancelled by Fox and revived by Comedy Central; Brooklyn Nine-Nine was cancelled by Fox and revived by NBC."
+    }
+  ]
+}
