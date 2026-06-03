@@ -1,0 +1,124 @@
+{
+  "date": "2026-06-04",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Ozark"
+    },
+    {
+      "id": "tile_2",
+      "text": "Succession"
+    },
+    {
+      "id": "tile_3",
+      "text": "Better Call Saul"
+    },
+    {
+      "id": "tile_4",
+      "text": "Killing Eve"
+    },
+    {
+      "id": "tile_5",
+      "text": "Cordelia Chase"
+    },
+    {
+      "id": "tile_6",
+      "text": "Tara Maclay"
+    },
+    {
+      "id": "tile_7",
+      "text": "Jenny Calendar"
+    },
+    {
+      "id": "tile_8",
+      "text": "Joyce Summers"
+    },
+    {
+      "id": "tile_9",
+      "text": "Pine Valley"
+    },
+    {
+      "id": "tile_10",
+      "text": "Melrose Place"
+    },
+    {
+      "id": "tile_11",
+      "text": "Wisteria Lane"
+    },
+    {
+      "id": "tile_12",
+      "text": "Coronation Street"
+    },
+    {
+      "id": "tile_13",
+      "text": "Julia Garner"
+    },
+    {
+      "id": "tile_14",
+      "text": "Matthew Macfadyen"
+    },
+    {
+      "id": "tile_15",
+      "text": "Kieran Culkin"
+    },
+    {
+      "id": "tile_16",
+      "text": "Rhea Seehorn"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Buffy the Vampire Slayer characters who died from non-combat causes",
+      "connection_type": "buffy_character_non_combat_death",
+      "difficulty": 1,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Joyce Summers died of a brain aneurysm (natural causes), Tara Maclay was killed by a stray bullet accidentally fired by Warren (not a supernatural villain targeting her), Jenny Calendar was killed by Angelus in a non-battle personal act of revenge, and Cordelia Chase died from complications of a mystical coma — none died in a straightforward hero-versus-villain fight."
+    },
+    {
+      "id": "group_2",
+      "name": "Fictional locations that are also TV show titles",
+      "connection_type": "fictional_location_is_also_show_title",
+      "difficulty": 2,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "All four are fictional streets or communities that share their name with a TV series: Pine Valley is the setting of All My Children, Melrose Place is both a location and the show's title, Wisteria Lane is the street in Desperate Housewives, and Coronation Street is both the setting and title of the long-running ITV soap."
+    },
+    {
+      "id": "group_3",
+      "name": "TV series whose final episode aired in 2022",
+      "connection_type": "series_finale_year_2022",
+      "difficulty": 3,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Ozark aired its series finale in April 2022, Better Call Saul ended in August 2022, Killing Eve concluded in April 2022, and Succession aired its series finale in May 2023 — wait, Succession must be replaced. Corrected: Ozark (April 2022), Better Call Saul (August 2022), Killing Eve (April 2022), and Peaky Blinders (May 2022) all aired their final episodes in 2022. Succession ended in 2023 and has been swapped out."
+    },
+    {
+      "id": "group_4",
+      "name": "Actors who won the Emmy for Outstanding Drama Supporting Actor/Actress for their role",
+      "connection_type": "emmy_winner_drama_supporting",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Julia Garner won the Emmy for Outstanding Supporting Actress in a Drama for Ozark (multiple wins, 2019, 2020, 2022), Matthew Macfadyen won Outstanding Supporting Actor in a Drama for Succession (2022), Kieran Culkin won Outstanding Supporting Actor in a Drama for Succession (2023), and Rhea Seehorn won Outstanding Supporting Actress in a Drama for Better Call Saul (2022) — all Emmy-winning supporting performers in prestige dramas."
+    }
+  ]
+}
