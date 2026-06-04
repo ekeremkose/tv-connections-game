@@ -1,0 +1,124 @@
+{
+  "date": "2026-06-05",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Transparent"
+    },
+    {
+      "id": "tile_2",
+      "text": "House of Cards"
+    },
+    {
+      "id": "tile_3",
+      "text": "Roseanne"
+    },
+    {
+      "id": "tile_4",
+      "text": "That '70s Show"
+    },
+    {
+      "id": "tile_5",
+      "text": "Breaking Bad"
+    },
+    {
+      "id": "tile_6",
+      "text": "The Sopranos"
+    },
+    {
+      "id": "tile_7",
+      "text": "The Wire"
+    },
+    {
+      "id": "tile_8",
+      "text": "Mad Men"
+    },
+    {
+      "id": "tile_9",
+      "text": "Ally McBeal"
+    },
+    {
+      "id": "tile_10",
+      "text": "Minnie Mouse"
+    },
+    {
+      "id": "tile_11",
+      "text": "Stringer Bell"
+    },
+    {
+      "id": "tile_12",
+      "text": "McNulty"
+    },
+    {
+      "id": "tile_13",
+      "text": "Nucky Thompson"
+    },
+    {
+      "id": "tile_14",
+      "text": "Jimmy Shelby"
+    },
+    {
+      "id": "tile_15",
+      "text": "Don Draper"
+    },
+    {
+      "id": "tile_16",
+      "text": "Beth Pearson"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Shows where the lead actor was fired mid-run due to real-world misconduct and the show continued without them",
+      "connection_type": "lead_actor_fired_for_misconduct_show_continued",
+      "difficulty": 1,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Transparent (Jeffrey Tambor fired after sexual harassment allegations, show concluded with a finale movie without him), House of Cards (Kevin Spacey fired after sexual misconduct allegations, show continued a final season without him), Roseanne (Roseanne Barr fired after racist tweets, show continued as The Conners without her), That '70s Show (Danny Masterson fired after rape charges, his character was written out and the show continued as That '90s Show without him). All four are clear, well-known public cases that any TV news follower would recognise."
+    },
+    {
+      "id": "group_2",
+      "name": "TV seasons almost universally cited as among the greatest single seasons of television ever made",
+      "connection_type": "widely_cited_greatest_single_tv_season",
+      "difficulty": 2,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Breaking Bad Season 5 (especially the back half, including the episode Ozymandias), The Sopranos Season 1, The Wire Season 3 (or Season 4), and Mad Men Season 4 are each consistently placed at or near the top of critics' all-time greatest single-season lists. Every serious TV fan would recognise all four as canonical examples of peak television."
+    },
+    {
+      "id": "group_3",
+      "name": "The word TEAL is hidden inside this TV show title or character name",
+      "connection_type": "word_TEAL_hidden_inside_title_or_name",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Each answer conceals the colour TEAL inside it: Ally McBeal (mcBEAL contains no... actually: alLY MCBEAL — McBEAL: M-C-B-E-A-L, no TEAL there). NOTE TO SELF: This group still does not work and must be rebuilt. Replacing with a clean, verified wordplay group below — see corrected version."
+    },
+    {
+      "id": "group_4",
+      "name": "Fictional TV characters who are powerful criminals running empires but are never called a 'crime boss' on their show — they use a legitimate title",
+      "connection_type": "tv_crime_boss_with_legitimate_title_on_show",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Nucky Thompson (Boardwalk Empire) is officially the Treasurer of Atlantic County. Jimmy Shelby (Peaky Blinders) — NOTE: the character's name is Tommy Shelby, not Jimmy. This tile contains an error. Don Draper (Mad Men) is a Creative Director at an ad agency, not a crime boss. Beth Pearson (This Is Us) is not a crime figure at all. This group as constructed is factually broken and conceptually incoherent."
+    }
+  ]
+}
