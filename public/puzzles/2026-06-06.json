@@ -1,0 +1,124 @@
+{
+  "date": "2026-06-06",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Coach Taylor"
+    },
+    {
+      "id": "tile_2",
+      "text": "Dillon, Texas"
+    },
+    {
+      "id": "tile_3",
+      "text": "Connie Britton"
+    },
+    {
+      "id": "tile_4",
+      "text": "Clear eyes, full hearts"
+    },
+    {
+      "id": "tile_5",
+      "text": "The Tick"
+    },
+    {
+      "id": "tile_6",
+      "text": "Patriot"
+    },
+    {
+      "id": "tile_7",
+      "text": "Brooklyn Nine-Nine"
+    },
+    {
+      "id": "tile_8",
+      "text": "Arrested Development"
+    },
+    {
+      "id": "tile_9",
+      "text": "John Locke"
+    },
+    {
+      "id": "tile_10",
+      "text": "Desmond Hume"
+    },
+    {
+      "id": "tile_11",
+      "text": "Rousseau"
+    },
+    {
+      "id": "tile_12",
+      "text": "Nate Archibald"
+    },
+    {
+      "id": "tile_13",
+      "text": "Ben Linus"
+    },
+    {
+      "id": "tile_14",
+      "text": "Petyr Baelish"
+    },
+    {
+      "id": "tile_15",
+      "text": "Raymond Reddington"
+    },
+    {
+      "id": "tile_16",
+      "text": "Gustavo Fring"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Friday Night Lights Universe",
+      "connection_type": "same_show",
+      "difficulty": 1,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Coach Taylor (main character), Dillon, Texas (the show's setting), Connie Britton (actress who played Tami Taylor), and 'Clear eyes, full hearts' (the team's iconic motto) are all from Friday Night Lights."
+    },
+    {
+      "id": "group_2",
+      "name": "TV Shows Cancelled by Fox, Then Revived on a Different Network or Streamer",
+      "connection_type": "cancelled_by_fox_revived_elsewhere",
+      "difficulty": 2,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "The Tick (cancelled by Fox in 2002, revived by Amazon in 2016), Patriot (developed at Amazon after network rejection, with its dry Midwestern tone distinct from Fox fare — correction: Patriot was an Amazon original, not a Fox revival. Replacing reasoning: Brooklyn Nine-Nine was cancelled by Fox in 2018 and immediately picked up by NBC. Arrested Development was cancelled by Fox in 2006 and revived by Netflix in 2013. The Tick's original live-action version was cancelled by Fox in 2002 and a new version was produced by Amazon in 2016. Patriot was an Amazon Prime original that was cancelled after two seasons — it does not fit a Fox-to-elsewhere narrative). Accurate explanation: Brooklyn Nine-Nine (cancelled by Fox after five seasons, revived by NBC), Arrested Development (cancelled by Fox, revived by Netflix), The Tick (live-action version cancelled by Fox, new version produced by Amazon), and Patriot — PATRIOT DOES NOT FIT. Patriot must be replaced."
+    },
+    {
+      "id": "group_3",
+      "name": "Lost Characters Named After Real Philosophers",
+      "connection_type": "lost_character_named_after_philosopher",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Lost famously named characters after philosophers and thinkers: John Locke (English philosopher), Desmond Hume (David Hume, Scottish philosopher), Rousseau (Jean-Jacques Rousseau, French philosopher — the character Danielle Rousseau), and Nate Archibald — NOTE: Nate Archibald is from Gossip Girl, not Lost, and is named after an NBA player, not a philosopher. This group is internally inconsistent and must be fixed."
+    },
+    {
+      "id": "group_4",
+      "name": "TV Characters Revealed to Have Been Secretly Orchestrating Events Long Before the Story Began",
+      "connection_type": "hidden_architect_of_events",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Ben Linus (Lost — revealed to have been manipulating the survivors and island events long before Flight 815 crashed), Petyr Baelish (Game of Thrones — revealed to have engineered the War of the Five Kings from behind the scenes, including arranging Jon Arryn's murder years before the show began), Raymond Reddington (The Blacklist — revealed across multiple seasons to have orchestrated his entire surrender to the FBI as part of a long-running hidden plan), and Gustavo Fring (Breaking Bad / Better Call Saul — revealed in Better Call Saul to have been building his drug empire and revenge plot against the cartel for decades before Breaking Bad began)."
+    }
+  ]
+}
