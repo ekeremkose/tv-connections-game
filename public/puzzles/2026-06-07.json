@@ -1,0 +1,124 @@
+{
+  "date": "2026-06-07",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Yellowstone"
+    },
+    {
+      "id": "tile_2",
+      "text": "1883"
+    },
+    {
+      "id": "tile_3",
+      "text": "Tulsa King"
+    },
+    {
+      "id": "tile_4",
+      "text": "Mayor of Kingstown"
+    },
+    {
+      "id": "tile_5",
+      "text": "Emily in Paris"
+    },
+    {
+      "id": "tile_6",
+      "text": "Ratched"
+    },
+    {
+      "id": "tile_7",
+      "text": "The Witcher"
+    },
+    {
+      "id": "tile_8",
+      "text": "Bridgerton"
+    },
+    {
+      "id": "tile_9",
+      "text": "Sarah Manning"
+    },
+    {
+      "id": "tile_10",
+      "text": "Cosima Niehaus"
+    },
+    {
+      "id": "tile_11",
+      "text": "Alison Hendrix"
+    },
+    {
+      "id": "tile_12",
+      "text": "Helena"
+    },
+    {
+      "id": "tile_13",
+      "text": "Arrested Development"
+    },
+    {
+      "id": "tile_14",
+      "text": "Brooklyn Nine-Nine"
+    },
+    {
+      "id": "tile_15",
+      "text": "Lucifer"
+    },
+    {
+      "id": "tile_16",
+      "text": "Manifest"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Taylor Sheridan TV shows",
+      "connection_type": "same_showrunner",
+      "difficulty": 1,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Yellowstone, 1883, Tulsa King, and Mayor of Kingstown are all television shows created and/or run by Taylor Sheridan."
+    },
+    {
+      "id": "group_2",
+      "name": "Netflix shows renewed for Season 2 before Season 1 even premiered",
+      "connection_type": "renewed_before_premiere",
+      "difficulty": 2,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Emily in Paris, Ratched, The Witcher, and Bridgerton were all renewed by Netflix for a second season before their first season had officially premiered — Netflix ordered the next season based on early internal viewing data."
+    },
+    {
+      "id": "group_3",
+      "name": "Orphan Black clones played by Tatiana Maslany",
+      "connection_type": "same_actress_same_show",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Sarah Manning, Cosima Niehaus, Alison Hendrix, and Helena are all clone characters in Orphan Black, each portrayed by Tatiana Maslany."
+    },
+    {
+      "id": "group_4",
+      "name": "TV shows cancelled by one network and revived by a different one",
+      "connection_type": "cancelled_and_revived_by_different_network",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Arrested Development (Fox → Netflix), Brooklyn Nine-Nine (Fox → NBC), Lucifer (Fox → Netflix), and Manifest (NBC → Netflix) were all cancelled by their original networks and subsequently picked up and continued by a different network or streaming service."
+    }
+  ]
+}
