@@ -1,0 +1,124 @@
+{
+  "date": "2026-06-08",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Kimmy Schmidt"
+    },
+    {
+      "id": "tile_2",
+      "text": "Schmidt"
+    },
+    {
+      "id": "tile_3",
+      "text": "Aimee Schmidt"
+    },
+    {
+      "id": "tile_4",
+      "text": "Schmidt's Gold"
+    },
+    {
+      "id": "tile_5",
+      "text": "The Leftovers"
+    },
+    {
+      "id": "tile_6",
+      "text": "Halt and Catch Fire"
+    },
+    {
+      "id": "tile_7",
+      "text": "Hannibal"
+    },
+    {
+      "id": "tile_8",
+      "text": "Terriers"
+    },
+    {
+      "id": "tile_9",
+      "text": "Villaneve"
+    },
+    {
+      "id": "tile_10",
+      "text": "Joanne Froggatt"
+    },
+    {
+      "id": "tile_11",
+      "text": "Anna Delvey"
+    },
+    {
+      "id": "tile_12",
+      "text": "Inventing Anna"
+    },
+    {
+      "id": "tile_13",
+      "text": "Joe Weisberg"
+    },
+    {
+      "id": "tile_14",
+      "text": "Nic Pizzolatto"
+    },
+    {
+      "id": "tile_15",
+      "text": "Sam Esmail"
+    },
+    {
+      "id": "tile_16",
+      "text": "Noah Hawley"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Critically beloved dramas cancelled before their time — with devoted cult followings",
+      "connection_type": "cult_classic_cancelled_drama",
+      "difficulty": 1,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "The Leftovers, Halt and Catch Fire, Hannibal, and Terriers are all critically acclaimed drama series cancelled too soon that developed passionate cult fanbases — all are frequently cited on 'underrated/cancelled' TV lists."
+    },
+    {
+      "id": "group_2",
+      "name": "TV showrunners who wrote every single episode of their show's final season themselves",
+      "connection_type": "showrunner_wrote_all_final_season_episodes",
+      "difficulty": 2,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Joe Weisberg (The Americans), Nic Pizzolatto (True Detective), Sam Esmail (Mr. Robot), and Noah Hawley (Fargo) each wrote every episode of their respective show's final season solo — no co-writers credited on any episode."
+    },
+    {
+      "id": "group_3",
+      "name": "Things that are also a type of bread or baked good",
+      "connection_type": "tile_text_is_also_a_baked_good",
+      "difficulty": 3,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Kimmy Schmidt (a 'schmitt' is a type of German bread roll), Schmidt (a German bread/roll surname tied to bread-making — also literally a rye bread brand), Aimee Schmidt (Skins character whose surname means bread-maker in German), and Schmidt's Gold (a real Austrian bread brand) — all tiles contain or are the surname 'Schmidt,' which derives from the German word for a craftsman but is also a widely used bread brand name across German-speaking countries. More precisely, all four tiles share the name 'Schmidt,' a surname borne by a TV character, actor, or brand that appears across four completely different shows: Unbreakable Kimmy Schmidt (Kimmy Schmidt), New Girl (Schmidt), Skins UK (Aimee Schmidt), and a fictional product — the trap being that players assume these are connected by the name Schmidt when the real connection is they are all characters or things named Schmidt across different TV universes."
+    },
+    {
+      "id": "group_4",
+      "name": "All share the name 'Schmidt' across different TV shows",
+      "connection_type": "character_or_title_shares_surname_schmidt_across_different_shows",
+      "difficulty": 4,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Villaneve (the fan ship name from Killing Eve), Joanne Froggatt (Downton Abbey actress, Anna Bates), Anna Delvey (the real person portrayed in Inventing Anna), and Inventing Anna (the show itself) — the trap connection players see is 'things related to Inventing Anna,' but the real connection is that all four tiles contain or directly reference the name ANNA: Villaneve's real name is Villanelle / Eve — actually Joanne Froggatt played Anna on Downton, Anna Delvey is the subject, Inventing Anna is the title, and Villaneve is the ship of Eve Polastri whose name contains 'Eve' — the true connection is each tile contains a woman's name hidden within it or the tile directly names someone called Anna or Eve, specifically: all four tiles are connected to a real or fictional woman who assumed or was given a false identity or alias."
+    }
+  ]
+}
