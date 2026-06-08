@@ -1,0 +1,124 @@
+{
+  "date": "2026-06-09",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Raylan Givens"
+    },
+    {
+      "id": "tile_2",
+      "text": "Harlan County"
+    },
+    {
+      "id": "tile_3",
+      "text": "Timothy Olyphant"
+    },
+    {
+      "id": "tile_4",
+      "text": "We dug coal together"
+    },
+    {
+      "id": "tile_5",
+      "text": "June Osborne"
+    },
+    {
+      "id": "tile_6",
+      "text": "April Ludgate"
+    },
+    {
+      "id": "tile_7",
+      "text": "August Booth"
+    },
+    {
+      "id": "tile_8",
+      "text": "May Kanker"
+    },
+    {
+      "id": "tile_9",
+      "text": "Sterling Archer"
+    },
+    {
+      "id": "tile_10",
+      "text": "Malory Archer"
+    },
+    {
+      "id": "tile_11",
+      "text": "FX"
+    },
+    {
+      "id": "tile_12",
+      "text": "ISIS Headquarters"
+    },
+    {
+      "id": "tile_13",
+      "text": "Black Lodge"
+    },
+    {
+      "id": "tile_14",
+      "text": "The Shadow Realm"
+    },
+    {
+      "id": "tile_15",
+      "text": "The Upside Down"
+    },
+    {
+      "id": "tile_16",
+      "text": "The Bad Place"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Justified universe",
+      "connection_type": "same_show",
+      "difficulty": 1,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Raylan Givens (main character), Harlan County (primary setting), Timothy Olyphant (lead actor), and 'We dug coal together' (Boyd Crowder's iconic line to Raylan) are all from the FX series Justified."
+    },
+    {
+      "id": "group_2",
+      "name": "TV characters whose first name is a month of the year",
+      "connection_type": "character_first_name_is_a_month",
+      "difficulty": 2,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "June Osborne (The Handmaid's Tale) = June; April Ludgate (Parks and Recreation) = April; August Booth (Once Upon a Time) = August; May Kanker (Ed, Edd n Eddy) = May. All TV characters whose first names are months of the year."
+    },
+    {
+      "id": "group_3",
+      "name": "Elements of the Archer animated universe",
+      "connection_type": "archer_universe_elements",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Sterling Archer (protagonist), Malory Archer (his mother and ISIS director), FX (the network that airs Archer), and ISIS Headquarters (the spy agency's base of operations in the show) are all central to the animated series Archer. Note: tile_3 (Timothy Olyphant) is in a different group, avoiding any cross-group confusion with FX."
+    },
+    {
+      "id": "group_4",
+      "name": "Fictional alternate dimensions or afterlife realms secondary to their show's main setting",
+      "connection_type": "fictional_alternate_dimension_or_realm_secondary_to_main_setting",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "The Black Lodge (Twin Peaks — supernatural red-curtained dimension, not the main Pacific Northwest setting), The Shadow Realm (Yu-Gi-Oh! — the dark dimension used as punishment, distinct from the primary setting), The Upside Down (Stranger Things — the parallel dimension mirroring Hawkins, Indiana), and The Bad Place (The Good Place — the demonic afterlife realm contrasting with the main neighborhood setting) are all secondary fictional realms within their respective shows."
+    }
+  ]
+}
