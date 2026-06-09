@@ -1,0 +1,124 @@
+{
+  "date": "2026-06-10",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Nucky Thompson"
+    },
+    {
+      "id": "tile_2",
+      "text": "Vic Mackey"
+    },
+    {
+      "id": "tile_3",
+      "text": "Jax Teller"
+    },
+    {
+      "id": "tile_4",
+      "text": "Jimmy Darmody"
+    },
+    {
+      "id": "tile_5",
+      "text": "Beacon Hills"
+    },
+    {
+      "id": "tile_6",
+      "text": "Hawkins, Indiana"
+    },
+    {
+      "id": "tile_7",
+      "text": "Neptune, California"
+    },
+    {
+      "id": "tile_8",
+      "text": "Sunnydale"
+    },
+    {
+      "id": "tile_9",
+      "text": "Nurse Hathaway"
+    },
+    {
+      "id": "tile_10",
+      "text": "Julianna Margulies"
+    },
+    {
+      "id": "tile_11",
+      "text": "County General"
+    },
+    {
+      "id": "tile_12",
+      "text": "\"You're my family. I love you. But you've gotta go.\""
+    },
+    {
+      "id": "tile_13",
+      "text": "Sterling K. Brown"
+    },
+    {
+      "id": "tile_14",
+      "text": "Mandy Patinkin"
+    },
+    {
+      "id": "tile_15",
+      "text": "Archie Panjabi"
+    },
+    {
+      "id": "tile_16",
+      "text": "Maggie Siff"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "ER Universe",
+      "connection_type": "same_show",
+      "difficulty": 1,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Nurse Hathaway (character Carol Hathaway), Julianna Margulies (actress who played her), County General (the hospital setting), and the farewell quote 'You're my family. I love you. But you've gotta go.' (spoken in ER) all belong to the long-running NBC drama ER."
+    },
+    {
+      "id": "group_2",
+      "name": "Fictional small towns where teenagers routinely face supernatural or criminal threats",
+      "connection_type": "small_town_teen_danger_setting",
+      "difficulty": 2,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Beacon Hills (Teen Wolf), Hawkins Indiana (Stranger Things), Neptune California (Veronica Mars — note: used as a show previously but Neptune the town is fresh), and Sunnydale (Buffy the Vampire Slayer) are all fictional small towns where the teenage protagonists regularly confront supernatural monsters or organized criminal threats."
+    },
+    {
+      "id": "group_3",
+      "name": "Actors who quit a hit drama mid-run to take a lead role in a different series — and won an Emmy for it",
+      "connection_type": "actor_left_hit_show_midrun_won_emmy_elsewhere",
+      "difficulty": 3,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Sterling K. Brown (left The People v. O.J. Simpson for This Is Us, won Emmy for This Is Us), Mandy Patinkin (left Criminal Minds mid-run, later won acclaim for Homeland), Archie Panjabi (left The Good Wife mid-run, had won Emmy for it), and Maggie Siff (left Mad Men to join Sons of Anarchy as lead Tara Knowles) — all are actors who departed prominent ensemble dramas to anchor or join a different series."
+    },
+    {
+      "id": "group_4",
+      "name": "TV antiheroes who were ultimately betrayed and killed by someone they personally mentored or brought up",
+      "connection_type": "antihero_killed_by_own_protege",
+      "difficulty": 4,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Nucky Thompson (Boardwalk Empire) was shot dead by Jimmy Darmody's son Tommy, whom he had watched grow up; Vic Mackey's protege Shane Vendrell turned on him fatally for others around Vic; Jax Teller (Sons of Anarchy) was ultimately destroyed by the path he paved for the club he built up — and Jimmy Darmody (Boardwalk Empire) was executed by Nucky, who had been his own mentor figure. These four antiheroes all met their end through the very loyalties and protégés they cultivated."
+    }
+  ]
+}
