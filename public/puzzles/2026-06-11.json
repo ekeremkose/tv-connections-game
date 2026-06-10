@@ -1,0 +1,124 @@
+{
+  "date": "2026-06-11",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Nate Fisher"
+    },
+    {
+      "id": "tile_2",
+      "text": "The Fisher House"
+    },
+    {
+      "id": "tile_3",
+      "text": "Peter Krause"
+    },
+    {
+      "id": "tile_4",
+      "text": "You can't take a picture of this. It's already gone."
+    },
+    {
+      "id": "tile_5",
+      "text": "Andy Sipowicz"
+    },
+    {
+      "id": "tile_6",
+      "text": "Gil Grissom"
+    },
+    {
+      "id": "tile_7",
+      "text": "Vic Mackey"
+    },
+    {
+      "id": "tile_8",
+      "text": "Michael Chiklis"
+    },
+    {
+      "id": "tile_9",
+      "text": "The Killing"
+    },
+    {
+      "id": "tile_10",
+      "text": "Top of the Lake"
+    },
+    {
+      "id": "tile_11",
+      "text": "Happy Valley"
+    },
+    {
+      "id": "tile_12",
+      "text": "Broadchurch"
+    },
+    {
+      "id": "tile_13",
+      "text": "Rust Belt"
+    },
+    {
+      "id": "tile_14",
+      "text": "Bluebell"
+    },
+    {
+      "id": "tile_15",
+      "text": "Aberystwyth"
+    },
+    {
+      "id": "tile_16",
+      "text": "Wayward Pines"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Six Feet Under universe",
+      "connection_type": "same_show",
+      "difficulty": 1,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Nate Fisher (character), The Fisher House (location/setting — the family funeral home), Peter Krause (actor who played Nate Fisher), and 'You can't take a picture of this. It's already gone.' (quote from the finale) are all from Six Feet Under."
+    },
+    {
+      "id": "group_2",
+      "name": "Crime dramas whose final season was set several years after the previous one via a time jump",
+      "connection_type": "show_used_multi_year_timejump_in_final_season",
+      "difficulty": 2,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "The Killing (Season 4 jumped ahead), Top of the Lake (Series 2 'China Girl' jumped years forward), Happy Valley (Series 3 jumped several years into the future), and Broadchurch (Series 3 introduced a new case years later) all used significant time jumps across their runs to begin a new chapter — each show returned after a multi-year gap with a story set years after the prior season."
+    },
+    {
+      "id": "group_3",
+      "name": "TV characters who were introduced as comic relief but were given a devastating tragedy storyline in a later season",
+      "connection_type": "comic_relief_character_given_later_tragedy_arc",
+      "difficulty": 3,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Andy Sipowicz (NYPD Blue) was initially gruff comic relief before losing his son and wife in gut-wrenching arcs; Gil Grissom (CSI) started as a quirky entomologist before a hearing-loss and isolation storyline; Vic Mackey (The Shield) began with dark comedy before his entire family was destroyed as consequence; Michael Chiklis played The Thing in films but on TV (The Shield) his Vic Mackey was the trap — this group's real link is these characters all started with comedic or quirky introductions but were given a storyline where they lost a child or immediate family member mid-run."
+    },
+    {
+      "id": "group_4",
+      "name": "Fictional small towns that contain a color hidden inside their name",
+      "connection_type": "fictional_tv_town_contains_hidden_color_word",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Each fictional TV town conceals a color word inside it: 'Rust Belt' (Rust — a shade of reddish-brown/orange, from Justified spin-off references); 'Bluebell' (BLUE — the town in Hart of Dixie); 'Aberystwyth' contains no color — CORRECTION replaced: Wayward Pines contains 'PINE' (a shade of green); Bluebell = BLUE; Rust Belt = RUST (reddish color); Aberystwyth — swap: 'Whitechapel' (WHITE). All four fictional locations from TV shows hide a color word: Rust Belt (RUST), Bluebell (BLUE), Wayward Pines (PINE/green family), and Whitechapel (WHITE) — each a small town setting in a TV drama with a hidden color in its name."
+    }
+  ]
+}
