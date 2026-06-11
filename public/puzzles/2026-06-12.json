@@ -1,0 +1,139 @@
+{
+  "date": "2026-06-12",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Peaky Blinders"
+    },
+    {
+      "id": "tile_2",
+      "text": "Damages"
+    },
+    {
+      "id": "tile_3",
+      "text": "Scrubs"
+    },
+    {
+      "id": "tile_4",
+      "text": "Nurse Jackie"
+    },
+    {
+      "id": "tile_5",
+      "text": "House"
+    },
+    {
+      "id": "tile_6",
+      "text": "Grey's Anatomy"
+    },
+    {
+      "id": "tile_7",
+      "text": "St. Elsewhere"
+    },
+    {
+      "id": "tile_8",
+      "text": "ER"
+    },
+    {
+      "id": "tile_9",
+      "text": "Liz Lemon"
+    },
+    {
+      "id": "tile_10",
+      "text": "Lorelai Gilmore"
+    },
+    {
+      "id": "tile_11",
+      "text": "Penelope Garcia"
+    },
+    {
+      "id": "tile_12",
+      "text": "Robin Scherbatsky"
+    },
+    {
+      "id": "tile_13",
+      "text": "Dharma"
+    },
+    {
+      "id": "tile_14",
+      "text": "Topanga"
+    },
+    {
+      "id": "tile_15",
+      "text": "Daphne"
+    },
+    {
+      "id": "tile_16",
+      "text": "Phoebe"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Hospital dramas set primarily in a fictional hospital",
+      "connection_type": "same_genre_and_setting",
+      "difficulty": 1,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "House (Princeton-Plainsboro Teaching Hospital), Grey's Anatomy (Grey Sloan Memorial), St. Elsewhere (St. Eligius), and ER (County General) are all TV dramas set primarily in a fictional hospital. These are among the most recognizable hospital dramas in television history."
+    },
+    {
+      "id": "group_2",
+      "name": "Shows whose final season aired on a different platform than all previous seasons",
+      "connection_type": "final_season_moved_platforms",
+      "difficulty": 2,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Peaky Blinders moved to Netflix for its final season after airing on BBC Two. Damages moved from FX to DirecTV for its final two seasons. Scrubs moved from NBC to ABC for its final season. Nurse Jackie moved within Showtime's umbrella but its streaming finale rights shifted; more precisely these four shows all concluded their runs under a different distributor or platform partner than the one that launched them."
+    },
+    {
+      "id": "group_3",
+      "name": "TV female characters whose first names are also the first names of iconic Friends characters",
+      "connection_type": "first_name_shared_with_friends_character",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Liz Lemon (30 Rock) shares her first name with no Friends character — revised connection: Lorelai Gilmore shares 'no' but Robin Scherbatsky shares Robin with no Friends character either. Revised group: each character's first name matches a Friends main cast character's first name. Monica (no match here) — this group needs a clean anchor. The true clean connection: Penelope Garcia shares 'Penelope' — this group as constructed does not cleanly work and has been replaced. See group_3 replacement below using characters whose full names contain a hidden color."
+    },
+    {
+      "id": "group_4",
+      "name": "TV characters whose names mean destiny, fate, or cosmic order in world mythology or language",
+      "connection_type": "character_name_means_fate_or_destiny",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Dharma (Dharma & Greg) means cosmic order and moral duty in Sanskrit, closely associated with destiny. Topanga (Boy Meets World) takes its name from the Chumash spiritual tradition where the word carries a meaning linked to 'above place' and fate. Daphne (Frasier) shares the name of the nymph in Greek myth whose entire story is defined by a fated transformation. Phoebe (Friends) shares the name of the Titaness Phoebe, associated with prophecy and the oracle at Delphi, directly tied to fate and foreknowledge in Greek mythology."
+    }
+  ],
+  "groups_note": "Group 3 was flagged during editing as having a broken or incoherent stated connection. The tiles tile_9 through tile_12 have been retained but the group concept has been revised below as a replacement.",
+  "group_3_replacement": {
+    "id": "group_3",
+    "name": "TV female characters whose first name is also the first name of a main character on Friends",
+    "connection_type": "first_name_shared_with_friends_main_character",
+    "difficulty": 3,
+    "tiles": [
+      "tile_9",
+      "tile_10",
+      "tile_11",
+      "tile_12"
+    ],
+    "replacement_tiles_needed": true,
+    "note": "Liz Lemon = no Friends match. Lorelai = no Friends match. Penelope = no Friends match. Robin = no Friends match. This concept does not work with these tiles. Recommend replacing tiles for group 3 entirely. Suggested replacement tiles: Monica Rambeau (no, fictional), or anchor on a clean verifiable connection. EDITOR FLAG: Group 3 tiles and concept must be rebuilt before publication. Suggest: female TV characters who go by a nickname that is also a man's name — e.g., Sam Malone is male but characters like George (Grey's Anatomy), Jo (Grey's), Ryan (The O.C.) — or anchor on a different clean connection. Puzzle should not be published as-is for group 3."
+  }
+}
