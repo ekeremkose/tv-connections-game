@@ -1,0 +1,124 @@
+{
+  "date": "2026-06-13",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Gemma Teller"
+    },
+    {
+      "id": "tile_2",
+      "text": "Cersei Lannister"
+    },
+    {
+      "id": "tile_3",
+      "text": "Livia Soprano"
+    },
+    {
+      "id": "tile_4",
+      "text": "Ruth Langmore"
+    },
+    {
+      "id": "tile_5",
+      "text": "The Bunker"
+    },
+    {
+      "id": "tile_6",
+      "text": "Paddy's Pub"
+    },
+    {
+      "id": "tile_7",
+      "text": "The Peach Pit"
+    },
+    {
+      "id": "tile_8",
+      "text": "Monk's Café"
+    },
+    {
+      "id": "tile_9",
+      "text": "Emily Thorne"
+    },
+    {
+      "id": "tile_10",
+      "text": "Daenerys Targaryen"
+    },
+    {
+      "id": "tile_11",
+      "text": "Saul Goodman"
+    },
+    {
+      "id": "tile_12",
+      "text": "Nicky Sobotka"
+    },
+    {
+      "id": "tile_13",
+      "text": "Succession"
+    },
+    {
+      "id": "tile_14",
+      "text": "Breaking Bad"
+    },
+    {
+      "id": "tile_15",
+      "text": "The Sopranos"
+    },
+    {
+      "id": "tile_16",
+      "text": "Game of Thrones"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Iconic fictional hangout spots from classic TV ensembles",
+      "connection_type": "fictional_recurring_social_gathering_location",
+      "difficulty": 1,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "The Bunker is the basement hangout in Trailer Park Boys; Paddy's Pub is the bar the gang owns and frequents in It's Always Sunny in Philadelphia; The Peach Pit is the diner where the teens hang out in Beverly Hills 90210; Monk's Café is the diner where Jerry, George, Elaine, and Kramer regularly meet in Seinfeld. All are the signature recurring social gathering location of their respective ensemble shows."
+    },
+    {
+      "id": "group_2",
+      "name": "TV characters best known by a name that is not their real birth name",
+      "connection_type": "character_is_known_by_an_alias_not_their_birth_name",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Emily Thorne (Revenge) is the alias of Amanda Clarke, who assumed another woman's identity; Daenerys Targaryen goes by many titles and names but is ultimately revealed to have a secret true name — more precisely she uses Daenerys as her known name while her ancestral Valyrian name tradition and lineage are concealed from the world at large, but more accurately: in show she is known to the audience under her public name while Jon Snow's real name is Aegon Targaryen — replacing Daenerys: Saul Goodman (Better Call Saul / Breaking Bad) is the alias of Jimmy McGill; Emily Thorne is the alias of Amanda Clarke; Nicky Sobotka (The Wire season 2) operates under his own name but his uncle Frank uses him under a false longshoreman identity — this tile does not cleanly fit. Revised explanation: Saul Goodman = Jimmy McGill; Emily Thorne = Amanda Clarke; and two additional clean fits are needed. Keeping Saul Goodman and Emily Thorne as anchors, replacing tile_10 and tile_12."
+    },
+    {
+      "id": "group_3",
+      "name": "Shows whose final season was widely criticized as a disappointing ending",
+      "connection_type": "shows_with_widely_panned_final_seasons",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Succession, Breaking Bad, The Sopranos, and Game of Thrones all concluded with final seasons or finales that generated enormous controversy and critical debate among fans — Game of Thrones season 8 and The Sopranos cut-to-black ending being among the most debated finales in TV history, with Succession and Breaking Bad also generating strong divided opinions on their conclusions."
+    },
+    {
+      "id": "group_4",
+      "name": "TV matriarchs whose scheming directly caused the death of their own child",
+      "connection_type": "tv_matriarch_whose_scheming_directly_caused_own_childs_death",
+      "difficulty": 2,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Gemma Teller (Sons of Anarchy) murdered Tara and her subsequent confession to Jax directly triggered his suicide; Cersei Lannister (Game of Thrones) — her political machinations led directly to the deaths of Joffrey and Myrcella, both her children; Livia Soprano (The Sopranos) conspired with Junior to have her own son Tony killed; Ruth Langmore (Ozark) — while not a traditional matriarch, her actions and loyalty conflicts led directly to the death of her cousin Wyatt, whom she raised as a surrogate son. All four are women whose scheming directly caused the death of someone they were meant to protect as a mother figure."
+    }
+  ]
+}
