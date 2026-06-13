@@ -1,0 +1,124 @@
+{
+  "date": "2026-06-14",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Paddy's Pub"
+    },
+    {
+      "id": "tile_2",
+      "text": "The Bada Bing!"
+    },
+    {
+      "id": "tile_3",
+      "text": "The Crab Shack"
+    },
+    {
+      "id": "tile_4",
+      "text": "Monk's Café"
+    },
+    {
+      "id": "tile_5",
+      "text": "Murder, She Wrote"
+    },
+    {
+      "id": "tile_6",
+      "text": "Magnum P.I."
+    },
+    {
+      "id": "tile_7",
+      "text": "Castle"
+    },
+    {
+      "id": "tile_8",
+      "text": "Blue Bloods"
+    },
+    {
+      "id": "tile_9",
+      "text": "Angela Lansbury"
+    },
+    {
+      "id": "tile_10",
+      "text": "Tom Selleck"
+    },
+    {
+      "id": "tile_11",
+      "text": "Nathan Fillion"
+    },
+    {
+      "id": "tile_12",
+      "text": "Stana Katic"
+    },
+    {
+      "id": "tile_13",
+      "text": "Peggy Olson"
+    },
+    {
+      "id": "tile_14",
+      "text": "Nucky Thompson"
+    },
+    {
+      "id": "tile_15",
+      "text": "Jimmy McNulty"
+    },
+    {
+      "id": "tile_16",
+      "text": "Dr. Gregory House"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Iconic Fictional TV Hangout Spots",
+      "connection_type": "fictional_recurring_social_location_central_to_show",
+      "difficulty": 1,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Paddy's Pub (It's Always Sunny in Philadelphia), The Bada Bing! (The Sopranos), The Crab Shack (My Name Is Earl), and Monk's Café (Seinfeld) are all iconic fictional locations that serve as central recurring gathering spots in their respective shows. Litchfield Penitentiary was removed because it is a prison, not a social hangout, making it an awkward fit. Monk's Café is a well-known example of the category."
+    },
+    {
+      "id": "group_2",
+      "name": "Long-Running CBS Primetime Crime Dramas",
+      "connection_type": "show_aired_as_long_running_cbs_primetime_crime_drama",
+      "difficulty": 2,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Murder, She Wrote (1984–1996), Magnum P.I. (1980–1988), Castle (2009–2016), and Blue Bloods (2010–present) all aired as long-running primetime crime dramas on CBS. This is a clean, verifiable connection. Note that the actors who star in these shows appear separately on the board as a deliberate trap."
+    },
+    {
+      "id": "group_3",
+      "name": "Actors Who Star in a Show Listed on This Board",
+      "connection_type": "actor_is_lead_of_one_of_the_four_cbs_crime_dramas_named_on_this_board",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Angela Lansbury starred in Murder, She Wrote; Tom Selleck starred in Magnum P.I. and later Blue Bloods; Nathan Fillion starred in Castle; and Stana Katic co-starred in Castle as Detective Kate Beckett. The trap is that players may try to group the show titles with the actors, or pair Nathan Fillion with Castle. The group is defined as the four actors whose shows all appear by title elsewhere on the board. Stana Katic replaces Rick Castle (a character, not an actor) to keep all tiles in this group as real people, and removes the near-automatic Rick Castle–Castle link that would have spoiled both groups."
+    },
+    {
+      "id": "group_4",
+      "name": "TV Characters Demoted or Professionally Destroyed in a Season Finale",
+      "connection_type": "character_suffered_major_verified_professional_downfall_in_a_season_finale",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Peggy Olson (Mad Men) was abruptly fired by Don Draper at the end of Season 5, a stunning professional humiliation. Nucky Thompson (Boardwalk Empire) was betrayed and stripped of political control at the end of Season 2. Jimmy McNulty (The Wire) was busted back to a beat patrol officer at the close of Season 3 after his unauthorized wiretap operation collapsed. Dr. Gregory House (House M.D.) voluntarily committed himself to Mayfield Psychiatric Hospital at the end of Season 5 after his hallucinations destroyed his career standing. All four are clear, well-documented season-finale professional downfalls."
+    }
+  ]
+}
