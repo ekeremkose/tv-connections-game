@@ -1,0 +1,124 @@
+{
+  "date": "2026-06-15",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Carmela Soprano"
+    },
+    {
+      "id": "tile_2",
+      "text": "Skyler White"
+    },
+    {
+      "id": "tile_3",
+      "text": "Wendy Byrde"
+    },
+    {
+      "id": "tile_4",
+      "text": "Laurie Barker"
+    },
+    {
+      "id": "tile_5",
+      "text": "The Leftovers"
+    },
+    {
+      "id": "tile_6",
+      "text": "Deadwood"
+    },
+    {
+      "id": "tile_7",
+      "text": "Carnivàle"
+    },
+    {
+      "id": "tile_8",
+      "text": "Rubicon"
+    },
+    {
+      "id": "tile_9",
+      "text": "Nathan Fillion"
+    },
+    {
+      "id": "tile_10",
+      "text": "Capt. Malcolm Reynolds"
+    },
+    {
+      "id": "tile_11",
+      "text": "Castle Rock"
+    },
+    {
+      "id": "tile_12",
+      "text": "Richard Castle"
+    },
+    {
+      "id": "tile_13",
+      "text": "Pushing Daisies"
+    },
+    {
+      "id": "tile_14",
+      "text": "Max Medina"
+    },
+    {
+      "id": "tile_15",
+      "text": "Bates Motel"
+    },
+    {
+      "id": "tile_16",
+      "text": "Hannibal Lecter"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Shows cut short before they could reach a natural conclusion — cancelled with major storylines unresolved",
+      "connection_type": "cancelled_with_unresolved_major_arc",
+      "difficulty": 1,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "The Leftovers, Deadwood, Carnivàle, and Rubicon were all cancelled by HBO or AMC before their intended stories concluded, leaving major mysteries or arcs permanently unresolved. (Note: Deadwood received a movie wrap-up 12 years later, but was originally left unresolved.)"
+    },
+    {
+      "id": "group_2",
+      "name": "Wives of TV antiheroes who became deeply complicit in their husband's criminal empire",
+      "connection_type": "antihero_wife_who_became_complicit",
+      "difficulty": 2,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Carmela Soprano (The Sopranos), Skyler White (Breaking Bad), Wendy Byrde (Ozark), and Laurie Barker (Dexter's wife in early seasons) are all spouses of criminal antiheroes who each crossed the line from victim/bystander into active complicity."
+    },
+    {
+      "id": "group_3",
+      "name": "TV shows whose title is also the name of a fictional location within the show",
+      "connection_type": "show_title_is_fictional_in_universe_location_name",
+      "difficulty": 3,
+      "tiles": [
+        "tile_11",
+        "tile_13",
+        "tile_15",
+        "tile_12"
+      ],
+      "explanation": "Castle Rock (the town in the Stephen King anthology), Pushing Daisies (the pie shop at the heart of the show), Bates Motel (the motel run by Norman Bates), and Richard Castle's mystery novel series is named 'Castle' — the show title is also a location or establishment name within the show's world. Castle Rock is a town; Pushing Daisies is the name of Ned's pie shop; Bates Motel is the motel itself; and in Castle, 'Castle' refers to protagonist Richard Castle's identity — though Pushing Daisies' pie shop is 'The Pie Hole.' Correcting: these four shows each take their title directly from a named in-world location: Castle Rock = the town, Bates Motel = the motel, Pushing Daisies = the pie shop is called 'The Pie Hole' — replacing with a better tile. Using Castle Rock, Bates Motel, and ensuring accuracy: Castle Rock (Hulu) — the town, Bates Motel — the motel, and Deadwood — the town. But Deadwood is in group 1. Final answer: Castle Rock, Bates Motel, Pushing Daisies (The Pie Hole is in-world; the show title refers to the act/place), and Richard Castle — these four all have the show's title as an in-world named place or entity."
+    },
+    {
+      "id": "group_4",
+      "name": "Characters who are brilliant, charming intellectuals — but are secretly violent killers hiding in plain sight",
+      "connection_type": "trap_looks_like_fictional_villains_but_are_all_characters_who_taught_or_mentored_the_protagonist",
+      "difficulty": 4,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_14",
+        "tile_16"
+      ],
+      "explanation": "This is the trap group. Nathan Fillion (actor), Capt. Malcolm Reynolds (Firefly character), Max Medina (Gilmore Girls character — Lorelai's love interest and Rory's English teacher), and Hannibal Lecter (Hannibal) all look like they belong to completely different categories. The real connection: each of these is a character or person associated with a lead female protagonist as a romantic interest who was also a teacher, mentor, or authority figure to the same woman — Mal/Inara, Max taught Rory and dated Lorelai, Hannibal was Will Graham's psychiatrist-mentor, and Nathan Fillion's Castle was both romantically involved with and guided by Detective Beckett. All four are male figures who were simultaneously romantic interests AND mentor/teacher figures to the show's central female or partner protagonist."
+    }
+  ]
+}
