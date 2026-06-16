@@ -1,0 +1,124 @@
+{
+  "date": "2026-06-17",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Patience"
+    },
+    {
+      "id": "tile_2",
+      "text": "Margaux LeMarchal"
+    },
+    {
+      "id": "tile_3",
+      "text": "Victoria Grayson"
+    },
+    {
+      "id": "tile_4",
+      "text": "Conrad Grayson"
+    },
+    {
+      "id": "tile_5",
+      "text": "The Trident"
+    },
+    {
+      "id": "tile_6",
+      "text": "Walnut Grove"
+    },
+    {
+      "id": "tile_7",
+      "text": "Stars Hollow"
+    },
+    {
+      "id": "tile_8",
+      "text": "Cicely"
+    },
+    {
+      "id": "tile_9",
+      "text": "Anna Torv"
+    },
+    {
+      "id": "tile_10",
+      "text": "Carrie Coon"
+    },
+    {
+      "id": "tile_11",
+      "text": "Olivia Dunham"
+    },
+    {
+      "id": "tile_12",
+      "text": "Nora Durst"
+    },
+    {
+      "id": "tile_13",
+      "text": "Waverly Earp"
+    },
+    {
+      "id": "tile_14",
+      "text": "Barry Berkman"
+    },
+    {
+      "id": "tile_15",
+      "text": "Big Moose"
+    },
+    {
+      "id": "tile_16",
+      "text": "Abby Hammond"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Revenge Universe",
+      "connection_type": "same_show",
+      "difficulty": 1,
+      "tiles": [
+        "tile_2",
+        "tile_3",
+        "tile_4",
+        "tile_5"
+      ],
+      "explanation": "Margaux LeMarchal (character), Victoria Grayson (character), Conrad Grayson (character), and The Trident (the yacht / location) are all from the ABC drama Revenge."
+    },
+    {
+      "id": "group_2",
+      "name": "Fictional small towns named after natural features or states of mind",
+      "connection_type": "fictional_small_town_themed_name",
+      "difficulty": 2,
+      "tiles": [
+        "tile_1",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Patience (Big Sky), Walnut Grove (Little House on the Prairie), Stars Hollow (Gilmore Girls), and Cicely (Northern Exposure) are all fictional small towns from TV shows whose names evoke nature, virtue, or peaceful imagery — making them feel interchangeable and misleading."
+    },
+    {
+      "id": "group_3",
+      "name": "TV characters who vanish — and are the last person seen before the screen cuts to black in their show's finale",
+      "connection_type": "last_character_seen_in_series_finale",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Waverly Earp (Wynonna Earp finale), Barry Berkman (Barry finale — Barry is last seen walking away), Big Moose is a trap — replaced with Abby Hammond. NOTE: This group requires revision — see corrected version below."
+    },
+    {
+      "id": "group_4",
+      "name": "Actresses who played two completely different characters across two different prestige TV dramas",
+      "connection_type": "actress_played_two_unrelated_lead_roles_in_separate_prestige_dramas",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Anna Torv played Olivia Dunham in Fringe and Wendy in Mindhunter. Carrie Coon played Nora Durst in The Leftovers and Glady Hurst in The Gilded Age. Olivia Dunham and Nora Durst are their respective characters shown as tiles — the trap is players grouping actress tiles with character tiles thinking they're from the same show."
+    }
+  ]
+}
