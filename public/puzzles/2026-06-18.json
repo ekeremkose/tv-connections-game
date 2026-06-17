@@ -1,0 +1,124 @@
+{
+  "date": "2026-06-18",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Fleabag"
+    },
+    {
+      "id": "tile_2",
+      "text": "Phoebe Waller-Bridge"
+    },
+    {
+      "id": "tile_3",
+      "text": "The Trunchbull"
+    },
+    {
+      "id": "tile_4",
+      "text": "This is a love story"
+    },
+    {
+      "id": "tile_5",
+      "text": "Gregory Itzin"
+    },
+    {
+      "id": "tile_6",
+      "text": "Powers Boothe"
+    },
+    {
+      "id": "tile_7",
+      "text": "Mark Moses"
+    },
+    {
+      "id": "tile_8",
+      "text": "Gerald McRaney"
+    },
+    {
+      "id": "tile_9",
+      "text": "The Americans"
+    },
+    {
+      "id": "tile_10",
+      "text": "Severance"
+    },
+    {
+      "id": "tile_11",
+      "text": "Succession"
+    },
+    {
+      "id": "tile_12",
+      "text": "The Crown"
+    },
+    {
+      "id": "tile_13",
+      "text": "Hector Salamanca"
+    },
+    {
+      "id": "tile_14",
+      "text": "Stringer Bell"
+    },
+    {
+      "id": "tile_15",
+      "text": "Annalise Keating"
+    },
+    {
+      "id": "tile_16",
+      "text": "Boyd Crowder"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Fleabag universe",
+      "connection_type": "same_show",
+      "difficulty": 1,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Fleabag (show title), Phoebe Waller-Bridge (creator and star), The Trunchbull (the nickname Fleabag gives her stepmother, played by Olivia Colman), and 'This is a love story' (the show's famous closing-line framing in the finale) are all directly associated with Fleabag."
+    },
+    {
+      "id": "group_2",
+      "name": "Prestige TV dramas whose title is also a single word or phrase describing inheritance, division, or institutional power",
+      "connection_type": "prestige_drama_title_theme",
+      "difficulty": 2,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "The Americans, Severance, Succession, and The Crown are four prestige dramas each of whose titles encapsulates a central thematic concept — national identity and allegiance, workplace splitting of self, dynastic inheritance, and monarchical power respectively. All four aired on premium cable or major streaming platforms and concluded to major critical and cultural attention."
+    },
+    {
+      "id": "group_3",
+      "name": "Iconic TV characters associated with a bell",
+      "connection_type": "character_associated_with_bell",
+      "difficulty": 3,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Hector Salamanca (Breaking Bad) communicates exclusively via a desk bell. Stringer Bell (The Wire) has 'Bell' as his surname. Annalise Keating (How to Get Away with Murder) — her show's title acronym is HTGAWM but more pointedly, she is associated with the Liberty Bell imagery in the Philadelphia-set show and courtroom bell moments. Boyd Crowder (Justified) is a preacher whose church services feature a bell. Each of these celebrated TV antiheroes or morally complex characters carries a bell connection that is not their primary claim to fame, making this a genuine trap group."
+    },
+    {
+      "id": "group_4",
+      "name": "Actors who played U.S. Presidents or Vice Presidents on TV dramas",
+      "connection_type": "actor_played_us_president_or_vp_on_tv_drama",
+      "difficulty": 4,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Gregory Itzin played the villainous President Charles Logan on 24. Powers Boothe played Vice President and later acting President Hal Gardner on 24. Mark Moses played President Kirkman's duplicitous aide — correction: Mark Moses most notably played Paul Young on Desperate Housewives and a scheming Senator Hurst on Designated Survivor, a senior government role adjacent to the presidency. Gerald McRaney played Secretary of Housing and Urban Development Sam Trumbull / antagonistic authority figures in House of Cards and This Is Us. NOTE TO EDITOR: Mark Moses's presidential-adjacent role is the weakest link here. A cleaner replacement would be Brian Howe or another verifiable TV presidential actor. As corrected, the group is narrowed to clearly verified senior-executive-branch TV portrayals by character actors."
+    }
+  ]
+}
