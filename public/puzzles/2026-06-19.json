@@ -1,0 +1,124 @@
+{
+  "date": "2026-06-19",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Pawnee, Indiana"
+    },
+    {
+      "id": "tile_2",
+      "text": "Eagleton"
+    },
+    {
+      "id": "tile_3",
+      "text": "Veep"
+    },
+    {
+      "id": "tile_4",
+      "text": "Donna Meagle"
+    },
+    {
+      "id": "tile_5",
+      "text": "Elsbeth Tascioni"
+    },
+    {
+      "id": "tile_6",
+      "text": "Charlie Young"
+    },
+    {
+      "id": "tile_7",
+      "text": "Donna Pinciotti"
+    },
+    {
+      "id": "tile_8",
+      "text": "Abby Sciuto"
+    },
+    {
+      "id": "tile_9",
+      "text": "Borgen"
+    },
+    {
+      "id": "tile_10",
+      "text": "Scandal"
+    },
+    {
+      "id": "tile_11",
+      "text": "Commander in Chief"
+    },
+    {
+      "id": "tile_12",
+      "text": "1600 Penn"
+    },
+    {
+      "id": "tile_13",
+      "text": "Monty Pippin"
+    },
+    {
+      "id": "tile_14",
+      "text": "Li'l Sebastian"
+    },
+    {
+      "id": "tile_15",
+      "text": "The IT Crowd"
+    },
+    {
+      "id": "tile_16",
+      "text": "Orphan Black"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Shows set in or primarily about national executive political power",
+      "connection_type": "fictional_political_setting_show",
+      "difficulty": 1,
+      "tiles": [
+        "tile_3",
+        "tile_9",
+        "tile_10",
+        "tile_11"
+      ],
+      "explanation": "Veep (US VP/President), Borgen (Danish prime minister), Scandal (White House fixer), and Commander in Chief (first female US president) are all TV dramas or comedies centered on national executive political power."
+    },
+    {
+      "id": "group_2",
+      "name": "Parks and Recreation references",
+      "connection_type": "same_show",
+      "difficulty": 2,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_13",
+        "tile_14"
+      ],
+      "explanation": "Pawnee, Indiana (the show's setting), Eagleton (Pawnee's rival neighboring town), Monty Pippin (a horse mentioned in the show), and Li'l Sebastian (the beloved miniature horse and Pawnee celebrity) are all specific references from Parks and Recreation."
+    },
+    {
+      "id": "group_3",
+      "name": "Characters who appear to be comic sidekicks but are secretly the most competent person in the room",
+      "connection_type": "looks_like_comic_relief_actually_secret_genius",
+      "difficulty": 3,
+      "tiles": [
+        "tile_5",
+        "tile_7",
+        "tile_8",
+        "tile_6"
+      ],
+      "explanation": "Elsbeth Tascioni (The Good Wife/Elsbeth — appears scatterbrained but is a brilliant legal strategist), Donna Pinciotti (That '70s Show — played for laughs but consistently the sharpest in the group), Abby Sciuto (NCIS — goth lab tech played as comic relief who routinely cracks the case), and Charlie Young (The West Wing — the President's personal aide, seemingly just a junior staffer but repeatedly shown to be exceptionally capable and the most quietly indispensable person in the White House) all present as sidekicks or comic relief but are in fact the most competent person around them."
+    },
+    {
+      "id": "group_4",
+      "name": "TV shows whose title sounds like something completely unrelated to the show's actual content",
+      "connection_type": "show_title_sounds_like_unrelated_phrase_when_spoken",
+      "difficulty": 4,
+      "tiles": [
+        "tile_4",
+        "tile_12",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Donna Meagle (Parks and Recreation character whose name sounds like a perfectly ordinary person's name but she is a glamorous, larger-than-life character), 1600 Penn (sounds like a street address but is a White House family sitcom), The IT Crowd (sounds like it could be a thriller about a criminal mob — 'the IT crowd' as in a clique — but is a workplace comedy about tech support), and Orphan Black (sounds like a paint color, an art term, or a poker phrase but is a sci-fi clone conspiracy thriller) all have titles that when heard evoke something entirely unrelated to their actual genre or content."
+    }
+  ]
+}
