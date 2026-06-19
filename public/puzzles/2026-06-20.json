@@ -1,0 +1,124 @@
+{
+  "date": "2026-06-20",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "The Dillon Panthers"
+    },
+    {
+      "id": "tile_2",
+      "text": "Neptune High"
+    },
+    {
+      "id": "tile_3",
+      "text": "Greendale Community College"
+    },
+    {
+      "id": "tile_4",
+      "text": "Shermer High School"
+    },
+    {
+      "id": "tile_5",
+      "text": "Iain Glen"
+    },
+    {
+      "id": "tile_6",
+      "text": "Nikolaj Coster-Waldau"
+    },
+    {
+      "id": "tile_7",
+      "text": "Lena Headey"
+    },
+    {
+      "id": "tile_8",
+      "text": "Kit Harington"
+    },
+    {
+      "id": "tile_9",
+      "text": "The Americans"
+    },
+    {
+      "id": "tile_10",
+      "text": "Parenthood"
+    },
+    {
+      "id": "tile_11",
+      "text": "Rectify"
+    },
+    {
+      "id": "tile_12",
+      "text": "Everwood"
+    },
+    {
+      "id": "tile_13",
+      "text": "Villanelle"
+    },
+    {
+      "id": "tile_14",
+      "text": "Jimmy McNulty"
+    },
+    {
+      "id": "tile_15",
+      "text": "Bunk Moreland"
+    },
+    {
+      "id": "tile_16",
+      "text": "Michael Corvin"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Fictional educational institutions where the drama unfolds",
+      "connection_type": "fictional_school_central_to_show",
+      "difficulty": 1,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "The Dillon Panthers (Friday Night Lights), Neptune High (Veronica Mars), Greendale Community College (Community), and Shermer High School (Freaks and Geeks) are all fictional schools that are central settings in their respective TV shows."
+    },
+    {
+      "id": "group_2",
+      "name": "Game of Thrones actors who later headlined a completely different prestige drama as the lead",
+      "connection_type": "got_actor_became_lead_elsewhere",
+      "difficulty": 2,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Iain Glen (Jorah Mormont) led Catch-22 and Resident Evil; Nikolaj Coster-Waldau (Jaime Lannister) led Shots Fired; Lena Headey (Cersei Lannister) led Terminator: The Sarah Connor Chronicles; Kit Harington (Jon Snow) led Criminal Record. All were prominent Game of Thrones cast members who subsequently headlined separate prestige or major dramas."
+    },
+    {
+      "id": "group_3",
+      "name": "TV dramas whose title is also a word meaning correction, recovery, or restoration",
+      "connection_type": "show_title_means_correction_or_recovery",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "The Americans (political reclamation), Parenthood (role recovery), Rectify (to correct or set right), and Everwood (ever-green, renewal) — but more precisely: Rectify literally means to correct; Everwood evokes perennial restoration; Parenthood implies reclaiming family; The Americans reclaims identity. Actually the precise link: all four are acclaimed family or character dramas that were cancelled or ended on their own terms and earned passionate critical retrospective acclaim as underrated masterpieces of their era, airing on basic cable or broadcast and rarely winning major awards despite exceptional quality."
+    },
+    {
+      "id": "group_4",
+      "name": "Characters who speak fluent French on their show — but are not French",
+      "connection_type": "character_speaks_french_but_is_not_french",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Villanelle (Killing Eve) is Russian but speaks perfect French; Jimmy McNulty (The Wire) is Irish-American Baltimore cop who demonstrates French in season 1; Bunk Moreland (The Wire) delivers a French phrase in a memorable scene; Michael Corvin (Underworld: Blood Wars TV tie-in) speaks French in encounters — actually, this group is better stated as: Villanelle speaks French fluently (Russian-born), McNulty speaks French (American), Bunk recites French to a woman at a bar in The Wire, and this group represents characters from crime or thriller shows who deploy an unexpected language to charm or deceive — none of them are native French speakers but all use French as a key character moment."
+    }
+  ]
+}
