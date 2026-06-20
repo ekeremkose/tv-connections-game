@@ -1,0 +1,124 @@
+{
+  "date": "2026-06-21",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Littlefinger"
+    },
+    {
+      "id": "tile_2",
+      "text": "The Governor"
+    },
+    {
+      "id": "tile_3",
+      "text": "Negan"
+    },
+    {
+      "id": "tile_4",
+      "text": "The Operative"
+    },
+    {
+      "id": "tile_5",
+      "text": "Flea Market Montgomery, Alabama"
+    },
+    {
+      "id": "tile_6",
+      "text": "Bluebell, Alabama"
+    },
+    {
+      "id": "tile_7",
+      "text": "Cicero, Illinois"
+    },
+    {
+      "id": "tile_8",
+      "text": "Rosewood, Pennsylvania"
+    },
+    {
+      "id": "tile_9",
+      "text": "Idris Elba"
+    },
+    {
+      "id": "tile_10",
+      "text": "Thandiwe Newton"
+    },
+    {
+      "id": "tile_11",
+      "text": "Dominic West"
+    },
+    {
+      "id": "tile_12",
+      "text": "Andrew Lincoln"
+    },
+    {
+      "id": "tile_13",
+      "text": "Pilot"
+    },
+    {
+      "id": "tile_14",
+      "text": "The Constant"
+    },
+    {
+      "id": "tile_15",
+      "text": "Ozymandias"
+    },
+    {
+      "id": "tile_16",
+      "text": "The Rains of Castamere"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Fictional TV towns whose full name includes a U.S. state",
+      "connection_type": "fictional_tv_town_name_includes_us_state",
+      "difficulty": 1,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Flea Market Montgomery, Alabama (from the viral ad turned cultural reference, Raising Hope), Bluebell, Alabama (Hart of Dixie), Cicero, Illinois (Shameless), and Rosewood, Pennsylvania (Pretty Little Liars) are all fictional or semi-fictional TV locations whose name as commonly used includes a U.S. state. Each tile contains a state name embedded in the location text."
+    },
+    {
+      "id": "group_2",
+      "name": "British actors who played iconic American TV roles",
+      "connection_type": "british_actor_famous_american_tv_role",
+      "difficulty": 2,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Idris Elba (British) played Stringer Bell in The Wire; Thandiwe Newton (British) played Maeve in Westworld; Dominic West (British) played Jimmy McNulty in The Wire; Andrew Lincoln (British) played Rick Grimes in The Walking Dead. All four are British actors who became famous for playing quintessentially American characters in prestige U.S. television dramas."
+    },
+    {
+      "id": "group_3",
+      "name": "TV villains known only by a title or nickname — not their real name",
+      "connection_type": "villain_known_only_by_title_or_nickname",
+      "difficulty": 3,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Littlefinger (Game of Thrones) — real name Petyr Baelish, universally known by a mocking childhood nickname. The Governor (The Walking Dead) — real name Philip Blake, known exclusively by his self-appointed title. Negan (The Walking Dead) — his surname is never confirmed on the show; he is known only by this single name of ambiguous origin. The Operative (Firefly/Serenity) — his real name is never revealed; he is referred to solely by his job title throughout. All four iconic TV antagonists are universally known by a name that is not their verified given birth name."
+    },
+    {
+      "id": "group_4",
+      "name": "Acclaimed TV episode titles that share their name with a poem or piece of literature",
+      "connection_type": "episode_title_is_also_title_of_famous_poem_or_literary_work",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "'Pilot' (countless shows) is also a famous Walt Whitman poem. 'The Constant' (Lost, Season 4) shares its name with a famous John Donne poem ('A Valediction: Forbidding Mourning' is sometimes called this, and Donne wrote a poem titled 'The Constant'). 'Ozymandias' (Breaking Bad, Season 5) is directly named after Percy Bysshe Shelley's famous sonnet. 'The Rains of Castamere' (Game of Thrones, Season 3) is an in-universe song but its title echoes the structure and tone of classic elegiac verse, and the episode's title is taken from George R.R. Martin's literary text. The strongest three are Ozymandias (Shelley), The Constant (Donne), and Pilot (Whitman); 'The Rains of Castamere' is the stretch tile that makes solvers second-guess themselves."
+    }
+  ]
+}
