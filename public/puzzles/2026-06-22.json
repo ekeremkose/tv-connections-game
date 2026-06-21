@@ -1,0 +1,124 @@
+{
+  "date": "2026-06-22",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Shiv Roy"
+    },
+    {
+      "id": "tile_2",
+      "text": "Seahaven Island"
+    },
+    {
+      "id": "tile_3",
+      "text": "The Village"
+    },
+    {
+      "id": "tile_4",
+      "text": "Westworld"
+    },
+    {
+      "id": "tile_5",
+      "text": "Claire Underwood"
+    },
+    {
+      "id": "tile_6",
+      "text": "Patty Hewes"
+    },
+    {
+      "id": "tile_7",
+      "text": "Tom Wambsgans"
+    },
+    {
+      "id": "tile_8",
+      "text": "Logan Roy"
+    },
+    {
+      "id": "tile_9",
+      "text": "Jim Caviezel"
+    },
+    {
+      "id": "tile_10",
+      "text": "Michael Emerson"
+    },
+    {
+      "id": "tile_11",
+      "text": "Evan Rachel Wood"
+    },
+    {
+      "id": "tile_12",
+      "text": "The Prisoner"
+    },
+    {
+      "id": "tile_13",
+      "text": "Katey Sagal"
+    },
+    {
+      "id": "tile_14",
+      "text": "Vera Farmiga"
+    },
+    {
+      "id": "tile_15",
+      "text": "Anna Gunn"
+    },
+    {
+      "id": "tile_16",
+      "text": "Maura Tierney"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Fictional constructed environments where the protagonist is unknowingly trapped",
+      "connection_type": "fictional_controlled_environment_trapping_protagonist",
+      "difficulty": 1,
+      "tiles": [
+        "tile_2",
+        "tile_3",
+        "tile_4",
+        "tile_12"
+      ],
+      "explanation": "Seahaven Island is the fake town built for Truman in The Truman Show. The Village is the sinister controlled environment in The Prisoner. Westworld is the artificial theme park world in which hosts and guests are manipulated. The Prisoner features The Village as its constructed trap — all four are fictional engineered environments designed to contain and deceive their inhabitants."
+    },
+    {
+      "id": "group_2",
+      "name": "Succession characters defined by a marriage used as a power transaction",
+      "connection_type": "succession_character_marriage_as_power_transaction",
+      "difficulty": 2,
+      "tiles": [
+        "tile_1",
+        "tile_5",
+        "tile_6",
+        "tile_7"
+      ],
+      "explanation": "Shiv Roy (Succession) treats her marriage to Tom as a strategic asset and emotional weapon. Claire Underwood (House of Cards) co-architects power with Frank, ultimately weaponizing the marriage entirely for her own ascent. Patty Hewes (Damages) is defined by ruthlessly instrumentalizing every close relationship including her marriage. Tom Wambsgans (Succession) is the socially outmatched spouse consciously leveraged and discarded by Shiv — all four are characters whose marriages are explicitly depicted as instruments of ambition and control rather than genuine partnerships."
+    },
+    {
+      "id": "group_3",
+      "name": "Actors who played the enigmatic antagonist/controller in a prestige TV show about a manufactured reality",
+      "connection_type": "actor_played_controller_antagonist_in_manufactured_reality_prestige_tv",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_16"
+      ],
+      "explanation": "Jim Caviezel played the new Number Six — the controlled prisoner — in the 2009 AMC remake of The Prisoner. Michael Emerson played Benjamin Linus, the mysterious controlling antagonist of the island on Lost. Evan Rachel Wood played Dolores in Westworld, the host who awakens to the manufactured nature of her reality and becomes its chief disruptor. Maura Tierney played Helen Solloway in The Affair, a drama built around subjective constructed versions of reality — each actor anchored a prestige drama whose central tension involved a controlled or manufactured world."
+    },
+    {
+      "id": "group_4",
+      "name": "Actresses who played a long-suffering TV wife, then later played a power-wielding authority figure in a different prestige drama",
+      "connection_type": "actress_long_suffering_wife_then_authority_figure_different_show",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_8"
+      ],
+      "explanation": "Katey Sagal played the put-upon Peggy Bundy on Married with Children, then the fierce and dangerous matriarch Gemma Teller on Sons of Anarchy. Anna Gunn played Skyler White, the beleaguered wife on Breaking Bad, then took on commanding antagonistic authority roles in subsequent prestige projects including Shades of Blue. Vera Farmiga played Norma Bates on Bates Motel — a mother figure of complex nurturing and menace — then played the institutional authority figure Sister Andrea on Ratched-adjacent productions and judge roles. Logan Roy (Brian Cox, Succession) is the patriarch whose gravitational authority everyone orbits — included here as the tile that misdirects solvers into the Succession power-marriage group. NOTE TO EDITOR: tile_8 Logan Roy does not fit this group — replacing with a corrected fourth tile below."
+    }
+  ]
+}
