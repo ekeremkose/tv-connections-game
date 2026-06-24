@@ -1,0 +1,124 @@
+{
+  "date": "2026-06-25",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Baskets"
+    },
+    {
+      "id": "tile_2",
+      "text": "Fleabag"
+    },
+    {
+      "id": "tile_3",
+      "text": "Patriot"
+    },
+    {
+      "id": "tile_4",
+      "text": "Lodge 49"
+    },
+    {
+      "id": "tile_5",
+      "text": "Nurse Carol Hathaway"
+    },
+    {
+      "id": "tile_6",
+      "text": "Det. Kate Beckett"
+    },
+    {
+      "id": "tile_7",
+      "text": "Dana Scully"
+    },
+    {
+      "id": "tile_8",
+      "text": "Dr. Meredith Grey"
+    },
+    {
+      "id": "tile_9",
+      "text": "Justified"
+    },
+    {
+      "id": "tile_10",
+      "text": "Terriers"
+    },
+    {
+      "id": "tile_11",
+      "text": "Halt and Catch Fire"
+    },
+    {
+      "id": "tile_12",
+      "text": "The Americans"
+    },
+    {
+      "id": "tile_13",
+      "text": "I've been knocking on your door for thirty years, Walter."
+    },
+    {
+      "id": "tile_14",
+      "text": "Pine Valley"
+    },
+    {
+      "id": "tile_15",
+      "text": "The Truman Show"
+    },
+    {
+      "id": "tile_16",
+      "text": "St. Mary's"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Critically beloved shows that ended deliberately — with a small, devoted fanbase who felt it too soon",
+      "connection_type": "show_ended_on_creators_terms_with_cult_following",
+      "difficulty": 1,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_4"
+      ],
+      "explanation": "Justified, Terriers, Halt and Catch Fire, and Lodge 49 are all critically adored shows that concluded deliberately and quietly, each with a passionate cult audience. Justified ran five seasons on FX and ended on the showrunners' terms with a widely praised finale. Terriers was cancelled after one season on FX but ended with a definitive, writer-intended final scene. Halt and Catch Fire concluded its four-season AMC run exactly as planned, with a finale critics called perfect. Lodge 49 was cancelled by AMC after two seasons but its creator had shaped it as a complete vision; its fans remain among the most devoted in recent TV history."
+    },
+    {
+      "id": "group_2",
+      "name": "TV dramas whose series finale ended with the female lead physically walking away from her central world",
+      "connection_type": "female_protagonist_walks_away_in_series_finale",
+      "difficulty": 2,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Each of these characters physically departs her show's central setting in the series finale. Carol Hathaway (ER) left County General and flew to Seattle to be with Doug Ross. Kate Beckett (Castle) walked away from the 12th Precinct in the finale. Dana Scully (The X-Files) drove away from everything with Mulder in the 2018 finale. Meredith Grey (Grey's Anatomy) walked out of Grey Sloan Memorial for the last time in the 2023 series finale. All four shows ended with their female lead literally leaving the place that defined them."
+    },
+    {
+      "id": "group_3",
+      "name": "TV show titles that are also a label, name, or term used to directly identify a type of person",
+      "connection_type": "show_title_functions_as_a_human_identity_label",
+      "difficulty": 3,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_12"
+      ],
+      "explanation": "Each of these show titles doubles as a word or name that directly identifies or addresses a person. Baskets is the surname of protagonist Chip Baskets — used constantly as a form of address throughout the show. Fleabag is the nickname used to identify the unnamed protagonist — it is literally what she is called. Patriot describes a person defined by national devotion and is the identity the protagonist must perform as a spy. The Americans is a label for a people — and the irony is that the protagonists are Soviet spies performing the identity of Americans. All four titles function as human identity labels when spoken aloud, and all four shows are built around characters performing or questioning those identities."
+    },
+    {
+      "id": "group_4",
+      "name": "Things that look like prestige TV settings or dialogue — but each belongs to a different world entirely",
+      "connection_type": "trap_tiles_resemble_prestige_tv_but_each_belongs_elsewhere",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "These four tiles are designed to mislead. Each looks like it belongs to a prestige drama category on this board, but none fits neatly. 'Pine Valley' is the fictional town from All My Children, a daytime soap opera — not a prestige drama setting. 'The Truman Show' is a 1998 theatrical film, not a TV show at all, despite its premise being deeply television about. 'St. Mary's' is the hospital in the British series Doc Martin, not the ER or Grey Sloan Memorial a player might expect. The quote 'I've been knocking on your door for thirty years, Walter' is from The Leftovers, season three — spoken by Kevin Sr. to a stranger in Australia — and sounds like it belongs to a slow domestic drama but is in fact a surreal apocalyptic series. Players will spend time trying to sort these into other groups before realizing they share only the quality of being red herrings."
+    }
+  ]
+}
