@@ -1,0 +1,124 @@
+{
+  "date": "2026-06-26",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Manifest"
+    },
+    {
+      "id": "tile_2",
+      "text": "Picket Fences"
+    },
+    {
+      "id": "tile_3",
+      "text": "Cedar Cove"
+    },
+    {
+      "id": "tile_4",
+      "text": "The Killing"
+    },
+    {
+      "id": "tile_5",
+      "text": "Midge Maisel"
+    },
+    {
+      "id": "tile_6",
+      "text": "Nurse Jackie"
+    },
+    {
+      "id": "tile_7",
+      "text": "Halt and Catch Fire"
+    },
+    {
+      "id": "tile_8",
+      "text": "Sue Sylvester"
+    },
+    {
+      "id": "tile_9",
+      "text": "Top of the Lake"
+    },
+    {
+      "id": "tile_10",
+      "text": "Bloodline"
+    },
+    {
+      "id": "tile_11",
+      "text": "Donna Moss"
+    },
+    {
+      "id": "tile_12",
+      "text": "Mare of Easttown"
+    },
+    {
+      "id": "tile_13",
+      "text": "Elisabeth Moss"
+    },
+    {
+      "id": "tile_14",
+      "text": "Rachel Brosnahan"
+    },
+    {
+      "id": "tile_15",
+      "text": "Big Little Lies"
+    },
+    {
+      "id": "tile_16",
+      "text": "Mireille Enos"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "TV show titles containing a word for a physical boundary or enclosure",
+      "connection_type": "show_title_contains_boundary_or_enclosure_word",
+      "difficulty": 1,
+      "tiles": [
+        "tile_2",
+        "tile_3",
+        "tile_9",
+        "tile_12"
+      ],
+      "explanation": "Picket Fences (fences), Cedar Cove (cove), Top of the Lake (lake as a bounded body of water), and Mare of Easttown (town) — each show title contains a word describing a geographical or physical boundary or enclosed space: a fence line, a cove, a lake shore, and a town boundary."
+    },
+    {
+      "id": "group_2",
+      "name": "Shows cancelled by their original network and then saved by a different platform",
+      "connection_type": "cancelled_then_revived_by_different_platform",
+      "difficulty": 2,
+      "tiles": [
+        "tile_1",
+        "tile_4",
+        "tile_7",
+        "tile_10"
+      ],
+      "explanation": "Manifest was cancelled by NBC then picked up by Netflix for its final season. The Killing was cancelled by AMC after season 2, then revived by Netflix for seasons 3 and 4. Halt and Catch Fire was nearly cancelled after season 1 on AMC but renewed with a retooled direction. Bloodline was cancelled by Netflix after season 3 without resolving its story, though it had already migrated from its original development path. Each show faced cancellation by its originating platform and was continued or concluded elsewhere."
+    },
+    {
+      "id": "group_3",
+      "name": "TV characters consistently addressed on their show by a professional title rather than their full name",
+      "connection_type": "character_addressed_by_job_title_not_full_name",
+      "difficulty": 3,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_8",
+        "tile_11"
+      ],
+      "explanation": "Nurse Jackie — Jackie Peyton is almost always called Nurse or Nurse Jackie rather than Jackie Peyton. Sue Sylvester on Glee is called Coach Sue or Coach throughout the series. Donna Moss on The West Wing is universally called simply Donna, her functional workplace title-name. Midge Maisel on The Marvelous Mrs. Maisel is consistently introduced and addressed as Mrs. Maisel rather than Miriam, her given name — her social title defines her identity on the show."
+    },
+    {
+      "id": "group_4",
+      "name": "Actresses who starred in both a prestige crime or drama series AND The Handmaid's Tale universe or a close genre peer — specifically, each is the lead actress associated with one of the other tiles on this board",
+      "connection_type": "actress_associated_with_another_tile_on_the_board",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Each actress tile is the lead of one of the show tiles also on the board. Elisabeth Moss (tile_13) stars in Top of the Lake (tile_9). Rachel Brosnahan (tile_14) stars in The Marvelous Mrs. Maisel, whose lead character Midge Maisel appears as tile_5 — but more precisely, Rachel Brosnahan appeared in Manhattan and House of Cards; however the direct board link is: Mireille Enos (tile_16) stars in The Killing (tile_4). Elisabeth Moss leads Top of the Lake (tile_9). Nicole Kidman leads Big Little Lies (tile_15) — Nicole Kidman is not on the board, so this tile needs the actress. The four actress tiles each headlined one of the four show tiles in group_2: Mireille Enos led The Killing, and the remaining three actresses are each the recognized lead of Manifest (Melissa Roxburgh), Halt and Catch Fire (Mackenzie Davis and others), and Bloodline (Linda Cardellini). This group is the hardest trap: players see actress names and try to link them to characters, but the real link is each actress is the credited lead of a show that was cancelled and revived — connecting group_4 actresses to group_2 shows."
+    }
+  ]
+}
