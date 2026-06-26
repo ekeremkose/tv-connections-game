@@ -1,0 +1,124 @@
+{
+  "date": "2026-06-27",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Raylan Givens"
+    },
+    {
+      "id": "tile_2",
+      "text": "Nurse Jackie"
+    },
+    {
+      "id": "tile_3",
+      "text": "Smash"
+    },
+    {
+      "id": "tile_4",
+      "text": "Six Feet Under"
+    },
+    {
+      "id": "tile_5",
+      "text": "Piper Chapman"
+    },
+    {
+      "id": "tile_6",
+      "text": "Francis Urquhart"
+    },
+    {
+      "id": "tile_7",
+      "text": "Dexter Morgan"
+    },
+    {
+      "id": "tile_8",
+      "text": "Don Draper"
+    },
+    {
+      "id": "tile_9",
+      "text": "The Newsroom"
+    },
+    {
+      "id": "tile_10",
+      "text": "Vinyl"
+    },
+    {
+      "id": "tile_11",
+      "text": "Emily in Paris"
+    },
+    {
+      "id": "tile_12",
+      "text": "Fleabag"
+    },
+    {
+      "id": "tile_13",
+      "text": "Lem"
+    },
+    {
+      "id": "tile_14",
+      "text": "Ben Chang"
+    },
+    {
+      "id": "tile_15",
+      "text": "Dr. Cox"
+    },
+    {
+      "id": "tile_16",
+      "text": "Coach Beiste"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "TV shows set primarily in New York City whose title contains no reference to New York",
+      "connection_type": "nyc_set_show_no_nyc_in_title",
+      "difficulty": 1,
+      "tiles": [
+        "tile_2",
+        "tile_3",
+        "tile_9",
+        "tile_10"
+      ],
+      "explanation": "Nurse Jackie (set in a Manhattan hospital), Smash (set in the Broadway world of NYC), The Newsroom (set at a fictional NYC cable news network), and Vinyl (set in the 1970s NYC music industry) are all primarily set in New York City, yet none of their titles references New York in any way."
+    },
+    {
+      "id": "group_2",
+      "name": "Characters whose defining trait is a secret addiction or compulsive double life they hide from colleagues",
+      "connection_type": "character_hides_addiction_or_compulsive_double_life_from_workplace",
+      "difficulty": 2,
+      "tiles": [
+        "tile_1",
+        "tile_5",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Raylan Givens (Justified) masks alcoholism and self-destructive recklessness beneath marshal authority; Piper Chapman (Orange Is the New Black) hid her criminal past from her respectable professional life until it resurfaces catastrophically; Dexter Morgan (Dexter) conceals his compulsive serial killing behind a blood-spatter analyst career; Don Draper (Mad Men) maintains a fabricated identity as Dick Whitman while hiding compulsive infidelity and drinking from his colleagues and family."
+    },
+    {
+      "id": "group_3",
+      "name": "TV characters who directly address the audience by breaking the fourth wall",
+      "connection_type": "character_breaks_fourth_wall_directly_addresses_audience",
+      "difficulty": 3,
+      "tiles": [
+        "tile_4",
+        "tile_6",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Francis Urquhart in House of Cards (UK) breaks the fourth wall constantly with direct asides to the camera; the unnamed protagonist of Fleabag (Phoebe Waller-Bridge) makes direct-to-camera confessions a central formal device throughout the series; Emily in Paris has Emily address the viewer directly through voiceover narration framed as personal dispatches; Six Feet Under features dead characters stepping outside the narrative frame to address the living and the audience in stylized fantasy sequences."
+    },
+    {
+      "id": "group_4",
+      "name": "Characters who appear to be the comic relief but deliver the most devastating emotional monologue of their show",
+      "connection_type": "trap_appears_comic_relief_but_delivers_shows_most_devastating_monologue",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Lem from The Shield (the bumbling lab tech) delivers a gut-punch farewell before his death that reframes his entire arc; Ben Chang from Community (the show's most absurdist antagonist) has a genuinely heartbreaking breakdown in season 3 that lands far harder than his comedic role suggests; Dr. Cox from Scrubs (the sarcastic, grandstanding blowhard) delivers the three-patients-died monologue widely cited as the single most devastating scene in the series; Coach Beiste from Glee (introduced as comic relief) delivers an unforgettable, quiet speech about surviving domestic abuse. Players are meant to search for another link among the funny side characters before realising the unifying thread is each character's single most emotionally annihilating monologue."
+    }
+  ]
+}
