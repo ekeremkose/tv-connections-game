@@ -1,0 +1,124 @@
+{
+  "date": "2026-06-28",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Rue Bennett"
+    },
+    {
+      "id": "tile_2",
+      "text": "Jimmy Shive-Overly"
+    },
+    {
+      "id": "tile_3",
+      "text": "BoJack Horseman"
+    },
+    {
+      "id": "tile_4",
+      "text": "Eleanor Shellstrop"
+    },
+    {
+      "id": "tile_5",
+      "text": "Lip Gallagher"
+    },
+    {
+      "id": "tile_6",
+      "text": "Nate Archibald"
+    },
+    {
+      "id": "tile_7",
+      "text": "Shane Vendrell"
+    },
+    {
+      "id": "tile_8",
+      "text": "Andy Daly"
+    },
+    {
+      "id": "tile_9",
+      "text": "Zach Galifianakis"
+    },
+    {
+      "id": "tile_10",
+      "text": "Paul Giamatti"
+    },
+    {
+      "id": "tile_11",
+      "text": "Tig Notaro"
+    },
+    {
+      "id": "tile_12",
+      "text": "Maria Bamford"
+    },
+    {
+      "id": "tile_13",
+      "text": "The Peach Pit"
+    },
+    {
+      "id": "tile_14",
+      "text": "The Bronze"
+    },
+    {
+      "id": "tile_15",
+      "text": "The Dot"
+    },
+    {
+      "id": "tile_16",
+      "text": "The Crashdown"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Fictional teen hangouts named 'The ___'",
+      "connection_type": "fictional_teen_hangout_the_blank",
+      "difficulty": 1,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "The Peach Pit (Beverly Hills 90210), The Bronze (Buffy the Vampire Slayer), The Dot (Degrassi), and The Crashdown (Roswell) are all iconic fictional teen hangout spots whose names follow the pattern 'The ___'."
+    },
+    {
+      "id": "group_2",
+      "name": "TV characters whose defining arc is a battle with alcoholism",
+      "connection_type": "character_central_arc_is_alcoholism",
+      "difficulty": 2,
+      "tiles": [
+        "tile_1",
+        "tile_3",
+        "tile_5",
+        "tile_6"
+      ],
+      "explanation": "Rue Bennett (Euphoria) battles substance addiction at the show's core; BoJack Horseman's alcoholism is the gravitational center of his entire series; Lip Gallagher (Shameless US) spends multiple seasons fighting alcoholism as his primary character arc; Nate Archibald (Gossip Girl) has a significant storyline centered on his addiction and substance abuse struggles across multiple seasons."
+    },
+    {
+      "id": "group_3",
+      "name": "Actors who played a fictionalized version of themselves in a TV comedy series",
+      "connection_type": "actor_plays_fictionalized_self_in_tv_comedy",
+      "difficulty": 3,
+      "tiles": [
+        "tile_8",
+        "tile_9",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Andy Daly played a fictionalized version of himself in Review (Comedy Central); Zach Galifianakis played a heightened fictionalized version of himself in Bored to Death (HBO); Tig Notaro played a fictionalized version of herself in One Mississippi (Amazon); Maria Bamford played a fictionalized version of herself in Lady Dynamite (Netflix). All four shows were built around the comedian's real name and persona."
+    },
+    {
+      "id": "group_4",
+      "name": "TV characters framed as protagonists who are revealed as the show's central moral coward",
+      "connection_type": "protagonist_revealed_as_central_moral_coward",
+      "difficulty": 4,
+      "tiles": [
+        "tile_2",
+        "tile_4",
+        "tile_7",
+        "tile_10"
+      ],
+      "explanation": "Jimmy Shive-Overly (You're the Worst) is framed as a romantic lead but is repeatedly exposed as a selfish, commitment-phobic moral coward; Eleanor Shellstrop (The Good Place) is the protagonist whose entire first arc is built on her being a fundamentally selfish person who avoids moral responsibility; Shane Vendrell (The Shield) is positioned as Vic Mackey's loyal partner but is revealed as the show's ultimate moral coward, triggering its most devastating consequences; Paul Giamatti's Chuck Rhoades (Billions) is framed as the righteous lawman protagonist but is repeatedly unmasked as a self-serving, vindictive hypocrite who sacrifices ethics for ego at every turn."
+    }
+  ]
+}
