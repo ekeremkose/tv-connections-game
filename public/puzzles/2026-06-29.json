@@ -1,0 +1,124 @@
+{
+  "date": "2026-06-29",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Saul Goodman"
+    },
+    {
+      "id": "tile_2",
+      "text": "Liz Lemon"
+    },
+    {
+      "id": "tile_3",
+      "text": "Cersei Lannister"
+    },
+    {
+      "id": "tile_4",
+      "text": "Nurse Ratched"
+    },
+    {
+      "id": "tile_5",
+      "text": "The Wire"
+    },
+    {
+      "id": "tile_6",
+      "text": "Twin Peaks"
+    },
+    {
+      "id": "tile_7",
+      "text": "Fleabag"
+    },
+    {
+      "id": "tile_8",
+      "text": "Arrested Development"
+    },
+    {
+      "id": "tile_9",
+      "text": "Lord Varys"
+    },
+    {
+      "id": "tile_10",
+      "text": "Tina Fey"
+    },
+    {
+      "id": "tile_11",
+      "text": "Lorne Michaels"
+    },
+    {
+      "id": "tile_12",
+      "text": "30 Rock"
+    },
+    {
+      "id": "tile_13",
+      "text": "Rust Cohle"
+    },
+    {
+      "id": "tile_14",
+      "text": "Gregory House"
+    },
+    {
+      "id": "tile_15",
+      "text": "Walter White"
+    },
+    {
+      "id": "tile_16",
+      "text": "Hannibal"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "30 Rock universe",
+      "connection_type": "same_show",
+      "difficulty": 1,
+      "tiles": [
+        "tile_2",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Liz Lemon (character), Tina Fey (actress and creator), Lorne Michaels (executive producer and widely acknowledged inspiration for Jack Donaghy), and 30 Rock (the show itself) all belong to the 30 Rock universe."
+    },
+    {
+      "id": "group_2",
+      "name": "Cult TV shows that found mass audiences through streaming",
+      "connection_type": "streaming_second_life",
+      "difficulty": 2,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "The Wire (HBO, then massively discovered via streaming), Twin Peaks (ABC original cult classic, then revived on Showtime and streamed globally), Fleabag (BBC Three micro-budget debut, then Amazon Prime made it a global phenomenon), and Arrested Development (cancelled by Fox, then revived by Netflix) are all shows whose critical reputations and mass audiences were built or rebuilt through streaming platforms."
+    },
+    {
+      "id": "group_3",
+      "name": "TV characters who deliver an iconic nihilistic or philosophical monologue",
+      "connection_type": "character_delivers_iconic_nihilistic_philosophical_monologue",
+      "difficulty": 3,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Rust Cohle (True Detective — 'Time is a flat circle' and extended pessimistic soliloquies on human consciousness), Gregory House (House M.D. — repeated nihilistic speeches on the meaninglessness of belief and human nature), Walter White (Breaking Bad — 'I am the danger' and the devastating 'I did it for me' confession, expressing pure ego-driven nihilism), and Hannibal Lecter (Hannibal — recurring philosophical monologues framing humanity as livestock and beauty as violence) are all defined by their iconic extended nihilistic or misanthropic philosophical speeches."
+    },
+    {
+      "id": "group_4",
+      "name": "TV character names that contain a hidden title or honorific",
+      "connection_type": "hidden_title_in_name",
+      "difficulty": 4,
+      "tiles": [
+        "tile_1",
+        "tile_3",
+        "tile_4",
+        "tile_9"
+      ],
+      "explanation": "Players will assume these are simply iconic TV antiheroes and villains, but the real connection is that each name contains a hidden title or honorific: NURSE Ratched contains the professional title NURSE; CERsei Lannister contains SER, the knightly honorific used throughout Westeros; Saul GOODman contains GOOD, an archaic term of esteem (as in 'goodman,' a historical title for a male head of household below the rank of gentleman); and LORD Varys contains the aristocratic title LORD. Each name hides a word that is itself a form of address or rank."
+    }
+  ]
+}
