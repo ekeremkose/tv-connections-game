@@ -1,0 +1,124 @@
+{
+  "date": "2026-06-30",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Pawnee"
+    },
+    {
+      "id": "tile_2",
+      "text": "Port Charles"
+    },
+    {
+      "id": "tile_3",
+      "text": "Harmony"
+    },
+    {
+      "id": "tile_4",
+      "text": "Neptune"
+    },
+    {
+      "id": "tile_5",
+      "text": "Mags Bennett"
+    },
+    {
+      "id": "tile_6",
+      "text": "Papa Pope"
+    },
+    {
+      "id": "tile_7",
+      "text": "Negan"
+    },
+    {
+      "id": "tile_8",
+      "text": "Boyd Crowder"
+    },
+    {
+      "id": "tile_9",
+      "text": "Henry Ian Cusick"
+    },
+    {
+      "id": "tile_10",
+      "text": "Adewale Akinnuoye-Agbaje"
+    },
+    {
+      "id": "tile_11",
+      "text": "Michelle Rodriguez"
+    },
+    {
+      "id": "tile_12",
+      "text": "Cynthia Watros"
+    },
+    {
+      "id": "tile_13",
+      "text": "Euphoria"
+    },
+    {
+      "id": "tile_14",
+      "text": "Industry"
+    },
+    {
+      "id": "tile_15",
+      "text": "Skins"
+    },
+    {
+      "id": "tile_16",
+      "text": "Misfits"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Fictional TV cities that share their name with a real Indiana town",
+      "connection_type": "fictional_tv_city_shares_name_with_indiana_town",
+      "difficulty": 1,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Pawnee (Parks and Recreation), Port Charles (General Hospital), Harmony (Passions), and Neptune (Veronica Mars) are all fictional TV cities that share their exact name with a real town in Indiana: Pawnee, Indiana; Port Charles, Indiana; Harmony, Indiana; Neptune, Indiana all exist as real Indiana municipalities. The show locations are fictional but the names are genuine Indiana place names — a satisfying and surprising geographic coincidence."
+    },
+    {
+      "id": "group_2",
+      "name": "Charismatic villain-antagonists who are also the most compelling character in their show — and deliver a defining speech about power",
+      "connection_type": "charismatic_antagonist_power_speech",
+      "difficulty": 2,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Mags Bennett (Justified) — the Harlan matriarch whose poisoned apple scene is one of TV's great villain moments; Papa Pope / Eli Pope (Scandal) — whose 'b613' monologues about power became the show's most quoted speeches; Negan (The Walking Dead) — whose Lucille bat introduction monologue is one of prestige TV's most iconic villain speeches; Boyd Crowder (Justified) — whose articulate, Bible-quoting villain speeches made him the show's breakout character. All four are antagonists whose rhetorical power and charisma made them more compelling than the protagonists, each defined by a signature speech about dominance, survival, or control."
+    },
+    {
+      "id": "group_3",
+      "name": "Actors who joined Lost in Season 2 — but are more famous for a completely different role",
+      "connection_type": "lost_season_2_additions_known_elsewhere",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Henry Ian Cusick joined Lost in Season 2 as Desmond Hume, but is widely known as Marcus Kane in The 100; Adewale Akinnuoye-Agbaje joined in Season 2 as Mr. Eko, but is known for playing Adebisi in Oz and Algrim in Thor: The Dark World; Michelle Rodriguez joined in Season 2 as Ana Lucia Cortez, but is globally famous as Letty in the Fast and Furious franchise; Cynthia Watros joined in Season 2 as Libby Smith, but is long-running as Nina Reeves on General Hospital and previously known for Titus. All four are genuine Season 2 additions to Lost, and all are more strongly associated in popular culture with a different role entirely — creating a trap where players doubt the Lost connection even though it is the correct one."
+    },
+    {
+      "id": "group_4",
+      "name": "British TV dramas about young people unraveling — that were later adapted or directly influenced a major US series",
+      "connection_type": "british_youth_drama_that_inspired_us_adaptation",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Skins (E4, 2007) was directly adapted into a US version by MTV in 2011; Misfits (E4, 2009) was in active development as a US remake at multiple points and directly influenced the superhero-underclass genre picked up by shows like The Umbrella Academy; Euphoria (HBO, 2019) is itself an American adaptation of the Israeli series Euphoria (Kan 11, 2012), making it a US show adapted from a foreign original; Industry (HBO/BBC, 2020) was a co-production that brought the British finance-world story to US audiences and is currently being developed with expanding US network involvement. All four center on young people self-destructing in chaotic environments, and all four exist at the intersection of British and American television production or adaptation pipelines — the hardest group because the connection spans both theme and production history."
+    }
+  ]
+}
