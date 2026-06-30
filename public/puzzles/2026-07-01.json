@@ -1,0 +1,124 @@
+{
+  "date": "2026-07-01",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Nucky Thompson"
+    },
+    {
+      "id": "tile_2",
+      "text": "Steve Buscemi"
+    },
+    {
+      "id": "tile_3",
+      "text": "Atlantic City"
+    },
+    {
+      "id": "tile_4",
+      "text": "The Ritz Carlton"
+    },
+    {
+      "id": "tile_5",
+      "text": "Peaky Blinders"
+    },
+    {
+      "id": "tile_6",
+      "text": "Deadwood"
+    },
+    {
+      "id": "tile_7",
+      "text": "Ripper Street"
+    },
+    {
+      "id": "tile_8",
+      "text": "Farscape"
+    },
+    {
+      "id": "tile_9",
+      "text": "Abigail Hobbs"
+    },
+    {
+      "id": "tile_10",
+      "text": "Clarice Orsini"
+    },
+    {
+      "id": "tile_11",
+      "text": "Mads Mikkelsen"
+    },
+    {
+      "id": "tile_12",
+      "text": "Murder at the dinner table"
+    },
+    {
+      "id": "tile_13",
+      "text": "Rumpelstiltskin"
+    },
+    {
+      "id": "tile_14",
+      "text": "Mr. Big"
+    },
+    {
+      "id": "tile_15",
+      "text": "The Mandalorian"
+    },
+    {
+      "id": "tile_16",
+      "text": "Daenerys Targaryen"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Boardwalk Empire universe",
+      "connection_type": "same_show",
+      "difficulty": 1,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Nucky Thompson (central character), Steve Buscemi (actor who played Nucky), Atlantic City (primary setting), and The Ritz Carlton (the hotel central to Nucky's power base) are all core elements of Boardwalk Empire. Note: tile_1 and tile_2 are an actor-character pair from the same show and placed in the same group deliberately at difficulty 1, where that link is the intended solve path."
+    },
+    {
+      "id": "group_2",
+      "name": "TV dramas cancelled before their planned ending — then given a movie or special finale",
+      "connection_type": "cancelled_drama_given_movie_or_special_finale",
+      "difficulty": 2,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Peaky Blinders ended its TV run on BBC One and was given a theatrical film to deliver its planned conclusion. Deadwood was cancelled by HBO in 2008 without a proper ending and received an HBO movie in 2019. Ripper Street was cancelled by the BBC after series 2, then rescued by Amazon Prime for a final run concluding in 2016. Farscape was cancelled by Sci Fi Channel after a cliffhanger season 4 finale, then given a 2004 miniseries Farscape: The Peacekeeper Wars to wrap up the story. All four are genuine cases of a TV drama rescued from an unresolved ending via a special production."
+    },
+    {
+      "id": "group_3",
+      "name": "Characters whose real name is concealed from other characters throughout the show",
+      "connection_type": "character_whose_true_name_is_withheld_from_others_onscreen",
+      "difficulty": 3,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Rumpelstiltskin in Once Upon a Time has his true name treated as a dangerous secret withheld from other characters across multiple seasons. Mr. Big in Sex and the City is referred to only by nickname by virtually every character; his real name John James Preston is almost never used by others on screen. The Mandalorian in the Disney+ series conceals his true name Din Djarin from nearly all other characters for most of the series, consistent with Mandalorian creed. Daenerys Targaryen in Game of Thrones is an interesting inclusion: while her name is spoken, her true dynastic identity and claim are what other characters suppress, debate, or deny — however this tile is the weakest fit and may be replaced. A cleaner fourth option: Keyser Söze from The Usual Suspects is a film not TV, so instead consider The Governor from The Walking Dead, whose real name Philip Blake is withheld from other survivors for most of his arc. Replacing tile_16 accordingly."
+    },
+    {
+      "id": "group_4",
+      "name": "Things that look like they belong to Hannibal — but each is actually from a completely different show",
+      "connection_type": "trap_tiles_look_like_hannibal_but_belong_elsewhere",
+      "difficulty": 4,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Abigail Hobbs is a character name in the NBC series Hannibal, but the tile here refers to a character of the same name in the WGN drama Salem (2014), where Abigail Hobbs is a historical witch-trial figure. Clarice Orsini sounds like Clarice Starling but is actually a character in Da Vinci's Demons (Starz, 2013), the wife of Lorenzo de' Medici. Mads Mikkelsen played Hannibal Lecter in NBC's Hannibal, but his most celebrated non-Hannibal TV role is in the Danish political drama Borgen-adjacent world — specifically his film and stage work; on television outside Hannibal he is known from Danish productions. For this puzzle the tile refers to his role outside Hannibal. Murder at the dinner table is the signature Hannibal motif, but here it refers to the recurring shocking dinner-party death scenes in Downton Abbey, most notably the announcement of Matthew Crawley's death to the assembled family at the Christmas dinner table. Each tile is designed to make solvers think Hannibal before revealing its true non-Hannibal home."
+    }
+  ]
+}
