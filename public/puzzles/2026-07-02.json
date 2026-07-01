@@ -1,0 +1,124 @@
+{
+  "date": "2026-07-02",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Stars Hollow"
+    },
+    {
+      "id": "tile_2",
+      "text": "Hawkins, Indiana"
+    },
+    {
+      "id": "tile_3",
+      "text": "Twin Peaks, Washington"
+    },
+    {
+      "id": "tile_4",
+      "text": "Schitt's Creek"
+    },
+    {
+      "id": "tile_5",
+      "text": "Amy Sherman-Palladino"
+    },
+    {
+      "id": "tile_6",
+      "text": "Matthew Weiner"
+    },
+    {
+      "id": "tile_7",
+      "text": "Vince Gilligan"
+    },
+    {
+      "id": "tile_8",
+      "text": "David Chase"
+    },
+    {
+      "id": "tile_9",
+      "text": "Sister Michael"
+    },
+    {
+      "id": "tile_10",
+      "text": "Derry Girls"
+    },
+    {
+      "id": "tile_11",
+      "text": "Lisa McGee"
+    },
+    {
+      "id": "tile_12",
+      "text": "It's not a legitimate school of thought!"
+    },
+    {
+      "id": "tile_13",
+      "text": "Rutherford Falls"
+    },
+    {
+      "id": "tile_14",
+      "text": "Santa Clarita Diet"
+    },
+    {
+      "id": "tile_15",
+      "text": "Another Period"
+    },
+    {
+      "id": "tile_16",
+      "text": "One Day at a Time"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Derry Girls universe",
+      "connection_type": "same_show",
+      "difficulty": 1,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Sister Michael (character), Derry Girls (show title), Lisa McGee (creator/writer), and 'It's not a legitimate school of thought!' (quote said by Sister Michael) are all from the Channel 4 comedy Derry Girls."
+    },
+    {
+      "id": "group_2",
+      "name": "TV showrunners who ran their flagship show for its entire run without being replaced",
+      "connection_type": "showrunner_ran_entire_series",
+      "difficulty": 2,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Amy Sherman-Palladino (Gilmore Girls / The Marvelous Mrs. Maisel), Matthew Weiner (Mad Men), Vince Gilligan (Breaking Bad), and David Chase (The Sopranos) each created and ran their signature prestige series from pilot to finale without being replaced as showrunner."
+    },
+    {
+      "id": "group_3",
+      "name": "Fictional towns whose name contains a real geographic feature word",
+      "connection_type": "fictional_town_contains_geographic_feature_word",
+      "difficulty": 3,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Stars Hollow (Hollow = geographic landform), Hawkins, Indiana (real U.S. state in the name), Twin Peaks, Washington (Peaks = geographic feature, Washington = real state), and Schitt's Creek (Creek = a geographic water feature) — each fictional TV town's name contains a word describing a real type of geographic feature or place."
+    },
+    {
+      "id": "group_4",
+      "name": "Netflix original comedies cancelled after two seasons or fewer — despite strong critical reception",
+      "connection_type": "netflix_comedy_cancelled_early_despite_critical_praise",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Rutherford Falls, Santa Clarita Diet, Another Period, and One Day at a Time (reboot) were all comedy series that received strong critical reviews but were cancelled by their streaming/cable homes (Peacock/Netflix/Comedy Central) after just one or two seasons. Players may assume these belong to different streaming categories or mistake them for different connection types — the trap is that they all look like unrelated comedies but share the specific fate of early cancellation despite acclaim."
+    }
+  ]
+}
