@@ -1,0 +1,124 @@
+{
+  "date": "2026-07-03",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Cabot Cove, Maine"
+    },
+    {
+      "id": "tile_2",
+      "text": "Cicely, Alaska"
+    },
+    {
+      "id": "tile_3",
+      "text": "Mayberry, North Carolina"
+    },
+    {
+      "id": "tile_4",
+      "text": "Springfield, Illinois"
+    },
+    {
+      "id": "tile_5",
+      "text": "Andy Sipowicz"
+    },
+    {
+      "id": "tile_6",
+      "text": "Tobias Fünke"
+    },
+    {
+      "id": "tile_7",
+      "text": "Kenny Powers"
+    },
+    {
+      "id": "tile_8",
+      "text": "Jax Teller"
+    },
+    {
+      "id": "tile_9",
+      "text": "Ron Howard"
+    },
+    {
+      "id": "tile_10",
+      "text": "Angela Lansbury"
+    },
+    {
+      "id": "tile_11",
+      "text": "Rob Morrow"
+    },
+    {
+      "id": "tile_12",
+      "text": "Milo Ventimiglia"
+    },
+    {
+      "id": "tile_13",
+      "text": "Annalise Keating"
+    },
+    {
+      "id": "tile_14",
+      "text": "Denny Crane"
+    },
+    {
+      "id": "tile_15",
+      "text": "Harvey Specter"
+    },
+    {
+      "id": "tile_16",
+      "text": "Jimmy McGill"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Fictional TV towns whose full name includes a real U.S. state",
+      "connection_type": "fictional_tv_town_name_includes_real_us_state",
+      "difficulty": 1,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Cabot Cove, Maine (Murder She Wrote), Cicely, Alaska (Northern Exposure), Mayberry, North Carolina (The Andy Griffith Show), and Springfield, Illinois (The Simpsons) are all fictional TV towns whose commonly used full names include a real U.S. state. Each is a beloved, iconic setting from a long-running series."
+    },
+    {
+      "id": "group_2",
+      "name": "TV characters initially played for laughs who spiral into serious tragedy",
+      "connection_type": "comedic_character_who_descends_into_tragedy",
+      "difficulty": 2,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Andy Sipowicz (NYPD Blue), Tobias Fünke (Arrested Development), Kenny Powers (Eastbound & Down), and Jax Teller (Sons of Anarchy) are all characters whose series frame them early as comedic or buffoonish archetypes — the bumbling analyst-therapist, the washed-up braggart, the incompetent detective partner — but whose full arcs end in profound, tragic self-destruction. Note: Sipowicz is introduced with broad, gruff comic energy but his alcoholism, grief, and violence define his real arc; Jax is often mythologized as cool but his story is Shakespearean collapse."
+    },
+    {
+      "id": "group_3",
+      "name": "Actor who provided recurring voiceover narration on their own TV show",
+      "connection_type": "actor_provided_recurring_voiceover_narration_on_own_tv_show",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Ron Howard narrated Arrested Development as himself throughout the entire run. Angela Lansbury's Jessica Fletcher in Murder She Wrote used first-person internal voiceover narration as a recurring stylistic device. Rob Morrow's Joel Fleischman narrated Northern Exposure in voiceover, particularly in early seasons. Milo Ventimiglia's Jack Pearson narrated key sequences in This Is Us, with his voiceover serving as a recurring emotional framing device across the series. All four actors delivered their own show's signature voiceover narration."
+    },
+    {
+      "id": "group_4",
+      "name": "Iconic TV lawyers who were formally disbarred or had their license suspended as a major plot point",
+      "connection_type": "tv_lawyer_formally_disbarred_or_suspended_as_major_plot_point",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Annalise Keating (How to Get Away with Murder) had her law license suspended and faced disbarment proceedings as a central plot driver. Denny Crane (Boston Legal) repeatedly faced bar complaints and sanity hearings that threatened his license. Harvey Specter (Suits) was formally suspended and faced disbarment when it was revealed he knowingly employed a fraud, Mike Ross. Jimmy McGill (Better Call Saul) was suspended from practicing law for a year after his brother Chuck engineered his disbarment proceedings, and later surrenders his bar license entirely. All four are among TV's most iconic lawyers, and all had their right to practice law formally threatened or removed as a major dramatic arc."
+    }
+  ]
+}
