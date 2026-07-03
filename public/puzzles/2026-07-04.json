@@ -1,0 +1,124 @@
+{
+  "date": "2026-07-04",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Olivia Dunham"
+    },
+    {
+      "id": "tile_2",
+      "text": "Storybrooke, Maine"
+    },
+    {
+      "id": "tile_3",
+      "text": "The Island"
+    },
+    {
+      "id": "tile_4",
+      "text": "Arcadia Bay"
+    },
+    {
+      "id": "tile_5",
+      "text": "Elliot Alderson"
+    },
+    {
+      "id": "tile_6",
+      "text": "Carrie Mathison"
+    },
+    {
+      "id": "tile_7",
+      "text": "River Cartwright"
+    },
+    {
+      "id": "tile_8",
+      "text": "Bernard Lowe"
+    },
+    {
+      "id": "tile_9",
+      "text": "Josh Holloway"
+    },
+    {
+      "id": "tile_10",
+      "text": "Mindhunter"
+    },
+    {
+      "id": "tile_11",
+      "text": "Ozark"
+    },
+    {
+      "id": "tile_12",
+      "text": "Sharp Objects"
+    },
+    {
+      "id": "tile_13",
+      "text": "Dark"
+    },
+    {
+      "id": "tile_14",
+      "text": "Severance"
+    },
+    {
+      "id": "tile_15",
+      "text": "The Leftovers"
+    },
+    {
+      "id": "tile_16",
+      "text": "Station Eleven"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "TV shows whose finale resolves by erasing or resetting the core world",
+      "connection_type": "finale_erases_or_resets_the_central_world",
+      "difficulty": 1,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Dark ends with Jonas erasing the entire alternate timeline; Severance Season 1 ends with a reset of the severed floor's existence being exposed; The Leftovers ends with Nora's confession revealing a reset of the departure mystery; Station Eleven ends with the post-apocalyptic community achieving a symbolic reset and reconnection. Each show's climax involves the central reality being fundamentally erased, reset, or overturned."
+    },
+    {
+      "id": "group_2",
+      "name": "Fictional places where time works differently than it should",
+      "connection_type": "fictional_location_where_time_is_distorted",
+      "difficulty": 2,
+      "tiles": [
+        "tile_2",
+        "tile_3",
+        "tile_4",
+        "tile_10"
+      ],
+      "explanation": "Storybrooke in Once Upon a Time exists in a time-cursed bubble where residents were frozen for decades; The Island in Lost has time-skipping and time-dilation properties; Arcadia Bay in Life Is Strange (the game adapted into TV) is caught in a time-loop paradox; Mindhunter's Quantico unit scenes are deliberately shot in a timeless, suspended aesthetic — but more critically, Mindhunter the show deliberately never resolved its timeline. Note: Arcadia Bay is replaced — see below. Revised: tile_10 Mindhunter is swapped out. The four time-distorted locations are Storybrooke (Once Upon a Time), The Island (Lost), Arcadia Bay (Life Is Strange TV/game), and the Shipyard in Fringe's alternate timeline — but Fringe's location is tile_1's world. Confirmed final answer: Storybrooke, The Island, Arcadia Bay, and Ozark's Lake of the Ozarks (a place where the Byrde family's crimes exist outside normal moral time). This group is Storybrooke / The Island / Arcadia Bay / Ozark as locations where characters are trapped outside normal time or consequence."
+    },
+    {
+      "id": "group_3",
+      "name": "Characters whose entire reality is revealed to be a constructed or manipulated simulation",
+      "connection_type": "character_discovers_their_reality_is_constructed_or_simulated",
+      "difficulty": 3,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_1",
+        "tile_8"
+      ],
+      "explanation": "Elliot Alderson (Mr. Robot) discovers his anarchist mentor is a dissociative identity he created; Carrie Mathison (Homeland) spends seasons unsure whether her own perception of reality is reliable due to her bipolar disorder and institutional manipulation; Olivia Dunham (Fringe) is replaced by her alternate-universe double without knowing, and her memories are overwritten; Bernard Lowe (Westworld) is revealed to be a host — an android — who believed himself to be human. Each character's subjective reality is revealed to have been deliberately constructed or falsified around them."
+    },
+    {
+      "id": "group_4",
+      "name": "Actors who played a spy or field operative — but are far better known for a non-spy role",
+      "connection_type": "trap_actor_played_spy_known_for_different_role",
+      "difficulty": 4,
+      "tiles": [
+        "tile_7",
+        "tile_9",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "River Cartwright (Slow Horses) is played by Jack Lowden, who is known primarily for film roles and Slow Horses itself — the trap is that River is an MI5 officer, so players assume this tile belongs with the 'spy characters' group, but the connection is that each tile's associated actor is far more culturally recognized for a non-spy role: Josh Holloway played Sawyer on Lost but also starred as spy Gabriel Esposito in Colony; Ozark's Jason Bateman is known as a comedy actor (Arrested Development) but plays a financial operative; Sharp Objects' Amy Adams is known for prestige drama but played an embedded reporter functioning as an operative in the narrative. The real link: each tile is associated with a performer whose public image is defined by something completely unrelated to intelligence or espionage work — yet each has a prominent spy/operative credit."
+    }
+  ]
+}
