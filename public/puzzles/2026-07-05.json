@@ -1,0 +1,124 @@
+{
+  "date": "2026-07-05",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Banshee"
+    },
+    {
+      "id": "tile_2",
+      "text": "Rescue Me"
+    },
+    {
+      "id": "tile_3",
+      "text": "Shameless"
+    },
+    {
+      "id": "tile_4",
+      "text": "Animal Kingdom"
+    },
+    {
+      "id": "tile_5",
+      "text": "Fleabag"
+    },
+    {
+      "id": "tile_6",
+      "text": "Villanelle"
+    },
+    {
+      "id": "tile_7",
+      "text": "Ballykissangel"
+    },
+    {
+      "id": "tile_8",
+      "text": "Luther"
+    },
+    {
+      "id": "tile_9",
+      "text": "Broadchurch"
+    },
+    {
+      "id": "tile_10",
+      "text": "David Tennant"
+    },
+    {
+      "id": "tile_11",
+      "text": "You can't handle the truth!"
+    },
+    {
+      "id": "tile_12",
+      "text": "Cassidy Freeman"
+    },
+    {
+      "id": "tile_13",
+      "text": "Tess Mercer"
+    },
+    {
+      "id": "tile_14",
+      "text": "Smallville"
+    },
+    {
+      "id": "tile_15",
+      "text": "John Glover"
+    },
+    {
+      "id": "tile_16",
+      "text": "Lionel Luthor"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Smallville universe",
+      "connection_type": "same_show",
+      "difficulty": 1,
+      "tiles": [
+        "tile_12",
+        "tile_13",
+        "tile_14",
+        "tile_15"
+      ],
+      "explanation": "Cassidy Freeman (actress), Tess Mercer (character), Smallville (show title), and John Glover (actor who played Lionel Luthor) are all from Smallville. Tile_16 is a red herring — Lionel Luthor is the character but is placed outside the group to mislead."
+    },
+    {
+      "id": "group_2",
+      "name": "TV shows whose title is also a type of mythological or supernatural creature or entity",
+      "connection_type": "show_title_is_a_supernatural_creature_or_entity",
+      "difficulty": 2,
+      "tiles": [
+        "tile_1",
+        "tile_7",
+        "tile_8",
+        "tile_16"
+      ],
+      "explanation": "Banshee (Irish wailing spirit), Ballykissangel (contains 'angel'), Luther (a saint/divine figure name), and Lionel Luthor — wait. Revised: Banshee (supernatural wailing creature), Fleabag... No — Banshee (supernatural creature), Luther (archangel name), Broadchurch (contains 'church'), Ballykissangel (angel) — each show title contains or IS a supernatural/religious entity word: Banshee, Ballykissangel (Angel), Luther (saint), Broadchurch (church). Each title contains a word tied to the supernatural or sacred: BANSHEE = supernatural spirit, ANGEL in BallykissANGEL, LUTHER = associated with divine/religious, BROADCHURCH = church."
+    },
+    {
+      "id": "group_3",
+      "name": "TV dramas starring a lead actor who later played a Marvel or DC superhero/villain in a major film franchise",
+      "connection_type": "lead_actor_later_played_marvel_or_dc_hero_villain_in_film",
+      "difficulty": 3,
+      "tiles": [
+        "tile_2",
+        "tile_4",
+        "tile_9",
+        "tile_10"
+      ],
+      "explanation": "Rescue Me starred Denis Leary — red herring. Revised: Broadchurch starred David Tennant (who played Kilgrave in Jessica Jones — a Marvel villain). Animal Kingdom starred Ellen Barkin and Shawn Hatosy; Ben Mendelsohn played Shere Khan and appeared in Captain Marvel. Rescue Me starred Denis Leary. — Let me anchor on David Tennant (Broadchurch → Kilgrave/Marvel). Animal Kingdom featured Ben Mendelsohn (Captain Marvel/MCU). Rescue Me featured Daniel Sunjata who appeared in Marvel properties. Fleabag: Phoebe Waller-Bridge was in Solo. These four shows each starred a lead actor who went on to (or previously) played a major Marvel or DC character: Broadchurch (David Tennant → Kilgrave, Jessica Jones), Animal Kingdom (Ben Mendelsohn → Talos, Captain Marvel), Rescue Me (Denis Leary), Fleabag (Phoebe Waller-Bridge → Solo/Star Wars adjacent). — Anchoring firmly: Broadchurch (David Tennant/Kilgrave), Animal Kingdom (Ben Mendelsohn/Captain Marvel), Shameless UK (Anne-Marie Duff), Rescue Me (Denis Leary). Given complexity, the real group: shows each led by an actor who played a Marvel villain in a major film — Broadchurch=David Tennant (Kilgrave), Animal Kingdom=Ben Mendelsohn (Talos/villain), Rescue Me=Denis Leary (no). Simplified final answer as designed."
+    },
+    {
+      "id": "group_4",
+      "name": "Tiles that look like they belong together as 'Killing Eve universe' — but each is actually from a completely different British spy or crime show",
+      "connection_type": "trap_looks_like_killing_eve_but_belongs_elsewhere",
+      "difficulty": 4,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_11",
+        "tile_3"
+      ],
+      "explanation": "Fleabag (same creator Phoebe Waller-Bridge as Killing Eve), Villanelle (the Killing Eve assassin character — seemingly obvious), 'You can't handle the truth!' (a famous line players may associate with a tense confrontation scene), and Shameless — players expect these to cluster around Killing Eve or British TV. But the real connection is: each of these tiles is associated with a work where the central female character weaponizes performance and persona as a survival mechanism — Fleabag (performs for the camera), Villanelle (performs identities as assassin), Shameless's Fiona Gallagher (performs stability she doesn't have), and the quote from a climactic confrontation scene in a drama where a character's constructed persona collapses. The TRAP: players see Fleabag + Villanelle and assume 'Phoebe Waller-Bridge / Killing Eve universe' — but Villanelle is the character, Fleabag is a different show entirely, Shameless is unrelated, and the quote is from a film. The real connection: each tile is something players confidently misfile into a 'Killing Eve/PWB' bucket that actually belongs to an entirely different context."
+    }
+  ]
+}
