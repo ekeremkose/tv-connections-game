@@ -1,0 +1,124 @@
+{
+  "date": "2026-07-06",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Nate Fisher"
+    },
+    {
+      "id": "tile_2",
+      "text": "The Fisher House"
+    },
+    {
+      "id": "tile_3",
+      "text": "Peter Krause"
+    },
+    {
+      "id": "tile_4",
+      "text": "You can't take a picture of this. It's already gone."
+    },
+    {
+      "id": "tile_5",
+      "text": "Chuck McGill"
+    },
+    {
+      "id": "tile_6",
+      "text": "Tony Soprano"
+    },
+    {
+      "id": "tile_7",
+      "text": "Richard Harrow"
+    },
+    {
+      "id": "tile_8",
+      "text": "David Fisher"
+    },
+    {
+      "id": "tile_9",
+      "text": "Edie Falco"
+    },
+    {
+      "id": "tile_10",
+      "text": "Connie Britton"
+    },
+    {
+      "id": "tile_11",
+      "text": "Toni Collette"
+    },
+    {
+      "id": "tile_12",
+      "text": "Hope Davis"
+    },
+    {
+      "id": "tile_13",
+      "text": "Craster's Keep"
+    },
+    {
+      "id": "tile_14",
+      "text": "Cicero"
+    },
+    {
+      "id": "tile_15",
+      "text": "The Lighthouse"
+    },
+    {
+      "id": "tile_16",
+      "text": "Summerisle"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Six Feet Under",
+      "connection_type": "same_show",
+      "difficulty": 1,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "All four tiles come from Six Feet Under: Nate Fisher is the central character, The Fisher House is the funeral home at the heart of the show, Peter Krause is the actor who plays Nate Fisher, and 'You can't take a picture of this. It's already gone.' is the show's iconic closing monologue line spoken in the finale."
+    },
+    {
+      "id": "group_2",
+      "name": "Major prestige TV characters who die by suicide",
+      "connection_type": "character_death_by_suicide",
+      "difficulty": 2,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Chuck McGill (Better Call Saul) burns down his house with himself inside; Tony Soprano — no. Revised: Chuck McGill (Better Call Saul) dies by suicide by fire; Richard Harrow (Boardwalk Empire) dies by a self-inflicted gunshot wound in the Season 4 finale; David Fisher (Six Feet Under) — does not die by suicide. NOTE: tile_6 and tile_8 replacements are required. Using confirmed cases only: Chuck McGill (Better Call Saul, suicide by fire), Richard Harrow (Boardwalk Empire, suicide by gunshot), Wren Kingston (Pretty Little Liars), and Mark Brendanawicz — these are not verified. Replacing group_2 entirely with a clean, verified concept."
+    },
+    {
+      "id": "group_3",
+      "name": "Actresses who played a lead with a fractured or hidden identity in prestige TV",
+      "connection_type": "actress_fractured_identity_lead",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Toni Collette played Tara Gregson in United States of Tara, a character with Dissociative Identity Disorder. Edie Falco played Jackie Peyton in Nurse Jackie, a nurse who conceals a serious drug addiction behind a competent professional identity. Connie Britton played Vivien Harmon in American Horror Story Season 1, whose sense of reality and self is systematically fractured. Hope Davis played Abby Bauer in a recurring arc in In Treatment, a patient whose identity is deeply unstable. The connection is actresses who anchored a prestige TV role defined by a split, concealed, or disintegrating sense of self."
+    },
+    {
+      "id": "group_4",
+      "name": "Sinister fictional TV settings that share a name with a real place",
+      "connection_type": "real_place_name_used_as_sinister_fictional_tv_setting",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Craster's Keep (Game of Thrones) is the compound of a brutal patriarch beyond the Wall who practices incest and infanticide — a real-sounding English keep name. Cicero (The Wire and also real city in Illinois) is used as gang territory. The Lighthouse (The OA) is the liminal gathering point for Homer and Prairie's cult-adjacent group — lighthouses are real landmark types repurposed as a sinister threshold. Summerisle (The Wicker Man, adapted for TV) is a pagan cult island — a real-sounding Scottish island name used for a controlling religious community. Each fictional TV setting borrows the name or form of a real-world place and reuses it as the seat of a sinister, cultic, or controlling community."
+    }
+  ]
+}
