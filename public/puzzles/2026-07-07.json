@@ -1,0 +1,124 @@
+{
+  "date": "2026-07-07",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Carmela Soprano"
+    },
+    {
+      "id": "tile_2",
+      "text": "Skyler White"
+    },
+    {
+      "id": "tile_3",
+      "text": "Betty Draper"
+    },
+    {
+      "id": "tile_4",
+      "text": "Peggy Olson"
+    },
+    {
+      "id": "tile_5",
+      "text": "Rooster"
+    },
+    {
+      "id": "tile_6",
+      "text": "John Dutton"
+    },
+    {
+      "id": "tile_7",
+      "text": "Yellowstone"
+    },
+    {
+      "id": "tile_8",
+      "text": "Kevin Costner"
+    },
+    {
+      "id": "tile_9",
+      "text": "Omar Little"
+    },
+    {
+      "id": "tile_10",
+      "text": "Vic Mackey"
+    },
+    {
+      "id": "tile_11",
+      "text": "Jimmy McNulty"
+    },
+    {
+      "id": "tile_12",
+      "text": "Al Swearengen"
+    },
+    {
+      "id": "tile_13",
+      "text": "Ted Lasso"
+    },
+    {
+      "id": "tile_14",
+      "text": "Schitt's Creek"
+    },
+    {
+      "id": "tile_15",
+      "text": "Detectorists"
+    },
+    {
+      "id": "tile_16",
+      "text": "Derry Girls"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Yellowstone universe",
+      "connection_type": "same_show",
+      "difficulty": 1,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Rooster (a character in Yellowstone), John Dutton (the central character played by Kevin Costner), Yellowstone (the show title itself), and Kevin Costner (lead actor) — however, solvers must notice that Kevin Costner and John Dutton are both on the board, which creates a deliberate near-redundancy trap. They belong together in the same group, but seeing both tiles may make solvers second-guess whether one belongs elsewhere."
+    },
+    {
+      "id": "group_2",
+      "name": "TV comedies that ended deliberately on the creators' own terms",
+      "connection_type": "comedy_series_ended_deliberately_on_creators_terms",
+      "difficulty": 2,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Ted Lasso (ended after Season 3 as the creators planned), Schitt's Creek (ended after Season 6 entirely on Dan and Eugene Levy's terms), Detectorists (Mackenzie Crook chose to end it after three series), and Derry Girls (Lisa McGee deliberately concluded it after three series) — all beloved comedy series that ended exactly when and how their creators intended, not due to cancellation."
+    },
+    {
+      "id": "group_3",
+      "name": "Morally compromised TV characters widely acknowledged as the most capable person in their world",
+      "connection_type": "morally_compromised_character_who_is_undeniably_the_best_at_their_job",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Omar Little (The Wire — principled outlaw but the most feared and capable operator in Baltimore), Vic Mackey (The Shield — deeply corrupt cop but undeniably the most effective officer in Farmington), Jimmy McNulty (The Wire — self-destructive and insubordinate but the sharpest detective on the force), and Al Swearengen (Deadwood — murderous saloon owner who is nonetheless the most effective political mind in camp) are all deeply flawed characters their shows acknowledge as the most capable in their environment."
+    },
+    {
+      "id": "group_4",
+      "name": "Female TV characters disproportionately blamed by audiences more than the men around them",
+      "connection_type": "female_characters_subjected_to_disproportionate_audience_blame_and_misogyny",
+      "difficulty": 4,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Carmela Soprano (The Sopranos), Skyler White (Breaking Bad), Betty Draper (Mad Men), and Peggy Olson (Mad Men) — all female characters who attracted intense, disproportionate audience hostility compared to the objectively worse men around them, a documented cultural phenomenon in prestige TV criticism. The trap is that solvers expect 'wives of antiheroes,' but Peggy Olson is not a wife of an antihero — she is a colleague and peer of Don Draper who nonetheless drew audience resentment for her ambition, marking this as a misogyny-in-fandom group rather than a simple 'antihero wives' group. Joan Holloway was removed from the original design because her case, while valid culturally, is less immediately legible as fitting a crisp category alongside the others."
+    }
+  ]
+}
