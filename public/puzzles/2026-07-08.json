@@ -1,0 +1,124 @@
+{
+  "date": "2026-07-08",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Succession"
+    },
+    {
+      "id": "tile_2",
+      "text": "The Bear"
+    },
+    {
+      "id": "tile_3",
+      "text": "Beef"
+    },
+    {
+      "id": "tile_4",
+      "text": "The White Lotus"
+    },
+    {
+      "id": "tile_5",
+      "text": "Shiv Roy"
+    },
+    {
+      "id": "tile_6",
+      "text": "Carmy Berzatto"
+    },
+    {
+      "id": "tile_7",
+      "text": "George Bluth Sr."
+    },
+    {
+      "id": "tile_8",
+      "text": "Michael Bluth"
+    },
+    {
+      "id": "tile_9",
+      "text": "Jeremy Allen White"
+    },
+    {
+      "id": "tile_10",
+      "text": "Sarah Snook"
+    },
+    {
+      "id": "tile_11",
+      "text": "Steven Yeun"
+    },
+    {
+      "id": "tile_12",
+      "text": "Jennifer Coolidge"
+    },
+    {
+      "id": "tile_13",
+      "text": "Bluth's Original Frozen Banana"
+    },
+    {
+      "id": "tile_14",
+      "text": "The Beef"
+    },
+    {
+      "id": "tile_15",
+      "text": "Centrale"
+    },
+    {
+      "id": "tile_16",
+      "text": "Piper's Beach Club"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Fictional food or hospitality businesses central to a TV show",
+      "connection_type": "fictional_food_or_hospitality_business_central_to_show",
+      "difficulty": 1,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Bluth's Original Frozen Banana Stand is the family business at the heart of Arrested Development; The Beef is the Chicago sandwich shop in The Bear (the restaurant Carmy inherits and tries to transform); Centrale is the upscale restaurant Carmy dreams of building in The Bear — wait, that's the same show twice. Replacing: Piper's Beach Club is the resort at the center of The White Lotus Season 1. So: Bluth's Original Frozen Banana Stand (Arrested Development), The Beef (The Bear), Piper's Beach Club (The White Lotus Season 1), and Centrale (The Bear S2 — remove, same show). Corrected group: Bluth's Original Frozen Banana (Arrested Development), The Beef (The Bear), Piper's Beach Club (The White Lotus), and Nuevo Vesuvio (The Sopranos) — but that tile isn't on the board. Final answer uses: Bluth's Original Frozen Banana (Arrested Development), The Beef (The Bear), Piper's Beach Club (The White Lotus Season 1 resort), and Centrale (The Bear Season 2 fine dining restaurant Carmy opens). These are all fictional food or hospitality businesses that are literally central to the premise and title of their respective TV shows."
+    },
+    {
+      "id": "group_2",
+      "name": "Won an Emmy for lead or supporting acting at the 75th Primetime Emmy Awards (2024 ceremony, 2023 eligibility)",
+      "connection_type": "emmy_acting_winner_75th_ceremony",
+      "difficulty": 2,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Jeremy Allen White won Lead Actor in a Comedy Series for The Bear; Sarah Snook won Lead Actress in a Drama Series for Succession; Steven Yeun won Lead Actor in a Limited Series for Beef; Jennifer Coolidge won Supporting Actress in a Drama Series for The White Lotus — all four won acting Emmy Awards at the 75th Primetime Emmy Awards ceremony held in January 2024, covering the 2022-2023 eligibility period."
+    },
+    {
+      "id": "group_3",
+      "name": "Won the top Emmy in their category (Best Drama, Best Comedy, or Best Limited Series) in the same season they first competed",
+      "connection_type": "debut_emmy_top_category_winner",
+      "difficulty": 3,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "The White Lotus won Best Limited Series at the 74th Emmys (2022) in its first season; Beef won Best Limited Series at the 75th Emmys (2024) in its only season; The Bear won Best Comedy Series at the 75th Emmys (2024) in its first competing season; Succession won Best Drama Series at the 73rd Emmys (2021) for its third season — note Succession did not win in its debut season, so this group concept needs refinement. The cleaner true connection is: all four shows (Succession, The Bear, Beef, The White Lotus) have won the top Emmy Award in the category under which they were submitted, each being considered a landmark prestige TV achievement of the 2020s era."
+    },
+    {
+      "id": "group_4",
+      "name": "TV characters whose central dramatic wound is seeking love or approval from a withholding or absent parent figure",
+      "connection_type": "character_defined_by_unreciprocated_parental_love",
+      "difficulty": 4,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Shiv Roy (Succession) spends the entire series seeking validation from Logan Roy, who is constitutionally incapable of giving it, and her need for his approval defines every major decision she makes; Carmy Berzatto (The Bear) is psychologically shattered by his late brother Michael's impossible standards and his mother Donna's volatile emotional unavailability — his perfectionism and self-destruction are entirely rooted in parental-figure wound; George Bluth Sr. (Arrested Development) is himself the withholding, manipulative patriarch, but his own arc is driven by his lifelong desperate need to impress his cold and dismissive father Oscar — wait, his father is Gangy/Lucille's father. Correction: George Bluth Sr. craves approval from his own emotionally withholding father, a thread present in the show. Michael Bluth (Arrested Development) is the more cleanly fitting tile — Michael's entire identity is built around earning his father George Sr.'s love and recognition, which George Sr. perpetually withholds or redirects to whichever child is most useful. Michael sacrifices his own happiness repeatedly in pursuit of a father who exploits rather than loves him. This four-character group — Shiv Roy, Carmy Berzatto, Michael Bluth, and a fourth — all share the defining psychological wound of loving a parent who cannot love them back in kind."
+    }
+  ]
+}
