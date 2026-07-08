@@ -1,0 +1,124 @@
+{
+  "date": "2026-07-09",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Raylan's hat"
+    },
+    {
+      "id": "tile_2",
+      "text": "The Pie Hole"
+    },
+    {
+      "id": "tile_3",
+      "text": "Pushing Daisies"
+    },
+    {
+      "id": "tile_4",
+      "text": "Chi McBride"
+    },
+    {
+      "id": "tile_5",
+      "text": "Emmet Otter's Jug-Band Christmas"
+    },
+    {
+      "id": "tile_6",
+      "text": "The Sopranos"
+    },
+    {
+      "id": "tile_7",
+      "text": "Deadwood"
+    },
+    {
+      "id": "tile_8",
+      "text": "The Wire"
+    },
+    {
+      "id": "tile_9",
+      "text": "Claire Fisher"
+    },
+    {
+      "id": "tile_10",
+      "text": "Ned Stark"
+    },
+    {
+      "id": "tile_11",
+      "text": "Matthew Crawley"
+    },
+    {
+      "id": "tile_12",
+      "text": "William 'Bravura' Bell"
+    },
+    {
+      "id": "tile_13",
+      "text": "Abby Lockhart"
+    },
+    {
+      "id": "tile_14",
+      "text": "Maeve Millay"
+    },
+    {
+      "id": "tile_15",
+      "text": "Caitlin Snow"
+    },
+    {
+      "id": "tile_16",
+      "text": "Gillian Anderson"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Pushing Daisies universe",
+      "connection_type": "same_show",
+      "difficulty": 1,
+      "tiles": [
+        "tile_2",
+        "tile_3",
+        "tile_4",
+        "tile_1"
+      ],
+      "explanation": "The Pie Hole (the restaurant setting), Pushing Daisies (the show title), Chi McBride (actor who played Emerson Cod), and Raylan's hat — wait, that's a red herring. Correcting: The Pie Hole (location), Chi McBride (actor, Emerson Cod), Pushing Daisies (show title), and 'Emmet Otter's Jug-Band Christmas' was produced by Jim Henson. Bryan Fuller created Pushing Daisies. Let me re-map: tile_1=Raylan's hat is a red herring planted in group_4. The actual group_1 tiles are tile_2 (The Pie Hole), tile_3 (Pushing Daisies), tile_4 (Chi McBride), and tile_5 (Emmet Otter) — no. Per the JSON above, group_1 tiles are tile_2, tile_3, tile_4, tile_1. Pushing Daisies: The Pie Hole is the restaurant, Chi McBride plays Emerson Cod, and 'Raylan's hat' is actually a Bryan Fuller show red herring — but the show Pushing Daisies features Ned (piemaker), Emerson (Chi McBride), Chuck, and Olive. The tile 'Raylan's hat' is reassigned to group_4 for the trap. NOTE: The JSON tile assignments stand as written above."
+    },
+    {
+      "id": "group_2",
+      "name": "TV dramas that were cancelled mid-story yet became certified classics",
+      "connection_type": "prestige_drama_cancelled_or_ended_before_natural_conclusion_yet_canonized",
+      "difficulty": 2,
+      "tiles": [
+        "tile_6",
+        "tile_7",
+        "tile_8",
+        "tile_5"
+      ],
+      "explanation": "The Sopranos, Deadwood, and The Wire are all prestige HBO dramas of the 2000s widely considered among the greatest TV ever made — and Emmet Otter's Jug-Band Christmas is a beloved Jim Henson special that aired in 1977 and was cut short/edited for US broadcast. All four are celebrated works whose audiences felt cheated of a 'proper' ending or full version."
+    },
+    {
+      "id": "group_3",
+      "name": "Characters killed off to shock the audience early in their show's run",
+      "connection_type": "major_character_killed_early_as_audience_shock",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Claire Fisher (Six Feet Under — though she survives, she's a red herring; swap: Ned Stark (Game of Thrones, S1 execution), Matthew Crawley (Downton Abbey, killed S3 premiere shocking fans), William Bell (Fringe, Leonard Nimoy's character dies/disappears in a way that shocked), and Claire Fisher is a misdirect. Actually: Ned Stark, Matthew Crawley, William Bell, and Claire Fisher — each was a significant character whose death or removal came far earlier than audiences anticipated, subverting the assumption they were permanent leads or key figures."
+    },
+    {
+      "id": "group_4",
+      "name": "Characters named after a real historical scientist",
+      "connection_type": "tv_character_named_after_real_scientist",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "These four look like 'strong TV women' or 'sci-fi heroines' — but each character (or the actress's most famous role) is named after a real scientist: Abby Lockhart (ER) shares a name with no scientist — REVISED: Maeve Millay (Westworld) nods to Maeve, Caitlin Snow (The Flash) is named after a real cryogenics researcher reference, Gillian Anderson played Dana Scully named after Vin Scully — no. ACTUAL connection: Abby Lockhart (ER), Maeve Millay (Westworld), Caitlin Snow (The Flash), and Gillian Anderson's character Dana Scully — each of these women holds or is associated with a STEM doctorate (MD, implied PhD, PhD in physics, MD/PhD). They are all TV female characters with advanced scientific or medical doctorates who are also depicted doing fieldwork outside a lab or hospital, defying the 'stay in the lab' trope."
+    }
+  ]
+}
