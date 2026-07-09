@@ -1,0 +1,124 @@
+{
+  "date": "2026-07-10",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Patience, Mississippi"
+    },
+    {
+      "id": "tile_2",
+      "text": "Wentworth"
+    },
+    {
+      "id": "tile_3",
+      "text": "Firefly"
+    },
+    {
+      "id": "tile_4",
+      "text": "Jericho"
+    },
+    {
+      "id": "tile_5",
+      "text": "Sydney Bristow"
+    },
+    {
+      "id": "tile_6",
+      "text": "Emily Thorne"
+    },
+    {
+      "id": "tile_7",
+      "text": "Patrick Jane"
+    },
+    {
+      "id": "tile_8",
+      "text": "Veronica Mars"
+    },
+    {
+      "id": "tile_9",
+      "text": "Carla Gugino"
+    },
+    {
+      "id": "tile_10",
+      "text": "Michael C. Hall"
+    },
+    {
+      "id": "tile_11",
+      "text": "Anna Torv"
+    },
+    {
+      "id": "tile_12",
+      "text": "Hugh Dancy"
+    },
+    {
+      "id": "tile_13",
+      "text": "Claire Underwood"
+    },
+    {
+      "id": "tile_14",
+      "text": "Melisandre"
+    },
+    {
+      "id": "tile_15",
+      "text": "The Barn"
+    },
+    {
+      "id": "tile_16",
+      "text": "Erica Kane"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "TV shows fan campaigns brought back from cancellation",
+      "connection_type": "fan_resurrected_cancelled_show",
+      "difficulty": 1,
+      "tiles": [
+        "tile_2",
+        "tile_3",
+        "tile_4",
+        "tile_8"
+      ],
+      "explanation": "Firefly (cancelled by Fox; fan campaigns led to the Serenity film continuation), Jericho (cancelled by CBS; fans mailed nuts to the network and got it renewed for a second season), Veronica Mars (cancelled by UPN/CW; a fan-funded Kickstarter movie followed, then a Hulu revival), and Wentworth (the Australian series faced network axe threats multiple times and fan pressure sustained it through to a conclusion) were all meaningfully brought back or continued through sustained fan pressure after cancellation."
+    },
+    {
+      "id": "group_2",
+      "name": "Characters operating under a false identity to pursue a personal vendetta",
+      "connection_type": "character_uses_false_identity_for_revenge",
+      "difficulty": 2,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_13"
+      ],
+      "explanation": "Sydney Bristow (Alias) perpetually operates under constructed cover identities while pursuing enemies of those she loves; Emily Thorne (Revenge) is actually Amanda Clarke, concealing her real name to destroy the Graysons who framed her father; Patrick Jane (The Mentalist) hides behind a consultant role while secretly conducting a years-long personal vendetta against serial killer Red John; Claire Underwood (House of Cards) relentlessly pursues power and revenge while projecting a carefully constructed public persona that conceals her true ruthless motives."
+    },
+    {
+      "id": "group_3",
+      "name": "Actors who starred in a prestige TV drama AND voiced a character in a video game",
+      "connection_type": "prestige_drama_lead_who_also_voiced_a_video_game_character",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Carla Gugino (known for Haunting of Hill House) voiced Pamela Isley in Batman: Arkham Knight; Michael C. Hall (Dexter) voiced David Sarif in Deus Ex: Human Revolution; Anna Torv (Fringe) voiced Tali'Zorah in the Mass Effect trilogy; Hugh Dancy (Hannibal) voiced characters in video game productions. Each is primarily known for a landmark prestige drama role but also did significant voice performance work in major video games."
+    },
+    {
+      "id": "group_4",
+      "name": "Sounds like a spooky TV location — but it is actually a character name",
+      "connection_type": "trap_looks_like_location_but_is_a_character_name",
+      "difficulty": 4,
+      "tiles": [
+        "tile_1",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Patience, Mississippi sounds like an atmospheric small-town show setting but is actually the name of a character in The CW's Walker; Melisandre sounds like it could be a gothic European village or estate but is actually the Red Priestess in Game of Thrones; The Barn sounds like a rural horror location but is actually the name of a mysterious recurring entity or dimensional construct in Haven; Erica Kane sounds like it could be the name of a remote inn or gothic manor but is in fact the iconic central character of the long-running soap All My Children, played by Susan Lucci."
+    }
+  ]
+}
