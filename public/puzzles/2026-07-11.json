@@ -1,0 +1,124 @@
+{
+  "date": "2026-07-11",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Frasier Crane"
+    },
+    {
+      "id": "tile_2",
+      "text": "Martin Crane"
+    },
+    {
+      "id": "tile_3",
+      "text": "Roz Doyle"
+    },
+    {
+      "id": "tile_4",
+      "text": "Café Nervosa"
+    },
+    {
+      "id": "tile_5",
+      "text": "Michael Scofield"
+    },
+    {
+      "id": "tile_6",
+      "text": "Lincoln Burrows"
+    },
+    {
+      "id": "tile_7",
+      "text": "Dexter Morgan"
+    },
+    {
+      "id": "tile_8",
+      "text": "Debra Morgan"
+    },
+    {
+      "id": "tile_9",
+      "text": "Kimmy Schmidt"
+    },
+    {
+      "id": "tile_10",
+      "text": "Rust Cohle"
+    },
+    {
+      "id": "tile_11",
+      "text": "Cersei Lannister"
+    },
+    {
+      "id": "tile_12",
+      "text": "Amy Dunne"
+    },
+    {
+      "id": "tile_13",
+      "text": "Jed Bartlet"
+    },
+    {
+      "id": "tile_14",
+      "text": "Richard Gilmore"
+    },
+    {
+      "id": "tile_15",
+      "text": "Fiona Gallagher"
+    },
+    {
+      "id": "tile_16",
+      "text": "Lisa Simpson"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Frasier universe",
+      "connection_type": "same_show",
+      "difficulty": 1,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Frasier Crane (main character), Martin Crane (character), Roz Doyle (character), and Café Nervosa (recurring location) are all from the sitcom Frasier."
+    },
+    {
+      "id": "group_2",
+      "name": "TV shows built around a central sibling pair",
+      "connection_type": "central_sibling_pair_drives_plot",
+      "difficulty": 2,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Michael Scofield and Lincoln Burrows are brothers at the heart of Prison Break; Dexter Morgan and Debra Morgan are siblings whose bond is the emotional core of Dexter. All four tiles are characters from shows whose central dramatic engine is a brother-sister or brother-brother sibling relationship. The trap is that solvers may try to pair Michael with Lincoln and Dexter with Debra as separate groups, but the connection is that all four belong to this sibling-bond category."
+    },
+    {
+      "id": "group_3",
+      "name": "TV characters held captive for an extended period as a defining part of their story",
+      "connection_type": "long_term_captivity_defines_character",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Kimmy Schmidt (Unbreakable Kimmy Schmidt) was held underground by a doomsday cult preacher for 15 years; Rust Cohle (True Detective Season 1) was held captive and tortured during his deep-cover operation, and the show's mystery centers on victims held captive in rituals; Cersei Lannister (Game of Thrones) endures a prolonged public captivity and walk of atonement engineered by the Faith Militant; Amy Dunne (Gone Girl, adapted prominently for TV discussion, but more cleanly: this tile needs reconsideration — Amy Dunne is not a TV character). Revised tile_12 replacement needed — see corrected tile below."
+    },
+    {
+      "id": "group_4",
+      "name": "TV characters with advanced academic credentials they never use professionally on screen",
+      "connection_type": "character_holds_unused_advanced_degree",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Jed Bartlet (The West Wing) holds a Nobel Prize in Economics and a PhD but serves as President and never practices economics; Richard Gilmore (Gilmore Girls) earned a degree from Yale and passed the bar but spent his career in insurance rather than law; Fiona Gallagher (Shameless US) is established as highly intelligent with strong academic potential repeatedly noted by teachers and counselors but never pursues higher education, instead managing her family; Lisa Simpson (The Simpsons) is canonically established as a genius-level student destined for greatness who, across hundreds of episodes, never gets to apply her intellect in a professional setting because the show's premise freezes her perpetually in childhood."
+    }
+  ]
+}
