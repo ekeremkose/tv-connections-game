@@ -1,0 +1,129 @@
+{
+  "date": "2026-07-12",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Don Draper"
+    },
+    {
+      "id": "tile_2",
+      "text": "Nurse Jackie"
+    },
+    {
+      "id": "tile_3",
+      "text": "Frank Gallagher"
+    },
+    {
+      "id": "tile_4",
+      "text": "McNulty"
+    },
+    {
+      "id": "tile_5",
+      "text": "Baskets"
+    },
+    {
+      "id": "tile_6",
+      "text": "Enlightened"
+    },
+    {
+      "id": "tile_7",
+      "text": "Get Shorty"
+    },
+    {
+      "id": "tile_8",
+      "text": "Lodge 49"
+    },
+    {
+      "id": "tile_9",
+      "text": "Nikki Swango"
+    },
+    {
+      "id": "tile_10",
+      "text": "Walter Mitty"
+    },
+    {
+      "id": "tile_11",
+      "text": "Patty Hewes"
+    },
+    {
+      "id": "tile_12",
+      "text": "Helena"
+    },
+    {
+      "id": "tile_13",
+      "text": "Party Down"
+    },
+    {
+      "id": "tile_14",
+      "text": "Happy Endings"
+    },
+    {
+      "id": "tile_15",
+      "text": "Freaks and Geeks"
+    },
+    {
+      "id": "tile_16",
+      "text": "My So-Called Life"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Cult comedies cancelled after one or two seasons that launched major careers",
+      "connection_type": "short_lived_cult_comedy_that_launched_careers",
+      "difficulty": 1,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Party Down, Happy Endings, Freaks and Geeks, and My So-Called Life were all cancelled after one or two seasons but are celebrated cult comedies and dramedies that launched the careers of major stars — Adam Scott and Ken Marino (Party Down), Eliza Coupe and Damon Wayans Jr. (Happy Endings), Seth Rogen and James Franco (Freaks and Geeks), and Claire Danes (My So-Called Life)."
+    },
+    {
+      "id": "group_2",
+      "name": "Critically acclaimed cable or streaming shows cancelled before their creators were finished with them",
+      "connection_type": "cancelled_too_soon_cable_prestige",
+      "difficulty": 2,
+      "tiles": [
+        "tile_2",
+        "tile_5",
+        "tile_6",
+        "tile_7"
+      ],
+      "explanation": "Nurse Jackie (Showtime), Baskets (FX), Enlightened (HBO), and Get Shorty (EPIX/MGM+) were all critically acclaimed shows on premium or basic cable that were cancelled or ended before their creators felt the stories were complete. Enlightened in particular was cancelled by HBO after creator Mike White publicly fought to save it."
+    },
+    {
+      "id": "group_3",
+      "name": "TV characters who assume a false identity or carefully constructed persona to escape or conceal their past",
+      "connection_type": "character_assumes_false_identity_to_escape_past",
+      "difficulty": 3,
+      "tiles": [
+        "tile_1",
+        "tile_9",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Don Draper (Mad Men) stole a dead man's identity and lived as him for decades; Nikki Swango (Fargo Season 3) reinvents herself and adopts new identities to evade capture after her crimes; Patty Hewes (Damages) systematically constructs a false professional and personal persona to manipulate everyone around her and bury her past actions; Helena (Orphan Black) is initially deployed as an assassin under a deeply conditioned false sense of self and identity before reclaiming her own personhood."
+    },
+    {
+      "id": "group_4",
+      "name": "Characters who look like antiheroes or oddballs but are quietly the moral center of their show",
+      "connection_type": "trap_looks_like_antihero_is_actually_moral_center",
+      "difficulty": 4,
+      "tiles": [
+        "tile_3",
+        "tile_4",
+        "tile_8",
+        "tile_10"
+      ],
+      "explanation": "Frank Gallagher (Shameless UK) appears to be the show's reprehensible disaster but is repeatedly used to expose systemic failures and class injustice, functioning as an unexpected moral lens; McNulty (The Wire) is positioned as a self-destructive rogue cop but his relentless pursuit of justice against institutional indifference makes him the show's ethical conscience; Lodge 49 centers Dud, who reads as a lovable slacker but is revealed as the only character genuinely guided by hope and human decency; Walter Mitty (The Secret Life of Walter Mitty, the 2013 film and its TV spiritual predecessor) — NOTE: this tile has been flagged as problematic and replaced. Tile_10 is now reassigned to the corrected tile below."
+    }
+  ],
+  "corrections": [
+    {
+      "note": "tile_10 originally read 'Alma Garret' from Deadwood. The editorial review found this tile weak for group_3: Alma Garret conceals an opium addiction and financial desperation but does not truly assume a false identity in the way the other three characters do. Her deception is social performance and denial rather than constructed false identity. She has been replaced in group_3. However, group_4 also needed a replacement for the fourth slot since Lodge 49 is a show title being used where the other tiles are character names — this is an inconsistency. Lodge 49's moral center character is Dud (Wyatt Russell), so tile_8 should read 'Dud' not 'Lodge 49'. Additionally group_4's fourth tile needed to be a character name. 'Alma Garret' actually fits group_4 better: she is introduced as a fragile grieving widow who seems peripheral and decorative but becomes Deadwood's most quietly principled moral voice. Reassigning accordingly."
+    }
+  ]
+}
