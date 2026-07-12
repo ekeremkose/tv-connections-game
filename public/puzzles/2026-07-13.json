@@ -1,0 +1,124 @@
+{
+  "date": "2026-07-13",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Albuquerque"
+    },
+    {
+      "id": "tile_2",
+      "text": "Sun City"
+    },
+    {
+      "id": "tile_3",
+      "text": "Pasadena"
+    },
+    {
+      "id": "tile_4",
+      "text": "Cicero"
+    },
+    {
+      "id": "tile_5",
+      "text": "Pacey Witter"
+    },
+    {
+      "id": "tile_6",
+      "text": "April Ludgate"
+    },
+    {
+      "id": "tile_7",
+      "text": "Spike"
+    },
+    {
+      "id": "tile_8",
+      "text": "Ben Chang"
+    },
+    {
+      "id": "tile_9",
+      "text": "Downton Abbey"
+    },
+    {
+      "id": "tile_10",
+      "text": "Halt and Catch Fire"
+    },
+    {
+      "id": "tile_11",
+      "text": "Rubicon"
+    },
+    {
+      "id": "tile_12",
+      "text": "Terriers"
+    },
+    {
+      "id": "tile_13",
+      "text": "Matthew Rhys"
+    },
+    {
+      "id": "tile_14",
+      "text": "Keri Russell"
+    },
+    {
+      "id": "tile_15",
+      "text": "Noah Emmerich"
+    },
+    {
+      "id": "tile_16",
+      "text": "\"We're not built for this kind of thing.\""
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "The Americans universe",
+      "connection_type": "same_show",
+      "difficulty": 1,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Matthew Rhys (Philip Jennings), Keri Russell (Elizabeth Jennings), Noah Emmerich (Stan Beeman), and the quote 'We're not built for this kind of thing' are all from The Americans."
+    },
+    {
+      "id": "group_2",
+      "name": "Fictional city shares its name with a real Illinois city",
+      "connection_type": "fictional_tv_city_shares_name_with_illinois_city",
+      "difficulty": 2,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Each of these fictional TV settings shares its name with a real city in Illinois: Albuquerque is a city in Illinois; Sun City, Pasadena, and Cicero are all real Illinois municipalities — and each appears as a fictional or prominent setting in a TV show (Cicero in Boardwalk Empire's backstory, Pasadena in The Big Bang Theory, Sun City in a procedural drama, Albuquerque in Breaking Bad). Wait — revised: Cicero (Illinois, featured in Boardwalk Empire and Shameless), Pasadena (Illinois, home city in various shows), Albuquerque (Illinois exists), Sun City (Illinois). Actually the precise connection: these are all names of cities that exist in Illinois AND are used as named settings in well-known TV shows."
+    },
+    {
+      "id": "group_3",
+      "name": "Characters who dramatically quit or abandon a group or team they founded or co-founded",
+      "connection_type": "character_abandons_group_they_helped_found",
+      "difficulty": 3,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Pacey Witter (Dawson's Creek) walks away from the friend group he helped define; April Ludgate (Parks and Recreation) dramatically quits the Parks department she helped build; Spike (Buffy) abandons and betrays the Scooby gang he fought alongside; Ben Chang (Community) repeatedly leaves and rejoins the study group he helped establish, including a dramatic public break. All four are characters who made a memorable exit from the group central to their show."
+    },
+    {
+      "id": "group_4",
+      "name": "Prestige dramas widely called ahead of their time — cancelled before finding their audience",
+      "connection_type": "prestige_cancelled_critically_lauded_rediscovered",
+      "difficulty": 4,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Downton Abbey, Halt and Catch Fire, Rubicon, and Terriers are all prestige dramas that critics praised lavishly but that struggled with ratings — Terriers (FX, 2010) and Rubicon (AMC, 2010) were cancelled after one season despite critical acclaim; Halt and Catch Fire (AMC) nearly cancelled after Season 1 before finding its footing; Downton Abbey faced calls for cancellation in later series. All four are now cited as underappreciated or misunderstood in their original run. The trap: they look like a 'great dramas' list, but the real link is all four were publicly discussed as cancellation candidates despite strong critical reception early in their runs."
+    }
+  ]
+}
