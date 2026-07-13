@@ -1,0 +1,124 @@
+{
+  "date": "2026-07-14",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "St. Elsewhere"
+    },
+    {
+      "id": "tile_2",
+      "text": "The Good Place"
+    },
+    {
+      "id": "tile_3",
+      "text": "Hannibal Lecter"
+    },
+    {
+      "id": "tile_4",
+      "text": "Columbo"
+    },
+    {
+      "id": "tile_5",
+      "text": "Bob Odenkirk"
+    },
+    {
+      "id": "tile_6",
+      "text": "Fleabag"
+    },
+    {
+      "id": "tile_7",
+      "text": "Killing Eve"
+    },
+    {
+      "id": "tile_8",
+      "text": "Arrested Development"
+    },
+    {
+      "id": "tile_9",
+      "text": "Eleanor Shellstrop"
+    },
+    {
+      "id": "tile_10",
+      "text": "Six Feet Under"
+    },
+    {
+      "id": "tile_11",
+      "text": "Twin Peaks"
+    },
+    {
+      "id": "tile_12",
+      "text": "Phoebe Waller-Bridge"
+    },
+    {
+      "id": "tile_13",
+      "text": "BoJack Horseman"
+    },
+    {
+      "id": "tile_14",
+      "text": "Wentworth Miller"
+    },
+    {
+      "id": "tile_15",
+      "text": "Don Cheadle"
+    },
+    {
+      "id": "tile_16",
+      "text": "Nurse Ratched"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "TV shows whose entire story is revealed to be imagined, constructed, or operating outside normal reality in a way that recontextualizes the whole series",
+      "connection_type": "finale_or_premise_reveals_story_was_imagined_or_constructed",
+      "difficulty": 1,
+      "tiles": [
+        "tile_2",
+        "tile_1",
+        "tile_10",
+        "tile_11"
+      ],
+      "explanation": "The Good Place (the afterlife is revealed as an elaborate experiment by demons, reframing the entire premise), St. Elsewhere (the entire series is revealed to be the imagination of an autistic child staring at a snow globe), Six Feet Under (the finale's extended vision sequence shows every character's death, reframing the whole journey as already-concluded), and Twin Peaks (the Black Lodge and its dream logic retroactively blur whether any events in the series were real) — all involve the world of the show being fundamentally reframed as constructed, imagined, or unreal."
+    },
+    {
+      "id": "group_2",
+      "name": "Characters or shows in which a character directly addresses the audience as a signature recurring device",
+      "connection_type": "character_regularly_breaks_fourth_wall",
+      "difficulty": 2,
+      "tiles": [
+        "tile_16",
+        "tile_6",
+        "tile_8",
+        "tile_9"
+      ],
+      "explanation": "Nurse Ratched (in Ryan Murphy's Ratched, she turns to address the camera in key moments), Fleabag (the titular character's direct-to-camera asides are the show's defining stylistic feature), Arrested Development (the omniscient narrator frequently addresses the viewer directly, and characters break the fourth wall in later seasons), and Eleanor Shellstrop in The Good Place (delivers a direct address to the audience in the series finale) — all deploy audience address as a meaningful, recurring narrative device."
+    },
+    {
+      "id": "group_3",
+      "name": "Prestige TV leads who have hosted or co-hosted a major awards ceremony",
+      "connection_type": "prestige_tv_lead_who_hosted_major_awards_show",
+      "difficulty": 3,
+      "tiles": [
+        "tile_12",
+        "tile_14",
+        "tile_15",
+        "tile_5"
+      ],
+      "explanation": "Phoebe Waller-Bridge (Fleabag lead, hosted and presented at BAFTA and Emmy ceremonies), Wentworth Miller (Prison Break lead, served as presenter and ceremony host figure at People's Choice and other telecasts), Don Cheadle (House of Lies lead, hosted and co-hosted major awards telecasts including the NAACP Image Awards), and Bob Odenkirk (Better Call Saul lead, hosted the 2022 Film Independent Spirit Awards) — all are prestige drama leads who crossed over into awards ceremony hosting. Note: the tile reads 'Bob Odenkirk' rather than his character name, to avoid a trivial actor-character link elsewhere on the board."
+    },
+    {
+      "id": "group_4",
+      "name": "TV shows whose title is never spoken as a name or phrase by any character within the show itself",
+      "connection_type": "title_never_spoken_within_the_show",
+      "difficulty": 4,
+      "tiles": [
+        "tile_4",
+        "tile_3",
+        "tile_7",
+        "tile_13"
+      ],
+      "explanation": "Columbo (the detective's first name is never revealed or spoken; 'Columbo' itself is almost never addressed directly to him by other characters in dialogue), Hannibal Lecter (in NBC's Hannibal, characters consistently address him as 'Dr. Lecter' — the name 'Hannibal' is used sparingly and never in the casual, title-equivalent way), Killing Eve (the phrase 'Killing Eve' is never spoken by any character; it describes no named character and exists only as the audience's title for the show), and BoJack Horseman (characters address him as 'BoJack' but his surname 'Horseman' is almost never spoken in direct address, making the full title construction an audience-only artifact) — in all four cases the title functions as an external label that no character in the show's world actually uses."
+    }
+  ]
+}
