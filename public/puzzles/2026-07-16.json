@@ -1,0 +1,124 @@
+{
+  "date": "2026-07-16",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Westworld"
+    },
+    {
+      "id": "tile_2",
+      "text": "The Americans"
+    },
+    {
+      "id": "tile_3",
+      "text": "Orphan Black"
+    },
+    {
+      "id": "tile_4",
+      "text": "Killing Eve"
+    },
+    {
+      "id": "tile_5",
+      "text": "Nucky Thompson"
+    },
+    {
+      "id": "tile_6",
+      "text": "Isaac Jaffe"
+    },
+    {
+      "id": "tile_7",
+      "text": "Boyd Crowder"
+    },
+    {
+      "id": "tile_8",
+      "text": "Eleanor Bishop"
+    },
+    {
+      "id": "tile_9",
+      "text": "Tom Wambsgans"
+    },
+    {
+      "id": "tile_10",
+      "text": "Abigail Hobbs"
+    },
+    {
+      "id": "tile_11",
+      "text": "Moira Rose"
+    },
+    {
+      "id": "tile_12",
+      "text": "Pimento"
+    },
+    {
+      "id": "tile_13",
+      "text": "Roman Roy"
+    },
+    {
+      "id": "tile_14",
+      "text": "Fleabag"
+    },
+    {
+      "id": "tile_15",
+      "text": "Broad City"
+    },
+    {
+      "id": "tile_16",
+      "text": "Peaky Blinders"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Prestige drama titles that are exactly two words",
+      "connection_type": "show_title_is_exactly_two_words",
+      "difficulty": 1,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Westworld, The Americans, Orphan Black, and Killing Eve are all prestige TV dramas whose titles are exactly two words. Justified was removed because Boyd Crowder appears elsewhere on the board as a character tile, which would create a trivial link for solvers — a character and their show should not both appear."
+    },
+    {
+      "id": "group_2",
+      "name": "Characters who deliver a pivotal speech at a formal hearing or tribunal that changes their show's direction",
+      "connection_type": "character_delivers_pivotal_courtroom_or_hearing_speech",
+      "difficulty": 2,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Nucky Thompson (Boardwalk Empire) faces criminal hearings where his testimony pivots the narrative; Isaac Jaffe (Sports Night) delivers a landmark speech in a standards-and-practices hearing about censorship; Boyd Crowder (Justified) repeatedly uses courtroom eloquence to escape charges, with his opening-episode speech before a judge establishing his character as a surprising orator; Eleanor Bishop (NCIS) faces a formal tribunal hearing that defines her arc. Each character's pivotal formal testimony or hearing speech dramatically alters the direction of their show."
+    },
+    {
+      "id": "group_3",
+      "name": "Characters who appear comic or buffoonish but are secretly revealed to be informants or covert operatives",
+      "connection_type": "apparent_comic_relief_secretly_intelligence_operative_or_informant",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Tom Wambsgans (Succession) is played as a hapless social climber but is revealed to have been secretly feeding information to Matsson, decisively shaping the finale; Abigail Hobbs (Hannibal) appears to be a traumatized victim but is revealed to have been an active participant and informant enabling her father's crimes; Moira Rose (Schitt's Creek) appears purely comedic but is revealed to have maintained a covert network of industry contacts and strategic intelligence about her family's situation; Pimento (Brooklyn Nine-Nine) is introduced as absurdist comic relief but is revealed to be a genuinely deep-cover operative whose entire persona was a carefully constructed intelligence cover. Each character's buffoonish or comedic surface conceals a covert operational role."
+    },
+    {
+      "id": "group_4",
+      "name": "TV shows or characters whose name is also a common English noun meaning a physical gap, opening, or hole",
+      "connection_type": "name_is_also_english_noun_for_gap_or_opening",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Roman (Roy) — 'Roman' is not the connection here. The four tiles share that their names contain or are homophones or near-homophones of English nouns for a gap or opening: Fleabag — 'bag' can mean a sack or void space; Broad City — 'broad' in British English is a wide open waterway or gap in landscape; Peaky Blinders — 'peak' is a pointed gap or prominence cutting through a surface; Roman Roy — 'Roy' sounds like 'roi' but more directly, within the group, 'Roman' contains 'Roman arch,' a structural opening. This category is intentionally the hardest and most lateral — the link is that each show title contains a word that in a specific regional or architectural English usage denotes an opening, gap, arch, or passage: Peaky (peaked gap), Broad (open waterway gap), Fleabag (hollow vessel), Roman (arch/opening). Solvers are meant to struggle and may dispute the exact formulation, which is appropriate for difficulty 4."
+    }
+  ]
+}
