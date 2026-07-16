@@ -1,0 +1,124 @@
+{
+  "date": "2026-07-17",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Stars Hollow"
+    },
+    {
+      "id": "tile_2",
+      "text": "Eagleton"
+    },
+    {
+      "id": "tile_3",
+      "text": "Shelbyville"
+    },
+    {
+      "id": "tile_4",
+      "text": "Stoneybrook"
+    },
+    {
+      "id": "tile_5",
+      "text": "Rita Bennett"
+    },
+    {
+      "id": "tile_6",
+      "text": "Lexi Reed"
+    },
+    {
+      "id": "tile_7",
+      "text": "Zoe Barnes"
+    },
+    {
+      "id": "tile_8",
+      "text": "Rosie Larsen"
+    },
+    {
+      "id": "tile_9",
+      "text": "The Drunken Clam"
+    },
+    {
+      "id": "tile_10",
+      "text": "MacLaren's"
+    },
+    {
+      "id": "tile_11",
+      "text": "The Peach Pit"
+    },
+    {
+      "id": "tile_12",
+      "text": "The Regal Beagle"
+    },
+    {
+      "id": "tile_13",
+      "text": "Mindy Kaling"
+    },
+    {
+      "id": "tile_14",
+      "text": "Lena Waithe"
+    },
+    {
+      "id": "tile_15",
+      "text": "Tina Fey"
+    },
+    {
+      "id": "tile_16",
+      "text": "Issa Rae"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Iconic regular hangout spots in TV shows",
+      "connection_type": "fictional_recurring_social_hub",
+      "difficulty": 1,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "The Drunken Clam (Family Guy), MacLaren's (How I Met Your Mother), The Peach Pit (Beverly Hills, 90210), and The Regal Beagle (Three's Company) are all the iconic regular hangout bar or social spot in their respective shows."
+    },
+    {
+      "id": "group_2",
+      "name": "Fictional TV towns that serve as a snooty or rival foil to the protagonist's hometown",
+      "connection_type": "fictional_rival_town",
+      "difficulty": 2,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Stars Hollow (Gilmore Girls — the quaint protagonist town constantly set against the cold, elite world of Hartford and Chilton), Eagleton (Parks and Recreation — the wealthy, snooty rival town to Pawnee), Shelbyville (The Simpsons — the longstanding rival town to Springfield), and Stoneybrook (The Baby-Sitters Club — the affluent neighboring town serving as a foil to the protagonists' more grounded world) are all fictional TV towns defined narratively as a rival or contrasting counterpart to the main setting."
+    },
+    {
+      "id": "group_3",
+      "name": "TV creators who wrote for and starred in their own series",
+      "connection_type": "showrunner_writer_star_same_show",
+      "difficulty": 3,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Mindy Kaling (The Mindy Project), Lena Waithe (The Chi — creator and recurring star), Tina Fey (30 Rock — creator, head writer, and star), and Issa Rae (Insecure — creator, writer, and star) all created or co-created their signature TV shows, wrote for them, and starred as lead or major recurring characters in the same series."
+    },
+    {
+      "id": "group_4",
+      "name": "Female TV characters whose deaths were central to a male protagonist's story",
+      "connection_type": "female_characters_whose_deaths_drive_male_protagonist_narrative",
+      "difficulty": 4,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Rita Bennett (Dexter — her murder by the Trinity Killer is the inciting trauma that reshapes Dexter's arc), Lexi Reed (The Walking Dead — her sudden death devastates Daryl and reshapes his storyline), Zoe Barnes (House of Cards — pushed in front of a metro train by Frank Underwood, her death defines his ruthlessness), and Rosie Larsen (The Killing — her murder is the entire premise driving Detective Holder and the male figures in her life). All four are female characters whose deaths exist primarily to catalyze or define a male protagonist's journey, a classic example of the 'fridging' trope in prestige television."
+    }
+  ]
+}
