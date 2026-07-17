@@ -1,0 +1,124 @@
+{
+  "date": "2026-07-18",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Midsomer"
+    },
+    {
+      "id": "tile_2",
+      "text": "Hawkins, Indiana"
+    },
+    {
+      "id": "tile_3",
+      "text": "Twin Peaks, Washington"
+    },
+    {
+      "id": "tile_4",
+      "text": "Royston Vasey"
+    },
+    {
+      "id": "tile_5",
+      "text": "Nurse Jackie"
+    },
+    {
+      "id": "tile_6",
+      "text": "Six Feet Under"
+    },
+    {
+      "id": "tile_7",
+      "text": "Rectify"
+    },
+    {
+      "id": "tile_8",
+      "text": "Enlightened"
+    },
+    {
+      "id": "tile_9",
+      "text": "Sandrine Holt"
+    },
+    {
+      "id": "tile_10",
+      "text": "Lili Taylor"
+    },
+    {
+      "id": "tile_11",
+      "text": "Kim Dickens"
+    },
+    {
+      "id": "tile_12",
+      "text": "Carrie Preston"
+    },
+    {
+      "id": "tile_13",
+      "text": "Kalinda Sharma"
+    },
+    {
+      "id": "tile_14",
+      "text": "Hana Gitelman"
+    },
+    {
+      "id": "tile_15",
+      "text": "Andrea Harrison"
+    },
+    {
+      "id": "tile_16",
+      "text": "Tara Chambler"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Fictional small towns with extremely high body counts",
+      "connection_type": "small_town_exceptionally_lethal",
+      "difficulty": 1,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Midsomer (Midsomer Murders), Hawkins Indiana (Stranger Things), Twin Peaks Washington (Twin Peaks), and Royston Vasey (The League of Gentlemen) are all fictional small towns with implausibly high or darkly comic death rates central to each show's premise."
+    },
+    {
+      "id": "group_2",
+      "name": "TV shows whose protagonist battles addiction as a defining arc",
+      "connection_type": "protagonist_addiction_central_arc",
+      "difficulty": 2,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Nurse Jackie (prescription pills), Six Feet Under (Nate and Ruth's various dependencies), Rectify (Daniel Holden's traumatic reintegration includes drug use as coping), and Enlightened (Amy's recovery from breakdown) all center their protagonists' journeys on addiction or a chemically or psychologically dependent state."
+    },
+    {
+      "id": "group_3",
+      "name": "Actors who appeared in both a zombie/undead TV series AND a prestige legal or political drama",
+      "connection_type": "actor_zombie_show_plus_prestige_legal_political_drama",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Sandrine Holt (Fear the Walking Dead + House of Cards), Lili Taylor (The Walking Dead + Six Feet Under/The Americans), Kim Dickens (Fear the Walking Dead + Deadwood/Gone Girl crossovers into prestige drama including Treme), and Carrie Preston (The Good Wife — where she won an Emmy — plus True Blood) each appeared in both a zombie or undead genre series and a major prestige legal or political drama."
+    },
+    {
+      "id": "group_4",
+      "name": "Characters who survive the first season — then are killed off in a subsequent season's premiere or second episode",
+      "connection_type": "trap_survives_season_one_killed_in_subsequent_season_opening",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Players expect these to group as 'female supporting characters killed off' broadly, but the precise connection is that Kalinda Sharma (The Good Wife, killed in a season premiere send-off), Hana Gitelman (Heroes, killed in Season 2 premiere), Andrea Harrison (The Walking Dead, killed in Season 3 finale/Season 4 opening arc), and Tara Chambler (The Walking Dead, killed in Season 9 premiere episode) all survived at least one full season before being killed in the opening episodes of a later season — subverting expectations that they were safe recurring characters."
+    }
+  ]
+}
