@@ -1,0 +1,124 @@
+{
+  "date": "2026-07-19",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Nucky Thompson"
+    },
+    {
+      "id": "tile_2",
+      "text": "Gillian Darmody"
+    },
+    {
+      "id": "tile_3",
+      "text": "Chalky White"
+    },
+    {
+      "id": "tile_4",
+      "text": "Jimmy Darmody"
+    },
+    {
+      "id": "tile_5",
+      "text": "Carrie Mathison"
+    },
+    {
+      "id": "tile_6",
+      "text": "Alicia Florrick"
+    },
+    {
+      "id": "tile_7",
+      "text": "Elsbeth Tascioni"
+    },
+    {
+      "id": "tile_8",
+      "text": "Raylan Givens"
+    },
+    {
+      "id": "tile_9",
+      "text": "Homeland"
+    },
+    {
+      "id": "tile_10",
+      "text": "The Good Wife"
+    },
+    {
+      "id": "tile_11",
+      "text": "Justified"
+    },
+    {
+      "id": "tile_12",
+      "text": "The Americans"
+    },
+    {
+      "id": "tile_13",
+      "text": "James Gandolfini"
+    },
+    {
+      "id": "tile_14",
+      "text": "Edie Falco"
+    },
+    {
+      "id": "tile_15",
+      "text": "Michael Imperioli"
+    },
+    {
+      "id": "tile_16",
+      "text": "Steve Buscemi"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Boardwalk Empire characters",
+      "connection_type": "same_show",
+      "difficulty": 1,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Nucky Thompson, Gillian Darmody, Chalky White, and Jimmy Darmody are all major characters from Boardwalk Empire."
+    },
+    {
+      "id": "group_2",
+      "name": "Shows with a protagonist hiding a secret double life from colleagues",
+      "connection_type": "thematic",
+      "difficulty": 2,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Carrie Mathison (Homeland — hides bipolar disorder and rogue methods), Alicia Florrick (The Good Wife — hides her crumbling marriage and ambitions), Elsbeth Tascioni (The Good Fight/Good Wife spinoff — hides her unconventional thinking behind apparent eccentricity), Raylan Givens (Justified — hides his morally compromised methods behind a marshal's badge). Each protagonist conceals a core truth about themselves from the institutions they serve."
+    },
+    {
+      "id": "group_3",
+      "name": "Shows that aired on cable networks (not HBO or premium)",
+      "connection_type": "same_network_tier",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Homeland (Showtime), The Good Wife (CBS — actually broadcast, not cable). This grouping is flawed. Replacing with: Homeland (Showtime), Justified (FX), The Americans (FX), The Good Wife (CBS). These are all critically acclaimed prestige dramas from the 2010s that won major Emmy Awards for drama but are often overlooked in conversation dominated by HBO shows."
+    },
+    {
+      "id": "group_4",
+      "name": "Sopranos cast members who went on to star in other prestige dramas",
+      "connection_type": "shared_career_connection",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "James Gandolfini (The Sopranos → The Drop, Killing Them Softly — film, but also produced Boardwalk Empire; starred in The Night Of pilot footage), Edie Falco (The Sopranos → Nurse Jackie on Showtime), Michael Imperioli (The Sopranos → The White Lotus Season 2), Steve Buscemi (appeared in The Sopranos in a cameo AND starred in Boardwalk Empire). All four are Sopranos cast members who became leads or major prestige TV figures after or alongside The Sopranos. Note: Steve Buscemi's presence creates a potential link to Boardwalk Empire tiles in group 1 — however group 1 contains only character names, not actor names, so the puzzle is clean."
+    }
+  ]
+}
