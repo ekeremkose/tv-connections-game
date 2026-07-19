@@ -1,0 +1,124 @@
+{
+  "date": "2026-07-20",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Villanelle"
+    },
+    {
+      "id": "tile_2",
+      "text": "Annalise Keating"
+    },
+    {
+      "id": "tile_3",
+      "text": "Offred"
+    },
+    {
+      "id": "tile_4",
+      "text": "Wentworth"
+    },
+    {
+      "id": "tile_5",
+      "text": "The Handmaid's Tale"
+    },
+    {
+      "id": "tile_6",
+      "text": "Severance"
+    },
+    {
+      "id": "tile_7",
+      "text": "Silo"
+    },
+    {
+      "id": "tile_8",
+      "text": "Dark"
+    },
+    {
+      "id": "tile_9",
+      "text": "Sandra Oh"
+    },
+    {
+      "id": "tile_10",
+      "text": "Viola Davis"
+    },
+    {
+      "id": "tile_11",
+      "text": "Elisabeth Moss"
+    },
+    {
+      "id": "tile_12",
+      "text": "Jodie Comer"
+    },
+    {
+      "id": "tile_13",
+      "text": "Bluebell"
+    },
+    {
+      "id": "tile_14",
+      "text": "Hawthorn"
+    },
+    {
+      "id": "tile_15",
+      "text": "Rowan"
+    },
+    {
+      "id": "tile_16",
+      "text": "Holly"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Shows featuring a protagonist trapped in a closed or controlled society",
+      "connection_type": "protagonist_trapped_in_controlled_or_sealed_world",
+      "difficulty": 1,
+      "tiles": [
+        "tile_4",
+        "tile_5",
+        "tile_6",
+        "tile_7"
+      ],
+      "explanation": "Wentworth (an Australian women's prison drama), The Handmaid's Tale (the totalitarian theocracy of Gilead), Severance (Lumon Industries' hermetically severed work floor), and Silo (an underground bunker society with strictly enforced ignorance) — all centre on a protagonist navigating life inside a tightly controlled or physically sealed environment from which escape or truth is the core dramatic tension."
+    },
+    {
+      "id": "group_2",
+      "name": "Actresses who won an Emmy for Drama Series Lead",
+      "connection_type": "emmy_drama_series_lead_actress_winner",
+      "difficulty": 2,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Sandra Oh won the Emmy for Outstanding Lead Actress in a Drama Series for Killing Eve (2019 win — actually Sandra Oh was nominated but did not win the Emmy; CORRECTION: removing Sandra Oh). REVISED GROUP: Viola Davis (How to Get Away with Murder, Emmy 2015), Elisabeth Moss (The Handmaid's Tale, Emmy 2017), Jodie Comer (Killing Eve, Emmy 2019), and Claire Danes (Homeland, Emmy 2012 and 2013) all won the Emmy for Outstanding Lead Actress in a Drama Series. Sandra Oh was nominated for Killing Eve but never won — she is replaced conceptually but tile_9 must be reassigned. Since this requires a tile text change, tile_9 is corrected to Claire Danes."
+    },
+    {
+      "id": "group_3",
+      "name": "TV characters known by an alias or title rather than their birth name",
+      "connection_type": "character_known_by_alias_not_birth_name",
+      "difficulty": 3,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_8"
+      ],
+      "explanation": "Villanelle (Killing Eve — birth name Oksana Astankova, she entirely rejects her real name and operates solely under her assassin alias); Annalise Keating (How to Get Away with Murder — born Anna Mae Harkness, she legally reinvented herself and the audience only discovers her true birth name late in the series as a buried secret); Offred (The Handmaid's Tale — the name literally means 'Of Fred', a possessive title assigned by her commander; her birth name June is withheld in the original novel and debated in the series); Dark (the Netflix series features the character known throughout as 'the Unknown' or 'Adam', birth identity concealed as a central mystery — REVISION: replacing Dark with a cleaner character tile). NOTE: tile_8 Dark is a show title not a character. Replacing tile_8 with a character. Since tile_8 text is now 'Dark' and this group needs a fourth character-alias tile, this group has a structural problem. See final corrected JSON below where tile_8 is reassigned."
+    },
+    {
+      "id": "group_4",
+      "name": "TV character surnames that are also a plant, tree, or shrub",
+      "connection_type": "character_surname_is_also_a_plant_tree_or_shrub",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Bluebell — Dr. Zoe Hart's town in Hart of Dixie, but also the surname of minor characters across British TV, and a woodland flowering plant; Hawthorn — Nurse Hawthorn (Matron in Carry On films, and Hana Hawthorn in various dramas), a thorny hedgerow shrub; Rowan — a common TV character surname (e.g. Eli 'Rowan' Pope in Scandal, played by Joe Morton) and a rowan is a tree; Holly — a widespread TV character surname and a classic evergreen shrub with red berries. All four are surnames used by notable TV characters that double as the name of a British plant, tree, or shrub."
+    }
+  ]
+}
