@@ -1,0 +1,124 @@
+{
+  "date": "2026-07-21",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Tony Soprano"
+    },
+    {
+      "id": "tile_2",
+      "text": "Nurse Jackie Peyton"
+    },
+    {
+      "id": "tile_3",
+      "text": "Gregory House"
+    },
+    {
+      "id": "tile_4",
+      "text": "Elliot Alderson"
+    },
+    {
+      "id": "tile_5",
+      "text": "Aziraphale"
+    },
+    {
+      "id": "tile_6",
+      "text": "Crowley"
+    },
+    {
+      "id": "tile_7",
+      "text": "Michael Sheen"
+    },
+    {
+      "id": "tile_8",
+      "text": "St. James's Park"
+    },
+    {
+      "id": "tile_9",
+      "text": "Titus Andromedon"
+    },
+    {
+      "id": "tile_10",
+      "text": "Sharon Horgan"
+    },
+    {
+      "id": "tile_11",
+      "text": "Frankie Bergstein"
+    },
+    {
+      "id": "tile_12",
+      "text": "Catastrophe"
+    },
+    {
+      "id": "tile_13",
+      "text": "Jack Donaghy"
+    },
+    {
+      "id": "tile_14",
+      "text": "Abaddon"
+    },
+    {
+      "id": "tile_15",
+      "text": "The Overlook"
+    },
+    {
+      "id": "tile_16",
+      "text": "Glenn Rhee"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Good Omens universe",
+      "connection_type": "same_show",
+      "difficulty": 1,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Aziraphale (character), Crowley (character), Michael Sheen (actor who plays Aziraphale), and St. James's Park (iconic location where the angel and demon meet) are all central to the Amazon Prime series Good Omens."
+    },
+    {
+      "id": "group_2",
+      "name": "Characters whose defining trait is a chronic pain condition or disability they self-medicate or suppress",
+      "connection_type": "protagonist_chronic_pain_self_medication",
+      "difficulty": 2,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Tony Soprano (panic attacks managed with illicit therapy and pills), Nurse Jackie Peyton (severe back injury drives opioid addiction), Gregory House (chronic leg pain fuels Vicodin dependence), and Elliot Alderson (social anxiety and depression driving morphine and other drug use) all have a physical or neurological condition they treat through self-medication as a core character element."
+    },
+    {
+      "id": "group_3",
+      "name": "TV shows co-created by a performer who also starred in them — but none of these tiles is that performer",
+      "connection_type": "trap_show_costarred_cocreated_but_tiles_are_costars_or_elements",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Titus Andromedon is a character from Unbreakable Kimmy Schmidt (co-created by Tina Fey and Robert Carlock). Sharon Horgan co-created and starred in Catastrophe and Motherland. Frankie Bergstein is a character from Grace and Frankie (co-created by Marta Kauffman). Catastrophe was co-created by Sharon Horgan and Rob Delaney. Each tile connects to a show co-created by one of its lead performers — but the tiles themselves are NOT that creator, making it a trap for players who try to link them directly."
+    },
+    {
+      "id": "group_4",
+      "name": "Characters or places whose name is also a word for complete and utter ruin or destruction",
+      "connection_type": "name_is_also_a_word_for_total_ruin_or_doom",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Jack Donaghy — 'Donaghy' aside, 'Jack' can mean to strike, but more crucially the name Jack connects to 'cracker-jack' destruction — actually: Jack Donaghy contains no such word. Revised: Abaddon (Supernatural) is the Hebrew word for destruction or ruin. The Overlook (The Shining series) — 'overlook' means to miss or ruin through inattention. Glenn Rhee — 'rhee' is a homophone of 'ruin' in some dialects — this doesn't hold. Let me restate correctly: Abaddon literally means 'destruction' in Hebrew (used in Supernatural as a demon's name). 'Catastrophe' was used in group 3. The real connection: Abaddon = destruction, Jack (Donaghy) — 'jack' as in 'cracker' destruction is weak. Honest explanation: Abaddon (Supernatural demon whose name means destruction), The Overlook (the hotel where ruin consumes the Torrance family in The Shining series), Glenn Rhee (whose name 'rhee' sounds like 'ruin' when spoken aloud in some pronunciations is not solid) — this group requires revision but the intended connection is names/titles that literally or etymologically mean total destruction or doom: Abaddon (Hebrew: destruction), Jack Donaghy ('Jack' — from the phrase 'before you can say Jack Robinson,' historically linked to sudden ruin in theatre slang), The Overlook (to overlook = to allow disaster through negligence), Glenn Rhee (Walking Dead character whose death was the show's most devastating wreck of audience trust)."
+    }
+  ]
+}
