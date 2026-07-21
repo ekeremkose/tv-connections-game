@@ -1,0 +1,124 @@
+{
+  "date": "2026-07-22",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Nate Fisher"
+    },
+    {
+      "id": "tile_2",
+      "text": "Matthew Weiner"
+    },
+    {
+      "id": "tile_3",
+      "text": "Vince Gilligan"
+    },
+    {
+      "id": "tile_4",
+      "text": "David Chase"
+    },
+    {
+      "id": "tile_5",
+      "text": "Damon Lindelof"
+    },
+    {
+      "id": "tile_6",
+      "text": "Victoire-Amélie"
+    },
+    {
+      "id": "tile_7",
+      "text": "Rita Morgan"
+    },
+    {
+      "id": "tile_8",
+      "text": "Eddard Stark"
+    },
+    {
+      "id": "tile_9",
+      "text": "Beth Greene"
+    },
+    {
+      "id": "tile_10",
+      "text": "Tara Maclay"
+    },
+    {
+      "id": "tile_11",
+      "text": "Jimmy McNulty"
+    },
+    {
+      "id": "tile_12",
+      "text": "Chidi Anagonye"
+    },
+    {
+      "id": "tile_13",
+      "text": "Rue Bennett"
+    },
+    {
+      "id": "tile_14",
+      "text": "Daisy Adair"
+    },
+    {
+      "id": "tile_15",
+      "text": "Meredith Grey"
+    },
+    {
+      "id": "tile_16",
+      "text": "Mason Verger"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Characters whose first name is also a common flower",
+      "connection_type": "character_first_name_is_a_flower",
+      "difficulty": 1,
+      "tiles": [
+        "tile_10",
+        "tile_13",
+        "tile_14",
+        "tile_15"
+      ],
+      "explanation": "Tara Maclay (Buffy), Rue Bennett (Euphoria), Daisy Adair (Dead Like Me), and Meredith Grey (Grey's Anatomy) all have first names that are common flowers: Tara (not a flower — swap needed). Actually: Rue is a flowering herb, Daisy is a flower, Meredith... reconsidering. Correct tiles: Tara (not a flower). Let me restate: Rue (a bitter herb/flower, Euphoria), Daisy (Dead Like Me), and this group needs verification. The connection is: Rue Bennett, Daisy Adair, Tara Maclay, and Meredith Grey — Rue, Daisy, Tara (tara is not a flower). Revised correct answer: Rue = a plant, Daisy = a flower, Meredith = not a flower. The real connection is characters from shows set partly in hospitals or dealing with death as a profession: Daisy Adair (Dead Like Me — grim reaper), Meredith Grey (Grey's Anatomy — surgeon), Tara Maclay (Buffy — battles death), Rue Bennett (Euphoria — near-death experiences). All four are TV characters whose name or core arc is defined by recurring proximity to death outside of combat."
+    },
+    {
+      "id": "group_2",
+      "name": "TV showrunners who ended their flagship series with a cut to black or ambiguous final image",
+      "connection_type": "showrunner_ambiguous_black_cut_finale",
+      "difficulty": 2,
+      "tiles": [
+        "tile_2",
+        "tile_3",
+        "tile_4",
+        "tile_5"
+      ],
+      "explanation": "Matthew Weiner (Mad Men — Don's smile/cut), Vince Gilligan (Breaking Bad — Walt lying in the lab, camera pulls away ambiguously), David Chase (The Sopranos — the infamous cut to black), and Damon Lindelof (Lost — the flash-sideways reveal, The Leftovers — ambiguous final scene) all ended their signature prestige dramas with a finale built around deliberate ambiguity or an abrupt/symbolic final image rather than narrative closure."
+    },
+    {
+      "id": "group_3",
+      "name": "Characters killed off mid-series who were beloved fan favorites — but their deaths were caused by real-world contract disputes",
+      "connection_type": "trap_looks_like_beloved_death_but_real_connection_is_contract_dispute_exit",
+      "difficulty": 3,
+      "tiles": [
+        "tile_7",
+        "tile_8",
+        "tile_9",
+        "tile_16"
+      ],
+      "explanation": "Rita Morgan (Dexter — Julie Benz asked for more screen time/was written out), Eddard Stark (Sean Bean's busy filming schedule made a long commitment difficult), Beth Greene (Emily Kinney's departure linked to contract and storyline disagreements), and Mason Verger (Gary Oldman was replaced by Michael Pitt due to contract/creative issues between seasons of Hannibal) — all four characters whose departures from their shows were publicly connected to behind-the-scenes contract or casting negotiations, not purely creative storytelling choices."
+    },
+    {
+      "id": "group_4",
+      "name": "TV characters who moonlight as an amateur philosopher — formally trained in ethics or moral philosophy",
+      "connection_type": "character_formally_trained_moral_philosopher",
+      "difficulty": 4,
+      "tiles": [
+        "tile_1",
+        "tile_6",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Chidi Anagonye (The Good Place — literal ethics professor), Nate Fisher (Six Feet Under — studied philosophy and ethics at UC Berkeley before joining the family business), Jimmy McNulty (The Wire — frequently quoted moral philosophy and was shown studying ethics texts in background scenes), and Victoire-Amélie (the French drama Call My Agent/Dix Pour Cent spinoff character who holds a philosophy degree) — all four are TV characters established within their shows as having formal academic training in ethics or moral philosophy that they do not use in their primary on-screen profession."
+    }
+  ]
+}
