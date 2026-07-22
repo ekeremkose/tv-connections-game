@@ -1,0 +1,124 @@
+{
+  "date": "2026-07-23",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Sipowicz"
+    },
+    {
+      "id": "tile_2",
+      "text": "Vic Mackey"
+    },
+    {
+      "id": "tile_3",
+      "text": "Stabler"
+    },
+    {
+      "id": "tile_4",
+      "text": "Jimmy McNulty"
+    },
+    {
+      "id": "tile_5",
+      "text": "Damages"
+    },
+    {
+      "id": "tile_6",
+      "text": "Billions"
+    },
+    {
+      "id": "tile_7",
+      "text": "Suits"
+    },
+    {
+      "id": "tile_8",
+      "text": "The Good Wife"
+    },
+    {
+      "id": "tile_9",
+      "text": "Cassidy"
+    },
+    {
+      "id": "tile_10",
+      "text": "Tulip O'Hare"
+    },
+    {
+      "id": "tile_11",
+      "text": "The Saint of Killers"
+    },
+    {
+      "id": "tile_12",
+      "text": "Jesse Custer"
+    },
+    {
+      "id": "tile_13",
+      "text": "Jackie Peyton"
+    },
+    {
+      "id": "tile_14",
+      "text": "Don Draper"
+    },
+    {
+      "id": "tile_15",
+      "text": "Carrie Mathison"
+    },
+    {
+      "id": "tile_16",
+      "text": "Tony Soprano"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Characters from AMC's Preacher",
+      "connection_type": "same_show",
+      "difficulty": 1,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Cassidy (the Irish vampire), Tulip O'Hare (Jesse's love interest), The Saint of Killers (the supernatural bounty hunter), and Jesse Custer (the preacher protagonist) are all main characters from AMC's Preacher (2016-2019), based on the Garth Ennis comic series."
+    },
+    {
+      "id": "group_2",
+      "name": "TV cops defined by explosive, barely controlled rage",
+      "connection_type": "character_defined_by_rage",
+      "difficulty": 2,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Sipowicz (NYPD Blue), Vic Mackey (The Shield), Stabler (Law & Order: SVU), and Jimmy McNulty (The Wire) are all TV cops whose volatile tempers and self-destructive fury are defining character traits across their respective series, repeatedly landing them in professional and personal jeopardy."
+    },
+    {
+      "id": "group_3",
+      "name": "Legal or financial dramas where a lead loses their professional license or credentials",
+      "connection_type": "central_character_loses_professional_credentials",
+      "difficulty": 3,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "In Damages (Patty Hewes faces disbarment in a season arc), Billions (Chuck Rhoades is suspended and disbarred), Suits (Mike Ross is exposed for practicing law without a valid degree and is imprisoned), and The Good Wife (Alicia Florrick loses her law license amid scandal in a key arc) — each show makes a central character's loss of professional credentials a pivotal plot engine."
+    },
+    {
+      "id": "group_4",
+      "name": "Iconic TV protagonists who use a false or assumed identity throughout their series",
+      "connection_type": "protagonist_lives_under_false_identity",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Jackie Peyton (Nurse Jackie — hides her drug addiction behind a false persona of competence and virtue), Don Draper (Mad Men — is actually Dick Whitman, who stole a dead man's identity), Carrie Mathison (Homeland — routinely runs undercover personas and conceals her bipolar disorder, constructing a false professional self), and Tony Soprano (The Sopranos — presents as a suburban waste-management businessman while concealing his identity as a mob boss) all sustain a fundamental false identity as a core dramatic engine of their respective series."
+    }
+  ]
+}
