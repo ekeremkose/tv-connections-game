@@ -1,0 +1,124 @@
+{
+  "date": "2026-07-24",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "The Dutton Ranch"
+    },
+    {
+      "id": "tile_2",
+      "text": "Taylor Sheridan"
+    },
+    {
+      "id": "tile_3",
+      "text": "Beth Dutton"
+    },
+    {
+      "id": "tile_4",
+      "text": "\"You are the trailer park.\""
+    },
+    {
+      "id": "tile_5",
+      "text": "Manifest"
+    },
+    {
+      "id": "tile_6",
+      "text": "Resurrection"
+    },
+    {
+      "id": "tile_7",
+      "text": "The Returned"
+    },
+    {
+      "id": "tile_8",
+      "text": "Les Revenants"
+    },
+    {
+      "id": "tile_9",
+      "text": "Nate Archibald"
+    },
+    {
+      "id": "tile_10",
+      "text": "Shiv Roy"
+    },
+    {
+      "id": "tile_11",
+      "text": "Kendall Roy"
+    },
+    {
+      "id": "tile_12",
+      "text": "Bart Bass"
+    },
+    {
+      "id": "tile_13",
+      "text": "Yellowjackets"
+    },
+    {
+      "id": "tile_14",
+      "text": "Succession"
+    },
+    {
+      "id": "tile_15",
+      "text": "Monarch"
+    },
+    {
+      "id": "tile_16",
+      "text": "Swarm"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Yellowstone universe",
+      "connection_type": "same_show",
+      "difficulty": 1,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "The Dutton Ranch (location), Taylor Sheridan (creator/writer/actor), Beth Dutton (character), and 'You are the trailer park' (Beth Dutton's iconic quote) all belong to Yellowstone."
+    },
+    {
+      "id": "group_2",
+      "name": "TV shows where the dead inexplicably return to the living",
+      "connection_type": "show_premise_involves_the_deceased_returning_to_life_unexplained",
+      "difficulty": 2,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Manifest (passengers vanish for years and return, many presumed dead), Resurrection (dead loved ones reappear alive in their hometown), The Returned (US remake) and Les Revenants (French original) both center on the dead walking back into their communities. All four shows share the premise of the deceased mysteriously re-entering the world of the living."
+    },
+    {
+      "id": "group_3",
+      "name": "Characters defined by a powerful, morally corrupt father",
+      "connection_type": "character_whose_arc_is_defined_by_a_criminal_or_corrupt_patriarch_father",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Nate Archibald (Gossip Girl — son of 'The Captain,' imprisoned for fraud), Shiv Roy (Succession — daughter of corrupt mogul Logan Roy), Kendall Roy (Succession — son of Logan Roy, shaped entirely by his father's crimes and power), Bart Bass (Gossip Girl — his criminal corruption and faked death define his son Chuck's arc). All four are TV characters whose story is fundamentally shaped by a father who wielded corrupt power. The presence of two Succession characters and two Gossip Girl characters is the misdirect — players may think the group splits by show rather than by this shared thematic link."
+    },
+    {
+      "id": "group_4",
+      "name": "TV show titles that are also a type or collective of flying creature",
+      "connection_type": "show_title_is_also_a_flying_creature_or_its_collective_noun",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Yellowjackets (yellowjackets are a species of flying wasp), Succession (a 'succession' is the real collective noun for a group of hummingbirds), Monarch (a monarch butterfly is a flying insect — Monarch: Legacy of Monsters on Apple TV+), Swarm (a swarm is the collective noun for bees and flying insects — Swarm is a Prime Video series). All four are current or recent prestige TV show titles that double as a type of flying creature or the collective noun for one."
+    }
+  ]
+}
