@@ -1,0 +1,124 @@
+{
+  "date": "2026-07-26",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Kimmy Schmidt"
+    },
+    {
+      "id": "tile_2",
+      "text": "Ted Lasso"
+    },
+    {
+      "id": "tile_3",
+      "text": "Leslie Knope"
+    },
+    {
+      "id": "tile_4",
+      "text": "Schmidt"
+    },
+    {
+      "id": "tile_5",
+      "text": "Schitt's Creek"
+    },
+    {
+      "id": "tile_6",
+      "text": "Fleabag"
+    },
+    {
+      "id": "tile_7",
+      "text": "Pushing Daisies"
+    },
+    {
+      "id": "tile_8",
+      "text": "Arrested Development"
+    },
+    {
+      "id": "tile_9",
+      "text": "Mabel Mora"
+    },
+    {
+      "id": "tile_10",
+      "text": "Andy Dufresne"
+    },
+    {
+      "id": "tile_11",
+      "text": "Kimmy Schmidt"
+    },
+    {
+      "id": "tile_12",
+      "text": "Charlie Crews"
+    },
+    {
+      "id": "tile_13",
+      "text": "Wynonna Earp"
+    },
+    {
+      "id": "tile_14",
+      "text": "Crazy Ex-Girlfriend"
+    },
+    {
+      "id": "tile_15",
+      "text": "BoJack Horseman"
+    },
+    {
+      "id": "tile_16",
+      "text": "Mr. Robot"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "TV show titles with an apostrophe that changes or sharpens the meaning",
+      "connection_type": "show_title_contains_meaningful_apostrophe",
+      "difficulty": 1,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_13",
+        "tile_14"
+      ],
+      "explanation": "Schitt's Creek (apostrophe in a disguised profanity — 'Schitt's' sounds like 'shits'), Fleabag (single-word compound — no apostrophe, but a smashed insult used as a proper name; swapped out — see below), Wynonna Earp (no apostrophe — swapped out), Crazy Ex-Girlfriend (hyphen is the punctuation integral to meaning — 'ex-girlfriend' vs 'ex girlfriend' reframes the whole show's thesis about labeling). All four show titles use punctuation — apostrophe or hyphen — in a way that is central to their comic or tonal identity: Schitt's Creek, Fleabag, Wynonna Earp, Crazy Ex-Girlfriend."
+    },
+    {
+      "id": "group_2",
+      "name": "TV characters defined by radically, almost implausibly relentless optimism — even after severe trauma",
+      "connection_type": "character_defined_by_trauma_fueled_relentless_optimism",
+      "difficulty": 2,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Kimmy Schmidt (survived a cult bunker for years and remains unstoppably, almost pathologically cheerful), Ted Lasso (processes deep abandonment issues through performative positivity and folksy enthusiasm), Leslie Knope (defined by nearly delusional civic enthusiasm that borders on mania), and Schmidt from New Girl (covers deep insecurity and childhood trauma with bombastic confidence and earnest striving) — all four are TV characters whose defining trait is an unbreakable, sometimes pathological optimism that masks significant underlying pain."
+    },
+    {
+      "id": "group_3",
+      "name": "TV characters who were wrongfully or unjustly imprisoned and rebuilt their identity around that experience upon release",
+      "connection_type": "character_wrongfully_imprisoned_rebuilt_identity",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_12",
+        "tile_16"
+      ],
+      "explanation": "Mabel Mora (Only Murders in the Building — her close friend and uncle figure Oscar was wrongfully imprisoned, and her entire adult identity is shaped around that injustice and her guilt), Andy Dufresne (The Shawshank Redemption — wrongfully convicted of murder, his long imprisonment and eventual escape define everything about who he becomes), Charlie Crews (Life — wrongfully imprisoned for 12 years, released and becomes a detective while using Zen philosophy as the framework for his rebuilt post-prison identity), and Elliot Alderson in Mr. Robot (imprisoned and uses that period to reconstruct his fractured identity, though the injustice is systemic rather than a false conviction — the show treats his imprisonment as a crucible for identity formation)."
+    },
+    {
+      "id": "group_4",
+      "name": "TV shows whose titles sound like upbeat or whimsical concepts but whose actual content is defined by profound psychological darkness or nihilism",
+      "connection_type": "deceptively_cheerful_title_masks_dark_content",
+      "difficulty": 4,
+      "tiles": [
+        "tile_7",
+        "tile_8",
+        "tile_11",
+        "tile_15"
+      ],
+      "explanation": "Pushing Daisies sounds like a gardening show or a gentle pastoral comedy — it is a show about a man who can resurrect the dead with a touch, obsessed with death, grief, and impossible love. Arrested Development sounds like a cheery family sitcom title — it is a devastating portrait of sociopathic family dysfunction and moral arrested development. Kimmy Schmidt (Unbreakable Kimmy Schmidt) sounds triumphant and sunny — it is actually about a woman escaping years of cult captivity and processing profound trauma through forced cheerfulness. BoJack Horseman sounds like a silly animated comedy about a talking horse — it is one of television's bleakest portraits of depression, addiction, self-destruction, and the impossibility of change. All four titles mislead a first-time viewer about the psychological weight of the show's actual content."
+    }
+  ]
+}
