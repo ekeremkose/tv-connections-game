@@ -1,0 +1,124 @@
+{
+  "date": "2026-07-27",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Rust Cohle"
+    },
+    {
+      "id": "tile_2",
+      "text": "Martin Hart"
+    },
+    {
+      "id": "tile_3",
+      "text": "Alexandra Daddario"
+    },
+    {
+      "id": "tile_4",
+      "text": "Reggie Ledoux"
+    },
+    {
+      "id": "tile_5",
+      "text": "Paulie Walnuts"
+    },
+    {
+      "id": "tile_6",
+      "text": "Stringer Bell"
+    },
+    {
+      "id": "tile_7",
+      "text": "Dana Brody"
+    },
+    {
+      "id": "tile_8",
+      "text": "Meadow Soprano"
+    },
+    {
+      "id": "tile_9",
+      "text": "Walter White Jr."
+    },
+    {
+      "id": "tile_10",
+      "text": "D'Angelo Barksdale"
+    },
+    {
+      "id": "tile_11",
+      "text": "Titus Pullo"
+    },
+    {
+      "id": "tile_12",
+      "text": "Tobias Fünke"
+    },
+    {
+      "id": "tile_13",
+      "text": "Fernwood, Ohio"
+    },
+    {
+      "id": "tile_14",
+      "text": "Cicely, Alaska"
+    },
+    {
+      "id": "tile_15",
+      "text": "Wayward Pines, Idaho"
+    },
+    {
+      "id": "tile_16",
+      "text": "Eureka, Oregon"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "True Detective Season 1",
+      "connection_type": "same_show",
+      "difficulty": 1,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Rust Cohle and Martin Hart are the two lead detectives; Alexandra Daddario guest-starred as Lisa Tragnetti, Hart's mistress; and Reggie Ledoux is the cook and murder suspect the detectives pursue — all from True Detective Season 1 (HBO, 2014)."
+    },
+    {
+      "id": "group_2",
+      "name": "Fictional TV small towns defined by dark secrets hidden beneath a wholesome surface",
+      "connection_type": "fictional_tv_town_with_sinister_hidden_truth",
+      "difficulty": 2,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Fernwood, Ohio (Mary Hartman, Mary Hartman) harbors murder and scandal beneath its soap-opera suburban surface; Cicely, Alaska (Northern Exposure) is an eccentric isolated town with strange undercurrents; Wayward Pines, Idaho (Wayward Pines) is literally a prison town hiding a post-apocalyptic secret; Eureka, Oregon (Grimm) is an ordinary-seeming town where supernatural creatures live in secret among humans."
+    },
+    {
+      "id": "group_3",
+      "name": "TV characters who discover mid-series that a parent or parental figure ordered or committed a killing",
+      "connection_type": "character_discovers_parent_complicit_in_killing",
+      "difficulty": 3,
+      "tiles": [
+        "tile_7",
+        "tile_8",
+        "tile_9",
+        "tile_10"
+      ],
+      "explanation": "Dana Brody (Homeland) learns her father Nicholas Brody carried out a killing; Meadow Soprano (The Sopranos) gradually confronts the reality that her father Tony is a murderer; Walter White Jr. (Breaking Bad) discovers by the final season that his father Walt is a drug kingpin responsible for deaths; D'Angelo Barksdale (The Wire) is raised in the Barksdale organization and comes to understand his uncle Avon's empire is built on murder."
+    },
+    {
+      "id": "group_4",
+      "name": "Characters played by actors who won a SAG Award as part of a TV ensemble",
+      "connection_type": "actor_won_sag_ensemble_tv_award",
+      "difficulty": 4,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Paulie Walnuts (Tony Sirico, The Sopranos — SAG ensemble winner); Stringer Bell (Idris Elba, The Wire — SAG ensemble nominee/winner); Titus Pullo (Ray Stevenson, Rome — SAG ensemble nominee); Tobias Fünke (David Cross, Arrested Development — SAG ensemble winner 2004 and 2005). All four actors received SAG Awards or nominations as part of their respective prestige TV casts."
+    }
+  ]
+}
