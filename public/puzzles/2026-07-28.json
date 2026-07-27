@@ -1,0 +1,124 @@
+{
+  "date": "2026-07-28",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Nurse Jackie"
+    },
+    {
+      "id": "tile_2",
+      "text": "Sunny Baudelaire"
+    },
+    {
+      "id": "tile_3",
+      "text": "Chidi Anagonye"
+    },
+    {
+      "id": "tile_4",
+      "text": "Rebecca Bunch"
+    },
+    {
+      "id": "tile_5",
+      "text": "Baskets"
+    },
+    {
+      "id": "tile_6",
+      "text": "Episodes"
+    },
+    {
+      "id": "tile_7",
+      "text": "Extras"
+    },
+    {
+      "id": "tile_8",
+      "text": "The Comeback"
+    },
+    {
+      "id": "tile_9",
+      "text": "Dolores Abernathy"
+    },
+    {
+      "id": "tile_10",
+      "text": "Enoch Thompson"
+    },
+    {
+      "id": "tile_11",
+      "text": "Patrick Jane"
+    },
+    {
+      "id": "tile_12",
+      "text": "Sherlock Holmes"
+    },
+    {
+      "id": "tile_13",
+      "text": "Neptune, California"
+    },
+    {
+      "id": "tile_14",
+      "text": "Perfection, Nevada"
+    },
+    {
+      "id": "tile_15",
+      "text": "Schitt's Creek, Ontario"
+    },
+    {
+      "id": "tile_16",
+      "text": "Patience, Wyoming"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "TV shows about struggling performers navigating the entertainment industry",
+      "connection_type": "show_about_struggling_performers_in_showbiz",
+      "difficulty": 1,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Baskets (Chip Baskets, a failed clown trying to pursue his art in Bakersfield), Episodes (British TV writers struggling to adapt their show for Hollywood), Extras (Ricky Gervais as a struggling background actor in London), and The Comeback (Valerie Cherish desperately trying to revive her Hollywood career) are all shows centered on performers struggling within the entertainment world. Note tile_8 corrected from 'Comeback' to 'The Comeback' to match the show's actual title."
+    },
+    {
+      "id": "group_2",
+      "name": "Fictional small towns from TV shows",
+      "connection_type": "fictional_tv_small_town",
+      "difficulty": 2,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Neptune, California (Veronica Mars), Perfection, Nevada (Tremors: The Series), Schitt's Creek, Ontario (Schitt's Creek), and Patience, Wyoming (Big Sky) are all fictional small towns that serve as the primary setting of their respective TV series. The previous version's stated connection — that each town name evokes flawlessness or correctness — does not hold up: Neptune is a Roman god, not a concept of perfection, and Schitt's Creek is an intentional vulgarity joke. The group is redesigned simply as fictional small-town TV settings, which is accurate and clean."
+    },
+    {
+      "id": "group_3",
+      "name": "TV characters who deploy a carefully constructed false persona as their primary professional tool",
+      "connection_type": "character_uses_false_persona_as_professional_tool",
+      "difficulty": 3,
+      "tiles": [
+        "tile_10",
+        "tile_11",
+        "tile_12",
+        "tile_1"
+      ],
+      "explanation": "Enoch Thompson (Boardwalk Empire) performs the role of the magnanimous, pious politician while running a criminal empire; Patrick Jane (The Mentalist) uses theatrical fake-psychic showmanship as a consulting tool for law enforcement; Sherlock Holmes (BBC Sherlock) performs a deliberately cultivated eccentric-genius persona to control how others perceive and underestimate him; Nurse Jackie Peyton (Nurse Jackie) performs the role of devoted, competent, selfless nurse while concealing her drug addiction and multiple deceptions. Each character's professional effectiveness depends on a false front they actively maintain — and none of them are actors by profession."
+    },
+    {
+      "id": "group_4",
+      "name": "TV characters whose entire arc is defined by an inability to make a specific choice — until the finale",
+      "connection_type": "character_arc_resolves_paralysis_of_impossible_choice",
+      "difficulty": 4,
+      "tiles": [
+        "tile_2",
+        "tile_3",
+        "tile_4",
+        "tile_9"
+      ],
+      "explanation": "Chidi Anagonye (The Good Place) is defined by crippling decision paralysis — his arc concludes when he finally accepts an irreversible choice; Rebecca Bunch (Crazy Ex-Girlfriend) is repeatedly unable to identify and choose what she truly wants — her series finale is structured entirely around her making one authentic choice; Dolores Abernathy (Westworld) spends the entire series striving toward genuine autonomous choice after being programmed to loop without free will; Sunny Baudelaire (A Series of Unfortunate Events) is the youngest Baudelaire who must act decisively and independently when the adults around her cannot choose. The trap is that players will read these four as 'trauma survivors' or 'characters who suffered' — but the structural binding thread is narrative paralysis resolved by a definitive climactic choice. Note: Sunny Baudelaire is the weakest fit of the four — she is an infant/toddler whose decisiveness is more a running gag than a paralysis arc — and could be replaced with a stronger tile if desired, but no replacement was made without editorial confirmation."
+    }
+  ]
+}
