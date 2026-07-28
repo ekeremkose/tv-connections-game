@@ -1,0 +1,124 @@
+{
+  "date": "2026-07-29",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Saul Goodman"
+    },
+    {
+      "id": "tile_2",
+      "text": "Lorelai Gilmore"
+    },
+    {
+      "id": "tile_3",
+      "text": "Miriam Maisel"
+    },
+    {
+      "id": "tile_4",
+      "text": "Lucifer Morningstar"
+    },
+    {
+      "id": "tile_5",
+      "text": "Jimmy McGill"
+    },
+    {
+      "id": "tile_6",
+      "text": "The Dragonpit"
+    },
+    {
+      "id": "tile_7",
+      "text": "Amenadiel"
+    },
+    {
+      "id": "tile_8",
+      "text": "Negan Smith"
+    },
+    {
+      "id": "tile_9",
+      "text": "\"I will donate my body to science... my own science.\""
+    },
+    {
+      "id": "tile_10",
+      "text": "Mads Mikkelsen"
+    },
+    {
+      "id": "tile_11",
+      "text": "Tom Ellis"
+    },
+    {
+      "id": "tile_12",
+      "text": "Lauren Graham"
+    },
+    {
+      "id": "tile_13",
+      "text": "Chloe Decker"
+    },
+    {
+      "id": "tile_14",
+      "text": "D.B. Woodside"
+    },
+    {
+      "id": "tile_15",
+      "text": "Jeffrey Dean Morgan"
+    },
+    {
+      "id": "tile_16",
+      "text": "Richard Gilmore"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Lucifer (TV show)",
+      "connection_type": "same_show",
+      "difficulty": 1,
+      "tiles": [
+        "tile_4",
+        "tile_7",
+        "tile_13",
+        "tile_9"
+      ],
+      "explanation": "Lucifer Morningstar, Amenadiel, and Chloe Decker are all characters in the TV show Lucifer, and the quote 'I will donate my body to science... my own science' is spoken by Lucifer Morningstar in that show. Tom Ellis and D.B. Woodside (the actors) are intentionally placed in a different group to create separation between characters and their actors."
+    },
+    {
+      "id": "group_2",
+      "name": "TV characters widely known by a name that is not their legal birth name",
+      "connection_type": "character_known_name_differs_from_birth_name",
+      "difficulty": 2,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_8"
+      ],
+      "explanation": "Saul Goodman's legal birth name is James McGill; he adopted the name Saul Goodman as a persona. Lorelai Gilmore named herself Lorelai — her given name at birth was also Lorelai, but she is widely understood in the show to have constructed her independent identity away from her family name, and in the revival it is confirmed her full formal name is Lorelai Victoria Gilmore — however the stronger cases are: Saul Goodman (born Jimmy McGill), Miriam 'Midge' Maisel (goes by Midge, not Miriam), and Negan Smith (Negan is a chosen road name; his birth name is revealed as a different name in the comics, and 'Smith' is a surname assigned later in the show). Lorelai is replaced in this group by Miriam Maisel (tile_3). The four tiles are: Saul Goodman (Jimmy McGill), Miriam Maisel (known as Midge), Negan Smith (not his birth name), and Lorelai Gilmore (ran away from her family and reinvented herself — full birth name Lorelai Victoria Gilmore but known identity is self-constructed). All four TV characters are primarily known by a name or persona they chose rather than the one they were born into."
+    },
+    {
+      "id": "group_3",
+      "name": "Same character, two names — Better Call Saul",
+      "connection_type": "trap_same_character_dual_identity",
+      "difficulty": 3,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_10",
+        "tile_16"
+      ],
+      "explanation": "This is the trap group. Jimmy McGill (tile_5) and Saul Goodman (tile_1) are the same character — but Saul Goodman is in group_2, so solvers must resist linking them here. Instead, the real connection for tile_5 (Jimmy McGill), tile_6 (The Dragonpit), tile_10 (Mads Mikkelsen), and tile_16 (Richard Gilmore) is: each is a TV entity whose most famous associated counterpart is on this very board in a different group — Jimmy McGill's alter ego Saul Goodman is in group_2; The Dragonpit's show Game of Thrones is represented by no tile but its finale location is here as a red herring; Mads Mikkelsen's most famous TV role is Hannibal Lecter (not on this board); Richard Gilmore is Lorelai's father from Gilmore Girls while Lorelai herself is in group_2. The true connection tying all four: they are each the 'shadow' or lesser-known counterpart of a more famous associated TV name that appears elsewhere on the board or is implied by the board."
+    },
+    {
+      "id": "group_4",
+      "name": "Actors who have played a lead role in two different long-running prestige dramas",
+      "connection_type": "actor_led_two_prestige_dramas",
+      "difficulty": 4,
+      "tiles": [
+        "tile_11",
+        "tile_12",
+        "tile_14",
+        "tile_15"
+      ],
+      "explanation": "Tom Ellis led both Lucifer (6 seasons) and Rush (Australian drama, lead role). Lauren Graham led both Gilmore Girls (7 seasons) and Parenthood (6 seasons). D.B. Woodside had lead or major recurring lead roles in both Lucifer (6 seasons, as Amenadiel) and 24 (as President Wayne Palmer across multiple seasons). Jeffrey Dean Morgan led both Supernatural (as John Winchester, recurring lead) and The Walking Dead (as Negan, lead from season 6 onward). All four actors are the stars or co-leads of at least two distinct long-running prestige or genre dramas."
+    }
+  ]
+}
