@@ -1,0 +1,124 @@
+{
+  "date": "2026-07-30",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Pawnee, Indiana"
+    },
+    {
+      "id": "tile_2",
+      "text": "Caprica City"
+    },
+    {
+      "id": "tile_3",
+      "text": "Sunnydale, California"
+    },
+    {
+      "id": "tile_4",
+      "text": "Springfield"
+    },
+    {
+      "id": "tile_5",
+      "text": "Cersei Lannister"
+    },
+    {
+      "id": "tile_6",
+      "text": "Francis Underwood"
+    },
+    {
+      "id": "tile_7",
+      "text": "Patty Hewes"
+    },
+    {
+      "id": "tile_8",
+      "text": "Boyd Langton"
+    },
+    {
+      "id": "tile_9",
+      "text": "\"That's what she said.\""
+    },
+    {
+      "id": "tile_10",
+      "text": "Dunder Mifflin"
+    },
+    {
+      "id": "tile_11",
+      "text": "Steve Carell"
+    },
+    {
+      "id": "tile_12",
+      "text": "Threat Level Midnight"
+    },
+    {
+      "id": "tile_13",
+      "text": "Dexter Morgan"
+    },
+    {
+      "id": "tile_14",
+      "text": "Camille Preaker"
+    },
+    {
+      "id": "tile_15",
+      "text": "Nick Brody"
+    },
+    {
+      "id": "tile_16",
+      "text": "Hannah McKay"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "The Office universe",
+      "connection_type": "same_show",
+      "difficulty": 1,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "'That's what she said.' (quote), Dunder Mifflin (location), Steve Carell (actor), and Threat Level Midnight (in-universe film title) are all from The Office (US)."
+    },
+    {
+      "id": "group_2",
+      "name": "Fictional cities that were entirely destroyed or annihilated in their series",
+      "connection_type": "fictional_city_completely_destroyed_in_show",
+      "difficulty": 2,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Pawnee, Indiana (Parks and Recreation — nuked in a flash-forward finale), Caprica City (Battlestar Galactica — obliterated by the Cylons in the miniseries), Sunnydale, California (Buffy the Vampire Slayer — swallowed into a crater in the series finale), and Springfield (The Simpsons — repeatedly destroyed in 'Treehouse of Horror' episodes and The Simpsons Movie). Each fictional city is spectacularly destroyed within its own series."
+    },
+    {
+      "id": "group_3",
+      "name": "Characters who directly address the audience by breaking the fourth wall",
+      "connection_type": "character_breaks_fourth_wall_directly_addresses_audience",
+      "difficulty": 3,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Cersei Lannister (Game of Thrones — in deleted scenes and certain stylized sequences), Francis Underwood (House of Cards — his direct-to-camera asides are a defining feature), Patty Hewes (Damages — narrates directly to the viewer in flash-forward framing), and Boyd Langton (Dollhouse — delivers a direct expository address to camera in the pilot). All four characters break the fictional frame to speak directly to the viewer."
+    },
+    {
+      "id": "group_4",
+      "name": "Characters who discover a shocking secret about someone they love — while sitting in a car",
+      "connection_type": "trap_looks_like_serial_killer_antihero_but_real_connection_is_revelatory_car_scene",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Players will group these as 'characters connected to serial killers' or 'Dexter characters,' but the real connection is a pivotal car-scene revelation: Dexter Morgan (Dexter) learns Doakes is tracking him while driving; Camille Preaker (Sharp Objects) receives a devastating confession in a car at the finale; Nick Brody (Homeland) is confronted with evidence of his double life during a car ride; Hannah McKay (Dexter) discovers a critical secret about Dexter while in a vehicle. Each character's most world-altering revelation in their series is delivered in a car."
+    }
+  ]
+}
