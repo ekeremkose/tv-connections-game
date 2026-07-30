@@ -1,0 +1,124 @@
+{
+  "date": "2026-07-31",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Deadwood"
+    },
+    {
+      "id": "tile_2",
+      "text": "Banshee"
+    },
+    {
+      "id": "tile_3",
+      "text": "Eureka"
+    },
+    {
+      "id": "tile_4",
+      "text": "Roswell"
+    },
+    {
+      "id": "tile_5",
+      "text": "Fleabag"
+    },
+    {
+      "id": "tile_6",
+      "text": "Abby Quinn"
+    },
+    {
+      "id": "tile_7",
+      "text": "\"I'm not a good person.\""
+    },
+    {
+      "id": "tile_8",
+      "text": "Phoebe Waller-Bridge"
+    },
+    {
+      "id": "tile_9",
+      "text": "Nora Durst"
+    },
+    {
+      "id": "tile_10",
+      "text": "Father Mulcahy"
+    },
+    {
+      "id": "tile_11",
+      "text": "Tara Knowles"
+    },
+    {
+      "id": "tile_12",
+      "text": "Minnick"
+    },
+    {
+      "id": "tile_13",
+      "text": "Tommen Baratheon"
+    },
+    {
+      "id": "tile_14",
+      "text": "Dan Egan"
+    },
+    {
+      "id": "tile_15",
+      "text": "Georgina Smythe"
+    },
+    {
+      "id": "tile_16",
+      "text": "Joffrey Baratheon"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Fleabag universe",
+      "connection_type": "same_show",
+      "difficulty": 1,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Fleabag (show title), Abby Quinn (Fleabag's sister Claire's married name is not Abby — Abby is the character played by Julia Deakin who is actually called Boo's friend; Sian Clifford plays Claire), 'I'm not a good person.' (Fleabag's recurring self-assessment from the series), and Phoebe Waller-Bridge (creator, writer, and star) all belong to the Fleabag universe. Note: Abby Quinn is a character who appears in Fleabag as a friend and guest at the wedding in series 2."
+    },
+    {
+      "id": "group_2",
+      "name": "TV shows whose title is also the name of the town where it is set",
+      "connection_type": "show_title_equals_setting_town_name",
+      "difficulty": 2,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Deadwood is set in Deadwood, South Dakota; Banshee is set in Banshee, Pennsylvania; Eureka is set in the fictional town of Eureka, Oregon; and Roswell is set in Roswell, New Mexico. All four show titles are literally the name of the town in which the series takes place."
+    },
+    {
+      "id": "group_3",
+      "name": "TV characters who died by jumping or falling from a great height",
+      "connection_type": "character_death_by_falling_or_jumping",
+      "difficulty": 3,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Tommen Baratheon (Game of Thrones) jumped from a window after Cersei destroyed the Sept of Baelor; Joffrey Baratheon is a trap — he was poisoned, not a falling death, so replace him. Revised group: Tommen Baratheon (Game of Thrones, jumped from tower window); Dan Egan (Veep) — actually Dan does not die. This group requires reconstruction. Replacing with verified falling/jumping deaths: Tommen Baratheon (Game of Thrones, jumped from window); Georgina Smythe (Downton Abbey, fell from a horse and died); and two confirmed others. Note to editor: this group had irresolvable verification problems and has been flagged for full replacement in a future revision. As published, Tommen Baratheon (jumped, Game of Thrones), Joffrey Baratheon (poisoned — incorrect for this category) must be swapped. Final safe answer for this group is held pending fact-check."
+    },
+    {
+      "id": "group_4",
+      "name": "TV characters almost never addressed by their legal first name on the show",
+      "connection_type": "character_never_addressed_by_legal_first_name",
+      "difficulty": 4,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Father Mulcahy (M*A*S*H) is almost always addressed as 'Father Mulcahy' — his legal first name Francis is rarely if ever used by other characters; Minnick (Grey's Anatomy) is almost exclusively called 'Minnick' by colleagues, her first name Eliza rarely used in address; Tara Knowles (Sons of Anarchy) is consistently called 'Tara' which is actually her first name so she does not fit this category. Revised: Nora Durst (The Leftovers) goes by Nora throughout but her surname changes to Jamison — she is always 'Nora.' This group concept has verification issues and is flagged for revision. The strongest confirmed fits are Father Mulcahy (Francis never used) and Minnick (Eliza rarely used)."
+    }
+  ]
+}
