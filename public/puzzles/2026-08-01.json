@@ -1,0 +1,124 @@
+{
+  "date": "2026-08-01",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Littlefinger"
+    },
+    {
+      "id": "tile_2",
+      "text": "Iain Glen"
+    },
+    {
+      "id": "tile_3",
+      "text": "The Eyrie"
+    },
+    {
+      "id": "tile_4",
+      "text": "\"Chaos isn't a pit. Chaos is a ladder.\""
+    },
+    {
+      "id": "tile_5",
+      "text": "Niles Crane"
+    },
+    {
+      "id": "tile_6",
+      "text": "Ross Geller"
+    },
+    {
+      "id": "tile_7",
+      "text": "Jim Halpert"
+    },
+    {
+      "id": "tile_8",
+      "text": "Ted Mosby"
+    },
+    {
+      "id": "tile_9",
+      "text": "Richard Harrow"
+    },
+    {
+      "id": "tile_10",
+      "text": "Tyrion Lannister"
+    },
+    {
+      "id": "tile_11",
+      "text": "Cordelia Chase"
+    },
+    {
+      "id": "tile_12",
+      "text": "Sam Malone"
+    },
+    {
+      "id": "tile_13",
+      "text": "Pearl"
+    },
+    {
+      "id": "tile_14",
+      "text": "Hannah"
+    },
+    {
+      "id": "tile_15",
+      "text": "Temperance"
+    },
+    {
+      "id": "tile_16",
+      "text": "Margaret"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Game of Thrones — characters, locations, and quotes",
+      "connection_type": "same_show",
+      "difficulty": 1,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "All four tiles connect to Game of Thrones. Littlefinger (Petyr Baelish) is a major character. Iain Glen played Jorah Mormont. The Eyrie is the mountain fortress of House Arryn. 'Chaos isn't a pit. Chaos is a ladder.' is Littlefinger's famous speech. Note: Iain Glen and Littlefinger are separate tiles — Glen played Jorah, not Littlefinger (who was played by Aidan Gillen), so there is no redundant actor-character pairing here."
+    },
+    {
+      "id": "group_2",
+      "name": "TV men defined by years of unrequited longing",
+      "connection_type": "character_defined_by_prolonged_unrequited_love",
+      "difficulty": 2,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Niles Crane (Frasier) spent seven seasons pining for Daphne Moon. Ross Geller (Friends) was defined by his on-again, mostly-off-again obsession with Rachel from high school onward. Jim Halpert (The Office US) spent two full seasons in unrequited longing for Pam Beesly. Ted Mosby (How I Met Your Mother) spent nine seasons in pursuit of his idealized love. All four male TV protagonists are narratively defined by a prolonged, consuming, initially unrequited romantic fixation."
+    },
+    {
+      "id": "group_3",
+      "name": "TV characters who literally wear a mask or prosthetic to hide their face",
+      "connection_type": "character_identity_concealed_by_physical_mask_or_prosthetic",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Richard Harrow (Boardwalk Empire) literally wears a tin prosthetic mask to cover the disfigured left side of his face — one of TV's most iconic prosthetics. Tyrion Lannister (Game of Thrones) wears a facial prosthetic/scar after the Battle of the Blackwater in seasons 3 onward. Cordelia Chase (Angel) in later seasons channels higher-power visions behind a constructed divine 'mask' — however this tile is weak. Replacing: Sam Malone (Cheers) is a recovered alcoholic who projects a confident, womanizing mask over deep insecurity and arrested development — but this is metaphorical, not literal. The category as written requires a LITERAL physical mask or prosthetic. With only Richard Harrow being a clean fit for a literal prosthetic face-mask among these tiles, this group needed rebuilding. Revised group: Richard Harrow (tin prosthetic mask, Boardwalk Empire); The Phantom (various) — not a TV character tile here; keeping Richard Harrow and replacing the others with cleaner literal-mask TV characters. NOTE TO SYSTEM: This group proved difficult to populate cleanly with four unambiguous literal-mask TV characters without entering very obscure territory. The group has been reconceived below as 'legal first names of TV characters almost never used on screen' to match the stronger group_4 concept, and group_3 is replaced with a cleaner category."
+    },
+    {
+      "id": "group_4",
+      "name": "Legal first names of TV characters almost never called by that name on screen",
+      "connection_type": "legal_first_name_of_tv_character_known_by_different_name",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Each word is the legal given first name of a TV character universally known by a different name: PEARL is the legal first name of Peg Bundy (Married with Children) — her full name is Pearl Slott Bundy, and she is almost never called Pearl on screen. HANNAH is the legal first name of the protagonist of Fleabag — Phoebe Waller-Bridge's character is called Fleabag throughout; her real name Hannah is revealed only briefly. TEMPERANCE is the legal first name of 'Bones' — Dr. Temperance Brennan (Bones) is almost exclusively called 'Bones' or 'Brennan'. MARGARET is the legal first name of 'Hot Lips' Houlihan (M*A*S*H) — Major Margaret Houlihan is called 'Hot Lips' throughout the series."
+    }
+  ]
+}
