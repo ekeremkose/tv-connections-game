@@ -1,0 +1,124 @@
+{
+  "date": "2026-08-02",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Orphan Black"
+    },
+    {
+      "id": "tile_2",
+      "text": "Transparent"
+    },
+    {
+      "id": "tile_3",
+      "text": "Pose"
+    },
+    {
+      "id": "tile_4",
+      "text": "It's a Sin"
+    },
+    {
+      "id": "tile_5",
+      "text": "Jax Teller"
+    },
+    {
+      "id": "tile_6",
+      "text": "Jamie Fraser"
+    },
+    {
+      "id": "tile_7",
+      "text": "Nate Archibald"
+    },
+    {
+      "id": "tile_8",
+      "text": "Lip Gallagher"
+    },
+    {
+      "id": "tile_9",
+      "text": "\"I know what I am.\""
+    },
+    {
+      "id": "tile_10",
+      "text": "The Pines"
+    },
+    {
+      "id": "tile_11",
+      "text": "Tatiana Maslany"
+    },
+    {
+      "id": "tile_12",
+      "text": "Ian McShane"
+    },
+    {
+      "id": "tile_13",
+      "text": "Flea"
+    },
+    {
+      "id": "tile_14",
+      "text": "Eugene Tooms"
+    },
+    {
+      "id": "tile_15",
+      "text": "Harvey Dent"
+    },
+    {
+      "id": "tile_16",
+      "text": "The Upside Down"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Groundbreaking LGBTQ+ representation on TV",
+      "connection_type": "shows_defined_by_groundbreaking_lgbtq_representation_at_time_of_airing",
+      "difficulty": 1,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Orphan Black (featured trans character Tony and clone storylines exploring gender), Transparent (centered on a trans parent coming out), Pose (Black and Latinx LGBTQ+ ballroom culture), and It's a Sin (gay men during the AIDS crisis in 1980s London) were all landmark TV shows celebrated for LGBTQ+ representation at the time they aired."
+    },
+    {
+      "id": "group_2",
+      "name": "TV characters who idolize or model themselves on a doomed literary or historical outlaw",
+      "connection_type": "character_explicitly_models_identity_on_a_doomed_outlaw_archetype",
+      "difficulty": 2,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Jax Teller (Sons of Anarchy) fashions himself after Hamlet and the romantic outlaw biker archetype; Jamie Fraser (Outlander) identifies with the doomed Jacobite rebel warrior tradition; Nate Archibald (Gossip Girl) repeatedly models himself on classic tragic-romantic literary figures; and Lip Gallagher (Shameless US) is explicitly coded as a self-destructive working-class intellectual in the mold of the doomed gifted outsider — each character consciously or unconsciously channels a romantic outlaw template that ultimately contributes to their downfall."
+    },
+    {
+      "id": "group_3",
+      "name": "Actors who played the Devil — not a demon, not an angel — specifically Satan on screen",
+      "connection_type": "trap_looks_like_mixed_supernatural_tv_but_real_connection_is_actors_who_played_satan_specifically",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "These four tiles are all connected to portrayals of Satan specifically: 'I know what I am.' is the Devil's signature line from Lucifer; The Pines is the location in Reaper where the Devil (Ray Wise) appears; Tatiana Maslany voiced Satan in the animated show Little Demon; Ian McShane played a version of the Devil in American Gods. Players will be misdirected by Tatiana Maslany toward Orphan Black clones and Ian McShane toward Deadwood's Al Swearengen."
+    },
+    {
+      "id": "group_4",
+      "name": "TV antagonists whose name is also the name of a DC Comics character",
+      "connection_type": "tv_villain_or_antagonist_shares_exact_name_with_a_dc_comics_character",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Flea is a villain alias in The Flash TV universe AND a DC Comics villain; Eugene Tooms (X-Files) shares his name with a minor DC villain; Harvey Dent is famously Two-Face in DC Comics and appears as an antagonist in Gotham; The Upside Down from Stranger Things shares its name with a DC Comics universe/dimension concept. Players will assume these tiles go with horror, sci-fi, or comic book adaptations, missing that the unifying thread is the name overlap with DC Comics characters."
+    }
+  ]
+}
