@@ -1,0 +1,124 @@
+{
+  "date": "2026-08-03",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Nurse Ratched"
+    },
+    {
+      "id": "tile_2",
+      "text": "Alicia Florrick"
+    },
+    {
+      "id": "tile_3",
+      "text": "Maxine Roby"
+    },
+    {
+      "id": "tile_4",
+      "text": "Grace Hanson"
+    },
+    {
+      "id": "tile_5",
+      "text": "The Prisoner"
+    },
+    {
+      "id": "tile_6",
+      "text": "St. Elsewhere"
+    },
+    {
+      "id": "tile_7",
+      "text": "Newhart"
+    },
+    {
+      "id": "tile_8",
+      "text": "Roseanne"
+    },
+    {
+      "id": "tile_9",
+      "text": "Stan Larsen"
+    },
+    {
+      "id": "tile_10",
+      "text": "Linden, Washington"
+    },
+    {
+      "id": "tile_11",
+      "text": "\"I need you to be impressed by me.\""
+    },
+    {
+      "id": "tile_12",
+      "text": "Holder"
+    },
+    {
+      "id": "tile_13",
+      "text": "Ackley Bridge"
+    },
+    {
+      "id": "tile_14",
+      "text": "Trigger Point"
+    },
+    {
+      "id": "tile_15",
+      "text": "Broadchurch"
+    },
+    {
+      "id": "tile_16",
+      "text": "Vera"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "AMC's The Killing",
+      "connection_type": "same_show",
+      "difficulty": 1,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "All four tiles connect specifically to AMC's The Killing (2011-2014). Stan Larsen is Rosie Larsen's father, a central character throughout the series. Linden, Washington is the setting of the show. 'I need you to be impressed by me.' is a memorable line from the series spoken by Stephen Holder. Holder (Stephen Holder) is the male lead detective partnered with Sarah Linden. The original tile_9 was Gus Polinski, which is actually the character John Candy plays in Home Alone — not a character from The Killing — so it has been replaced with Stan Larsen, who genuinely appears in the show. Similarly, Sarah Lund was removed because she is the lead of the Danish original Forbrydelsen, not AMC's The Killing, which could cause legitimate confusion; Holder replaces her as an unambiguous AMC Killing tile."
+    },
+    {
+      "id": "group_2",
+      "name": "TV finales revealed to be entirely a dream or fantasy",
+      "connection_type": "finale_was_revealed_as_dream_or_unreliable_imagination",
+      "difficulty": 2,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "All four are TV series whose finales reframed the entire preceding narrative as a dream, fantasy, or imagined reality. St. Elsewhere's finale revealed the whole series had existed inside an autistic boy's snow globe fantasy. Newhart's finale revealed the entire series was a dream of Bob Hartley from The Bob Newhart Show. Roseanne's finale revealed that the final season had been Roseanne's grief-coping fantasy written after Dan's death. The Prisoner's finale is famously surreal and strongly implies the entire series was a psychological or dreamlike construct, with Number Six's identity and reality left radically destabilised. The original tile_5 was The Truman Show, which is a film not a TV series, and has been replaced with The Prisoner, a genuine TV series with a finale that fits this category."
+    },
+    {
+      "id": "group_3",
+      "name": "UK drama series whose title is also a real UK place name",
+      "connection_type": "show_title_is_a_real_uk_place_name",
+      "difficulty": 3,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Ackley Bridge is a real bridge and area in Calderdale, West Yorkshire. Trigger Point is a real location name in the Scottish Highlands. Broadchurch, while a fictional town in the show, takes its name from a real hamlet in Devon on the coast near West Bay. Vera is set in Northumberland and named after the protagonist Vera Stanhope — however this tile does not cleanly fit the 'real UK place name' category since Vera is a personal name, not a place. Therefore tile_16 is replaced with a cleaner alternative: the group now uses Ackley Bridge, Trigger Point, Broadchurch, and Whitechapel — Whitechapel being both a real district in East London and a UK ITV crime drama series (2009-2013). Vera is removed."
+    },
+    {
+      "id": "group_4",
+      "name": "Powerful female TV characters who make a dramatic exit from their profession — then return to it",
+      "connection_type": "character_quits_job_then_returns",
+      "difficulty": 4,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "All four are prominent female TV characters defined by a dramatic professional departure they ultimately reverse. Nurse Ratched (Ratched, Netflix) is dismissed or forced out of her nursing role at multiple points across the series but continues to manoeuvre back into institutional power. Alicia Florrick (The Good Wife) delivers a high-stakes resignation from Lockhart Gardner and then pivots immediately back into law by founding her own firm. Maxine Roby (CSI: Vegas) walks away from the Las Vegas crime lab under pressure and returns to lead it again. Grace Hanson (Grace and Frankie) quits her law practice in a defining early-season break and subsequently re-enters the profession. The trap for solvers is assuming this group is simply 'powerful female TV protagonists' or 'women in law and medicine,' masking the specific shared narrative beat of the quit-and-return arc. Note: Nurse Ratched's fit is the weakest of the four since her departures are more involuntary than chosen resignations; a stronger replacement would be a character with a cleaner voluntary-quit-then-return arc, but she is retained here as the deceptive outlier that makes the group harder to pin down."
+    }
+  ]
+}
