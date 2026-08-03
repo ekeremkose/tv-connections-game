@@ -1,0 +1,124 @@
+{
+  "date": "2026-08-04",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Villanelle"
+    },
+    {
+      "id": "tile_2",
+      "text": "\"Do you miss me?\""
+    },
+    {
+      "id": "tile_3",
+      "text": "Sandra Oh"
+    },
+    {
+      "id": "tile_4",
+      "text": "The Bitter Pill"
+    },
+    {
+      "id": "tile_5",
+      "text": "Annalise Keating"
+    },
+    {
+      "id": "tile_6",
+      "text": "Olivia Pope"
+    },
+    {
+      "id": "tile_7",
+      "text": "Cristina Yang"
+    },
+    {
+      "id": "tile_8",
+      "text": "Miranda Hobbes"
+    },
+    {
+      "id": "tile_9",
+      "text": "Oz"
+    },
+    {
+      "id": "tile_10",
+      "text": "Wentworth"
+    },
+    {
+      "id": "tile_11",
+      "text": "Porridge"
+    },
+    {
+      "id": "tile_12",
+      "text": "Orange Is the New Black"
+    },
+    {
+      "id": "tile_13",
+      "text": "Lorne"
+    },
+    {
+      "id": "tile_14",
+      "text": "Harvey Specter"
+    },
+    {
+      "id": "tile_15",
+      "text": "Ari Gold"
+    },
+    {
+      "id": "tile_16",
+      "text": "Elsbeth Tascioni"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Killing Eve universe",
+      "connection_type": "same_show",
+      "difficulty": 1,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Villanelle (the assassin character), 'Do you miss me?' (Villanelle's iconic repeated line to Eve), Sandra Oh (plays Eve Polastri), and The Bitter Pill (a Season 3 episode title) are all from Killing Eve. NOTE: tile_1 and tile_3 are a potential cross-tile trap — Sandra Oh also plays Cristina Yang in Grey's Anatomy, which appears on the board. However, Sandra Oh is in this group as Eve Polastri, not Cristina Yang, and Cristina Yang's tile is a character name only, not actor-linked, so the two tiles do not directly collapse into one answer. Monitor carefully — if this still feels like it undermines tile independence, replace Sandra Oh with a different Killing Eve element such as 'Eve Polastri' and add Sandra Oh to a different group, or remove Cristina Yang from group 2."
+    },
+    {
+      "id": "group_2",
+      "name": "Shonda Rhimes characters — except one",
+      "connection_type": "trap_three_are_shonda_characters_one_is_not_real_connection_is_ambitious_women_defined_by_their_work",
+      "difficulty": 2,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "The trap: Annalise Keating (How to Get Away with Murder), Olivia Pope (Scandal), and Cristina Yang (Grey's Anatomy) are all Shonda Rhimes creations. Miranda Hobbes (Sex and the City) is not. The real connection that unifies all four: female TV characters whose professional identity and ambition are coded as their defining trait, often at the cost of personal relationships. Miranda is the deliberate red herring that breaks the 'all Shonda' assumption and points to the deeper thematic link. NOTE: Cristina Yang's actor Sandra Oh also appears on the board as tile_3. This is a tile independence risk. To eliminate ambiguity, tile_7 'Cristina Yang' is retained as a character name only — players should not need to know the actor to place her. However, a savvy solver may connect tile_3 and tile_7 via Sandra Oh before the puzzle resolves. Recommended fix: replace Cristina Yang with another Shonda character such as Meredith Grey or Callie Torres to fully remove the Sandra Oh overlap."
+    },
+    {
+      "id": "group_3",
+      "name": "TV shows titled after a real prison or detention facility",
+      "connection_type": "show_title_is_name_of_real_prison_or_penal_institution",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Oz (the HBO drama shares its name with the Oswald State Correctional Facility, nicknamed Oz, and is itself set in a fictional prison of that name), Wentworth (the Australian drama is named after Wentworth Detention Centre, a real former women's prison in Melbourne), Porridge (the British sitcom is set in HM Prison Slade — 'porridge' is British slang for a prison sentence, and the show's title is slang drawn directly from prison culture), Orange Is the New Black (set in a fictionalized version of the real Danbury Federal Correctional Institution). All four show titles are either the name of a real prison, slang for imprisonment, or directly named after a real penal facility. NOTE: Orange Is the New Black is the most famous of the four and may be too easy for difficulty 3 — consider whether solvers will crack this group too quickly. The intended difficulty comes from Porridge (older, British) and Oz (the real-prison-name connection is less obvious than the others)."
+    },
+    {
+      "id": "group_4",
+      "name": "TV characters who are professional fixers",
+      "connection_type": "character_is_a_professional_fixer_or_crisis_manager_solving_others_problems_for_compensation",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Lorne (Angel — runs Caritas and acts as a conduit and fixer for supernatural clients navigating crises), Harvey Specter (Suits — a closer whose entire identity is built around fixing corporate and legal disasters for wealthy clients), Ari Gold (Entourage — a Hollywood talent agent whose job is managing and fixing his clients' careers and personal catastrophes), Elsbeth Tascioni (The Good Wife / The Good Fight / Elsbeth — an unconventional lawyer who resolves other people's legal and personal crises). All four are professionals defined by their ability to walk into chaos and make it go away — for a fee or a favor. NOTE: Harvey Specter is a lawyer, as is Elsbeth Tascioni. This creates a mild same-profession overlap. However their shows, tones, and character types are sufficiently distinct that this should not feel redundant. If this is a concern, replace Harvey Specter with Ray Donovan (Showtime fixer) or Pope — but note Olivia Pope is already on the board in group 2, so Ray Donovan is the cleaner substitution if needed."
+    }
+  ]
+}
