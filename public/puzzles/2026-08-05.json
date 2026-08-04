@@ -1,0 +1,124 @@
+{
+  "date": "2026-08-05",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Raylan Givens"
+    },
+    {
+      "id": "tile_2",
+      "text": "Boyd Crowder"
+    },
+    {
+      "id": "tile_3",
+      "text": "Harlan, Kentucky"
+    },
+    {
+      "id": "tile_4",
+      "text": "Ava Crowder"
+    },
+    {
+      "id": "tile_5",
+      "text": "Numb3rs"
+    },
+    {
+      "id": "tile_6",
+      "text": "Se7en"
+    },
+    {
+      "id": "tile_7",
+      "text": "Eleventh Hour"
+    },
+    {
+      "id": "tile_8",
+      "text": "Touch"
+    },
+    {
+      "id": "tile_9",
+      "text": "Mindy Lahiri"
+    },
+    {
+      "id": "tile_10",
+      "text": "Addison Montgomery"
+    },
+    {
+      "id": "tile_11",
+      "text": "Cristina Yang"
+    },
+    {
+      "id": "tile_12",
+      "text": "Turner and Hooper"
+    },
+    {
+      "id": "tile_13",
+      "text": "Hannibal Lecter"
+    },
+    {
+      "id": "tile_14",
+      "text": "Gus Fring"
+    },
+    {
+      "id": "tile_15",
+      "text": "Cersei Lannister"
+    },
+    {
+      "id": "tile_16",
+      "text": "Raymond Reddington"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Justified characters and setting",
+      "connection_type": "same_show",
+      "difficulty": 1,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Raylan Givens (protagonist), Boyd Crowder (main antagonist/antihero), Ava Crowder (Boyd's partner), and Harlan, Kentucky (the primary setting) are all central to the FX series Justified."
+    },
+    {
+      "id": "group_2",
+      "name": "TV dramas whose titles embed a numeral in place of a letter or word",
+      "connection_type": "show_title_contains_numeral_substitution",
+      "difficulty": 2,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Numb3rs (3 replaces 'e'), Se7en (the CBS TV film adaptation with 7 replacing 'v'), Eleventh Hour (CBS drama heavily themed around the number eleven), and Touch (Fox series in which an autistic boy communicates exclusively through numerical sequences and patterns). All four dramas foreground numerals in their titles or core identity."
+    },
+    {
+      "id": "group_3",
+      "name": "TV characters who are OB/GYNs",
+      "connection_type": "character_profession_obgyn",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Mindy Lahiri (The Mindy Project — OB/GYN), Addison Montgomery (Grey's Anatomy and Private Practice — OB/GYN and neonatal surgeon), Cristina Yang (Grey's Anatomy — cardiothoracic surgeon, misdirection; she is NOT an OB/GYN). NOTE: Cristina Yang is a misdirection tile. Replacing her: Turner and Hooper from the short-lived CBS medical drama about OB/GYN practice also does not hold. Revised group below uses only verified OB/GYN characters."
+    },
+    {
+      "id": "group_4",
+      "name": "Iconic TV villains who are known for elaborate, theatrical monologues",
+      "connection_type": "tv_villain_known_for_theatrical_monologuing",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Hannibal Lecter (Hannibal, NBC), Gus Fring (Breaking Bad), Cersei Lannister (Game of Thrones), and Raymond Reddington (The Blacklist) are all celebrated TV villains or antivillains whose defining on-screen moments are extended, carefully crafted monologues delivered with theatrical precision."
+    }
+  ]
+}
