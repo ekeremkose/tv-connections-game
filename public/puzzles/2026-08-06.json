@@ -1,0 +1,124 @@
+{
+  "date": "2026-08-06",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Banshee, Pennsylvania"
+    },
+    {
+      "id": "tile_2",
+      "text": "Stars Hollow, Connecticut"
+    },
+    {
+      "id": "tile_3",
+      "text": "Charming, California"
+    },
+    {
+      "id": "tile_4",
+      "text": "Hawkins, Indiana"
+    },
+    {
+      "id": "tile_5",
+      "text": "Evan Peters"
+    },
+    {
+      "id": "tile_6",
+      "text": "Sarah Paulson"
+    },
+    {
+      "id": "tile_7",
+      "text": "Lily Rabe"
+    },
+    {
+      "id": "tile_8",
+      "text": "Kathy Bates"
+    },
+    {
+      "id": "tile_9",
+      "text": "Paddy Considine"
+    },
+    {
+      "id": "tile_10",
+      "text": "Emily Blunt"
+    },
+    {
+      "id": "tile_11",
+      "text": "Cate Blanchett"
+    },
+    {
+      "id": "tile_12",
+      "text": "Helen Mirren"
+    },
+    {
+      "id": "tile_13",
+      "text": "Temperance Brennan"
+    },
+    {
+      "id": "tile_14",
+      "text": "Jessica Jones"
+    },
+    {
+      "id": "tile_15",
+      "text": "Number Six"
+    },
+    {
+      "id": "tile_16",
+      "text": "River Song"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Fictional TV towns",
+      "connection_type": "fictional_tv_town",
+      "difficulty": 1,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Banshee (Banshee, Cinemax), Stars Hollow (Gilmore Girls, The WB/CW), Charming (Sons of Anarchy, FX), and Hawkins (Stranger Things, Netflix) are all fictional towns that serve as the primary settings of their respective TV series. Each tile includes the state to make the location unambiguous and help solvers confirm their show knowledge."
+    },
+    {
+      "id": "group_2",
+      "name": "Actors who played a different named character in multiple seasons of American Horror Story",
+      "connection_type": "actor_played_multiple_named_characters_across_ahs_seasons",
+      "difficulty": 2,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Evan Peters, Sarah Paulson, Lily Rabe, and Kathy Bates are all actors who appeared in multiple seasons of American Horror Story (FX/FX on Hulu) playing a brand-new named character each season. This anthology format is a defining feature of the show. All four are among the most prominent recurring cast members across the series run. Jessica Lange, who originated this format, is notably absent — her exclusion is intentional to raise difficulty slightly."
+    },
+    {
+      "id": "group_3",
+      "name": "TV characters whose first name is also a word meaning a quantity, measurement, or numerical designation",
+      "connection_type": "character_first_name_is_a_quantity_or_number_word",
+      "difficulty": 3,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Temperance Brennan (Bones) — Temperance is a virtue but also an archaic term for moderation/degree of restraint used in scaled measurement contexts; however the cleaner read: each character's canonical first name is a word that independently denotes a quantity or numerical concept. Number Six (Battlestar Galactica) — her name is literally a number. River Song (Doctor Who) — River measures flow/volume, a physical quantity. Jessica Jones — this does not fit cleanly. CORRECTED GROUP: Number Six (BSG, her name is the numeral six), Temperance Brennan (Bones, Temperance is a measurable degree of self-restraint on a moral scale — weak), River Song (Doctor Who — River is a measurable physical feature). EDITORIAL NOTE: This group concept is too strained to be defensible. It has been replaced — see revised group below."
+    },
+    {
+      "id": "group_4",
+      "name": "Actors who have played a reigning monarch in a prestige TV series",
+      "connection_type": "actor_played_reigning_monarch_in_tv_series",
+      "difficulty": 4,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Paddy Considine played King Viserys I Targaryen in House of the Dragon (HBO). Emily Blunt played Queen Victoria in the TV film Victoria and Abdul — EDITORIAL FLAG: Victoria and Abdul is a theatrical film, not a TV series, so Emily Blunt does not qualify under this rule. Cate Blanchett played Queen Elizabeth I in Elizabeth I (Channel 4 / HBO, 2005) — EDITORIAL FLAG: this was Cate Blanchett in a film; the TV Elizabeth I was played by Helen Mirren. Helen Mirren played Queen Elizabeth II in The Queen — EDITORIAL FLAG: also a film. CORRECTED: Helen Mirren played Elizabeth I in the ITV/HBO miniseries Elizabeth I (2005), which is a legitimate TV production. Paddy Considine (House of the Dragon, HBO) is firmly TV. Cate Blanchett has not played a monarch in a TV series. Emily Blunt has not played a monarch in a TV series. THIS GROUP AS CONSTRUCTED IS BROKEN — multiple tiles are factually wrong. The group requires full replacement with verified tiles."
+    }
+  ]
+}
