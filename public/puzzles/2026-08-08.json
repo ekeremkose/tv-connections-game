@@ -1,0 +1,124 @@
+{
+  "date": "2026-08-08",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "The Peach Pit"
+    },
+    {
+      "id": "tile_2",
+      "text": "Paddy's Pub"
+    },
+    {
+      "id": "tile_3",
+      "text": "The Regal Beagle"
+    },
+    {
+      "id": "tile_4",
+      "text": "MacLaren's"
+    },
+    {
+      "id": "tile_5",
+      "text": "Rectify"
+    },
+    {
+      "id": "tile_6",
+      "text": "The Americans"
+    },
+    {
+      "id": "tile_7",
+      "text": "Halt and Catch Fire"
+    },
+    {
+      "id": "tile_8",
+      "text": "Rubicon"
+    },
+    {
+      "id": "tile_9",
+      "text": "Mozzie"
+    },
+    {
+      "id": "tile_10",
+      "text": "Littlefinger"
+    },
+    {
+      "id": "tile_11",
+      "text": "Starbuck"
+    },
+    {
+      "id": "tile_12",
+      "text": "Poussey"
+    },
+    {
+      "id": "tile_13",
+      "text": "Gillian Anderson"
+    },
+    {
+      "id": "tile_14",
+      "text": "Idris Elba"
+    },
+    {
+      "id": "tile_15",
+      "text": "Damian Lewis"
+    },
+    {
+      "id": "tile_16",
+      "text": "Andrew Lincoln"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Iconic fictional bars or diners — the central hangout of a TV ensemble",
+      "connection_type": "fictional_recurring_social_hub_location",
+      "difficulty": 1,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "The Peach Pit (Beverly Hills, 90210), Paddy's Pub (It's Always Sunny in Philadelphia), The Regal Beagle (Three's Company), and MacLaren's (How I Met Your Mother) are all iconic fictional bars or diners that serve as the central gathering place for their show's ensemble cast."
+    },
+    {
+      "id": "group_2",
+      "name": "Critically acclaimed prestige dramas that never won or were nominated for the Emmy for Outstanding Drama Series despite strong reviews",
+      "connection_type": "prestige_drama_never_nominated_outstanding_drama_emmy",
+      "difficulty": 2,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Rectify (SundanceTV), The Americans (FX), Halt and Catch Fire (AMC), and Rubicon (AMC) are all critically praised prestige dramas that were never nominated for the Emmy Award for Outstanding Drama Series despite widespread critical acclaim, making them among the most notable Emmy snubs in the drama category."
+    },
+    {
+      "id": "group_3",
+      "name": "TV characters known exclusively by a nickname or alias — their real name is rarely or never used on screen",
+      "connection_type": "character_exclusively_known_by_nickname_not_legal_name",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Mozzie (White Collar) — real name Theodore Winters, exclusively called Mozzie; Littlefinger (Game of Thrones) — real name Petyr Baelish, almost always referred to by his alias Littlefinger; Starbuck (Battlestar Galactica) — real name Kara Thrace, almost universally called Starbuck throughout the series; Poussey (Orange Is the New Black) — her surname used as her given name by everyone around her, her actual first name Tasha almost never spoken on screen."
+    },
+    {
+      "id": "group_4",
+      "name": "British actors who played the American lead in a major US prestige drama",
+      "connection_type": "british_actor_playing_american_lead_in_us_prestige_drama",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Gillian Anderson (born in Chicago but raised in the UK and holds British citizenship, considered British by identity and public persona) played American FBI agent Dana Scully in The X-Files; Idris Elba (British) played Baltimore drug kingpin Stringer Bell in The Wire; Damian Lewis (British) played American POW-turned-suspected-terrorist Nicholas Brody in Homeland; Andrew Lincoln (British) played American sheriff's deputy Rick Grimes in The Walking Dead. All four are British actors who headlined major American prestige dramas playing core American characters."
+    }
+  ]
+}
