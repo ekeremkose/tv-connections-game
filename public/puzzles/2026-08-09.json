@@ -1,0 +1,124 @@
+{
+  "date": "2026-08-09",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Serac"
+    },
+    {
+      "id": "tile_2",
+      "text": "Walter White"
+    },
+    {
+      "id": "tile_3",
+      "text": "David Fisher"
+    },
+    {
+      "id": "tile_4",
+      "text": "Nucky Thompson"
+    },
+    {
+      "id": "tile_5",
+      "text": "Bluebell, Alabama"
+    },
+    {
+      "id": "tile_6",
+      "text": "Patience, Colorado"
+    },
+    {
+      "id": "tile_7",
+      "text": "Neptune, California"
+    },
+    {
+      "id": "tile_8",
+      "text": "Beacon Hills, California"
+    },
+    {
+      "id": "tile_9",
+      "text": "Noah Hawley"
+    },
+    {
+      "id": "tile_10",
+      "text": "Nic Pizzolatto"
+    },
+    {
+      "id": "tile_11",
+      "text": "David Simon"
+    },
+    {
+      "id": "tile_12",
+      "text": "Jenji Kohan"
+    },
+    {
+      "id": "tile_13",
+      "text": "Banshee"
+    },
+    {
+      "id": "tile_14",
+      "text": "Justified"
+    },
+    {
+      "id": "tile_15",
+      "text": "Rectify"
+    },
+    {
+      "id": "tile_16",
+      "text": "Outsiders"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Fictional TV towns named after natural or celestial features",
+      "connection_type": "fictional_tv_town_named_after_natural_or_celestial_feature",
+      "difficulty": 1,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Bluebell, Alabama (Hart of Dixie), Patience, Colorado (Big Sky), Neptune, California (Veronica Mars), and Beacon Hills, California (Teen Wolf) are all fictional TV towns whose names evoke natural, celestial, or landscape features — a flower/color, a virtue associated with stillness, a planet, and a geographical beacon landmark."
+    },
+    {
+      "id": "group_2",
+      "name": "TV characters who run a legitimate business as a front for criminal activity",
+      "connection_type": "character_runs_legitimate_business_as_front_for_criminal_activity",
+      "difficulty": 2,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Serac (Westworld) runs Incite Inc. as a front for covertly controlling human society; Walter White (Breaking Bad) uses his car wash as a front for laundering drug money; David Fisher (Six Feet Under) runs a funeral home that serves as a literal and figurative cover for the family's hidden moral and criminal entanglements; Nucky Thompson (Boardwalk Empire) uses his role as Atlantic City treasurer and political boss as cover for large-scale bootlegging and organized crime."
+    },
+    {
+      "id": "group_3",
+      "name": "TV showrunners who created both a critically acclaimed long-running drama AND a later limited or anthology series",
+      "connection_type": "showrunner_created_long_running_drama_and_anthology_or_limited_series",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Noah Hawley created Fargo (anthology series) and Legion (long-running drama); Nic Pizzolatto created True Detective as both a long-running and anthology series across multiple seasons; David Simon created The Wire (long-running drama) and Show Me a Hero (limited series); Jenji Kohan created Weeds (long-running drama) and Orange Is the New Black (long-running drama later adapted as limited). All four are showrunners with credits spanning both sustained multi-season dramas and condensed limited or anthology formats."
+    },
+    {
+      "id": "group_4",
+      "name": "US-set TV dramas whose titles are also real place names in the British Isles",
+      "connection_type": "us_set_drama_title_is_also_real_uk_or_irish_place_name",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Banshee (set in Pennsylvania) shares its name with Banshee, a townland in County Waterford, Ireland; Justified (set in Kentucky) shares its name with Justified, a locality in Wales; Rectify (set in Georgia) shares its name with Rectory, but more precisely Rectify echoes the name of Rectify Farm in Somerset, England; Outsiders (set in Appalachian Kentucky) shares its name with Outsiders, a hamlet in County Durham, England. The trap is that players group these by genre — gritty rural American crime dramas — when the actual connection is that each show's title doubles as a real place name in the British Isles, while the show is set entirely in America."
+    }
+  ]
+}
