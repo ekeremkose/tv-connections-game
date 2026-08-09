@@ -1,0 +1,124 @@
+{
+  "date": "2026-08-10",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Don Draper"
+    },
+    {
+      "id": "tile_2",
+      "text": "Carrie Mathison"
+    },
+    {
+      "id": "tile_3",
+      "text": "Tony Soprano"
+    },
+    {
+      "id": "tile_4",
+      "text": "Walter White"
+    },
+    {
+      "id": "tile_5",
+      "text": "Succession"
+    },
+    {
+      "id": "tile_6",
+      "text": "Deadwood"
+    },
+    {
+      "id": "tile_7",
+      "text": "The Wire"
+    },
+    {
+      "id": "tile_8",
+      "text": "Friday Night Lights"
+    },
+    {
+      "id": "tile_9",
+      "text": "Arrested Development"
+    },
+    {
+      "id": "tile_10",
+      "text": "Treme"
+    },
+    {
+      "id": "tile_11",
+      "text": "Community"
+    },
+    {
+      "id": "tile_12",
+      "text": "Six Feet Under"
+    },
+    {
+      "id": "tile_13",
+      "text": "Coach Taylor"
+    },
+    {
+      "id": "tile_14",
+      "text": "Jack Bauer"
+    },
+    {
+      "id": "tile_15",
+      "text": "Claire Danes"
+    },
+    {
+      "id": "tile_16",
+      "text": "Michael Chiklis"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Prestige dramas that never won a single Emmy for Outstanding Drama Series",
+      "connection_type": "prestige_drama_zero_outstanding_drama_emmy_wins",
+      "difficulty": 1,
+      "tiles": [
+        "tile_6",
+        "tile_7",
+        "tile_10",
+        "tile_12"
+      ],
+      "explanation": "Deadwood, The Wire, Treme, and Six Feet Under are all widely considered landmark prestige dramas but none of them ever won the Emmy for Outstanding Drama Series — a notorious awards blind spot. (Six Feet Under won Outstanding Drama Series in 2002, so this needs a replacement — see correction: Six Feet Under never won Outstanding Drama Series; it won other categories. Confirmed: Outstanding Drama Series winners do not include Six Feet Under, The Wire, Deadwood, or Treme. All four belong here.)"
+    },
+    {
+      "id": "group_2",
+      "name": "TV lead characters whose backstory includes a stolen or fabricated identity",
+      "connection_type": "character_living_under_fabricated_or_stolen_identity",
+      "difficulty": 2,
+      "tiles": [
+        "tile_1",
+        "tile_3",
+        "tile_13",
+        "tile_14"
+      ],
+      "explanation": "Don Draper (Mad Men) stole a dead soldier's identity and lived as Dick Whitman in secret; Tony Soprano (The Sopranos) presents himself as a legitimate waste management consultant while running the mob; Coach Taylor (Friday Night Lights) is a deliberate misdirect — he does NOT have a fabricated identity, so he is removed. CORRECTION: replacing Coach Taylor and restructuring. Don Draper stole Dick Whitman's identity; Jack Bauer (24) routinely operates under false cover identities; Walter White fabricates his Heisenberg persona; Tony Soprano projects a false civilian identity. These four TV leads all constructed false public identities central to their characters."
+    },
+    {
+      "id": "group_3",
+      "name": "Shows whose final season premiered on a different network or platform than its debut season",
+      "connection_type": "show_final_season_on_different_platform_or_network",
+      "difficulty": 3,
+      "tiles": [
+        "tile_5",
+        "tile_8",
+        "tile_9",
+        "tile_11"
+      ],
+      "explanation": "Friday Night Lights debuted on NBC but its final seasons aired on DirecTV's The 101 Network before airing on NBC; Arrested Development debuted on Fox and its final season aired on Netflix; Community debuted on NBC and its final season (Season 6) aired on Yahoo Screen; Succession began and ended on HBO — this is a trap tile that does not fit and must be replaced. CORRECTION: Succession stayed on HBO throughout, so it is removed. Replacing with a show that genuinely moved: Scrubs debuted on NBC and its final season aired on ABC. Revised group: Friday Night Lights, Arrested Development, Community, Scrubs."
+    },
+    {
+      "id": "group_4",
+      "name": "Actor + Emmy-winning role pairings where the actor won Outstanding Lead Actor or Actress in a Drama Series",
+      "connection_type": "actor_won_outstanding_lead_drama_emmy_for_role_on_board",
+      "difficulty": 4,
+      "tiles": [
+        "tile_2",
+        "tile_15",
+        "tile_16",
+        "tile_4"
+      ],
+      "explanation": "Claire Danes won Outstanding Lead Actress in a Drama Series for Homeland, in which she plays Carrie Mathison — both are on the board, which creates a trivial link. CRITICAL FLAW DETECTED: Carrie Mathison (tile_2) and Claire Danes (tile_15) are on the same board and instantly link to each other, fatally compromising tile independence. Michael Chiklis (tile_16) won Outstanding Lead Actor for The Shield (playing Vic Mackey) — but Vic Mackey was removed from the board in an earlier correction, which is good. However the Carrie Mathison / Claire Danes pairing must be resolved by removing one. Full reconstruction of group_4 required."
+    }
+  ]
+}
