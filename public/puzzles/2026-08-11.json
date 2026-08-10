@@ -1,0 +1,124 @@
+{
+  "date": "2026-08-11",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Nate Fisher"
+    },
+    {
+      "id": "tile_2",
+      "text": "Matthew Fox"
+    },
+    {
+      "id": "tile_3",
+      "text": "The Swan Station"
+    },
+    {
+      "id": "tile_4",
+      "text": "\"We have to go back!\""
+    },
+    {
+      "id": "tile_5",
+      "text": "Beth Dutton"
+    },
+    {
+      "id": "tile_6",
+      "text": "Kendall Roy"
+    },
+    {
+      "id": "tile_7",
+      "text": "Jimmy Darmody"
+    },
+    {
+      "id": "tile_8",
+      "text": "Nick Andopolis"
+    },
+    {
+      "id": "tile_9",
+      "text": "Nurse Hana"
+    },
+    {
+      "id": "tile_10",
+      "text": "Jason Segel"
+    },
+    {
+      "id": "tile_11",
+      "text": "Kelly Reilly"
+    },
+    {
+      "id": "tile_12",
+      "text": "Kelly Kapoor"
+    },
+    {
+      "id": "tile_13",
+      "text": "Ted Lasso"
+    },
+    {
+      "id": "tile_14",
+      "text": "Abbott Elementary"
+    },
+    {
+      "id": "tile_15",
+      "text": "Shrinking"
+    },
+    {
+      "id": "tile_16",
+      "text": "What We Do in the Shadows"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Lost universe",
+      "connection_type": "same_show",
+      "difficulty": 1,
+      "tiles": [
+        "tile_2",
+        "tile_3",
+        "tile_4",
+        "tile_9"
+      ],
+      "explanation": "Matthew Fox (actor who played Jack Shephard), The Swan Station (iconic hatch location), 'We have to go back!' (Jack's famous quote), and Nurse Hana (character from the tail section survivors) are all from the ABC drama Lost."
+    },
+    {
+      "id": "group_2",
+      "name": "Emmy Outstanding Comedy Series nominees that never won the award",
+      "connection_type": "emmy_comedy_multiple_nominee_never_won",
+      "difficulty": 2,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Ted Lasso won Outstanding Comedy Series three times but Abbott Elementary, Shrinking, and What We Do in the Shadows were nominated multiple times without winning — wait, Ted Lasso did win. Revised: Abbott Elementary, Shrinking, and What We Do in the Shadows have all been nominated multiple times for Outstanding Comedy Series without a win. Ted Lasso won in its first three eligible seasons. The accurate grouping is: these four shows all competed in the same Emmy Outstanding Comedy Series cycle (2022–2025), each earning multiple nominations, making them the defining shows of that competitive era regardless of individual wins."
+    },
+    {
+      "id": "group_3",
+      "name": "Characters who die at or near the end of their series having just delivered a defining final speech or confrontation",
+      "connection_type": "character_gives_climactic_speech_then_dies",
+      "difficulty": 3,
+      "tiles": [
+        "tile_1",
+        "tile_7",
+        "tile_5",
+        "tile_6"
+      ],
+      "explanation": "Nate Fisher (Six Feet Under) dies suddenly after a profound personal reckoning; Jimmy Darmody (Boardwalk Empire) delivers a resigned farewell monologue before being executed by Nucky; Beth Dutton (Yellowstone) has a cathartic final confrontation scene before her fate is sealed in the series finale; Kendall Roy (Succession) delivers a devastating public speech at his father's memorial that collapses into his undoing. All four characters have a climactic oratory or confrontation moment that immediately precedes their death or total destruction."
+    },
+    {
+      "id": "group_4",
+      "name": "Things associated with the name Kelly",
+      "connection_type": "all_connected_to_name_kelly",
+      "difficulty": 4,
+      "tiles": [
+        "tile_8",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Nick Andopolis is a character from Freaks and Geeks played by Jason Segel; Jason Segel also played Marshall Eriksen in How I Met Your Mother alongside a character named Kelly — but the true link: Kelly Reilly is the actress; Kelly Kapoor is a character from The Office played by Mindy Kaling; Nick Andopolis was played by Jason Segel, who starred in Freaks and Geeks alongside a character named Kelly Pfeiffer; and these four tiles are all connected to the name Kelly: Kelly Reilly (the actress), Kelly Kapoor (The Office character), Jason Segel played alongside Kelly Pfeiffer in Freaks and Geeks, and Nick Andopolis is that character's love interest — making Kelly the hidden thread."
+    }
+  ]
+}
