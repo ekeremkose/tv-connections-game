@@ -1,0 +1,124 @@
+{
+  "date": "2026-08-12",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Rue Bennett"
+    },
+    {
+      "id": "tile_2",
+      "text": "Elliot Alderson"
+    },
+    {
+      "id": "tile_3",
+      "text": "Dexter Morgan"
+    },
+    {
+      "id": "tile_4",
+      "text": "Joe Goldberg"
+    },
+    {
+      "id": "tile_5",
+      "text": "Yellowstone"
+    },
+    {
+      "id": "tile_6",
+      "text": "Ozark"
+    },
+    {
+      "id": "tile_7",
+      "text": "Outer Banks"
+    },
+    {
+      "id": "tile_8",
+      "text": "Chesapeake Shores"
+    },
+    {
+      "id": "tile_9",
+      "text": "Big Love"
+    },
+    {
+      "id": "tile_10",
+      "text": "Succession"
+    },
+    {
+      "id": "tile_11",
+      "text": "Detectorists"
+    },
+    {
+      "id": "tile_12",
+      "text": "The Affair"
+    },
+    {
+      "id": "tile_13",
+      "text": "Sam Esmail"
+    },
+    {
+      "id": "tile_14",
+      "text": "Matthew Weiner"
+    },
+    {
+      "id": "tile_15",
+      "text": "Dan Harmon"
+    },
+    {
+      "id": "tile_16",
+      "text": "Bryan Fuller"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "TV shows named after a real US geographic landmark or region",
+      "connection_type": "show_title_is_real_us_geographic_landmark",
+      "difficulty": 1,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Yellowstone (national park in Wyoming/Montana/Idaho), Ozark (mountain region in Missouri and Arkansas), Outer Banks (coastal barrier island chain in North Carolina), and Chesapeake Shores (the Chesapeake Bay shoreline region in Maryland) are all TV show titles that share their name with a real, well-known US geographic area or landmark."
+    },
+    {
+      "id": "group_2",
+      "name": "TV protagonists who narrate their own story directly to the viewer in voiceover — but are demonstrably unreliable or actively deceptive",
+      "connection_type": "unreliable_first_person_narrator_protagonist",
+      "difficulty": 2,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Rue Bennett (Euphoria), Elliot Alderson (Mr. Robot), Dexter Morgan (Dexter), and Joe Goldberg (You) all deliver first-person voiceover narration directly to the audience — yet each is demonstrably unreliable, self-deceived, or actively hiding the truth of what they are doing or feeling. Elliot's narration conceals an entire alternate personality; Joe frames his stalking and murder as romance; Dexter omits and distorts; Rue recounts events she was too high to accurately remember."
+    },
+    {
+      "id": "group_3",
+      "name": "TV dramas in which a secret, hidden, or parallel marriage is a central structural or dramatic element",
+      "connection_type": "secret_or_hidden_marriage_central_to_plot",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Big Love (HBO drama literally built around a man secretly practicing polygamy with three wives), Succession (Siobhan's crumbling secret-kept marriage to Tom is a pivotal dramatic thread), Detectorists (Lance's arc is driven by his ex-wife's secret remarriage and what it means for him), and The Affair (the entire show is structurally built around hidden parallel marriages and the distorted perspectives of people conducting secret affairs). All four place a concealed or duplicitous marriage at the center of their drama."
+    },
+    {
+      "id": "group_4",
+      "name": "Showrunners who publicly and acrimoniously clashed with a network or studio over creative control of their own show",
+      "connection_type": "showrunner_public_network_creative_dispute",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Sam Esmail (Mr. Robot — well-documented creative tensions with USA Network over content and direction), Matthew Weiner (Mad Men — his contract renegotiations with AMC were famously bitter and public, including disputes over cast cuts and episode length), Dan Harmon (Community — was publicly and humiliatingly fired by Sony and NBC after the third season following an infamous on-set feud with Chevy Chase that spilled into the press, then reinstated), and Bryan Fuller (American Gods — left Starz in a highly public dispute over budget cuts and creative interference after one season). All four experienced well-documented, publicly contentious falling-outs with the networks or studios behind their flagship shows."
+    }
+  ]
+}
