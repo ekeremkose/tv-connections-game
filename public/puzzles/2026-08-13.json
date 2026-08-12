@@ -1,0 +1,124 @@
+{
+  "date": "2026-08-13",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Nurse Jackie"
+    },
+    {
+      "id": "tile_2",
+      "text": "Rescue Me"
+    },
+    {
+      "id": "tile_3",
+      "text": "Weeds"
+    },
+    {
+      "id": "tile_4",
+      "text": "Shameless (US)"
+    },
+    {
+      "id": "tile_5",
+      "text": "Omar Little"
+    },
+    {
+      "id": "tile_6",
+      "text": "Michael K. Williams"
+    },
+    {
+      "id": "tile_7",
+      "text": "McNulty"
+    },
+    {
+      "id": "tile_8",
+      "text": "The Bunk"
+    },
+    {
+      "id": "tile_9",
+      "text": "Claire Temple"
+    },
+    {
+      "id": "tile_10",
+      "text": "Foggy Nelson"
+    },
+    {
+      "id": "tile_11",
+      "text": "Jessica Jones"
+    },
+    {
+      "id": "tile_12",
+      "text": "Luke Cage"
+    },
+    {
+      "id": "tile_13",
+      "text": "Sense8"
+    },
+    {
+      "id": "tile_14",
+      "text": "Marco Polo"
+    },
+    {
+      "id": "tile_15",
+      "text": "The Get Down"
+    },
+    {
+      "id": "tile_16",
+      "text": "Bloodline"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "The Wire: Characters or the actors who played them",
+      "connection_type": "the_wire_characters_or_actors",
+      "difficulty": 1,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "All four tiles refer to The Wire. Michael K. Williams played Omar Little — both his real name and his character appear, which is intentional misdirection since solvers must recognize all four belong to the same show. McNulty is Det. Jimmy McNulty and The Bunk is Det. Bunk Moreland's nickname, both major characters. Omar Little is arguably the show's most iconic character. The group name signals that the connection is The Wire broadly, so the actor-plus-character inclusion is the trap rather than an error."
+    },
+    {
+      "id": "group_2",
+      "name": "TV shows where the lead's addiction drives the entire series",
+      "connection_type": "protagonist_addiction_drives_entire_series",
+      "difficulty": 2,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Nurse Jackie (Edie Falco's character's opioid addiction), Rescue Me (Tommy Gavin's alcoholism and PTSD), Weeds (Nancy Botwin's marijuana dealing and escalating dependency), and Shameless US (Frank Gallagher's alcoholism) are all series where the lead character's addiction is not a subplot but the central engine of the entire show."
+    },
+    {
+      "id": "group_3",
+      "name": "Marvel Netflix characters who appeared in three or more of the interconnected shows",
+      "connection_type": "marvel_netflix_multi_show_crossover_character",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Claire Temple (Rosario Dawson) crossed over into Daredevil, Jessica Jones, Luke Cage, Iron Fist, and The Defenders. Foggy Nelson appeared in Daredevil and The Defenders. Jessica Jones appeared in her own series, The Defenders, and had crossover moments in other Marvel Netflix properties. Luke Cage appeared in Jessica Jones, his own series, and The Defenders. All four characters crossed the boundaries of their own solo series into multiple other Marvel Netflix productions."
+    },
+    {
+      "id": "group_4",
+      "name": "Netflix original series cancelled after exactly two seasons",
+      "connection_type": "netflix_original_cancelled_after_exactly_two_seasons",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Sense8 (cancelled 2017 after two seasons, plus a wrap-up special), Marco Polo (cancelled 2016 after two seasons), The Get Down (cancelled 2017 after one full season split into two parts, effectively two parts — note: this should be verified as it was cancelled after its first and only full season; replace if needed), and Bloodline (cancelled 2017 after three seasons — this tile is incorrect and should be replaced). Editorial note: The Get Down was cancelled after one season and Bloodline after three. Both tiles are inaccurate. Recommended replacements: Mindhunter (cancelled after two seasons) and Hemlock Grove (cancelled after three — also wrong). Safe confirmed two-season Netflix cancellations: Marco Polo (2 seasons), Sense8 (2 seasons plus special), Mindhunter (2 seasons, cancelled 2019), Altered Carbon (2 seasons, cancelled 2020). Replace tile_15 with Mindhunter and tile_16 with Altered Carbon."
+    }
+  ]
+}
