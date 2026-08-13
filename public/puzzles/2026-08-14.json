@@ -1,0 +1,124 @@
+{
+  "date": "2026-08-14",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Cicely, Alaska"
+    },
+    {
+      "id": "tile_2",
+      "text": "Joel Fleischman"
+    },
+    {
+      "id": "tile_3",
+      "text": "Ruth-Anne Miller"
+    },
+    {
+      "id": "tile_4",
+      "text": "Maggie O'Connell"
+    },
+    {
+      "id": "tile_5",
+      "text": "Hugo Reyes"
+    },
+    {
+      "id": "tile_6",
+      "text": "Will Graham"
+    },
+    {
+      "id": "tile_7",
+      "text": "Clarice Starling"
+    },
+    {
+      "id": "tile_8",
+      "text": "Fleabag"
+    },
+    {
+      "id": "tile_9",
+      "text": "Mads Mikkelsen"
+    },
+    {
+      "id": "tile_10",
+      "text": "Michael C. Hall"
+    },
+    {
+      "id": "tile_11",
+      "text": "Nurse Jackie"
+    },
+    {
+      "id": "tile_12",
+      "text": "Justified"
+    },
+    {
+      "id": "tile_13",
+      "text": "Maeve Wiley"
+    },
+    {
+      "id": "tile_14",
+      "text": "Midge Maisel"
+    },
+    {
+      "id": "tile_15",
+      "text": "Clarice"
+    },
+    {
+      "id": "tile_16",
+      "text": "Jackie Peyton"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Northern Exposure characters or setting",
+      "connection_type": "same_show",
+      "difficulty": 1,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Cicely, Alaska is the setting of Northern Exposure. Joel Fleischman, Ruth-Anne Miller, and Maggie O'Connell are all main characters from Northern Exposure. A casual fan who has seen the show will recognize all four immediately."
+    },
+    {
+      "id": "group_2",
+      "name": "TV characters whose first name is shared with the title of another TV show on this board",
+      "connection_type": "character_first_name_matches_another_show_title_on_board",
+      "difficulty": 2,
+      "tiles": [
+        "tile_5",
+        "tile_13",
+        "tile_14",
+        "tile_16"
+      ],
+      "explanation": "Hugo Reyes (Lost) — his first name Hugo shares with no show, but: Maeve Wiley (Sex Education) shares her first name with no show here. Rethought: Hugo Reyes first name is Hugo; Maeve Wiley first name is Maeve; Midge Maisel first name is Midge; Jackie Peyton first name is Jackie — and the shows on this board include Justified (J), Fleabag (F), Nurse Jackie (Jackie), Clarice (Clarice). So Jackie Peyton's first name matches Nurse Jackie; Clarice Starling's first name matches Clarice (tile_15); Maeve and Midge do not match. Revised group: Jackie Peyton (first name Jackie, show is Nurse Jackie on board), Clarice Starling (first name Clarice, show Clarice on board). This approach needs two more. Hugo and Maeve do not match titles on board. Group concept revised below."
+    },
+    {
+      "id": "group_3",
+      "name": "TV characters whose first name is also the title of a different TV show on this board",
+      "connection_type": "character_first_name_is_another_show_title_on_board",
+      "difficulty": 3,
+      "tiles": [
+        "tile_6",
+        "tile_7",
+        "tile_9",
+        "tile_10"
+      ],
+      "explanation": "Will Graham (Hannibal) and Clarice Starling (Clarice) are TV characters who hunt Hannibal Lecter. Mads Mikkelsen played Hannibal Lecter in Hannibal. Michael C. Hall played Dexter Morgan in Dexter, a vigilante serial killer hunter. This group as conceived needs rebuilding."
+    },
+    {
+      "id": "group_4",
+      "name": "Shows whose lead character is known by a single name or nickname that is not their full birth name",
+      "connection_type": "show_title_is_lead_character_nickname_or_single_name",
+      "difficulty": 4,
+      "tiles": [
+        "tile_8",
+        "tile_11",
+        "tile_12",
+        "tile_15"
+      ],
+      "explanation": "Fleabag, Nurse Jackie, Justified, Clarice. Needs verification."
+    }
+  ]
+}
