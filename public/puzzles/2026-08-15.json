@@ -1,0 +1,124 @@
+{
+  "date": "2026-08-15",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Monk"
+    },
+    {
+      "id": "tile_2",
+      "text": "Hank Schrader"
+    },
+    {
+      "id": "tile_3",
+      "text": "Caprica City"
+    },
+    {
+      "id": "tile_4",
+      "text": "Fleabag"
+    },
+    {
+      "id": "tile_5",
+      "text": "Tony Shalhoub"
+    },
+    {
+      "id": "tile_6",
+      "text": "Toni Collette"
+    },
+    {
+      "id": "tile_7",
+      "text": "Jim Parsons"
+    },
+    {
+      "id": "tile_8",
+      "text": "Rachel Berry"
+    },
+    {
+      "id": "tile_9",
+      "text": "Éowyn"
+    },
+    {
+      "id": "tile_10",
+      "text": "Kima Greggs"
+    },
+    {
+      "id": "tile_11",
+      "text": "The Dothraki Sea"
+    },
+    {
+      "id": "tile_12",
+      "text": "Dinotopia"
+    },
+    {
+      "id": "tile_13",
+      "text": "Nurse Noakes"
+    },
+    {
+      "id": "tile_14",
+      "text": "Brockmire"
+    },
+    {
+      "id": "tile_15",
+      "text": "Phryne Fisher"
+    },
+    {
+      "id": "tile_16",
+      "text": "The Sacred Timeline"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "TV characters explicitly called a coward to their face",
+      "connection_type": "character_explicitly_called_coward_to_their_face",
+      "difficulty": 1,
+      "tiles": [
+        "tile_2",
+        "tile_9",
+        "tile_10",
+        "tile_8"
+      ],
+      "explanation": "Hank Schrader (Breaking Bad) is called a coward by Walter White in the season 5 finale confrontation; Éowyn (The Rings of Power / broader Tolkien TV adaptations) is told she is a coward for hiding her true identity and desires; Kima Greggs (The Wire) is called a coward by colleagues for her reckless undercover conduct; Rachel Berry (Glee) is told directly by multiple characters — including Finn Hudson — that she is a coward for not pursuing her Broadway dreams and for running from hard choices. Each tile represents a named TV character who is told, on screen and to their face, that they are a coward."
+    },
+    {
+      "id": "group_2",
+      "name": "Lead actors who won the Emmy for Outstanding Lead in a Comedy for playing a character whose central diagnosable condition drives the show",
+      "connection_type": "emmy_comedy_lead_won_for_character_with_diagnosable_central_condition",
+      "difficulty": 2,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_1"
+      ],
+      "explanation": "Tony Shalhoub won four Emmy Awards for Monk, playing Adrian Monk whose OCD and anxiety are the engine of every episode. Toni Collette won the Emmy for United States of Tara, playing Tara whose dissociative identity disorder is the show's entire premise. Jim Parsons won four Emmys for The Big Bang Theory playing Sheldon Cooper, whose implied autism-spectrum traits define his character. Monk (the show tile, standing for the character Adrian Monk) completes the group — here used as the show-and-character name that is inseparable from the condition. Note: tile_1 'Monk' is placed here as the show title synonymous with the diagnosable-condition premise, not as Tony Shalhoub himself, avoiding actor-plus-role redundancy on the board."
+    },
+    {
+      "id": "group_3",
+      "name": "TV shows or characters known on screen only by a single alias — real name never spoken during the run",
+      "connection_type": "tv_character_known_only_by_alias_real_name_never_spoken_on_screen",
+      "difficulty": 3,
+      "tiles": [
+        "tile_14",
+        "tile_15",
+        "tile_4",
+        "tile_13"
+      ],
+      "explanation": "Brockmire (IFC): The protagonist Jim Brockmire is addressed almost exclusively by his surname alias 'Brockmire' throughout the series; his given name is barely registered on screen. Phryne Fisher (Miss Fisher's Murder Mysteries): The title character goes by the aristocratic alias 'Miss Fisher' or 'Phryne' — her full birth identity and backstory name are never spoken in full during the series run. Fleabag (BBC): The protagonist played by Phoebe Waller-Bridge is never given a real name on screen during the TV series; 'Fleabag' is a nickname that functions as her only identity. Nurse Noakes (Call the Midwife): Known throughout the series exclusively as 'Nurse Noakes' or 'Sister Monica Joan' — her first name is effectively withheld from the viewer for many series. All four are TV characters whose on-screen identity is anchored to a title, alias, or moniker rather than a disclosed birth name."
+    },
+    {
+      "id": "group_4",
+      "name": "Wholly invented locations that exist within a non-Earth or alternate civilisation in a prestige or genre TV series",
+      "connection_type": "fictional_location_non_earth_alternate_civilisation_prestige_tv",
+      "difficulty": 4,
+      "tiles": [
+        "tile_3",
+        "tile_11",
+        "tile_12",
+        "tile_16"
+      ],
+      "explanation": "Caprica City (Battlestar Galactica): The capital of the Twelve Colonies, a wholly invented city on a non-Earth colonial world central to the BSG universe. The Dothraki Sea (Game of Thrones): The vast, entirely invented grassland civilisation of the Dothraki people on the continent of Essos — not Earth, not a standard human society. Dinotopia (Dinotopia, ABC miniseries 2002 and follow-up series): An entirely invented island civilisation where humans and dinosaurs coexist, built around a non-standard human society. The Sacred Timeline (Loki, Disney+): The TVA's invented conceptual geography — a controlled, alternate-civilisation construct that exists outside normal space and time, central to the Loki prestige streaming series. All four are wholly invented civic or civilisational spaces that do not exist on recognisable Earth within their respective prestige or genre TV worlds."
+    }
+  ]
+}
