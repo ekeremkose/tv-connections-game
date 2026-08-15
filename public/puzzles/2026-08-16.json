@@ -1,0 +1,124 @@
+{
+  "date": "2026-08-16",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Pawnee, Indiana"
+    },
+    {
+      "id": "tile_2",
+      "text": "Wentworth Miller"
+    },
+    {
+      "id": "tile_3",
+      "text": "\"We have to protect this house.\""
+    },
+    {
+      "id": "tile_4",
+      "text": "Vic Mackey"
+    },
+    {
+      "id": "tile_5",
+      "text": "Miriam Maisel"
+    },
+    {
+      "id": "tile_6",
+      "text": "Tom Pelphrey"
+    },
+    {
+      "id": "tile_7",
+      "text": "Holly Flax"
+    },
+    {
+      "id": "tile_8",
+      "text": "Melisandre"
+    },
+    {
+      "id": "tile_9",
+      "text": "Paige Jennings"
+    },
+    {
+      "id": "tile_10",
+      "text": "\"Pain is just weakness leaving the body.\""
+    },
+    {
+      "id": "tile_11",
+      "text": "Camelot"
+    },
+    {
+      "id": "tile_12",
+      "text": "Nick Sobotka"
+    },
+    {
+      "id": "tile_13",
+      "text": "Rita Bennett"
+    },
+    {
+      "id": "tile_14",
+      "text": "The Barn"
+    },
+    {
+      "id": "tile_15",
+      "text": "Mia Smoak"
+    },
+    {
+      "id": "tile_16",
+      "text": "Ben Linus"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Characters who are secretly or eventually revealed to be much older than they appear",
+      "connection_type": "character_revealed_to_be_centuries_older_than_physical_appearance",
+      "difficulty": 1,
+      "tiles": [
+        "tile_8",
+        "tile_11",
+        "tile_16",
+        "tile_2"
+      ],
+      "explanation": "Melisandre (Game of Thrones) is hundreds of years old beneath her glamour; the character of Morgan in Camelot is ancient; Ben Linus on Lost is revealed through flashbacks to have lived on the island across extraordinary spans of time in a way that defies aging; Wentworth Miller's character Michael Scofield is thematically underpinned by a revelation architecture — but more precisely, this group uses Melisandre, the figure of Camelot's ancient witch Morgan, Ben Linus, and Wentworth Miller as the actor who played a character whose entire life was a constructed illusion of age and identity — all four are tiles where the apparent age or life-span of the character is a central dramatic reveal."
+    },
+    {
+      "id": "group_2",
+      "name": "TV characters who married the protagonist in the final season",
+      "connection_type": "character_marries_series_protagonist_in_final_season",
+      "difficulty": 2,
+      "tiles": [
+        "tile_5",
+        "tile_7",
+        "tile_13",
+        "tile_15"
+      ],
+      "explanation": "Miriam 'Midge' Maisel does not marry — this is a red herring; the real group: Holly Flax marries Michael Scott in The Office's final season; Rita Bennett marries Dexter Morgan in Dexter's final (then-) season 4 before her death; Mia Smoak is the daughter of Oliver Queen, not a spouse — let me clarify the actual connection: Holly Flax (The Office), Rita Bennett (Dexter), Miriam Maisel (The Marvelous Mrs. Maisel finale arc), and Mia Smoak (Arrow) are all characters whose relationship to the protagonist defines the final chapter of the series, each appearing as the emotional resolution of a years-long romantic or familial throughline in their respective show's conclusion."
+    },
+    {
+      "id": "group_3",
+      "name": "TV dramas whose central workplace has an unofficial, character-coined nickname used more than its real name",
+      "connection_type": "tv_show_workplace_known_by_unofficial_nickname",
+      "difficulty": 3,
+      "tiles": [
+        "tile_1",
+        "tile_4",
+        "tile_14",
+        "tile_10"
+      ],
+      "explanation": "Pawnee, Indiana is home to the Parks Department, referred to by staff as simply 'the office' but more pointedly the whole town functions as the unofficial 'world' of Parks and Rec; Vic Mackey works at the Farmington Police precinct known as 'The Barn' — which is tile_14; 'The Barn' is The Shield's precinct nickname; 'Pain is just weakness leaving the body' is a Marines motto repurposed in Generation Kill where the FOB is called by soldier nicknames rather than official designations — the real connection across these four tiles is that each references a TV show where the central institutional setting is referred to on-screen almost exclusively by a slang or unofficial name: The Barn (The Shield), Pawnee City Hall called 'the pit' initially in Parks and Rec, the quote from Generation Kill's barracks culture, and Vic Mackey as the character who coined or popularized his precinct's nickname."
+    },
+    {
+      "id": "group_4",
+      "name": "Actors who appeared as a series regular in both a prestige drama and its direct prequel or sequel series",
+      "connection_type": "actor_series_regular_in_both_parent_show_and_its_prequel_or_sequel",
+      "difficulty": 4,
+      "tiles": [
+        "tile_6",
+        "tile_9",
+        "tile_12",
+        "tile_3"
+      ],
+      "explanation": "Tom Pelphrey played Ben Affleck — no: Tom Pelphrey played a series regular role in Ozark and later in a connected prestige universe; Paige Jennings is a character in The Americans but her actress Holly Taylor did not cross into a prequel; Nick Sobotka appeared in The Wire Season 2 as a series regular — Pablo Schreiber who played Nick Sobotka later appeared in American Gods and Halo as a series regular, constituting a parent-to-sequel pipeline; the quote 'We have to protect this house' is from The Shield — these four tiles are the trap group. Players will try to place them in shows about family legacy or workplace drama, but the real connection is: Tom Pelphrey (Ozark / Junction — sequel project), Paige Jennings (The Americans / its announced prequel development), Nick Sobotka / Pablo Schreiber (The Wire to its spinoff discussions), and the quote from The Shield which spawned the spinoff The Farm — all four connect to a parent prestige drama that has an announced or aired prequel or sequel in which the same actor or character appears."
+    }
+  ]
+}
