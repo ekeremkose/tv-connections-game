@@ -1,0 +1,124 @@
+{
+  "date": "2026-08-17",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Shiv Roy"
+    },
+    {
+      "id": "tile_2",
+      "text": "Patty Hewes"
+    },
+    {
+      "id": "tile_3",
+      "text": "Selina Meyer"
+    },
+    {
+      "id": "tile_4",
+      "text": "Nancy Botwin"
+    },
+    {
+      "id": "tile_5",
+      "text": "The Leftovers"
+    },
+    {
+      "id": "tile_6",
+      "text": "The 4400"
+    },
+    {
+      "id": "tile_7",
+      "text": "The Returned"
+    },
+    {
+      "id": "tile_8",
+      "text": "Resurrection"
+    },
+    {
+      "id": "tile_9",
+      "text": "Fleabag"
+    },
+    {
+      "id": "tile_10",
+      "text": "Bates Motel"
+    },
+    {
+      "id": "tile_11",
+      "text": "Scream"
+    },
+    {
+      "id": "tile_12",
+      "text": "Hannibal"
+    },
+    {
+      "id": "tile_13",
+      "text": "Lagertha"
+    },
+    {
+      "id": "tile_14",
+      "text": "Ragnar Lothbrok"
+    },
+    {
+      "id": "tile_15",
+      "text": "Rollo"
+    },
+    {
+      "id": "tile_16",
+      "text": "Bjorn Ironside"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "TV shows adapted from a pre-existing film or stage source",
+      "connection_type": "tv_show_adapted_from_theatrical_film_or_stage_source",
+      "difficulty": 1,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Fleabag originated as a one-woman stage play by Phoebe Waller-Bridge before becoming a BBC TV series; Bates Motel is a prequel series based on Alfred Hitchcock's film Psycho; Scream is a TV series based on Wes Craven's Scream film franchise; Hannibal is a TV series derived from the Hannibal Lecter films and Thomas Harris novels previously adapted for cinema. All four TV series derive directly from a pre-existing theatrical, cinematic, or stage source."
+    },
+    {
+      "id": "group_2",
+      "name": "TV shows whose central premise involves people mysteriously returning",
+      "connection_type": "show_premise_is_people_mysteriously_returning",
+      "difficulty": 2,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "The Leftovers centers on the aftermath of 2% of the world's population vanishing and the grief of those left behind, with some exploration of return; The 4400 follows 4,400 people who were abducted and returned all at once with no memory of the intervening time; The Returned (Les Revenants) is a French drama about the dead mysteriously returning to life in a small mountain town; Resurrection is an ABC drama in which deceased loved ones reappear alive with no explanation. All four shows place the mystery of people returning at the heart of their premise."
+    },
+    {
+      "id": "group_3",
+      "name": "TV characters who fail to secure power in their series finale",
+      "connection_type": "character_fails_to_secure_leadership_position_in_final_episode",
+      "difficulty": 3,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Shiv Roy (Succession) casts the deciding vote against her own husband becoming CEO, ensuring she herself does not take the role, ending the series without the power she sought; Patty Hewes (Damages) is outmaneuvered throughout and denied lasting institutional dominance by the finale; Selina Meyer (Veep) loses the presidential race she had fought the entire series to win; Nancy Botwin (Weeds) ends the series having lost control of the drug empire she built. All four are women whose series-long pursuit of power ends in defeat in the finale."
+    },
+    {
+      "id": "group_4",
+      "name": "Characters in Vikings based on real documented historical figures",
+      "connection_type": "vikings_tv_character_based_on_real_historical_person",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "All four are characters from the History Channel series Vikings who are based on real documented historical or legendary Norse figures: Lagertha is drawn from a shieldmaiden described by Saxo Grammaticus in Gesta Danorum; Ragnar Lothbrok is a semi-legendary Norse king referenced in multiple Icelandic sagas; Rollo is based on the historical Rollo of Normandy, a real Norse chieftain who became the first ruler of Normandy around 911 AD; Bjorn Ironside is based on Björn Ironside, a documented 9th-century Norse king and son of Ragnar Lothbrok according to the sagas. The difficulty lies in players not knowing the show Vikings well enough to recognise all four names, or not knowing which characters have genuine historical counterparts."
+    }
+  ]
+}
