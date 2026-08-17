@@ -1,0 +1,124 @@
+{
+  "date": "2026-08-18",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Riget"
+    },
+    {
+      "id": "tile_2",
+      "text": "Borgen"
+    },
+    {
+      "id": "tile_3",
+      "text": "Broen"
+    },
+    {
+      "id": "tile_4",
+      "text": "Forbrydelsen"
+    },
+    {
+      "id": "tile_5",
+      "text": "Rosalie Aprile"
+    },
+    {
+      "id": "tile_6",
+      "text": "Livia Soprano"
+    },
+    {
+      "id": "tile_7",
+      "text": "Edie Falco"
+    },
+    {
+      "id": "tile_8",
+      "text": "Father Intintola"
+    },
+    {
+      "id": "tile_9",
+      "text": "Stars Hollow"
+    },
+    {
+      "id": "tile_10",
+      "text": "Royston Vasey"
+    },
+    {
+      "id": "tile_11",
+      "text": "Sunnydale"
+    },
+    {
+      "id": "tile_12",
+      "text": "Wayward Pines"
+    },
+    {
+      "id": "tile_13",
+      "text": "Jenna Maroney"
+    },
+    {
+      "id": "tile_14",
+      "text": "Dennis Reynolds"
+    },
+    {
+      "id": "tile_15",
+      "text": "Hannah Horvath"
+    },
+    {
+      "id": "tile_16",
+      "text": "Don Draper"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Landmark Danish prestige TV dramas (original Danish titles)",
+      "connection_type": "danish_prestige_tv_original_title",
+      "difficulty": 1,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Riget (The Kingdom), Borgen, Broen (The Bridge), and Forbrydelsen (The Killing) are all landmark Danish prestige television dramas. All four are known in their original Danish-language titles and each spawned international remakes or achieved major global export, defining the 'Nordic noir' and Scandinavian drama movements of the 2000s and 2010s."
+    },
+    {
+      "id": "group_2",
+      "name": "Fictional self-contained community settings in TV",
+      "connection_type": "fictional_insular_community_setting_in_tv",
+      "difficulty": 2,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Stars Hollow (Gilmore Girls), Royston Vasey (The League of Gentlemen), Sunnydale (Buffy the Vampire Slayer), and Wayward Pines (Wayward Pines) are all fictional, insular, self-contained community settings in television — small towns or localities that function as sealed worlds with their own internal logic, cut off (physically or culturally) from the outside."
+    },
+    {
+      "id": "group_3",
+      "name": "TV characters known for unironic monologues of self-mythology",
+      "connection_type": "character_delivers_unironic_self_mythology_monologue",
+      "difficulty": 3,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Jenna Maroney (30 Rock — constant delusional self-aggrandizement played straight by the character), Dennis Reynolds (It's Always Sunny in Philadelphia — the DENNIS System, 'I am a golden god'), Hannah Horvath (Girls — 'I think I may be the voice of my generation'), and Don Draper (Mad Men — the Carousel pitch, his constructed self-mythology as Dick Whitman reborn) all deliver defining, unironic monologues in which they cast themselves as exceptional, historic, or singular."
+    },
+    {
+      "id": "group_4",
+      "name": "Things associated with Carmela — not Tony — Soprano",
+      "connection_type": "associated_with_carmela_soprano_not_tony",
+      "difficulty": 4,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Rosalie Aprile (Carmela's closest friend, whose orbit is entirely Carmela's — not Tony's world), Livia Soprano (Tony's mother, but specifically Carmela's defining foil and the woman she fears becoming — their relationship is a Carmela storyline), Edie Falco (the actress who played Carmela Soprano, not Tony Gandolfini's character), and Father Intintola (Carmela's parish priest and the object of her near-affair — entirely a Carmela storyline) all point specifically to Carmela Soprano's arc. The trap is that any Sopranos tile reads as 'Tony Soprano' to a casual solver."
+    }
+  ]
+}
