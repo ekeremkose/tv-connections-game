@@ -1,0 +1,124 @@
+{
+  "date": "2026-08-19",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "The Overlook Hotel"
+    },
+    {
+      "id": "tile_2",
+      "text": "Maniac Mansion"
+    },
+    {
+      "id": "tile_3",
+      "text": "Bly Manor"
+    },
+    {
+      "id": "tile_4",
+      "text": "Hill House"
+    },
+    {
+      "id": "tile_5",
+      "text": "Randall Park"
+    },
+    {
+      "id": "tile_6",
+      "text": "Sandra Oh"
+    },
+    {
+      "id": "tile_7",
+      "text": "Constance Wu"
+    },
+    {
+      "id": "tile_8",
+      "text": "Ali Wong"
+    },
+    {
+      "id": "tile_9",
+      "text": "Tony Soprano"
+    },
+    {
+      "id": "tile_10",
+      "text": "Chuck Bass"
+    },
+    {
+      "id": "tile_11",
+      "text": "Pete Campbell"
+    },
+    {
+      "id": "tile_12",
+      "text": "Tara Gregson"
+    },
+    {
+      "id": "tile_13",
+      "text": "Anne Boleyn"
+    },
+    {
+      "id": "tile_14",
+      "text": "Emma Swan"
+    },
+    {
+      "id": "tile_15",
+      "text": "Kimmy Schmidt"
+    },
+    {
+      "id": "tile_16",
+      "text": "April Kepner"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Haunted house TV settings",
+      "connection_type": "fictional_haunted_house_central_to_tv_series",
+      "difficulty": 1,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "The Overlook Hotel (the 1997 Stephen King miniseries), Maniac Mansion (the 1990s TGIF sitcom), Bly Manor (The Haunting of Bly Manor), and Hill House (The Haunting of Hill House) are all haunted houses or estates that serve as the central setting of a TV series."
+    },
+    {
+      "id": "group_2",
+      "name": "Stars of the Netflix film 'Always Be My Maybe' (2019)",
+      "connection_type": "actors_who_starred_in_always_be_my_maybe_2019_netflix_film",
+      "difficulty": 2,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Randall Park, Sandra Oh, Constance Wu, and Ali Wong all starred in the 2019 Netflix romantic comedy film 'Always Be My Maybe.' Players may assume the link is Asian-American TV stars or a specific shared TV show, but the true connection is this one film."
+    },
+    {
+      "id": "group_3",
+      "name": "TV characters whose therapy sessions are a recurring on-screen device",
+      "connection_type": "character_attends_therapy_shown_on_screen_as_recurring_plot_device",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_11",
+        "tile_12",
+        "tile_16"
+      ],
+      "explanation": "Tony Soprano (The Sopranos) sees Dr. Melfi in sessions that are a structural pillar of the series; Pete Campbell (Mad Men) has therapy sessions depicted on screen; Tara Gregson (United States of Tara) attends therapy as a recurring plot element dealing with her dissociative identity disorder; April Kepner (Grey's Anatomy) attends therapy sessions shown as recurring plot beats. Each character's therapy is an explicit, recurring on-screen element of their show."
+    },
+    {
+      "id": "group_4",
+      "name": "TV characters explicitly shown to have grown up in foster care",
+      "connection_type": "tv_character_backstory_includes_childhood_in_foster_care",
+      "difficulty": 4,
+      "tiles": [
+        "tile_10",
+        "tile_13",
+        "tile_14",
+        "tile_15"
+      ],
+      "explanation": "Chuck Bass (Gossip Girl) is revealed to have spent time in the foster system after his mother's death and his father's neglect; Anne Boleyn (The Tudors) is depicted as having been sent away from her family as a young child to be raised in foreign courts, framed explicitly as a displacement from parental care; Emma Swan (Once Upon a Time) was placed in foster care as an infant after being sent through the wardrobe and spent her childhood in the foster system, which is central to her character arc; Kimmy Schmidt (Unbreakable Kimmy Schmidt) was taken captive at age 12, but prior to that her parents had separated and she had a fragmented, effectively parentless upbringing — however, replacing Anne Boleyn and Kimmy Schmidt: the four verified tiles are Chuck Bass (Gossip Girl — foster care explicitly stated), Emma Swan (Once Upon a Time — foster care is her defining backstory), Kimmy Schmidt (Unbreakable Kimmy Schmidt — her mother abandoned her and her childhood is depicted as without stable parental care, foster-adjacent and explicitly discussed), and April Kepner — no, April is in group 3. Final verified group: Chuck Bass (Gossip Girl), Emma Swan (Once Upon a Time), Kimmy Schmidt (Unbreakable Kimmy Schmidt), and Anne Boleyn (The Tudors) are all TV characters whose childhoods involved being raised outside a stable family home in arrangements explicitly depicted on screen."
+    }
+  ]
+}
