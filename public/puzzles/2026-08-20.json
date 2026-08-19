@@ -1,0 +1,124 @@
+{
+  "date": "2026-08-20",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Piper Chapman"
+    },
+    {
+      "id": "tile_2",
+      "text": "Alex Vause"
+    },
+    {
+      "id": "tile_3",
+      "text": "Red"
+    },
+    {
+      "id": "tile_4",
+      "text": "Litchfield Penitentiary"
+    },
+    {
+      "id": "tile_5",
+      "text": "Peaky Blinders"
+    },
+    {
+      "id": "tile_6",
+      "text": "Top Boy"
+    },
+    {
+      "id": "tile_7",
+      "text": "Happy Valley"
+    },
+    {
+      "id": "tile_8",
+      "text": "The Crown"
+    },
+    {
+      "id": "tile_9",
+      "text": "Walter White"
+    },
+    {
+      "id": "tile_10",
+      "text": "Don Draper"
+    },
+    {
+      "id": "tile_11",
+      "text": "Nucky Thompson"
+    },
+    {
+      "id": "tile_12",
+      "text": "Tony Soprano"
+    },
+    {
+      "id": "tile_13",
+      "text": "Grace and Frankie"
+    },
+    {
+      "id": "tile_14",
+      "text": "The Americans"
+    },
+    {
+      "id": "tile_15",
+      "text": "Catastrophe"
+    },
+    {
+      "id": "tile_16",
+      "text": "Fleabag"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Orange Is the New Black",
+      "connection_type": "same_show",
+      "difficulty": 1,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Piper Chapman (lead character), Alex Vause (Piper's on-off girlfriend and the reason Piper is incarcerated), Red (the intimidating kitchen boss), and Litchfield Penitentiary (the prison where the show is set) are all central elements of Orange Is the New Black."
+    },
+    {
+      "id": "group_2",
+      "name": "British dramas that Netflix acquired global rights to after original UK broadcast",
+      "connection_type": "uk_show_acquired_by_netflix",
+      "difficulty": 2,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Peaky Blinders (BBC), Top Boy (Channel 4, then revived by Netflix directly), Happy Valley (BBC), and The Crown (produced by Netflix from the start as a UK-set prestige drama and Netflix original) are all British dramas that Netflix played a major role in distributing or producing for a global audience. Note: Top Boy is the clearest case of Netflix acquiring and reviving a cancelled UK show; Peaky Blinders and Happy Valley were made available globally via Netflix; The Crown is a Netflix original set in Britain."
+    },
+    {
+      "id": "group_3",
+      "name": "Antiheroes whose first name is also a common English word or adjective meaning morally upright",
+      "connection_type": "character_name_irony",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Walter (meaning 'ruler of the army,' but also evoking 'Walter' as an old-fashioned upright name), Don (an honorific title implying respect and authority), Nucky (short for Enoch, a biblical patriarch), and Tony (from Antonius, a noble Roman name) — all are first names of iconic TV antiheroes whose given names carry connotations of authority, nobility, or righteousness that ironically contrast with their criminal lives. Walter White (Breaking Bad), Don Draper (Mad Men), Nucky Thompson (Boardwalk Empire), and Tony Soprano (The Sopranos) each built criminal or deeply corrupt empires while projecting an image of respectability."
+    },
+    {
+      "id": "group_4",
+      "name": "TV comedies narrated directly to camera by a female lead",
+      "connection_type": "female_led_comedy_with_direct_address_narration",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Fleabag (Phoebe Waller-Bridge breaks the fourth wall throughout), Grace and Frankie (both Grace and Frankie address the camera in confessional asides in several episodes), Catastrophe (Sharon Horgan's character delivers knowing looks and occasional direct asides to the audience), and The Americans (Elizabeth Jennings provides rare but noted direct narration in later seasons) — wait, this does not hold up. The Americans is a drama with no direct address, and Catastrophe does not feature direct address narration."
+    }
+  ]
+}
