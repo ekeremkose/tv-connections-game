@@ -1,0 +1,124 @@
+{
+  "date": "2026-08-21",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Eleanor Shellstrop"
+    },
+    {
+      "id": "tile_2",
+      "text": "Chidi Anagonye"
+    },
+    {
+      "id": "tile_3",
+      "text": "Tahani Al-Jamil"
+    },
+    {
+      "id": "tile_4",
+      "text": "Jason Mendoza"
+    },
+    {
+      "id": "tile_5",
+      "text": "Severance"
+    },
+    {
+      "id": "tile_6",
+      "text": "Ted Lasso"
+    },
+    {
+      "id": "tile_7",
+      "text": "The Morning Show"
+    },
+    {
+      "id": "tile_8",
+      "text": "Slow Horses"
+    },
+    {
+      "id": "tile_9",
+      "text": "Jennifer Melfi"
+    },
+    {
+      "id": "tile_10",
+      "text": "Niles Crane"
+    },
+    {
+      "id": "tile_11",
+      "text": "Tobias Fünke"
+    },
+    {
+      "id": "tile_12",
+      "text": "Paul Weston"
+    },
+    {
+      "id": "tile_13",
+      "text": "Firefly"
+    },
+    {
+      "id": "tile_14",
+      "text": "Freaks and Geeks"
+    },
+    {
+      "id": "tile_15",
+      "text": "Pushing Daisies"
+    },
+    {
+      "id": "tile_16",
+      "text": "Party Down"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Characters from The Good Place",
+      "connection_type": "same_show_characters",
+      "difficulty": 1,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Eleanor Shellstrop, Chidi Anagonye, Tahani Al-Jamil, and Jason Mendoza are the four main human characters sent to The Good Place in NBC's The Good Place."
+    },
+    {
+      "id": "group_2",
+      "name": "Apple TV+ original series",
+      "connection_type": "same_streaming_network",
+      "difficulty": 2,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Severance, Ted Lasso, The Morning Show, and Slow Horses all premiered as original series on Apple TV+."
+    },
+    {
+      "id": "group_3",
+      "name": "TV characters who are therapists or psychiatrists",
+      "connection_type": "character_profession",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Jennifer Melfi (The Sopranos) is Tony Soprano's psychiatrist; Niles Crane (Frasier) is a practicing psychiatrist; Tobias Fünke (Arrested Development) is a trained therapist (and never-nude); Paul Weston (In Treatment) is a therapist whose sessions form the entire premise of the show."
+    },
+    {
+      "id": "group_4",
+      "name": "Cult TV shows cancelled after 2 seasons or fewer",
+      "connection_type": "cancelled_cult_show",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Firefly (Fox, 1 season, 2002–03), Freaks and Geeks (NBC, 1 season, 1999–2000), Pushing Daisies (ABC, 2 seasons, 2007–09), and Party Down (Starz, 2 seasons, 2009–10) are all beloved cult shows that were cancelled far too soon in their original runs."
+    }
+  ]
+}
