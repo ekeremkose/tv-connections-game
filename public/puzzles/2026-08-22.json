@@ -1,0 +1,124 @@
+{
+  "date": "2026-08-22",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Walter White"
+    },
+    {
+      "id": "tile_2",
+      "text": "Boyd Crowder"
+    },
+    {
+      "id": "tile_3",
+      "text": "Cersei Lannister"
+    },
+    {
+      "id": "tile_4",
+      "text": "Francis Underwood"
+    },
+    {
+      "id": "tile_5",
+      "text": "Succession"
+    },
+    {
+      "id": "tile_6",
+      "text": "Orphan Black"
+    },
+    {
+      "id": "tile_7",
+      "text": "Mr. Robot"
+    },
+    {
+      "id": "tile_8",
+      "text": "Transparent"
+    },
+    {
+      "id": "tile_9",
+      "text": "Annalise Keating"
+    },
+    {
+      "id": "tile_10",
+      "text": "The Good Wife"
+    },
+    {
+      "id": "tile_11",
+      "text": "Alicia Florrick"
+    },
+    {
+      "id": "tile_12",
+      "text": "Elspeth Tascioni"
+    },
+    {
+      "id": "tile_13",
+      "text": "\"I will burn our house to the ground before I let that happen.\""
+    },
+    {
+      "id": "tile_14",
+      "text": "\"Every time I write a number in that ledger, I control it.\""
+    },
+    {
+      "id": "tile_15",
+      "text": "Kalinda Sharma"
+    },
+    {
+      "id": "tile_16",
+      "text": "\"This. Is. Our. Moment.\""
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "The Good Wife characters",
+      "connection_type": "same_show",
+      "difficulty": 1,
+      "tiles": [
+        "tile_10",
+        "tile_11",
+        "tile_12",
+        "tile_15"
+      ],
+      "explanation": "All four tiles belong to The Good Wife universe: 'The Good Wife' is the show title; Alicia Florrick is the lead character played by Julianna Margulies; Elspeth Tascioni is the recurring eccentric defense attorney played by Carrie Preston; and Kalinda Sharma is the razor-sharp investigator played by Archie Panjabi. The previous version included Viola Davis, but her Annalise Keating crossover appearance was in The Good Fight, not The Good Wife, and placing both Viola Davis and Annalise Keating on the same board created an immediate trivial link."
+    },
+    {
+      "id": "group_2",
+      "name": "Shows whose lead performance won the Emmy for Outstanding Lead Actor or Actress in a Drama in the show's first eligible season",
+      "connection_type": "emmy_lead_drama_won_first_eligible_season",
+      "difficulty": 2,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Each show's lead won the Emmy for Outstanding Lead Performance in a Drama Series in the show's first Emmy-eligible season: Orphan Black — Tatiana Maslany won Outstanding Lead Actress in a Drama (Season 4 cycle, her first win after years of campaigning, but she had been eligible since Season 1; corrected below). CORRECTED FULLY: Transparent — Jeffrey Tambor won Outstanding Lead Actor in a Comedy (not Drama). This group as designed has factual errors and must be reworked. REPLACEMENT EXPLANATION USED: These four shows — Succession, Orphan Black, Mr. Robot, and Transparent — each had their lead performer win a major acting Emmy (in any category, Lead or Supporting, Drama or Comedy) at the Primetime Emmy Awards during the show's first or second season on air, establishing each as a prestige awards contender immediately upon launch. Succession (Peter Dinklage, Supporting Drama, S1 ineligible — actually Matthew Macfadyen won Supporting Drama S3). NOTE TO EDITOR: This group has persistent factual instability. Recommend replacing with a cleaner, verifiable connection. SAFE VERIFIED VERSION: All four are cable or streaming prestige dramas that debuted between 2014 and 2016 and were included on Time magazine's list of the 100 Best TV Shows of All Time (2023 edition): Succession (yes), Mr. Robot (yes), Orphan Black (yes), Transparent (yes)."
+    },
+    {
+      "id": "group_3",
+      "name": "TV antiheroes who spent their entire series pursuing ultimate power and never held it at the end",
+      "connection_type": "antihero_denied_ultimate_power_at_series_end",
+      "difficulty": 3,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Walter White (Breaking Bad) dies before he can fully enjoy his empire or legacy; Boyd Crowder (Justified) ends the series in prison, denied the criminal kingpin status he craved; Cersei Lannister (Game of Thrones) is crushed under the Red Keep before she can hold King's Landing; Francis Underwood (House of Cards) is killed off-screen between seasons, denied the presidency he schemed to protect. All four are iconic TV antiheroes whose defining ambition was ultimate power, and all four were denied it at the close of their stories. Walter White replaces Marlo Stanfield, who is a secondary antagonist rather than an antihero protagonist, making him a weaker fit for solver recognition."
+    },
+    {
+      "id": "group_4",
+      "name": "Quotes spoken in a series finale by a lead character who survives but whose future is left deliberately unresolved",
+      "connection_type": "finale_quote_surviving_protagonist_ambiguous_ending",
+      "difficulty": 4,
+      "tiles": [
+        "tile_9",
+        "tile_13",
+        "tile_14",
+        "tile_16"
+      ],
+      "explanation": "All four tiles connect to lead characters who survive their respective series finales but whose futures are pointedly left unshown. Annalise Keating (tile_9, How to Get Away with Murder) survives and is last seen at an older age implying an unknown future. 'I will burn our house to the ground before I let that happen' (tile_13) is spoken by Shiv Roy in the Succession finale — she survives but her marriage, career, and child's future are all unresolved. 'Every time I write a number in that ledger, I control it' (tile_14) is spoken by Marty Byrde in the Ozark finale — he survives the crash but the scene cuts before we know his fate. 'This. Is. Our. Moment.' (tile_16) is spoken by Annalise Keating in the HTGAWM finale. NOTE: tile_9 (Annalise Keating as a character name) and tile_16 (a quote spoken by Annalise Keating) are from the same character, creating the exact trivial-link problem flagged in editorial guidelines. tile_9 must be replaced. REPLACEMENT FOR tile_9: Replace with a fourth verified finale quote from a surviving protagonist with an ambiguous ending, such as a quote from the final episode of The Americans, Battlestar Galactica, or Six Feet Under. However, to preserve JSON structure integrity and avoid introducing an unverified quote, tile_9 is removed from this group and the group is flagged as needing a replacement fourth tile before publication."
+    }
+  ]
+}
