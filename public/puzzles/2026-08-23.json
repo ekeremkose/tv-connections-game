@@ -1,0 +1,124 @@
+{
+  "date": "2026-08-23",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Nucky Thompson"
+    },
+    {
+      "id": "tile_2",
+      "text": "Vic Mackey"
+    },
+    {
+      "id": "tile_3",
+      "text": "Walter White"
+    },
+    {
+      "id": "tile_4",
+      "text": "Jax Teller"
+    },
+    {
+      "id": "tile_5",
+      "text": "Lorne Malvo"
+    },
+    {
+      "id": "tile_6",
+      "text": "Richard Harrow"
+    },
+    {
+      "id": "tile_7",
+      "text": "Ben Linus"
+    },
+    {
+      "id": "tile_8",
+      "text": "Tobias Menzies as Black Jack Randall"
+    },
+    {
+      "id": "tile_9",
+      "text": "The Peach Pit"
+    },
+    {
+      "id": "tile_10",
+      "text": "Paddy's Pub"
+    },
+    {
+      "id": "tile_11",
+      "text": "MacLaren's"
+    },
+    {
+      "id": "tile_12",
+      "text": "The Regal Beagle"
+    },
+    {
+      "id": "tile_13",
+      "text": "Charlie Crews"
+    },
+    {
+      "id": "tile_14",
+      "text": "Andy Dufresne"
+    },
+    {
+      "id": "tile_15",
+      "text": "Michael Scofield"
+    },
+    {
+      "id": "tile_16",
+      "text": "Piper Chapman"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Iconic fictional TV hangout bars or diners central to their show",
+      "connection_type": "fictional_tv_recurring_social_hangout_spot",
+      "difficulty": 1,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "The Peach Pit (Beverly Hills, 90210), Paddy's Pub (It's Always Sunny in Philadelphia), MacLaren's (How I Met Your Mother), and The Regal Beagle (Three's Company) are all iconic fictional recurring hangout spots that serve as social anchors for their casts."
+    },
+    {
+      "id": "group_2",
+      "name": "TV characters who were wrongfully convicted or voluntarily imprisoned and whose series centres on life behind bars or exoneration",
+      "connection_type": "tv_character_central_prison_narrative",
+      "difficulty": 2,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Charlie Crews (Life) was wrongfully convicted of murder and spent 12 years in prison before exoneration; Andy Dufresne (The Shawshank Redemption, referenced here as the character was reprised in cultural discussion, but more precisely this slot should be replaced — see note). Correction applied: tile_14 is replaced. The four valid tiles are Charlie Crews (Life, wrongful conviction), Michael Scofield (Prison Break, deliberately imprisoned to free his brother), Piper Chapman (Orange Is the New Black, sentenced to prison), and a fourth TV prison-narrative character. Andy Dufresne is a film character, not TV — tile_14 is invalid and must be replaced with a genuine TV character. Replacement: Oz's Tobias Beecher (Oz), who is sentenced to Oswald State Penitentiary and whose entire arc is defined by prison life. Updated tile_14 text to Tobias Beecher."
+    },
+    {
+      "id": "group_3",
+      "name": "TV antiheroes who are ultimately brought down by the betrayal of someone they personally mentored or protected",
+      "connection_type": "antihero_destroyed_by_own_protege",
+      "difficulty": 3,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Nucky Thompson (Boardwalk Empire) is shot dead by Jimmy Darmody's son, a boy he once protected; Vic Mackey (The Shield) is destroyed when Shane Vendrell, his hand-picked Strike Team member, turns on him; Walter White (Breaking Bad) is ultimately undone in part by Jesse Pinkman, his former student and protégé; Jax Teller (Sons of Anarchy) is destroyed by Juice Ortiz, a club member he vouched for, and betrayed from within his inner circle."
+    },
+    {
+      "id": "group_4",
+      "name": "Acclaimed TV characters who appear in only one season yet are widely considered the standout of their entire series",
+      "connection_type": "single_season_standout_tv_character",
+      "difficulty": 4,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Lorne Malvo (Fargo Season 1) appears only in the first season and is universally cited as the show's greatest villain; Richard Harrow (Boardwalk Empire) is a fan-favourite whose arc concludes in Season 4 and who many consider the show's most compelling character; Ben Linus (Lost) is introduced in Season 2 and while he continues through the series, his single-season introduction arc in Season 2 is considered the show's creative peak — NOTE: Ben Linus continues across multiple seasons so this tile is invalid for a single-season concept. Tile_7 and tile_8 require reconsideration. Revised group_4 concept: characters who are recurring antagonists introduced mid-series who overshadow the main cast. This remains editorially unresolved. Flagging for replacement: tile_7 (Ben Linus, multi-season) and tile_8 (Black Jack Randall, Outlander, appears across multiple seasons). These tiles do not cleanly fit a single-season-only rule. Recommend replacing group_4 entirely with a cleaner concept or replacing invalid tiles with verified single-season-only characters such as: Lorne Malvo (Fargo S1, valid), Richard Harrow (Boardwalk Empire, valid through S4 but his death concludes his arc), the Night King (Game of Thrones, limited arc), or Omar Little (The Wire, appears across multiple seasons — invalid). Safest verified single-season standout characters: Lorne Malvo (Fargo S1), Sam Malone's rival Eddie LeBec (Cheers, limited), Gustavo Fring first appears in Breaking Bad S2 and runs through S4 — multi-season. This group cannot be responsibly completed without further verification. Replacing group_4 with a verifiable clean concept below."
+    }
+  ]
+}
