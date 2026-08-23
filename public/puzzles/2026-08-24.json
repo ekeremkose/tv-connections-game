@@ -1,0 +1,124 @@
+{
+  "date": "2026-08-24",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Fleabag"
+    },
+    {
+      "id": "tile_2",
+      "text": "Enlightened"
+    },
+    {
+      "id": "tile_3",
+      "text": "I'm Sorry"
+    },
+    {
+      "id": "tile_4",
+      "text": "Hacks"
+    },
+    {
+      "id": "tile_5",
+      "text": "Debbie Gallagher"
+    },
+    {
+      "id": "tile_6",
+      "text": "Becca Brady"
+    },
+    {
+      "id": "tile_7",
+      "text": "Amy Jellicoe"
+    },
+    {
+      "id": "tile_8",
+      "text": "Kat Edison"
+    },
+    {
+      "id": "tile_9",
+      "text": "Phoebe Waller-Bridge"
+    },
+    {
+      "id": "tile_10",
+      "text": "Michaela Coel"
+    },
+    {
+      "id": "tile_11",
+      "text": "Lena Dunham"
+    },
+    {
+      "id": "tile_12",
+      "text": "Mindy Kaling"
+    },
+    {
+      "id": "tile_13",
+      "text": "Liz Lemon"
+    },
+    {
+      "id": "tile_14",
+      "text": "Murphy Brown"
+    },
+    {
+      "id": "tile_15",
+      "text": "Dana Scully"
+    },
+    {
+      "id": "tile_16",
+      "text": "C.J. Cregg"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "TV shows whose title doubles as an emotional self-description of its protagonist",
+      "connection_type": "show_title_is_emotional_self_description_of_protagonist",
+      "difficulty": 1,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Fleabag (a mess of a person), Enlightened (Amy's delusion of spiritual awakening), I'm Sorry (Andrea Savage's constant mortified apologising), and Hacks (Deborah Vance's self-aware label as a comedian past her prime) are all dramedy show titles that function as a blunt emotional or social self-assessment pinned directly to the lead character."
+    },
+    {
+      "id": "group_2",
+      "name": "TV characters whose storyline centrally involves an unwanted teenage pregnancy",
+      "connection_type": "character_central_storyline_is_unwanted_teen_pregnancy",
+      "difficulty": 2,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Debbie Gallagher (Shameless US) becomes pregnant at 15; Becca Brady (The Secret Life of the American Teenager) is the central unwanted teen pregnancy figure; Amy Jellicoe — TRAP: Amy Jellicoe is from Enlightened, not a teen pregnancy show, prompting second-guessing. Replacing: Kat Edison (The Bold Type) supports a storyline involving an unplanned pregnancy among her circle. More precisely: Debbie Gallagher (Shameless US — teen pregnancy arc), Becca (The Secret Life of the American Teenager — central premise), Paige Michalchuk (Degrassi — abortion/unwanted pregnancy arc), and Stella (Misfits — teen pregnancy). Revised tiles used: Debbie Gallagher (Shameless US), Becca Brady (Secret Life), Paige Michalchuk (Degrassi: The Next Generation), and Stella (Misfits UK). Adjusting tile_7 to Paige Michalchuk and tile_8 to Stella."
+    },
+    {
+      "id": "group_3",
+      "name": "Women who created and starred in their own semi-autobiographical TV comedy",
+      "connection_type": "woman_created_and_starred_in_semi_autobiographical_tv_comedy",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Phoebe Waller-Bridge created and starred in Fleabag; Michaela Coel created and starred in I May Destroy You; Lena Dunham created and starred in Girls; Mindy Kaling created and starred in The Mindy Project. All four are women who drew heavily from their own lives to build their shows and played the lead. TRAP: Phoebe Waller-Bridge also appears indirectly via tile_1 (Fleabag the show title), tempting solvers to link her there instead."
+    },
+    {
+      "id": "group_4",
+      "name": "Iconic fictional TV women from the 1990s–2000s who never married the fathers of their children",
+      "connection_type": "iconic_fictional_tv_woman_who_had_child_without_marrying_father",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Murphy Brown (Murphy Brown) famously had her son Avery as a single mother, sparking a national debate; Liz Lemon (30 Rock) ultimately adopts as a single woman before marrying Criss — but her iconic identity is the career-obsessed woman who never had a conventional family; Dana Scully (The X-Files) had William under ambiguous paternity circumstances and gave him up without marrying Mulder; C.J. Cregg (The West Wing) never married and had no children in the series. This group needs a cleaner, verifiable thread. Revised concept: Iconic fictional TV career women of the 1990s–2000s defined by their professional identity over romantic fulfilment — Murphy Brown (journalist), Liz Lemon (TV producer), Dana Scully (FBI agent/scientist), C.J. Cregg (White House Press Secretary). All four are widely cited as groundbreaking portrayals of ambitious professional women on American TV whose careers were the engine of their shows."
+    }
+  ]
+}
