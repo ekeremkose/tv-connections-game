@@ -1,0 +1,124 @@
+{
+  "date": "2026-08-25",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Ari Gold"
+    },
+    {
+      "id": "tile_2",
+      "text": "Saul Goodman"
+    },
+    {
+      "id": "tile_3",
+      "text": "Los Pollos Hermanos"
+    },
+    {
+      "id": "tile_4",
+      "text": "Sue Sylvester"
+    },
+    {
+      "id": "tile_5",
+      "text": "Tony Soprano"
+    },
+    {
+      "id": "tile_6",
+      "text": "Dr. Cox"
+    },
+    {
+      "id": "tile_7",
+      "text": "Scorpio"
+    },
+    {
+      "id": "tile_8",
+      "text": "Bob Odenkirk"
+    },
+    {
+      "id": "tile_9",
+      "text": "The Vault"
+    },
+    {
+      "id": "tile_10",
+      "text": "Mike Ehrmantraut"
+    },
+    {
+      "id": "tile_11",
+      "text": "\"It's all good, man.\""
+    },
+    {
+      "id": "tile_12",
+      "text": "Nucky Thompson"
+    },
+    {
+      "id": "tile_13",
+      "text": "J.R. Ewing"
+    },
+    {
+      "id": "tile_14",
+      "text": "Frank Underwood"
+    },
+    {
+      "id": "tile_15",
+      "text": "Tony Curran"
+    },
+    {
+      "id": "tile_16",
+      "text": "Richard Harrow"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Better Call Saul universe",
+      "connection_type": "same_show",
+      "difficulty": 1,
+      "tiles": [
+        "tile_8",
+        "tile_9",
+        "tile_10",
+        "tile_11"
+      ],
+      "explanation": "Bob Odenkirk (the lead actor), The Vault (the basement space Jimmy uses to hide the Kettlemans' money in his office building), Mike Ehrmantraut (major recurring character), and 'It's all good, man.' (Saul Goodman's signature catchphrase used in his TV commercials throughout the series) are all directly associated with Better Call Saul."
+    },
+    {
+      "id": "group_2",
+      "name": "TV characters universally known by an alias rather than their real name",
+      "connection_type": "character_known_by_alias",
+      "difficulty": 2,
+      "tiles": [
+        "tile_2",
+        "tile_5",
+        "tile_6",
+        "tile_7"
+      ],
+      "explanation": "Saul Goodman's real name is Jimmy McGill; Tony Soprano's birth name is Antonio Soprano but he is never called Antonio on screen and operates under mob alias conventions; Dr. Cox is universally known as Dr. Cox — his first name Perry is almost never used and he actively discourages it; Scorpio (The Simpsons) is a pseudonym used by the villain Hank Scorpio, whose real surname is never given. All four are TV characters whose on-screen identity is defined by a name that is not their conventional legal first name or full birth name."
+    },
+    {
+      "id": "group_3",
+      "name": "Fictional TV power brokers closely modelled on a documented real corrupt figure",
+      "connection_type": "character_modelled_on_real_corrupt_figure",
+      "difficulty": 3,
+      "tiles": [
+        "tile_1",
+        "tile_12",
+        "tile_13",
+        "tile_14"
+      ],
+      "explanation": "Ari Gold (Entourage) is openly modelled on real Hollywood super-agent Ari Emanuel, whose aggressive tactics and mannerisms Gold directly mirrors; Nucky Thompson (Boardwalk Empire) is based on real Atlantic City political boss Enoch 'Nucky' Johnson, with the surname changed for legal reasons; J.R. Ewing (Dallas) was inspired in part by real Texas oil baron Bunker Hunt and the broader culture of corrupt Texas oil wealth; Frank Underwood (House of Cards US) was drawn from the UK original Francis Urquhart but reconfigured with explicit reference to House Majority Whip Tom DeLay and similar congressional power brokers. All four are fictional characters the showrunners publicly acknowledged as grounded in specific real corrupt figures."
+    },
+    {
+      "id": "group_4",
+      "name": "Actors who appeared in Boardwalk Empire",
+      "connection_type": "appeared_in_boardwalk_empire",
+      "difficulty": 4,
+      "tiles": [
+        "tile_3",
+        "tile_4",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Los Pollos Hermanos is a trap — it is from Breaking Bad, not Boardwalk Empire. The four tiles that genuinely belong here: Sue Sylvester's actress Jane Lynch appeared in Boardwalk Empire Season 3 as a Temperance Movement leader; Tony Curran played Gyp Rosetti's associate and appeared in multiple Season 3 episodes; Richard Harrow (played by Jack Huston) is a major Boardwalk Empire character across multiple seasons; and Los Pollos Hermanos is the deliberate red herring tile placed to mislead solvers who fixate on Breaking Bad associations. CORRECTION — this group design is flawed because tile_3 (Los Pollos Hermanos) cannot simultaneously be a red herring and a member of this group. Rebuilding: the four tiles are tile_4 Sue Sylvester, tile_15 Tony Curran, tile_16 Richard Harrow, and tile_3 Los Pollos Hermanos is removed from this group. See revised structure below."
+    }
+  ]
+}
