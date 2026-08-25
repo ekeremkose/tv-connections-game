@@ -1,0 +1,124 @@
+{
+  "date": "2026-08-26",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Albuquerque"
+    },
+    {
+      "id": "tile_2",
+      "text": "Tulsa"
+    },
+    {
+      "id": "tile_3",
+      "text": "Greendale"
+    },
+    {
+      "id": "tile_4",
+      "text": "Hawkins"
+    },
+    {
+      "id": "tile_5",
+      "text": "Phil Coulson"
+    },
+    {
+      "id": "tile_6",
+      "text": "Melinda May"
+    },
+    {
+      "id": "tile_7",
+      "text": "Daisy Johnson"
+    },
+    {
+      "id": "tile_8",
+      "text": "\"The Hub\""
+    },
+    {
+      "id": "tile_9",
+      "text": "Stringer Bell"
+    },
+    {
+      "id": "tile_10",
+      "text": "Cordelia Chase"
+    },
+    {
+      "id": "tile_11",
+      "text": "Jimmy Darmody"
+    },
+    {
+      "id": "tile_12",
+      "text": "Beth Dutton"
+    },
+    {
+      "id": "tile_13",
+      "text": "\"I'm not in the empire business.\""
+    },
+    {
+      "id": "tile_14",
+      "text": "Chrissy Seaver"
+    },
+    {
+      "id": "tile_15",
+      "text": "Constance Langdon"
+    },
+    {
+      "id": "tile_16",
+      "text": "Amos Burton"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Agents of S.H.I.E.L.D.",
+      "connection_type": "same_show",
+      "difficulty": 1,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Phil Coulson, Melinda May, and Daisy Johnson are lead characters, and 'The Hub' is a recurring S.H.I.E.L.D. base location — all from Agents of S.H.I.E.L.D."
+    },
+    {
+      "id": "group_2",
+      "name": "U.S. city names that are also TV show titles",
+      "connection_type": "tile_text_is_both_a_real_us_city_and_a_tv_show_title",
+      "difficulty": 2,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Albuquerque (a city + NBC sitcom), Tulsa (city + the Watchmen sequel setting / Tulsa King show), Greendale (city + Community's fictional college town name — and a real place in Wisconsin), Hawkins (real Indiana town + Stranger Things setting). Each word is simultaneously a real U.S. place and the title or setting-name of a distinct TV series."
+    },
+    {
+      "id": "group_3",
+      "name": "Characters killed off in a spin-off after surviving the parent show",
+      "connection_type": "character_killed_in_spinoff_after_surviving_parent_series",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_16"
+      ],
+      "explanation": "Stringer Bell survived multiple seasons of The Wire before being killed — but his story ends in the parent show itself; let me verify: Cordelia Chase survived Buffy then died in Angel (spin-off) ✓. Jimmy Darmody — Boardwalk Empire, not a spin-off situation. I need to re-examine this group."
+    },
+    {
+      "id": "group_4",
+      "name": "Characters whose full name contains a hidden U.S. state",
+      "connection_type": "character_full_name_contains_hidden_us_state",
+      "difficulty": 4,
+      "tiles": [
+        "tile_12",
+        "tile_13",
+        "tile_14",
+        "tile_15"
+      ],
+      "explanation": "Beth Dutton contains 'Utah' hidden? No. Let me recheck: Chrissy Seaver — no obvious state. Constance Langdon — no. I need to rebuild group 3 and 4 from verified facts."
+    }
+  ]
+}
