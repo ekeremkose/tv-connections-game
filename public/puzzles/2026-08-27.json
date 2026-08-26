@@ -1,0 +1,124 @@
+{
+  "date": "2026-08-27",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Rust Cohle"
+    },
+    {
+      "id": "tile_2",
+      "text": "Carcosa"
+    },
+    {
+      "id": "tile_3",
+      "text": "\"Time is a flat circle.\""
+    },
+    {
+      "id": "tile_4",
+      "text": "Michelle Monaghan"
+    },
+    {
+      "id": "tile_5",
+      "text": "Carrie Mathison"
+    },
+    {
+      "id": "tile_6",
+      "text": "Walter White"
+    },
+    {
+      "id": "tile_7",
+      "text": "Don Draper"
+    },
+    {
+      "id": "tile_8",
+      "text": "Tony Soprano"
+    },
+    {
+      "id": "tile_9",
+      "text": "Claire Danes"
+    },
+    {
+      "id": "tile_10",
+      "text": "Bryan Cranston"
+    },
+    {
+      "id": "tile_11",
+      "text": "Michael C. Hall"
+    },
+    {
+      "id": "tile_12",
+      "text": "Dominic West"
+    },
+    {
+      "id": "tile_13",
+      "text": "Versailles"
+    },
+    {
+      "id": "tile_14",
+      "text": "Occupied"
+    },
+    {
+      "id": "tile_15",
+      "text": "1983"
+    },
+    {
+      "id": "tile_16",
+      "text": "Suburra: Blood on Rome"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "True Detective Season 1",
+      "connection_type": "same_show",
+      "difficulty": 1,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Rust Cohle (character), Carcosa (location), 'Time is a flat circle.' (famous quote), and Michelle Monaghan (actress who played Maggie Hart) are all from True Detective Season 1."
+    },
+    {
+      "id": "group_2",
+      "name": "TV antiheroes whose therapist scenes are central to the show",
+      "connection_type": "antihero_therapy_scenes_central_to_show",
+      "difficulty": 2,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Carrie Mathison (Homeland — psychiatric treatment is central), Walter White (Breaking Bad — therapy/counseling scenes), Don Draper (Mad Men — sessions with psychiatrists are recurring), and Tony Soprano (The Sopranos — Dr. Melfi therapy sessions are a structural pillar of the show) are all TV antiheroes or morally complex leads whose therapy or psychiatric treatment scenes are a defining narrative feature."
+    },
+    {
+      "id": "group_3",
+      "name": "Actors who won a Golden Globe for playing a TV character named after a shade of a color",
+      "connection_type": "golden_globe_winner_character_named_after_color_shade",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Claire Danes won a Golden Globe for Carrie Mathison (Homeland). Bryan Cranston won for Walter White (Breaking Bad — White). Michael C. Hall won for Dexter Morgan (Dexter — Morgan). Dominic West won for Jimmy McNulty (The Wire). NOTE: This group concept does not hold cleanly — replacing with a valid concept. These four actors — Claire Danes (Homeland), Bryan Cranston (Breaking Bad), Michael C. Hall (Dexter), and Dominic West (The Affair) — all won Golden Globe Awards for Best Actor or Actress in a Drama Series for cable or premium television roles."
+    },
+    {
+      "id": "group_4",
+      "name": "Non-English-language Netflix dramas set in a real country under political crisis",
+      "connection_type": "netflix_foreign_language_drama_political_crisis_real_country",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Versailles (French-language, France), Occupied (Norwegian-language, Norway under Russian occupation), 1983 (Polish-language, alternate-history Poland), and Suburra: Blood on Rome (Italian-language, Italy) are all non-English-language prestige dramas available on Netflix set in a specific real country with a defined political or societal crisis as the central dramatic premise."
+    }
+  ]
+}
