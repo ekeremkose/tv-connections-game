@@ -1,0 +1,124 @@
+{
+  "date": "2026-08-29",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Broadchurch"
+    },
+    {
+      "id": "tile_2",
+      "text": "Gracepoint"
+    },
+    {
+      "id": "tile_3",
+      "text": "The Killing"
+    },
+    {
+      "id": "tile_4",
+      "text": "Top of the Lake"
+    },
+    {
+      "id": "tile_5",
+      "text": "Big Little Lies"
+    },
+    {
+      "id": "tile_6",
+      "text": "The Undoing"
+    },
+    {
+      "id": "tile_7",
+      "text": "The White Lotus"
+    },
+    {
+      "id": "tile_8",
+      "text": "Dead Ringers"
+    },
+    {
+      "id": "tile_9",
+      "text": "Rose McIver"
+    },
+    {
+      "id": "tile_10",
+      "text": "Liv Moore"
+    },
+    {
+      "id": "tile_11",
+      "text": "iZombie"
+    },
+    {
+      "id": "tile_12",
+      "text": "Portlandia"
+    },
+    {
+      "id": "tile_13",
+      "text": "Carrie Coon"
+    },
+    {
+      "id": "tile_14",
+      "text": "Ann Dowd"
+    },
+    {
+      "id": "tile_15",
+      "text": "Justin Theroux"
+    },
+    {
+      "id": "tile_16",
+      "text": "Christopher Eccleston"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Shows structured around a single unsolved murder investigated across an entire season",
+      "connection_type": "single_case_season_long_investigation",
+      "difficulty": 1,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Broadchurch, Gracepoint, The Killing, and Top of the Lake all follow detectives investigating one murder across a full season, with resolution only at the finale. Gracepoint is the American remake of Broadchurch, adding a satisfying misdirection trap."
+    },
+    {
+      "id": "group_2",
+      "name": "HBO limited series led by Nicole Kidman",
+      "connection_type": "nicole_kidman_hbo_limited_series",
+      "difficulty": 2,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Nicole Kidman starred in Big Little Lies (HBO, 2017/2019), The Undoing (HBO, 2020), The White Lotus (HBO cameo/special appearance aside — INVALID). This group needs correction — The White Lotus does not feature Nicole Kidman. Replacing with Nine Perfect Strangers is Hulu not HBO. Dead Ringers starred Rachel Weisz on Prime. Correcting: Big Little Lies, The Undoing are confirmed. Replacing group — see corrected version below."
+    },
+    {
+      "id": "group_3",
+      "name": "Things containing the hidden word LIV (meaning alive in several languages)",
+      "connection_type": "contains_hidden_word_LIV",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Rose McIver (contains LIV in McLIVer — actually McIVer not McIVER with LIV... this does not work cleanly). This group is invalid and needs a full redesign."
+    },
+    {
+      "id": "group_4",
+      "name": "Series regulars on The Leftovers (HBO)",
+      "connection_type": "the_leftovers_series_regular",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Carrie Coon (Nora Durst), Ann Dowd (Patti Levin), Justin Theroux (Kevin Garvey), and Christopher Eccleston (Matt Jamison) were all series regulars on The Leftovers. All four are verifiably correct."
+    }
+  ]
+}
