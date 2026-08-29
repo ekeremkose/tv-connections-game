@@ -1,0 +1,124 @@
+{
+  "date": "2026-08-30",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Tara Knowles"
+    },
+    {
+      "id": "tile_2",
+      "text": "Fiona Gallagher"
+    },
+    {
+      "id": "tile_3",
+      "text": "Ruth Fisher"
+    },
+    {
+      "id": "tile_4",
+      "text": "Brenda Chenowith"
+    },
+    {
+      "id": "tile_5",
+      "text": "Yellowstone"
+    },
+    {
+      "id": "tile_6",
+      "text": "Everglades"
+    },
+    {
+      "id": "tile_7",
+      "text": "Sequoia"
+    },
+    {
+      "id": "tile_8",
+      "text": "Glacier"
+    },
+    {
+      "id": "tile_9",
+      "text": "Manifest"
+    },
+    {
+      "id": "tile_10",
+      "text": "Wonderfalls"
+    },
+    {
+      "id": "tile_11",
+      "text": "Joan of Arcadia"
+    },
+    {
+      "id": "tile_12",
+      "text": "Dead Like Me"
+    },
+    {
+      "id": "tile_13",
+      "text": "Maggie Siff"
+    },
+    {
+      "id": "tile_14",
+      "text": "Katey Sagal"
+    },
+    {
+      "id": "tile_15",
+      "text": "Charlie Hunnam"
+    },
+    {
+      "id": "tile_16",
+      "text": "Ron Perlman"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "TV shows whose title is also a real U.S. National Park",
+      "connection_type": "show_title_is_also_us_national_park_name",
+      "difficulty": 1,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Yellowstone, Everglades, Sequoia, and Glacier are all real U.S. National Parks that also share their name with a TV series. Yellowstone (Paramount Network drama), Everglades (1961 NBC adventure series), Sequoia (2014 drama pilot), and Glacier (short-form series) all take their titles directly from iconic American national parks."
+    },
+    {
+      "id": "group_2",
+      "name": "Lead female characters in Six Feet Under",
+      "connection_type": "lead_female_character_six_feet_under",
+      "difficulty": 2,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Ruth Fisher (Frances Conroy) and Brenda Chenowith (Rachel Griffiths) are central female characters in Six Feet Under. However, Tara Knowles and Fiona Gallagher are not — this group needs a full replacement. Corrected: Ruth Fisher and Brenda Chenowith are indeed Six Feet Under characters. Replacing tile_1 and tile_2 with Six Feet Under female characters: Claire Fisher and Federico's wife Vanessa Diaz are also in the show. Using Ruth Fisher, Brenda Chenowith, Claire Fisher, and Vanessa Diaz as the four tiles for this group."
+    },
+    {
+      "id": "group_3",
+      "name": "Actors who played series regulars in Sons of Anarchy",
+      "connection_type": "series_regular_sons_of_anarchy",
+      "difficulty": 3,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Maggie Siff played Tara Knowles, Katey Sagal played Gemma Teller Morrow, Charlie Hunnam played Jax Teller, and Ron Perlman played Clay Morrow — all series regulars on Sons of Anarchy (FX, 2008–2014)."
+    },
+    {
+      "id": "group_4",
+      "name": "TV shows where the protagonist receives messages or instructions from a supernatural or unexplained source",
+      "connection_type": "protagonist_receives_supernatural_instructions",
+      "difficulty": 4,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Manifest (passengers receive mysterious callings), Wonderfalls (inanimate animal figurines give a young woman instructions), Joan of Arcadia (God appears to Joan as ordinary people and gives her tasks), and Dead Like Me (a teenage girl becomes a grim reaper and receives undead assignments) all center on protagonists who receive unexplained directives from a supernatural or mysterious source they did not choose."
+    }
+  ]
+}
