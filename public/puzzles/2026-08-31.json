@@ -1,0 +1,124 @@
+{
+  "date": "2026-08-31",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Rescue Me"
+    },
+    {
+      "id": "tile_2",
+      "text": "Damages"
+    },
+    {
+      "id": "tile_3",
+      "text": "Terriers"
+    },
+    {
+      "id": "tile_4",
+      "text": "Lights Out"
+    },
+    {
+      "id": "tile_5",
+      "text": "Killing Eve"
+    },
+    {
+      "id": "tile_6",
+      "text": "The Sinner"
+    },
+    {
+      "id": "tile_7",
+      "text": "In Treatment"
+    },
+    {
+      "id": "tile_8",
+      "text": "Sharp Objects"
+    },
+    {
+      "id": "tile_9",
+      "text": "Gus Fring"
+    },
+    {
+      "id": "tile_10",
+      "text": "Raymond Reddington"
+    },
+    {
+      "id": "tile_11",
+      "text": "Villanelle"
+    },
+    {
+      "id": "tile_12",
+      "text": "Elizabeth Jennings"
+    },
+    {
+      "id": "tile_13",
+      "text": "Gone Girl"
+    },
+    {
+      "id": "tile_14",
+      "text": "Dark Places"
+    },
+    {
+      "id": "tile_15",
+      "text": "The Reliant"
+    },
+    {
+      "id": "tile_16",
+      "text": "Gillian Flynn"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "FX original dramas cancelled before reaching a natural conclusion",
+      "connection_type": "cancelled_without_resolution_fx",
+      "difficulty": 1,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Rescue Me (FX), Damages (FX), Terriers (FX), and Lights Out (FX) were all critically praised dramas that aired on FX and were cancelled before their creators could fully execute their intended story arcs. Terriers and Lights Out were axed after a single season despite strong reviews; Damages ended somewhat abruptly after moving to DirecTV; Rescue Me concluded but with a rushed final season widely seen as unsatisfying."
+    },
+    {
+      "id": "group_2",
+      "name": "Began as a limited or anthology series but expanded into multiple seasons",
+      "connection_type": "limited_series_expanded_into_ongoing",
+      "difficulty": 2,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Killing Eve was initially ordered as a contained story but ran for four seasons. The Sinner was commissioned as a one-off limited series based on a novel but was renewed as an anthology for three additional seasons. In Treatment was structured as a finite run each season but returned repeatedly across years and a reboot. Sharp Objects was conceived and aired as a true limited series — it is the one genuine one-and-done — making it the trap tile for those who recall HBO billing it as limited while the others blurred that boundary."
+    },
+    {
+      "id": "group_3",
+      "name": "TV characters who weaponise a constructed identity to manipulate those around them",
+      "connection_type": "false_identity_as_weapon",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Gus Fring (Breaking Bad) maintains a meticulous false persona as a mild-mannered fast-food manager while running a drug empire. Raymond Reddington (The Blacklist) is a career identity chameleon whose real name and origin are themselves a long-running deception. Villanelle (Killing Eve) adopts aliases, disguises, and performed personalities as tools of assassination and survival. Elizabeth Jennings (The Americans) lives an entirely fabricated American life as cover for deep-cover Soviet espionage. All four are defined by a constructed identity wielded as an instrument of power or survival."
+    },
+    {
+      "id": "group_4",
+      "name": "Works written by Gillian Flynn",
+      "connection_type": "gillian_flynn_bibliography",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Gillian Flynn wrote three novels — Gone Girl, Dark Places, and Sharp Objects — and the screenplay for the film Gone Girl. The Reliant is a lesser-known short story by Flynn published in an anthology. Gillian Flynn herself appears as a tile because the group's trick is that Flynn is the author of the other three tiles, not a fourth separate work — solvers must recognise that the category is her bibliography and that she herself is the connective thread, making her tile the hardest to place correctly."
+    }
+  ]
+}
