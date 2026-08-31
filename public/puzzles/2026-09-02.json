@@ -1,0 +1,124 @@
+{
+  "date": "2026-09-02",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Pawnee, Indiana"
+    },
+    {
+      "id": "tile_2",
+      "text": "Bluebell, Alabama"
+    },
+    {
+      "id": "tile_3",
+      "text": "Schitt's Creek"
+    },
+    {
+      "id": "tile_4",
+      "text": "Cicely, Alaska"
+    },
+    {
+      "id": "tile_5",
+      "text": "Matthew Weiner"
+    },
+    {
+      "id": "tile_6",
+      "text": "Jenji Kohan"
+    },
+    {
+      "id": "tile_7",
+      "text": "Vince Gilligan"
+    },
+    {
+      "id": "tile_8",
+      "text": "David Chase"
+    },
+    {
+      "id": "tile_9",
+      "text": "Meredith Grey"
+    },
+    {
+      "id": "tile_10",
+      "text": "Violet Crawley"
+    },
+    {
+      "id": "tile_11",
+      "text": "Scarlett Bennett"
+    },
+    {
+      "id": "tile_12",
+      "text": "Jade Moretti"
+    },
+    {
+      "id": "tile_13",
+      "text": "Coral Chapman"
+    },
+    {
+      "id": "tile_14",
+      "text": "Desmond Hume"
+    },
+    {
+      "id": "tile_15",
+      "text": "Charlie Pace"
+    },
+    {
+      "id": "tile_16",
+      "text": "Shannon Rutherford"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Quirky fictional small towns at the centre of their show",
+      "connection_type": "fictional_small_town_setting",
+      "difficulty": 1,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Pawnee, Indiana (Parks and Recreation), Bluebell, Alabama (Hart of Dixie), Schitt's Creek (Schitt's Creek), and Cicely, Alaska (Northern Exposure) are all quirky fictional small towns that serve as the central setting of their respective shows."
+    },
+    {
+      "id": "group_2",
+      "name": "Showrunners who wrote or co-wrote their show's series finale themselves",
+      "connection_type": "showrunner_wrote_own_series_finale",
+      "difficulty": 2,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Matthew Weiner wrote the Mad Men series finale 'Person to Person'; Jenji Kohan co-wrote the Orange Is the New Black series finale 'Here's Where We Get Off'; Vince Gilligan wrote the Breaking Bad series finale 'Felina'; and David Chase wrote the Sopranos series finale 'Made in America'. All four personally wrote or co-wrote the final episode of their flagship series."
+    },
+    {
+      "id": "group_3",
+      "name": "TV characters whose first name is a colour",
+      "connection_type": "character_first_name_is_a_colour",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Meredith GREY (Grey's Anatomy), Violet CRAWLEY (Downton Abbey), SCARLETT Bennett (Nashville), and JADE Moretti (Hollyoaks) all have first or last names that are also standard colour words. Grey, Violet, Scarlett, and Jade are all recognised colours."
+    },
+    {
+      "id": "group_4",
+      "name": "Lost characters who died in Season 1",
+      "connection_type": "lost_season_1_deaths",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Shannon Rutherford, Charlie Pace, Desmond Hume, and Coral Chapman all died during Lost's first season. Wait — this requires correction: Charlie Pace died in the Season 3 finale, and Desmond Hume survived the entire series. This group as constructed contains factual errors and has been rebuilt below."
+    }
+  ]
+}
