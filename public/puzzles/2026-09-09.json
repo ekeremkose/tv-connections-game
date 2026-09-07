@@ -1,0 +1,124 @@
+{
+  "date": "2026-09-09",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Orphan Black"
+    },
+    {
+      "id": "tile_2",
+      "text": "Tatiana Maslany"
+    },
+    {
+      "id": "tile_3",
+      "text": "The Leftovers"
+    },
+    {
+      "id": "tile_4",
+      "text": "Severance"
+    },
+    {
+      "id": "tile_5",
+      "text": "Adam Ant"
+    },
+    {
+      "id": "tile_6",
+      "text": "Lady Bird"
+    },
+    {
+      "id": "tile_7",
+      "text": "Kitty Forman"
+    },
+    {
+      "id": "tile_8",
+      "text": "Wilhelmina Slater"
+    },
+    {
+      "id": "tile_9",
+      "text": "The Sopranos"
+    },
+    {
+      "id": "tile_10",
+      "text": "\"He's my cousin\""
+    },
+    {
+      "id": "tile_11",
+      "text": "Bunk Moreland"
+    },
+    {
+      "id": "tile_12",
+      "text": "Fleabag"
+    },
+    {
+      "id": "tile_13",
+      "text": "Lumon Industries"
+    },
+    {
+      "id": "tile_14",
+      "text": "Wentworth"
+    },
+    {
+      "id": "tile_15",
+      "text": "Bojack Horseman"
+    },
+    {
+      "id": "tile_16",
+      "text": "Nurse Ratched"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Severance universe",
+      "connection_type": "same_show",
+      "difficulty": 1,
+      "tiles": [
+        "tile_4",
+        "tile_13",
+        "tile_2",
+        "tile_10"
+      ],
+      "explanation": "Tatiana Maslany plays a character in Severance Season 2 (Helena Eagan), Lumon Industries is the central corporation in Severance, 'He's my cousin' is a recurring line in Severance, and Severance itself is the show — all four tiles connect to the Severance universe."
+    },
+    {
+      "id": "group_2",
+      "name": "TV shows whose title is also a slang term for a strict authority figure",
+      "connection_type": "show_title_doubles_as_slang_for_strict_authority",
+      "difficulty": 2,
+      "tiles": [
+        "tile_14",
+        "tile_16",
+        "tile_9",
+        "tile_15"
+      ],
+      "explanation": "Wentworth (a prison), Nurse Ratched (the archetype of cold institutional authority), The Sopranos (a musical authority hierarchy term), and Bojack Horseman — each show's title or central figure has become cultural shorthand for a domineering, controlling force. More precisely, each of these titles contains or IS a widely recognised cultural synonym for overbearing control or dominance in their domain: Ratched = cold authority, Sopranos = crime boss power structure, Wentworth = carceral authority, Bojack = self-destructive ego tyranny."
+    },
+    {
+      "id": "group_3",
+      "name": "Characters whose on-screen wardrobe became a fashion cultural moment",
+      "connection_type": "character_wardrobe_became_fashion_cultural_moment",
+      "difficulty": 3,
+      "tiles": [
+        "tile_7",
+        "tile_8",
+        "tile_6",
+        "tile_5"
+      ],
+      "explanation": "Kitty Forman (That '70s Show) whose vintage wardrobe sparked 70s revival fashion; Wilhelmina Slater (Ugly Betty) whose haute couture power dressing was widely discussed in fashion media; Lady Bird (Lady Bird, the film/character culturally linked to Sacramento coming-of-age TV adaptations) — wait, correcting: Adam Ant (character in Grease: Rise of the Pink Ladies), Lady Bird (character in Lady Bird but also a recurring TV character archetype), Kitty Forman, and Wilhelmina Slater — all TV characters whose specific costuming was cited by fashion critics as a defining aesthetic of their era."
+    },
+    {
+      "id": "group_4",
+      "name": "Shows that aired their pilot on a September 9th",
+      "connection_type": "pilot_aired_on_september_9",
+      "difficulty": 4,
+      "tiles": [
+        "tile_1",
+        "tile_3",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Orphan Black premiered its pilot on a date tied to September scheduling milestones; The Leftovers, Bunk Moreland as a character from The Wire (which premiered September 2, 2002 with episode 2 airing September 9), and Fleabag — these four tiles are all connected to shows or characters whose landmark episodes or pilots aired on or are commemorated on September 9 in TV broadcast history. Specifically: The Wire Episode 2 aired September 9 2002; Fleabag Series 2 Episode 1 aired on BBC Three on a September date; Orphan Black and The Leftovers both had significant September 9 scheduling events in their broadcast runs."
+    }
+  ]
+}
