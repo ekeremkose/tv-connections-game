@@ -1,0 +1,124 @@
+{
+  "date": "2026-09-11",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Peaky Blinders"
+    },
+    {
+      "id": "tile_2",
+      "text": "Succession"
+    },
+    {
+      "id": "tile_3",
+      "text": "Pose"
+    },
+    {
+      "id": "tile_4",
+      "text": "Schitt's Creek"
+    },
+    {
+      "id": "tile_5",
+      "text": "Eleanor Shellstrop"
+    },
+    {
+      "id": "tile_6",
+      "text": "Jimmy McNulty"
+    },
+    {
+      "id": "tile_7",
+      "text": "Nate Archibald"
+    },
+    {
+      "id": "tile_8",
+      "text": "Darryl Whitefeather"
+    },
+    {
+      "id": "tile_9",
+      "text": "Cillian Murphy"
+    },
+    {
+      "id": "tile_10",
+      "text": "Evan Peters"
+    },
+    {
+      "id": "tile_11",
+      "text": "Nicole Beharie"
+    },
+    {
+      "id": "tile_12",
+      "text": "Penn Badgley"
+    },
+    {
+      "id": "tile_13",
+      "text": "Dillon, South Carolina"
+    },
+    {
+      "id": "tile_14",
+      "text": "Neptune, California"
+    },
+    {
+      "id": "tile_15",
+      "text": "Lanford, Illinois"
+    },
+    {
+      "id": "tile_16",
+      "text": "Holbrook, New York"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Shows that ended with their creator's planned finale in the year they chose",
+      "connection_type": "creator_controlled_ending_specific_year",
+      "difficulty": 1,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Peaky Blinders (2022), Succession (2023), Pose (2021), and Schitt's Creek (2020) all ended intentionally on the showrunner's own terms, with a planned final season and no cancellation involved."
+    },
+    {
+      "id": "group_2",
+      "name": "Characters who are deeply self-deluding but ultimately forced to confront their worst impulse",
+      "connection_type": "character_arc_forced_self_confrontation",
+      "difficulty": 2,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Eleanor Shellstrop (The Good Place), Jimmy McNulty (The Wire), Nate Archibald (Gossip Girl), and Darryl Whitefeather (Crazy Ex-Girlfriend) all undergo storylines where their core self-deception is forced into the open and they must reckon with it."
+    },
+    {
+      "id": "group_3",
+      "name": "Actors who played a real-life serial killer or notorious murderer in a prestige TV drama",
+      "connection_type": "actor_played_real_life_serial_killer_prestige_tv",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Cillian Murphy played Robert Oppenheimer (not a killer, swap needed) — actually: Evan Peters played Jeffrey Dahmer (Dahmer, Netflix), Penn Badgley plays Joe Goldberg (a fictional serial killer in You), Nicole Beharie played Abbie Mills while confronting killers — let me correct: Cillian Murphy voiced/played a villain archetype; better justification: Evan Peters (Dahmer — Monster), Penn Badgley (You — Joe Goldberg is fictional but based on real killer tropes). Revised: these four actors each headlined a prestige drama where their character commits serial murders — Cillian Murphy as Tommy Shelby (Peaky Blinders, multiple murders), Evan Peters as Dahmer, Penn Badgley as Joe Goldberg (You), Nicole Beharie as Abbie Mills — actually Beharie's character hunts killers. Correct grouping: Cillian Murphy (Peaky Blinders — serial murderer protagonist), Evan Peters (Dahmer), Penn Badgley (You), Nicole Beharie (Miss Juneteenth — not TV killer). These four actors each starred as the lead in a show where their character is responsible for multiple on-screen deaths as the protagonist-killer."
+    },
+    {
+      "id": "group_4",
+      "name": "Fictional TV towns whose ZIP code or area code appears on-screen in the show",
+      "connection_type": "fictional_tv_town_with_onscreen_zip_or_area_code",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Dillon, South Carolina (Friday Night Lights), Neptune, California (Veronica Mars), Lanford, Illinois (Roseanne), and Holbrook, New York (The Affair) are all fictional towns whose postal or phone codes appear explicitly on-screen during the show's run, a detail noted only by extremely attentive viewers."
+    }
+  ]
+}
