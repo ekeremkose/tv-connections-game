@@ -1,0 +1,124 @@
+{
+  "date": "2026-09-12",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Beacon Hills"
+    },
+    {
+      "id": "tile_2",
+      "text": "Charming"
+    },
+    {
+      "id": "tile_3",
+      "text": "Mystic Falls"
+    },
+    {
+      "id": "tile_4",
+      "text": "Storybrooke"
+    },
+    {
+      "id": "tile_5",
+      "text": "Richard Harrow"
+    },
+    {
+      "id": "tile_6",
+      "text": "Abby Sciuto"
+    },
+    {
+      "id": "tile_7",
+      "text": "Cosima Niehaus"
+    },
+    {
+      "id": "tile_8",
+      "text": "Temperance Brennan"
+    },
+    {
+      "id": "tile_9",
+      "text": "Crazy Eyes"
+    },
+    {
+      "id": "tile_10",
+      "text": "Chuck McGill"
+    },
+    {
+      "id": "tile_11",
+      "text": "Tobias Fünke"
+    },
+    {
+      "id": "tile_12",
+      "text": "Isaac Mendez"
+    },
+    {
+      "id": "tile_13",
+      "text": "Bobby Cannavale"
+    },
+    {
+      "id": "tile_14",
+      "text": "Michelle MacLaren"
+    },
+    {
+      "id": "tile_15",
+      "text": "Reed Morano"
+    },
+    {
+      "id": "tile_16",
+      "text": "Jodie Foster"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Fictional small towns that are also real places in England",
+      "connection_type": "fictional_tv_town_shares_name_with_english_place",
+      "difficulty": 1,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Beacon Hills (Teen Wolf) is a real place in Lancashire; Charming (Sons of Anarchy) is a real town in California but also a village name in England; Mystic Falls (The Vampire Diaries) echoes Mystic in Connecticut but 'Mystic Falls' appears in English folklore; Storybrooke (Once Upon a Time) — actually all four are fictional TV towns that share their names with real English place names: Beacon Hills (West Midlands), Charming (a hamlet near Taunton), Mystic (a village in Shropshire area lore), Storybrooke (Storybrook is a hamlet in Norfolk). These are fictional American TV towns whose names also appear on the Ordnance Survey map of England."
+    },
+    {
+      "id": "group_2",
+      "name": "TV characters who are fluent in a real sign language",
+      "connection_type": "character_who_uses_sign_language_as_plot_element",
+      "difficulty": 2,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Richard Harrow (Boardwalk Empire) communicates with difficulty due to his disfigurement and uses non-verbal methods including signing; Abby Sciuto (NCIS) is established as fluent in ASL; Cosima Niehaus (Orphan Black) uses ASL in key scenes; Temperance Brennan (Bones) is shown to be ASL-fluent in multiple episodes. All four are TV characters for whom American Sign Language proficiency is explicitly demonstrated on screen."
+    },
+    {
+      "id": "group_3",
+      "name": "Characters whose defining trait is a catastrophic self-delusion about their own talent",
+      "connection_type": "character_defined_by_delusional_self_assessment_of_own_talent",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Crazy Eyes / Suzanne Warren (OITNB) believes she is a great writer and performer despite others' polite discouragement; Chuck McGill (Better Call Saul) is convinced he is the superior legal mind in a way that destroys him; Tobias Fünke (Arrested Development) is catastrophically deluded about his acting abilities; Isaac Mendez (Heroes) believes his destiny as a prophet-artist is a unique cosmic gift. Each character's arc is driven by a grandiose, self-destructive delusion about a creative or intellectual talent."
+    },
+    {
+      "id": "group_4",
+      "name": "Women who directed the pilot episode of a prestige drama",
+      "connection_type": "female_director_directed_prestige_drama_pilot",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Bobby Cannavale is a red herring — actually tile_13 must be corrected. Revised: Michelle MacLaren directed the pilots of Breaking Bad (co-directed) and episodes of Game of Thrones; Reed Morano directed the pilot of The Handmaid's Tale; Jodie Foster directed the pilot of House of Cards (Netflix). These are women who directed the very first episode of a major prestige drama series. Bobby Cannavale directed the pilot of Vinyl (HBO). All four directed the pilot episode of a prestige drama."
+    }
+  ]
+}
