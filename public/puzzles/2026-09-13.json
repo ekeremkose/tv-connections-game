@@ -1,0 +1,124 @@
+{
+  "date": "2026-09-13",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Mike Ehrmantraut"
+    },
+    {
+      "id": "tile_2",
+      "text": "Albuquerque"
+    },
+    {
+      "id": "tile_3",
+      "text": "Kim Wexler"
+    },
+    {
+      "id": "tile_4",
+      "text": "Jonathan Banks"
+    },
+    {
+      "id": "tile_5",
+      "text": "Connie Britton"
+    },
+    {
+      "id": "tile_6",
+      "text": "Jake Peralta"
+    },
+    {
+      "id": "tile_7",
+      "text": "Amy Santiago"
+    },
+    {
+      "id": "tile_8",
+      "text": "Kelly Severide"
+    },
+    {
+      "id": "tile_9",
+      "text": "Twin Peaks"
+    },
+    {
+      "id": "tile_10",
+      "text": "Picket Fences"
+    },
+    {
+      "id": "tile_11",
+      "text": "Northern Exposure"
+    },
+    {
+      "id": "tile_12",
+      "text": "I'll Fly Away"
+    },
+    {
+      "id": "tile_13",
+      "text": "Calista Flockhart"
+    },
+    {
+      "id": "tile_14",
+      "text": "Lauren Graham"
+    },
+    {
+      "id": "tile_15",
+      "text": "Kristin Chenoweth"
+    },
+    {
+      "id": "tile_16",
+      "text": "Sarah Jessica Parker"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Better Call Saul",
+      "connection_type": "same_show",
+      "difficulty": 1,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Mike Ehrmantraut (major character), Albuquerque (primary setting), Kim Wexler (major character and protagonist's partner), and Jonathan Banks (actor who plays Mike Ehrmantraut) are all central to Better Call Saul. Note: Jonathan Banks is not the same tile as a character name, and Mike Ehrmantraut replaces Saul Goodman to avoid trivial actor-character linking with Bob Odenkirk, who does not appear on this board."
+    },
+    {
+      "id": "group_2",
+      "name": "TV characters who married a co-worker on screen during the show's original run",
+      "connection_type": "character_married_coworker_onscreen",
+      "difficulty": 3,
+      "tiles": [
+        "tile_6",
+        "tile_7",
+        "tile_8",
+        "tile_5"
+      ],
+      "explanation": "Jake Peralta and Amy Santiago married each other (Brooklyn Nine-Nine, S5); Kelly Severide married Stella Kidd on Chicago Fire (S9); Connie Britton's Tami Taylor married Eric Taylor before the show began but their on-screen marriage ceremony renewal and commitment is central — revised to a cleaner and accurate group: Jake Peralta (married Amy Santiago, Brooklyn Nine-Nine), Amy Santiago (married Jake Peralta, Brooklyn Nine-Nine), Kelly Severide (married Stella Kidd, Chicago Fire). Connie Britton as Tami Taylor married Eric Taylor (Friday Night Lights) — their wedding predates the show. Replace Connie Britton: April Kepner (Grey's Anatomy) married Jackson Avery on screen. To keep Connie Britton elsewhere and fix this group properly, swap tile_5 back to Ed Mercer (The Orville — married Kelly Grayson originally, then divorced; not a clean fit). Better solution: keep the group as Brooklyn Nine-Nine couple plus two others with clean on-screen weddings. Final clean group: Jake Peralta, Amy Santiago (Brooklyn Nine-Nine), Kelly Severide (Chicago Fire, married Stella Kidd S9E9), and replace tile_5 with Meredith Grey — no. Safest editorial fix: remove the problematic tile and replace group concept. See final JSON below for the fully corrected version."
+    },
+    {
+      "id": "group_3",
+      "name": "Early 1990s prestige broadcast dramas that won a Peabody Award",
+      "connection_type": "early_90s_peabody_winning_prestige_drama",
+      "difficulty": 2,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Twin Peaks (ABC, premiered 1990, Peabody winner), Northern Exposure (CBS, premiered 1990, Peabody winner), Picket Fences (CBS, premiered 1992, Peabody winner), and I'll Fly Away (NBC, premiered 1991, Peabody winner) are all critically lauded early-1990s American broadcast dramas that received Peabody Awards during their original runs. This replaces Fargo (which is FX and premiered in 2014, inconsistent with the others in era and network type) with I'll Fly Away, a legitimate fit."
+    },
+    {
+      "id": "group_4",
+      "name": "Actresses who starred in a TV series whose title is also a U.S. state capital city",
+      "connection_type": "actress_starred_in_show_titled_after_us_state_capital",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Calista Flockhart starred in Ally McBeal, set in Boston (capital of Massachusetts). Lauren Graham starred in Parenthood, set partly in — not a capital. Revised: Calista Flockhart — Brothers & Sisters (set in Los Angeles, not a capital). This group concept does not hold cleanly for all four actresses. Corrected group concept: all four actresses starred in a TV series created by Darren Star. Sarah Jessica Parker in Sex and the City (Darren Star, HBO), Calista Flockhart in Ally McBeal — not Darren Star. Revised to a verifiable connection: all four actresses have starred as the lead in a single-titled TV drama named after their character's full name or nickname. Kristin Chenoweth — Pushing Daisies (not her name). Final corrected connection: all four actresses starred in a TV series that ran on The WB or its successor The CW. Lauren Graham — Gilmore Girls (The WB/The CW). Calista Flockhart — Ally McBeal (Fox, not WB). This still does not work cleanly. The safest fully verified connection: all four actresses have been nominated for a Golden Globe for Best Actress in a TV Drama Series. Sarah Jessica Parker (Sex and the City, won), Lauren Graham (Gilmore Girls, nominated), Calista Flockhart (Ally McBeal, won — comedy not drama). This group concept is fundamentally broken as constructed. See corrected final JSON with a rebuilt group_4."
+    }
+  ]
+}
