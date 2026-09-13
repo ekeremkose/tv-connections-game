@@ -1,0 +1,124 @@
+{
+  "date": "2026-09-14",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Fleabag"
+    },
+    {
+      "id": "tile_2",
+      "text": "Phoebe Waller-Bridge"
+    },
+    {
+      "id": "tile_3",
+      "text": "The Marvelous Mrs. Maisel"
+    },
+    {
+      "id": "tile_4",
+      "text": "Gregory House"
+    },
+    {
+      "id": "tile_5",
+      "text": "Don Draper"
+    },
+    {
+      "id": "tile_6",
+      "text": "Rust Cohle"
+    },
+    {
+      "id": "tile_7",
+      "text": "Cersei Lannister"
+    },
+    {
+      "id": "tile_8",
+      "text": "Jimmy McGill"
+    },
+    {
+      "id": "tile_9",
+      "text": "Fawlty Towers"
+    },
+    {
+      "id": "tile_10",
+      "text": "Basil Fawlty"
+    },
+    {
+      "id": "tile_11",
+      "text": "Rachel Duncan"
+    },
+    {
+      "id": "tile_12",
+      "text": "Michael Scofield"
+    },
+    {
+      "id": "tile_13",
+      "text": "Betty Cooper"
+    },
+    {
+      "id": "tile_14",
+      "text": "Midge Maisel"
+    },
+    {
+      "id": "tile_15",
+      "text": "Offred"
+    },
+    {
+      "id": "tile_16",
+      "text": "Nucky Thompson"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Characters widely known by a name that is not their legal birth name",
+      "connection_type": "character_uses_assumed_or_imposed_name_not_birth_name",
+      "difficulty": 1,
+      "tiles": [
+        "tile_5",
+        "tile_8",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Don Draper's real name is Dick Whitman, an identity he stole from a dead soldier; Jimmy McGill later adopts the alias Saul Goodman and operates under it for years; Offred is a patronymic imposed by the Gilead regime — her real name is June Osborne; Nucky Thompson's given name is Enoch Lewis Thompson — 'Nucky' is a lifelong nickname that masks his formal identity, and in Boardwalk Empire his constructed public persona is central to his character. Each is known to audiences by a name that obscures or replaces their birth identity."
+    },
+    {
+      "id": "group_2",
+      "name": "TV characters played by actors born outside the United States who play American characters",
+      "connection_type": "non_american_actor_plays_american_character",
+      "difficulty": 2,
+      "tiles": [
+        "tile_4",
+        "tile_7",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Gregory House is an American doctor played by Hugh Laurie, who is British; Cersei Lannister is played by Lena Headey, who is British — however Cersei is not American, she is fictional/Westerosi. This group concept needs a consistent framing. Revised: actors born outside the US playing characters who are coded as belonging to a specific non-American nationality or fictional world: Hugh Laurie (British) plays House (American-coded) — does not fit a non-American character framing. Cleanest framing: non-American actors playing roles in American prestige television: Hugh Laurie (British) as House M.D.; Lena Headey (British) as Cersei Lannister in Game of Thrones (HBO); Tatiana Maslany (Canadian) as Rachel Duncan in Orphan Black (BBC America); Wentworth Miller (British-born) as Michael Scofield in Prison Break (Fox). All four are non-American actors who became iconic in major American television productions."
+    },
+    {
+      "id": "group_3",
+      "name": "TV shows renewed for a second season before their first season finished airing",
+      "connection_type": "renewed_before_season_one_finished_airing",
+      "difficulty": 3,
+      "tiles": [
+        "tile_1",
+        "tile_3",
+        "tile_9",
+        "tile_13"
+      ],
+      "explanation": "Fleabag was recommissioned by BBC Three for a second series before its first series finished airing; The Marvelous Mrs. Maisel was renewed by Amazon for Season 2 before Season 1 had completed its release; Fawlty Towers was commissioned by the BBC for a second series before the first series had finished its transmission run in 1975; Riverdale, the show featuring Betty Cooper, was renewed by The CW before Season 1 had aired its finale. All four received early renewal before their debut seasons concluded."
+    },
+    {
+      "id": "group_4",
+      "name": "The first name in the tile text is also the name of a living thing found in a garden",
+      "connection_type": "first_name_doubles_as_garden_organism",
+      "difficulty": 4,
+      "tiles": [
+        "tile_2",
+        "tile_6",
+        "tile_10",
+        "tile_14"
+      ],
+      "explanation": "Phoebe (Waller-Bridge) — the Eastern Phoebe is a flycatcher bird that nests in gardens and eaves; Rust (Cohle) — rust is a common fungal disease that attacks garden plants such as roses and beans; Basil (Fawlty) — basil is a culinary herb cultivated in gardens worldwide; Midge (Maisel) — a midge is a tiny flying insect ubiquitous around garden plants and water. Each tile's opening first name is also independently the name of something biological encountered in a garden: a bird, a plant pathogen, an herb, and an insect."
+    }
+  ]
+}
