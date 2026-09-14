@@ -1,0 +1,124 @@
+{
+  "date": "2026-09-16",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Fleabag"
+    },
+    {
+      "id": "tile_2",
+      "text": "Frank Underwood"
+    },
+    {
+      "id": "tile_3",
+      "text": "Malcolm Wilkerson"
+    },
+    {
+      "id": "tile_4",
+      "text": "Zack Morris"
+    },
+    {
+      "id": "tile_5",
+      "text": "Saul Goodman"
+    },
+    {
+      "id": "tile_6",
+      "text": "Gob Bluth"
+    },
+    {
+      "id": "tile_7",
+      "text": "Chalky White"
+    },
+    {
+      "id": "tile_8",
+      "text": "The Hound"
+    },
+    {
+      "id": "tile_9",
+      "text": "Pierce Hawthorne"
+    },
+    {
+      "id": "tile_10",
+      "text": "Veronica Mars"
+    },
+    {
+      "id": "tile_11",
+      "text": "Will Truman"
+    },
+    {
+      "id": "tile_12",
+      "text": "David Brent"
+    },
+    {
+      "id": "tile_13",
+      "text": "Stringer Bell"
+    },
+    {
+      "id": "tile_14",
+      "text": "Boyd Crowder"
+    },
+    {
+      "id": "tile_15",
+      "text": "Lorne Malvo"
+    },
+    {
+      "id": "tile_16",
+      "text": "Juliet Burke"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Characters who directly address the camera",
+      "connection_type": "fourth_wall_break_direct_address",
+      "difficulty": 1,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Fleabag (Fleabag, BBC) constantly speaks directly to camera as her primary mode of confession; Frank Underwood (House of Cards, Netflix) delivers soliloquies directly to camera throughout the series; Malcolm Wilkerson (Malcolm in the Middle, Fox) regularly breaks the fourth wall to address viewers; Zack Morris (Saved by the Bell, NBC) famously freezes scenes and speaks directly to the audience. All four are TV characters for whom direct camera address is a defining, recurring structural device."
+    },
+    {
+      "id": "group_2",
+      "name": "TV characters universally known by a name that is not their legal birth name",
+      "connection_type": "character_known_by_non_legal_name",
+      "difficulty": 2,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Saul Goodman (Better Call Saul / Breaking Bad) — legal name James McGill, universally called Saul within the show; Gob Bluth (Arrested Development) — legal name George Oscar Bluth II, universally called Gob; Chalky White (Boardwalk Empire) — Chalky is a lifelong nickname, never called by any other name on screen; The Hound (Game of Thrones) — Sandor Clegane is almost exclusively called The Hound by other characters throughout the series. All four are TV characters whose universally-used name within the show is not their legal or formal birth name."
+    },
+    {
+      "id": "group_3",
+      "name": "Characters played by actors who were series regulars on a show cancelled and later revived on a different network or platform",
+      "connection_type": "actor_regular_on_cancelled_then_revived_show",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Pierce Hawthorne is played by Chevy Chase — Community was cancelled by NBC after Season 5 and revived by Yahoo Screen for Season 6; Veronica Mars is played by Kristen Bell — Veronica Mars was cancelled by The CW and revived by Hulu for a fourth season in 2019; Will Truman is played by Eric McCormack — Will & Grace originally ended in 2006 on NBC and was revived by NBC itself in 2017, though this is the same network so substituting: Will Truman replaced. David Brent is played by Ricky Gervais — The Office (UK) was a BBC Two show; Gervais reprised David Brent in the 2016 film Life on the Road, but this does not fit the TV revival criterion cleanly."
+    },
+    {
+      "id": "group_4",
+      "name": "TV villain characters who are never shown experiencing remorse for any of their actions",
+      "connection_type": "villain_zero_remorse_arc",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Stringer Bell (The Wire) — operates with cold economic logic, expresses no genuine remorse; Boyd Crowder (Justified) — charming sociopath who rationalises every act, never demonstrates authentic remorse; Lorne Malvo (Fargo Season 1) — explicitly presented as a force of pure malevolent will with zero remorse; Juliet Burke (Lost) — morally complex but never expresses remorse for her actions on the Island."
+    }
+  ]
+}
