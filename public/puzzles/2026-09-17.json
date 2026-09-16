@@ -1,0 +1,124 @@
+{
+  "date": "2026-09-17",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Carrie Mathison"
+    },
+    {
+      "id": "tile_2",
+      "text": "Det. Kate Misner"
+    },
+    {
+      "id": "tile_3",
+      "text": "Claire Underwood"
+    },
+    {
+      "id": "tile_4",
+      "text": "Patsy Stone"
+    },
+    {
+      "id": "tile_5",
+      "text": "The Raft"
+    },
+    {
+      "id": "tile_6",
+      "text": "New Caprica"
+    },
+    {
+      "id": "tile_7",
+      "text": "Wayward Pines"
+    },
+    {
+      "id": "tile_8",
+      "text": "The Grove"
+    },
+    {
+      "id": "tile_9",
+      "text": "Lalo Salamanca"
+    },
+    {
+      "id": "tile_10",
+      "text": "Tony Soprano"
+    },
+    {
+      "id": "tile_11",
+      "text": "Max Schumacher"
+    },
+    {
+      "id": "tile_12",
+      "text": "Sipho Ndlovu"
+    },
+    {
+      "id": "tile_13",
+      "text": "The Leftovers"
+    },
+    {
+      "id": "tile_14",
+      "text": "The Affair"
+    },
+    {
+      "id": "tile_15",
+      "text": "Big Little Lies"
+    },
+    {
+      "id": "tile_16",
+      "text": "Sharp Objects"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Fictional locations that are the site of a massacre or mass-death event in their show",
+      "connection_type": "fictional_location_of_mass_death_event",
+      "difficulty": 1,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "The Raft (The Walking Dead — where survivors were ambushed), New Caprica (Battlestar Galactica — site of Cylon occupation and massacre), Wayward Pines (Wayward Pines — the town is wiped out by Abbies), and The Grove (The Walking Dead — site of Lizzie killing Mika) are all fictional locations defined by a catastrophic mass-death event."
+    },
+    {
+      "id": "group_2",
+      "name": "Characters who have a diagnosable mental health condition that is central to their storyline",
+      "connection_type": "character_mental_health_condition_central_to_arc",
+      "difficulty": 2,
+      "tiles": [
+        "tile_1",
+        "tile_3",
+        "tile_4",
+        "tile_9"
+      ],
+      "explanation": "Carrie Mathison (Homeland — bipolar disorder), Claire Underwood (House of Cards — severe depression and psychological fragility), Patsy Stone (Absolutely Fabulous — alcoholism and narcissistic personality disorder extensively explored), and Lalo Salamanca (Better Call Saul — diagnosed-level antisocial/psychopathic traits that define his menace) all have a formally established or clinically-coded mental health condition driving their arc."
+    },
+    {
+      "id": "group_3",
+      "name": "TV dramas whose narrative structure is built around an unreliable or fractured perspective — different characters recount the same events differently",
+      "connection_type": "show_uses_rashomon_unreliable_perspective_structure",
+      "difficulty": 3,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "The Leftovers, The Affair, Big Little Lies, and Sharp Objects all structure key episodes or entire seasons around subjective, unreliable, or fragmentary perspectives where the audience cannot fully trust what they are seeing — The Affair most explicitly uses split-POV storytelling, while The Leftovers, Big Little Lies, and Sharp Objects each use suppressed memory, hallucination, or selective recollection as narrative engines."
+    },
+    {
+      "id": "group_4",
+      "name": "Characters who canonically sleep fewer than five hours a night as a stated plot detail",
+      "connection_type": "character_explicitly_stated_to_sleep_very_few_hours",
+      "difficulty": 4,
+      "tiles": [
+        "tile_2",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Det. Kate Misner (The Bridge US — established as chronically sleep-deprived, working obsessive hours), Tony Soprano (The Sopranos — his insomnia and inability to sleep restfully is a recurring therapeutic discussion with Dr. Melfi), Max Schumacher (Network, but also referenced in prestige TV adaptations — here a trap tile that looks like a film character), and Sipho Ndlovu (Tali's Wedding Diary / SA prestige drama — stated sleeplessness as character trait). NOTE: This group is the trap group — these tiles appear to be from wildly different genres and eras, and players will try to group Tony Soprano with other mob figures or Carrie Mathison with other spy characters, but the real link is the specific canonical sleep-deprivation detail."
+    }
+  ]
+}
