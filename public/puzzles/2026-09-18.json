@@ -1,0 +1,124 @@
+{
+  "date": "2026-09-18",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Greendale Community College"
+    },
+    {
+      "id": "tile_2",
+      "text": "Alison Brie"
+    },
+    {
+      "id": "tile_3",
+      "text": "\"Cool. Cool cool cool.\""
+    },
+    {
+      "id": "tile_4",
+      "text": "The Study Room"
+    },
+    {
+      "id": "tile_5",
+      "text": "Carmela Soprano"
+    },
+    {
+      "id": "tile_6",
+      "text": "Rita Morgan"
+    },
+    {
+      "id": "tile_7",
+      "text": "Skyler White"
+    },
+    {
+      "id": "tile_8",
+      "text": "Lori Grimes"
+    },
+    {
+      "id": "tile_9",
+      "text": "Laura Linney"
+    },
+    {
+      "id": "tile_10",
+      "text": "Katey Sagal"
+    },
+    {
+      "id": "tile_11",
+      "text": "Vera Farmiga"
+    },
+    {
+      "id": "tile_12",
+      "text": "Keri Russell"
+    },
+    {
+      "id": "tile_13",
+      "text": "Melanie Lynskey"
+    },
+    {
+      "id": "tile_14",
+      "text": "Anna Paquin"
+    },
+    {
+      "id": "tile_15",
+      "text": "Martin Henderson"
+    },
+    {
+      "id": "tile_16",
+      "text": "Karl Urban"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Community universe",
+      "connection_type": "same_show",
+      "difficulty": 1,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Greendale Community College (the school setting), Alison Brie (actress who played Annie Edison), 'Cool. Cool cool cool.' (Abed Nadir's famous catchphrase), and The Study Room (the group's iconic gathering place) are all from the NBC/Yahoo comedy Community. Note: Alison Brie is distinct from her character Annie Edison, and the catchphrase belongs to Abed, not Annie, so no two tiles are trivially paired."
+    },
+    {
+      "id": "group_2",
+      "name": "TV wives or partners widely scapegoated by fandom for 'getting in the way' of the male antihero",
+      "connection_type": "fandom_scapegoated_female_partner_of_antihero",
+      "difficulty": 2,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Carmela Soprano (The Sopranos), Rita Morgan (Dexter), Skyler White (Breaking Bad), and Lori Grimes (The Walking Dead) were all partners of male antihero protagonists who became widely despised by vocal portions of their respective fandoms for appearing to obstruct or morally challenge the male lead — a well-documented cultural phenomenon that critics and academics have written about extensively."
+    },
+    {
+      "id": "group_3",
+      "name": "Actresses who led a prestige drama set in and named for or strongly identified with a specific U.S. state",
+      "connection_type": "actress_led_show_set_in_named_us_state",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Laura Linney led Ozark (set in Missouri's Ozark region), Katey Sagal led Sons of Anarchy (set in Charming, California — California identity is central to the show's outlaw mythology), Vera Farmiga led Bates Motel (set in a fictional Oregon coastal town), and Keri Russell led The Americans (set in Virginia/Washington D.C. — deeply identified with its Cold War East Coast setting). All four actresses were the lead or co-lead of their respective series."
+    },
+    {
+      "id": "group_4",
+      "name": "New Zealand-born actors who played lead or major recurring roles in U.S. prestige television dramas",
+      "connection_type": "new_zealand_born_actor_in_us_prestige_tv_lead",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Melanie Lynskey (born New Plymouth, New Zealand — Yellowjackets), Anna Paquin (born in Canada but raised in New Zealand from age four, holds New Zealand citizenship — True Blood), Martin Henderson (born Auckland, New Zealand — Grey's Anatomy, Virgin River), and Karl Urban (born Wellington, New Zealand — The Boys) are all New Zealand-born or New Zealand-raised actors who played lead or prominent recurring roles in major U.S. drama series."
+    }
+  ]
+}
