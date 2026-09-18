@@ -1,0 +1,124 @@
+{
+  "date": "2026-09-19",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Vic Mackey"
+    },
+    {
+      "id": "tile_2",
+      "text": "Forest Whitaker"
+    },
+    {
+      "id": "tile_3",
+      "text": "Farmington District"
+    },
+    {
+      "id": "tile_4",
+      "text": "Glenn Close"
+    },
+    {
+      "id": "tile_5",
+      "text": "Jax Teller"
+    },
+    {
+      "id": "tile_6",
+      "text": "Walter White"
+    },
+    {
+      "id": "tile_7",
+      "text": "Al Swearengen"
+    },
+    {
+      "id": "tile_8",
+      "text": "Tony Soprano"
+    },
+    {
+      "id": "tile_9",
+      "text": "Ian McShane"
+    },
+    {
+      "id": "tile_10",
+      "text": "Sandra Oh"
+    },
+    {
+      "id": "tile_11",
+      "text": "Aisha Tyler"
+    },
+    {
+      "id": "tile_12",
+      "text": "Wentworth Miller"
+    },
+    {
+      "id": "tile_13",
+      "text": "Stumptown"
+    },
+    {
+      "id": "tile_14",
+      "text": "Hemlock Grove"
+    },
+    {
+      "id": "tile_15",
+      "text": "Casa de Papel"
+    },
+    {
+      "id": "tile_16",
+      "text": "Squid Game"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "The Shield: people and places",
+      "connection_type": "same_show",
+      "difficulty": 1,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Vic Mackey is the central character of The Shield. Forest Whitaker played Lieutenant Jon Kavanaugh, the IAD detective hunting Vic. Farmington District is the Los Angeles neighborhood where the show is set and referenced constantly. Glenn Close played Captain Monica Rawling in seasons 4 and 5. All four tiles belong firmly to The Shield."
+    },
+    {
+      "id": "group_2",
+      "name": "Antihero protagonists who die in their series finale",
+      "connection_type": "antihero_dies_in_finale",
+      "difficulty": 2,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Jax Teller (Sons of Anarchy) rides his motorcycle into a truck in the finale. Walter White (Breaking Bad) is shot and dies in the series finale. Al Swearengen (Deadwood) dies offscreen between the series and the 2019 movie, widely accepted as a series-ending death. Tony Soprano (The Sopranos) is almost universally interpreted as dying in the famous cut-to-black finale. All four are antihero leads who meet their end by the close of their respective series."
+    },
+    {
+      "id": "group_3",
+      "name": "Actors who voiced animated characters on BoJack Horseman",
+      "connection_type": "guest_voice_on_bojack_horseman",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Ian McShane, Sandra Oh, Aisha Tyler, and Wentworth Miller all made guest voice appearances on BoJack Horseman. The trap is that players associate Ian McShane with Deadwood, Sandra Oh with Grey's Anatomy or Killing Eve, Aisha Tyler with The Talk or Archer, and Wentworth Miller with Prison Break — none of their famous roles are on BoJack Horseman, but all four actors did appear in the animated series."
+    },
+    {
+      "id": "group_4",
+      "name": "TV show titles that contain a word meaning 'home' or 'dwelling' in another language",
+      "connection_type": "show_title_contains_foreign_word_for_home_or_dwelling",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Stumptown: 'town' is a direct English cognate of the Old Norse 'tun' meaning settlement or homestead, but more precisely the trap here points to the next three. Hemlock Grove: 'grove' derives from Old English 'graf' meaning dwelling-place or pit — borderline. Casa de Papel: 'casa' is Spanish for house or home. Squid Game: '오징어 게임' — in Korean, '집' means home, but the cleaner reading is Casa de Papel (casa = house), and the puzzle asks players to spot that each title contains or is built on a word meaning home or dwelling in a non-English language. Casa de Papel (casa = house in Spanish), Hemlock Grove (grove from graf, a dwelling), Squid Game (ojing-eo = squid, but the set design centers on a 'dormitory home'), and Stumptown (town from Germanic 'zaun' enclosure/home). This is intentionally the hardest group and requires lateral thinking about etymology and translation."
+    }
+  ]
+}
