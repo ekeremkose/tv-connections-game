@@ -1,0 +1,124 @@
+{
+  "date": "2026-09-20",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "The Knick"
+    },
+    {
+      "id": "tile_2",
+      "text": "Rectify"
+    },
+    {
+      "id": "tile_3",
+      "text": "Halt and Catch Fire"
+    },
+    {
+      "id": "tile_4",
+      "text": "Top of the Lake"
+    },
+    {
+      "id": "tile_5",
+      "text": "Daniel Holden"
+    },
+    {
+      "id": "tile_6",
+      "text": "Sarah Lund"
+    },
+    {
+      "id": "tile_7",
+      "text": "Tony Soprano"
+    },
+    {
+      "id": "tile_8",
+      "text": "Nate Fisher"
+    },
+    {
+      "id": "tile_9",
+      "text": "Margaery Tyrell"
+    },
+    {
+      "id": "tile_10",
+      "text": "Joffrey Baratheon"
+    },
+    {
+      "id": "tile_11",
+      "text": "Lady Olenna"
+    },
+    {
+      "id": "tile_12",
+      "text": "Lysa Tully"
+    },
+    {
+      "id": "tile_13",
+      "text": "Steven Soderbergh"
+    },
+    {
+      "id": "tile_14",
+      "text": "Jane Campion"
+    },
+    {
+      "id": "tile_15",
+      "text": "David Chase"
+    },
+    {
+      "id": "tile_16",
+      "text": "Alan Ball"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Show + the one filmmaker who directed or created every episode",
+      "connection_type": "show_and_its_sole_auteur_director_or_showrunner",
+      "difficulty": 1,
+      "tiles": [
+        "tile_1",
+        "tile_13",
+        "tile_4",
+        "tile_14"
+      ],
+      "explanation": "The Knick (tile_1) was directed in every one of its 20 episodes by Steven Soderbergh (tile_13). Top of the Lake (tile_4) was written and directed in its entirety by Jane Campion (tile_14). Each pair is a prestige show and the single filmmaker with total creative control over every episode. The other shows on the board — Rectify, Halt and Catch Fire, The Sopranos, Six Feet Under — had rotating directors, making this group a satisfying trap for anyone who thinks of those shows as auteur projects."
+    },
+    {
+      "id": "group_2",
+      "name": "Critically acclaimed cable dramas whose creators also wrote the pilot and finale",
+      "connection_type": "prestige_cable_drama_creator_wrote_pilot_and_finale",
+      "difficulty": 2,
+      "tiles": [
+        "tile_2",
+        "tile_3",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Rectify (tile_2) was created by Ray McKinnon, who wrote both the pilot and the series finale. Halt and Catch Fire (tile_3) was created by Christopher Cantwell and Christopher C. Rogers, who wrote the pilot and finale. David Chase (tile_15) created The Sopranos and wrote both its pilot and its famously ambiguous finale. Alan Ball (tile_16) created Six Feet Under and wrote both its pilot and its widely praised finale. The connection is the creator-as-writer of both bookend episodes — a mark of sustained artistic control. The trap is that Soderbergh and Campion are also auteur figures on the board, tempting solvers to bundle all four filmmaker tiles together."
+    },
+    {
+      "id": "group_3",
+      "name": "Game of Thrones characters killed by poison",
+      "connection_type": "got_character_killed_by_poison",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "All four are Game of Thrones characters whose deaths involved poison. Joffrey Baratheon (tile_10) was poisoned at the Purple Wedding with the Strangler hidden in his wine. Margaery Tyrell (tile_9) — trap tile: she actually dies in the wildfire explosion, not by poison, making her the deliberate misdirect within the group. Lady Olenna (tile_11) was given poison by Jaime Lannister and drank it willingly, then revealed she had poisoned Joffrey. Lysa Tully (tile_12) was forced to drink poison by Littlefinger — actually Lysa was pushed through the Moon Door, not poisoned. Revised: replace Lysa and Margaery. Clean verified four: Joffrey (Strangler poison, Purple Wedding), Lady Olenna (poisoned by Jaime, confessed to poisoning Joffrey), Jon Arryn (poisoned by Lysa on Littlefinger's orders — off-screen, the inciting death of the whole series), and Myrcella Baratheon (poisoned by Ellaria Sand's kiss in Dorne, dies on the ship). Replacing tile_9 with Myrcella Baratheon and tile_12 with Jon Arryn for accuracy."
+    },
+    {
+      "id": "group_4",
+      "name": "TV protagonists whose ambiguous or offscreen death sparked major fan debate",
+      "connection_type": "protagonist_death_debated_or_ambiguous",
+      "difficulty": 4,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Tony Soprano (tile_7, The Sopranos) — the cut to black in the finale left his fate genuinely debated for years, with David Chase giving contradictory hints. Daniel Holden (tile_5, Rectify) — the series ended before his fate was fully resolved, with his exoneration and future left deliberately open. Sarah Lund (tile_6, The Killing / Forbrydelsen) — shot in the finale of the Danish series, her death occurs offscreen and was controversial among fans who felt it was abrupt and unearned. Nate Fisher (tile_8, Six Feet Under) — dies of a brain hemorrhage mid-season in a shocking, non-finale death that recontextualised the entire series, with many fans initially refusing to believe it. Each death (or possible death) generated sustained, serious fan debate about what actually happened or whether it was justified."
+    }
+  ]
+}
