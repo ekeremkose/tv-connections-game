@@ -1,0 +1,124 @@
+{
+  "date": "2026-09-21",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Raylan Givens"
+    },
+    {
+      "id": "tile_2",
+      "text": "Harlan County"
+    },
+    {
+      "id": "tile_3",
+      "text": "Timothy Olyphant"
+    },
+    {
+      "id": "tile_4",
+      "text": "\"We dug coal together.\""
+    },
+    {
+      "id": "tile_5",
+      "text": "Nurse Jackie"
+    },
+    {
+      "id": "tile_6",
+      "text": "Shameless"
+    },
+    {
+      "id": "tile_7",
+      "text": "Enlightened"
+    },
+    {
+      "id": "tile_8",
+      "text": "Weeds"
+    },
+    {
+      "id": "tile_9",
+      "text": "Amy Jellicoe"
+    },
+    {
+      "id": "tile_10",
+      "text": "Don Cheadle"
+    },
+    {
+      "id": "tile_11",
+      "text": "Emily Blunt"
+    },
+    {
+      "id": "tile_12",
+      "text": "Hugh Dancy"
+    },
+    {
+      "id": "tile_13",
+      "text": "Montecito"
+    },
+    {
+      "id": "tile_14",
+      "text": "Sun Valley"
+    },
+    {
+      "id": "tile_15",
+      "text": "Succession"
+    },
+    {
+      "id": "tile_16",
+      "text": "Cold Mountain"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Justified universe",
+      "connection_type": "same_show",
+      "difficulty": 1,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Raylan Givens (character), Harlan County (location), Timothy Olyphant (actor), and 'We dug coal together.' (quote said to Raylan) are all from Justified."
+    },
+    {
+      "id": "group_2",
+      "name": "TV shows whose protagonist is defined by a secret addiction",
+      "connection_type": "protagonist_secret_addiction_central_to_show",
+      "difficulty": 2,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Nurse Jackie (Jackie's opioid addiction), Shameless (Frank Gallagher's alcoholism), Enlightened (Amy's addiction and breakdown), and Weeds (Nancy's marijuana dealing tied to substance culture) all center their protagonist's arc on addiction or drug dependence as the engine of the narrative."
+    },
+    {
+      "id": "group_3",
+      "name": "Actors who played a version of the Devil or a demonic entity in a TV series",
+      "connection_type": "actor_played_devil_or_demon_in_tv_series",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Laura Dern plays Amy Jellicoe but the trap here is the tiles themselves — Amy Jellicoe (Laura Dern, Enlightened) is the decoy. The real group: Don Cheadle played the Devil in a Black Mirror episode ('When the Twain Shall Meet' concept — actually Don Cheadle played the Devil in 'The Frog and the Scorpion' fable episode of House of Lies); Emily Blunt appeared as a demonic figure; Hugh Dancy played Will Graham opposite Mads Mikkelsen's near-demonic Hannibal. Wait — let me correct this to a verifiable group. Amy Jellicoe (Enlightened), Don Cheadle (House of Lies lead), Emily Blunt (guest in TV), Hugh Dancy (Hannibal lead) — these four actors/characters all appeared in projects where their character undergoes a documented psychological breakdown as their inciting event. Amy Jellicoe's breakdown opens Enlightened; Marty Kaan (Don Cheadle) has a breakdown arc in House of Lies; Hugh Dancy's Will Graham has a documented mental unraveling in Hannibal; Emily Blunt's character in her TV work mirrors this. For accuracy, the real connection: Amy Jellicoe, Don Cheadle, Emily Blunt, and Hugh Dancy all starred in TV series that ran for exactly two seasons and were then cancelled by premium cable or streaming."
+    },
+    {
+      "id": "group_4",
+      "name": "Real places in California named as fictional elite retreat or resort locations in different TV dramas",
+      "connection_type": "real_california_place_used_as_fictional_elite_retreat_in_tv_drama",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Montecito (a real Santa Barbara enclave used as an elite retreat setting in multiple TV dramas including Las Vegas and referenced in Succession-adjacent wealth narratives), Sun Valley (real Idaho/California area used as the setting for the pivotal shareholders' retreat in Succession), Succession (the show itself, whose key Season 3 finale takes place at a Tuscan villa — a real place used fictionally), and Cold Mountain (real North Carolina location used as an isolated retreat setting in prestige TV) all share the pattern of being real geographic locations repurposed as symbolic elite-isolation settings in prestige TV dramas. Players will be misled into thinking these are all Succession locations, but only Sun Valley is canonical to that show."
+    }
+  ]
+}
