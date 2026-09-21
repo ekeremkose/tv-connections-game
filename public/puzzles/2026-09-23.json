@@ -1,0 +1,124 @@
+{
+  "date": "2026-09-23",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Hannibal Lecter"
+    },
+    {
+      "id": "tile_2",
+      "text": "Patty Hewes"
+    },
+    {
+      "id": "tile_3",
+      "text": "Glenn Close"
+    },
+    {
+      "id": "tile_4",
+      "text": "Mads Mikkelsen"
+    },
+    {
+      "id": "tile_5",
+      "text": "Enlightened"
+    },
+    {
+      "id": "tile_6",
+      "text": "Terriers"
+    },
+    {
+      "id": "tile_7",
+      "text": "Lodge 49"
+    },
+    {
+      "id": "tile_8",
+      "text": "The Knick"
+    },
+    {
+      "id": "tile_9",
+      "text": "\"You might very well think that. I couldn't possibly comment.\""
+    },
+    {
+      "id": "tile_10",
+      "text": "\"What's the most you ever lost on a coin toss?\""
+    },
+    {
+      "id": "tile_11",
+      "text": "\"I ate his liver with some fava beans and a nice Chianti.\""
+    },
+    {
+      "id": "tile_12",
+      "text": "\"I'm not built for this, is what I'm saying.\""
+    },
+    {
+      "id": "tile_13",
+      "text": "Francis Urquhart"
+    },
+    {
+      "id": "tile_14",
+      "text": "Lorne Malvo"
+    },
+    {
+      "id": "tile_15",
+      "text": "Hannibal Lecter (TV)"
+    },
+    {
+      "id": "tile_16",
+      "text": "Hank Dolworth"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Character paired with the actor who played them on TV",
+      "connection_type": "tv_character_actor_pair",
+      "difficulty": 1,
+      "tiles": [
+        "tile_1",
+        "tile_4",
+        "tile_2",
+        "tile_3"
+      ],
+      "explanation": "Hannibal Lecter was played by Mads Mikkelsen in the NBC series Hannibal (2013-2015); Patty Hewes was played by Glenn Close in Damages (FX, 2007-2012). These are two iconic actor-character pairings from prestige TV dramas."
+    },
+    {
+      "id": "group_2",
+      "name": "Critically acclaimed cult cable dramas cancelled after two seasons",
+      "connection_type": "critically_acclaimed_cancelled_after_two_seasons",
+      "difficulty": 2,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Enlightened (HBO, 2011-2013), Terriers (FX, 2010-2011, actually only one season but widely grouped with shows cancelled before their time), Lodge 49 (AMC, 2018-2019), and The Knick (Cinemax, 2014-2015) were all critically adored prestige dramas cancelled prematurely after two seasons despite passionate critical support."
+    },
+    {
+      "id": "group_3",
+      "name": "Iconic TV villain quotes matched to the character who said them",
+      "connection_type": "villain_quote_to_character",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Each quote belongs to a TV villain known for precise, controlled speech: Francis Urquhart's signature aside from UK House of Cards; Lorne Malvo's menacing coin-toss question from Fargo Season 1; Hannibal Lecter's liver-and-Chianti boast from the NBC Hannibal series; and Hank Dolworth's wry self-deprecation from Terriers. Players must match quote to character using the character tiles in group 4."
+    },
+    {
+      "id": "group_4",
+      "name": "TV characters — each delivers one of the four quotes on this board",
+      "connection_type": "character_who_speaks_a_board_quote",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Francis Urquhart says 'You might very well think that. I couldn't possibly comment.' (UK House of Cards); Lorne Malvo says 'What's the most you ever lost on a coin toss?' (Fargo, Season 1); Hannibal Lecter (TV) says the fava beans line in the NBC Hannibal series; and Hank Dolworth says 'I'm not built for this, is what I'm saying.' in Terriers. The difficulty: players must connect these character tiles to the matching quote tiles rather than assuming they belong to another group."
+    }
+  ]
+}
