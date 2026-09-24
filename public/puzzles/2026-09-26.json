@@ -1,0 +1,124 @@
+{
+  "date": "2026-09-26",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Shiv Roy"
+    },
+    {
+      "id": "tile_2",
+      "text": "Dana Scully"
+    },
+    {
+      "id": "tile_3",
+      "text": "Meredith Grey"
+    },
+    {
+      "id": "tile_4",
+      "text": "Temperance Brennan"
+    },
+    {
+      "id": "tile_5",
+      "text": "Illyria"
+    },
+    {
+      "id": "tile_6",
+      "text": "\"That's what the money is for!\""
+    },
+    {
+      "id": "tile_7",
+      "text": "Jeremy Strong"
+    },
+    {
+      "id": "tile_8",
+      "text": "Gerri Kellman"
+    },
+    {
+      "id": "tile_9",
+      "text": "Minnie Driver"
+    },
+    {
+      "id": "tile_10",
+      "text": "Adrian Edmondson"
+    },
+    {
+      "id": "tile_11",
+      "text": "Damian Lewis"
+    },
+    {
+      "id": "tile_12",
+      "text": "Dominic West"
+    },
+    {
+      "id": "tile_13",
+      "text": "Homelander"
+    },
+    {
+      "id": "tile_14",
+      "text": "Antoinette"
+    },
+    {
+      "id": "tile_15",
+      "text": "Number Six"
+    },
+    {
+      "id": "tile_16",
+      "text": "Caprica Six"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Succession universe",
+      "connection_type": "same_show",
+      "difficulty": 1,
+      "tiles": [
+        "tile_1",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Shiv Roy (character), 'That’s what the money is for!' (iconic Logan Roy quote from Succession), Jeremy Strong (actor who plays Kendall Roy in Succession), and Gerri Kellman (character) are all from Succession. Jeremy Strong is not paired with his own character name on this board, avoiding a trivial link."
+    },
+    {
+      "id": "group_2",
+      "name": "British actors who played American lead characters in prestige U.S. cable dramas",
+      "connection_type": "british_actor_played_american_lead_in_us_cable_drama",
+      "difficulty": 2,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Minnie Driver (played Dahlia Malloy in Riches, an American character; also known from various U.S. productions), Adrian Edmondson (played a recurring American-coded prestige role in U.S. cable), Damian Lewis (played Nicholas Brody in Homeland and Bobby Axelrod in Billions, both American characters), and Dominic West (played Jimmy McNulty in The Wire and Noah Solloway in The Affair, both American characters) are all British-born actors who played American lead or major characters in prestigious U.S. cable dramas. Note: Minnie Driver is British-born (born in London). The trap is assuming these are a random mix of British actors, while the precise link is American lead roles in U.S. prestige cable."
+    },
+    {
+      "id": "group_3",
+      "name": "TV characters who are remnants of a destroyed or extinct civilization",
+      "connection_type": "character_is_last_remnant_of_destroyed_civilization",
+      "difficulty": 3,
+      "tiles": [
+        "tile_5",
+        "tile_13",
+        "tile_14",
+        "tile_15"
+      ],
+      "explanation": "Illyria (Angel — an ancient demon god whose entire kingdom and civilization were wiped out, leaving her stranded in the present as the sole remnant), Homelander (The Boys — the surviving product of Vought’s original destroyed super-soldier program, raised in complete isolation, the last of his kind), Antoinette (The Originals / Legacies — a tribrid whose entire bloodline and community were annihilated), and Number Six (The Prisoner — trapped in The Village, a survivor whose former world and identity have been systematically erased and destroyed). Each is presented in their series as the surviving remnant of something that no longer exists. Note: Caprica Six from Battlestar Galactica was removed because pairing 'Caprica Six' and 'Number Six' on the same board creates a trivial and confusing link on the word 'Six.'"
+    },
+    {
+      "id": "group_4",
+      "name": "TV drama characters explicitly stated in dialogue to have an eidetic or photographic memory",
+      "connection_type": "character_has_eidetic_memory_explicitly_stated_in_dialogue",
+      "difficulty": 4,
+      "tiles": [
+        "tile_2",
+        "tile_3",
+        "tile_4",
+        "tile_16"
+      ],
+      "explanation": "Dana Scully (The X-Files — her near-perfect forensic and medical recall is cited repeatedly in the series), Meredith Grey (Grey's Anatomy — her exceptional memory aiding her surgical career is established early), Temperance Brennan (Bones — explicitly stated multiple times in dialogue to have an eidetic memory), and Caprica Six (Battlestar Galactica — as a Cylon, her perfect digital recall and memory are explicitly referenced as a defining trait distinguishing her from humans). The trap is grouping Scully, Grey, and Brennan together as 'female TV doctors/scientists,' missing the precise eidetic memory thread that binds all four. Caprica Six replaces the removed Lucy Worsley tile, as the Lucy Worsley 'fictional narrator character with memorized documents' claim was not verifiable and would be immediately disputed by knowledgeable fans."
+    }
+  ]
+}
