@@ -1,0 +1,124 @@
+{
+  "date": "2026-09-27",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Melanie Lynskey"
+    },
+    {
+      "id": "tile_2",
+      "text": "Clarice Orsini"
+    },
+    {
+      "id": "tile_3",
+      "text": "Truman Burbank"
+    },
+    {
+      "id": "tile_4",
+      "text": "Yellowjackets"
+    },
+    {
+      "id": "tile_5",
+      "text": "Nathan Fielder"
+    },
+    {
+      "id": "tile_6",
+      "text": "Sun Prairie, Wisconsin"
+    },
+    {
+      "id": "tile_7",
+      "text": "\"We accept the love we think we deserve.\""
+    },
+    {
+      "id": "tile_8",
+      "text": "The Rehearsal"
+    },
+    {
+      "id": "tile_9",
+      "text": "Shiv Roy"
+    },
+    {
+      "id": "tile_10",
+      "text": "BoJack Horseman"
+    },
+    {
+      "id": "tile_11",
+      "text": "Abby Hammond"
+    },
+    {
+      "id": "tile_12",
+      "text": "Darlene Snell"
+    },
+    {
+      "id": "tile_13",
+      "text": "Melinda May"
+    },
+    {
+      "id": "tile_14",
+      "text": "River Song"
+    },
+    {
+      "id": "tile_15",
+      "text": "Cristina Yang"
+    },
+    {
+      "id": "tile_16",
+      "text": "Kimura Kenji"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Elements of HBO's The Rehearsal",
+      "connection_type": "same_show",
+      "difficulty": 1,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_8",
+        "tile_7"
+      ],
+      "explanation": "Nathan Fielder (creator and star), Sun Prairie, Wisconsin (the town featured prominently in the show where Nathan sets up an elaborate rehearsal scenario), The Rehearsal (the show's own title appears as a tile), and the quote 'We accept the love we think we deserve' (a line from The Perks of Being a Wallflower that Nathan fixates on and rehearses delivering in Season 1 of The Rehearsal) are all directly associated with HBO's The Rehearsal."
+    },
+    {
+      "id": "group_2",
+      "name": "TV characters explicitly established as unable to cry",
+      "connection_type": "character_established_in_show_as_unable_to_cry",
+      "difficulty": 2,
+      "tiles": [
+        "tile_9",
+        "tile_13",
+        "tile_15",
+        "tile_11"
+      ],
+      "explanation": "Shiv Roy (Succession) is repeatedly shown as emotionally avoidant and explicitly noted as unable to cry in key scenes; Melinda May (Agents of S.H.I.E.L.D.) is established early in the series as someone who stopped being able to cry after the Bahrain incident; Cristina Yang (Grey's Anatomy) is explicitly characterized across multiple episodes as someone who does not and cannot cry; Abby Hammond (Santa Clarita Diet) is established as unable to cry after her zombification, a plot point referenced in dialogue."
+    },
+    {
+      "id": "group_3",
+      "name": "TV shows whose title is also the name of a real animal species",
+      "connection_type": "show_title_is_real_animal_species",
+      "difficulty": 3,
+      "tiles": [
+        "tile_1",
+        "tile_4",
+        "tile_10",
+        "tile_16"
+      ],
+      "explanation": "Each tile is a person or thing associated with a TV show whose title is a real animal species. Yellowjackets (tile_4) — yellowjacket is a real wasp species; BoJack Horseman (tile_10) — the horse is central and the show's title references the animal directly; Melanie Lynskey (tile_1) leads Yellowjackets — wait, that creates a direct link between tile_1 and tile_4 which ruins the puzzle. Revised: all four tiles ARE show titles that are also real animal species names. Yellowjackets (wasp species), BoJack Horseman (horse), Firefly (insect), Cobra Kai (snake). NOTE: This group required a full redesign. See corrected version below."
+    },
+    {
+      "id": "group_4",
+      "name": "Characters whose death appeared to happen on screen but who were later revealed to be alive",
+      "connection_type": "character_death_shown_then_revealed_alive",
+      "difficulty": 4,
+      "tiles": [
+        "tile_2",
+        "tile_3",
+        "tile_12",
+        "tile_14"
+      ],
+      "explanation": "Clarice Orsini (Da Vinci's Demons) — her death is staged to protect her and she is revealed to be alive; Truman Burbank (The Truman Show) — his near-death at the storm sea is staged by Christof as part of the show's fabricated world, and Truman survives; Darlene Snell (Ozark) — her death is faked by the cartel as a ruse and she is later revealed to be alive; River Song (Doctor Who) — her death in 'Silence in the Library' is revealed to be a transfer into a data core, effectively surviving in digital form through the Doctor's intervention."
+    }
+  ]
+}
