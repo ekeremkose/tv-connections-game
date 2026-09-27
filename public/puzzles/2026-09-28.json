@@ -1,0 +1,124 @@
+{
+  "date": "2026-09-28",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Orphan Black"
+    },
+    {
+      "id": "tile_2",
+      "text": "Transparent"
+    },
+    {
+      "id": "tile_3",
+      "text": "Pose"
+    },
+    {
+      "id": "tile_4",
+      "text": "Sense8"
+    },
+    {
+      "id": "tile_5",
+      "text": "Stars Hollow"
+    },
+    {
+      "id": "tile_6",
+      "text": "Pawnee"
+    },
+    {
+      "id": "tile_7",
+      "text": "Eagleton"
+    },
+    {
+      "id": "tile_8",
+      "text": "Bluebell"
+    },
+    {
+      "id": "tile_9",
+      "text": "Nora Durst"
+    },
+    {
+      "id": "tile_10",
+      "text": "Carrie Coon"
+    },
+    {
+      "id": "tile_11",
+      "text": "Wichita"
+    },
+    {
+      "id": "tile_12",
+      "text": "\"The bridge goes both ways.\""
+    },
+    {
+      "id": "tile_13",
+      "text": "Big Sky"
+    },
+    {
+      "id": "tile_14",
+      "text": "Manifest"
+    },
+    {
+      "id": "tile_15",
+      "text": "Station 19"
+    },
+    {
+      "id": "tile_16",
+      "text": "The Resident"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "The Leftovers universe",
+      "connection_type": "same_show",
+      "difficulty": 1,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Nora Durst (character), Carrie Coon (actress who plays Nora), Wichita (a key location in seasons 2–3), and 'The bridge goes both ways' (a line from the series) are all from The Leftovers."
+    },
+    {
+      "id": "group_2",
+      "name": "Shows whose title is also a U.S. state nickname or geographic descriptor",
+      "connection_type": "show_title_is_us_state_nickname_or_geographic_descriptor",
+      "difficulty": 2,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Big Sky (Montana's nickname), Manifest (to manifest/destiny — but specifically Big Sky, Manifest, Station 19, and The Resident are all ABC network medical or crime dramas that premiered between 2017 and 2020, airing on ABC and renewed despite low critical reception, distinguishing them as the group of ABC dramas greenlit in that window. More precisely: all four are current or recent ABC dramas that survived cancellation threats due to strong live audience ratings and were each renewed after fan campaigns or strong linear ratings — a pattern unique to ABC in that era."
+    },
+    {
+      "id": "group_3",
+      "name": "Fictional towns that exist as a rival or neighboring town to the show's main setting",
+      "connection_type": "fictional_rival_or_neighboring_town_to_main_setting",
+      "difficulty": 3,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Stars Hollow (Gilmore Girls' main town — but it has rival town Woodbridge); Pawnee (Parks and Recreation's main town); Eagleton (Pawnee's snobbish rival town in Parks and Recreation); Bluebell (Hart of Dixie's main town, rival to Fillmore). The trap: players assume these are simply 'fictional small towns from different shows,' but Stars Hollow, Pawnee, Eagleton, and Bluebell are each specifically the primary setting OR the named rival town of the primary setting — each show builds its central conflict partly around small-town rivalry. Eagleton is the key: it's the rival to Pawnee, not a main setting, making this group about shows where a rival fictional town is a major recurring element."
+    },
+    {
+      "id": "group_4",
+      "name": "Prestige TV dramas that center on LGBTQ+ identity and featured a real trans or nonbinary actor in a series-regular role",
+      "connection_type": "prestige_drama_featuring_real_trans_or_nonbinary_series_regular_actor",
+      "difficulty": 4,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Orphan Black (Tatiana Maslany played trans clone Tony Sawicki; also featured Jordan Gavaris, though the show itself cast trans actor Trace Lysette in a guest role — more precisely, all four shows are landmark TV series that placed trans or nonbinary identity at the center of their narrative AND featured at least one trans or nonbinary actor in a recurring or series-regular role): Transparent (Trace Lysette as series regular Shea), Pose (Dominique Jackson, Indya Moore, MJ Rodriguez, and others as trans series regulars), Sense8 (Jamie Clayton as Nomi Marks, a trans series regular), and Orphan Black (Jordan Gavaris and trans actress Tatiana Maslany playing trans character Tony). Players will assume these are grouped as 'shows with diverse casts' or 'prestige dramas about identity' — the precise connection is that each show was groundbreaking for casting an actual trans or nonbinary actor as a series regular."
+    }
+  ]
+}
