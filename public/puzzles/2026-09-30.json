@@ -1,0 +1,124 @@
+{
+  "date": "2026-09-30",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Capeside"
+    },
+    {
+      "id": "tile_2",
+      "text": "Port Charles"
+    },
+    {
+      "id": "tile_3",
+      "text": "Rosewood"
+    },
+    {
+      "id": "tile_4",
+      "text": "Tree Hill"
+    },
+    {
+      "id": "tile_5",
+      "text": "Denny Duquette"
+    },
+    {
+      "id": "tile_6",
+      "text": "Maude Flanders"
+    },
+    {
+      "id": "tile_7",
+      "text": "Paul Hennessy"
+    },
+    {
+      "id": "tile_8",
+      "text": "Mrs. Landingham"
+    },
+    {
+      "id": "tile_9",
+      "text": "Jim Caviezel"
+    },
+    {
+      "id": "tile_10",
+      "text": "Michael Emerson"
+    },
+    {
+      "id": "tile_11",
+      "text": "John Reese"
+    },
+    {
+      "id": "tile_12",
+      "text": "\"You are being watched.\""
+    },
+    {
+      "id": "tile_13",
+      "text": "Annalise Keating"
+    },
+    {
+      "id": "tile_14",
+      "text": "Beth Dutton"
+    },
+    {
+      "id": "tile_15",
+      "text": "Brenda Lee Johnson"
+    },
+    {
+      "id": "tile_16",
+      "text": "Robin Griffin"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Person of Interest universe",
+      "connection_type": "same_show",
+      "difficulty": 1,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Jim Caviezel (actor who plays John Reese), Michael Emerson (actor who plays Harold Finch), John Reese (lead character), and 'You are being watched' (the show's opening monologue) are all from Person of Interest. Harold Finch was removed from this group because having both actors and one of the two lead characters created a trivial actor-to-character link between Michael Emerson and Harold Finch; swapping in John Reese instead still anchors the group in the show while spreading the recognizable touchstones more evenly."
+    },
+    {
+      "id": "group_2",
+      "name": "Fictional TV towns defined by a significant body of water central to the plot",
+      "connection_type": "fictional_tv_town_defined_by_water_setting",
+      "difficulty": 2,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Capeside (Dawson's Creek — a creek and harbor town), Port Charles (General Hospital — a port city on a river), Rosewood (Pretty Little Liars — bordered by a lake where Alison's body was found), and Tree Hill (One Tree Hill — defined by the river and waterfront) are all fictional drama settings whose central geography is tied to a significant body of water that anchors major plot events."
+    },
+    {
+      "id": "group_3",
+      "name": "TV characters killed off because the actor left or died unexpectedly",
+      "connection_type": "character_killed_off_due_to_real_life_actor_departure_or_death",
+      "difficulty": 3,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Denny Duquette (Grey's Anatomy — Jeffrey Dean Morgan departed for other projects), Maude Flanders (The Simpsons — voice actress Maggie Roswell left over a pay dispute with Fox), Paul Hennessy (8 Simple Rules — John Ritter died suddenly in 2003 and the character's death was written in to address his real-life passing), and Mrs. Landingham (The West Wing — Kathryn Joosten was not leaving but the showrunner Aaron Sorkin killed the character off to fuel a major story arc after the actress accepted the role; however this tile is replaced below). NOTE TO SELF: Mrs. Landingham is a stronger and cleaner replacement for Eddard Stark, whose death was always narratively planned and not driven by Sean Bean's departure — making that tile factually disputed. Mrs. Landingham was killed off-screen between seasons specifically to serve the story after Joosten's limited availability, making her a genuine fit. Eddard Stark is removed."
+    },
+    {
+      "id": "group_4",
+      "name": "Female TV lead characters consistently referred to by all three of their names",
+      "connection_type": "female_tv_protagonist_known_by_full_triple_name",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Annalise Keating (How to Get Away with Murder), Beth Dutton (Yellowstone), Brenda Lee Johnson (The Closer), and Robin Griffin (Top of the Lake) are each consistently referred to by all three of their names in their respective shows, a stylistic choice that signals authority, formality, and distinction from supporting characters who share their first name."
+    }
+  ]
+}
