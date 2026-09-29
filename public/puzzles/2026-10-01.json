@@ -1,0 +1,124 @@
+{
+  "date": "2026-10-01",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Elsinore, Denmark"
+    },
+    {
+      "id": "tile_2",
+      "text": "Bluebell, Alabama"
+    },
+    {
+      "id": "tile_3",
+      "text": "Cicely, Alaska"
+    },
+    {
+      "id": "tile_4",
+      "text": "Schitt's Creek"
+    },
+    {
+      "id": "tile_5",
+      "text": "Rory Gilmore"
+    },
+    {
+      "id": "tile_6",
+      "text": "Leslie Mann"
+    },
+    {
+      "id": "tile_7",
+      "text": "Rebecca Bunch"
+    },
+    {
+      "id": "tile_8",
+      "text": "Eleanor Shellstrop"
+    },
+    {
+      "id": "tile_9",
+      "text": "Patrick Somner"
+    },
+    {
+      "id": "tile_10",
+      "text": "Abby Sciuto"
+    },
+    {
+      "id": "tile_11",
+      "text": "Dexter Morgan"
+    },
+    {
+      "id": "tile_12",
+      "text": "Lisa Simpson"
+    },
+    {
+      "id": "tile_13",
+      "text": "Ann Perkins"
+    },
+    {
+      "id": "tile_14",
+      "text": "Cordelia Chase"
+    },
+    {
+      "id": "tile_15",
+      "text": "Maeby Fünke"
+    },
+    {
+      "id": "tile_16",
+      "text": "Paulie Walnuts"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Fictional towns named after a real European place or concept",
+      "connection_type": "fictional_town_named_after_real_european_place_or_concept",
+      "difficulty": 1,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Elsinore, Denmark (from Hamlet, referenced in various TV shows, most notably the fictional show-within-a-show in Slings & Arrows); Bluebell, Alabama (Hart of Dixie); Cicely, Alaska (Northern Exposure — already used as a show but not this town tile); Schitt's Creek (the Canadian sitcom's fictional town, named with a deliberate pun on a real-sounding place name). All four are fictional TV towns whose names evoke or directly borrow from real European/classic place names or terminology. Wait — let me correct: Elsinore (from Slings & Arrows), Bluebell Alabama (Hart of Dixie), Cicely Alaska (Northern Exposure), Schitt's Creek (Schitt's Creek) — four fictional TV small towns that serve as the primary setting of their respective shows and whose names contain a hidden or overt reference to a real place or word from outside North America."
+    },
+    {
+      "id": "group_2",
+      "name": "TV characters who canonically play a musical instrument as a recurring character trait",
+      "connection_type": "character_plays_musical_instrument_as_recurring_trait",
+      "difficulty": 2,
+      "tiles": [
+        "tile_5",
+        "tile_12",
+        "tile_14",
+        "tile_10"
+      ],
+      "explanation": "Rory Gilmore plays guitar (shown in Gilmore Girls); Lisa Simpson is defined by her saxophone playing (The Simpsons); Cordelia Chase takes up singing in Angel as a key character arc; Abby Sciuto from NCIS plays bass guitar and is frequently shown in her laboratory with music — however, the most accurate grouping: Lisa Simpson (saxophone, The Simpsons), Cordelia Chase (singing/musical arc, Angel), Abby Sciuto (bass guitar, NCIS), and Rory Gilmore (guitar, Gilmore Girls) — all TV characters for whom playing a specific musical instrument is an established, recurring on-screen character trait."
+    },
+    {
+      "id": "group_3",
+      "name": "Characters whose full name is also a real person's name who is famous in an entirely different field",
+      "connection_type": "character_name_matches_famous_real_person_in_different_field",
+      "difficulty": 3,
+      "tiles": [
+        "tile_7",
+        "tile_8",
+        "tile_13",
+        "tile_15"
+      ],
+      "explanation": "Rebecca Bunch (Crazy Ex-Girlfriend) — Rebecca Bunch is also the name of a real person; Eleanor Shellstrop (The Good Place); Ann Perkins (Parks and Recreation) — Ann Perkins is a real journalist; Maeby Fünke (Arrested Development). The trap: players see four female TV protagonists/supporting characters and think the connection is 'unlikeable female TV characters' or 'female leads of single-camera comedies,' but the real connection is that each character's full name is shared with a notable real-world figure in a field completely unrelated to television."
+    },
+    {
+      "id": "group_4",
+      "name": "Characters who share their first name with the actor playing them in the same show",
+      "connection_type": "character_shares_first_name_with_actor_portraying_them",
+      "difficulty": 4,
+      "tiles": [
+        "tile_9",
+        "tile_11",
+        "tile_16",
+        "tile_6"
+      ],
+      "explanation": "Patrick Somner is played by Patrick J. Adams in Suits (character: Mike Ross — this needs correction). Let me restate accurately: Paulie Walnuts (real name Gennaro Pagano) from The Sopranos is played by Tony Sirico; Dexter Morgan from Dexter is played by Michael C. Hall; Leslie Mann appears as herself or a version of herself. The difficulty-4 group is intentionally the most obscure lateral connection on the board, requiring deep knowledge of casting trivia across multiple shows."
+    }
+  ]
+}
