@@ -1,0 +1,124 @@
+{
+  "date": "2026-10-02",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Patience, Wyoming"
+    },
+    {
+      "id": "tile_2",
+      "text": "Beacon Hills"
+    },
+    {
+      "id": "tile_3",
+      "text": "Mystic Falls"
+    },
+    {
+      "id": "tile_4",
+      "text": "Hawkins, Indiana"
+    },
+    {
+      "id": "tile_5",
+      "text": "Jim Parsons"
+    },
+    {
+      "id": "tile_6",
+      "text": "Neil Patrick Harris"
+    },
+    {
+      "id": "tile_7",
+      "text": "Matt Bomer"
+    },
+    {
+      "id": "tile_8",
+      "text": "Zachary Quinto"
+    },
+    {
+      "id": "tile_9",
+      "text": "Rust Belt"
+    },
+    {
+      "id": "tile_10",
+      "text": "Yellowstone"
+    },
+    {
+      "id": "tile_11",
+      "text": "The Wire"
+    },
+    {
+      "id": "tile_12",
+      "text": "Empire"
+    },
+    {
+      "id": "tile_13",
+      "text": "\"I have a type. Brilliant, a little broken.\""
+    },
+    {
+      "id": "tile_14",
+      "text": "Seymour"
+    },
+    {
+      "id": "tile_15",
+      "text": "Treme"
+    },
+    {
+      "id": "tile_16",
+      "text": "Tulsa King"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Fictional small towns defined by a supernatural threat",
+      "connection_type": "fictional_small_town_with_central_supernatural_threat",
+      "difficulty": 1,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Patience, Wyoming (Big Sky / Wynonna Earp), Beacon Hills (Teen Wolf), Mystic Falls (The Vampire Diaries), and Hawkins, Indiana (Stranger Things) are all fictional small towns whose entire narrative centers on a supernatural or paranormal threat that the townspeople must confront."
+    },
+    {
+      "id": "group_2",
+      "name": "Openly gay actors who played straight lead characters in prestige or network dramas",
+      "connection_type": "openly_gay_actor_plays_straight_lead_in_prestige_drama",
+      "difficulty": 2,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Jim Parsons (Sheldon Cooper in The Big Bang Theory), Neil Patrick Harris (Barney Stinson in How I Met Your Mother), Matt Bomer (Neal Caffrey in White Collar), and Zachary Quinto (Spock in assorted roles / Dr. Oliver Thredson in American Horror Story) are all publicly gay actors who played canonically straight leading characters."
+    },
+    {
+      "id": "group_3",
+      "name": "TV show titles that are also real U.S. geographic or natural landmarks",
+      "connection_type": "show_title_is_real_us_geographic_or_natural_landmark",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Rust Belt (a real U.S. geographic region — the show Rust Belt exists), Yellowstone (the national park and river — also the Paramount drama), The Wire (a method of communication — also a geographic infrastructure term, and the HBO show), and Empire (Empire State — refers to New York as a geographic identity, also the Fox drama). Each show title doubles as a real and recognized U.S. geographic or infrastructural term or place."
+    },
+    {
+      "id": "group_4",
+      "name": "Things associated with the TV show Treme that also appear elsewhere on this board as red herrings",
+      "connection_type": "trap_tiles_that_evoke_multiple_shows_but_connect_via_treme_universe",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "These four tiles are the trap group. 'I have a type. Brilliant, a little broken.' is a quote from Treme character Janette Desautel. Seymour is the name of a character in Treme. Treme is itself a tile (the show title). Tulsa King — 'Tulsa' echoes the jazz/music world Treme inhabits, and 'King' references the real New Orleans tradition of Mardi Gras Indians (Big Chiefs/Kings) central to Treme's plot. These tiles seem to scatter across different shows but all have a specific Treme connection: quote, character name, show title, and thematic reference to the show's core Mardi Gras Indian royalty tradition."
+    }
+  ]
+}
