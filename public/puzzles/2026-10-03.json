@@ -1,0 +1,124 @@
+{
+  "date": "2026-10-03",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Poussey Washington"
+    },
+    {
+      "id": "tile_2",
+      "text": "Opie Winston"
+    },
+    {
+      "id": "tile_3",
+      "text": "Oberyn Martell"
+    },
+    {
+      "id": "tile_4",
+      "text": "Eddard Stark"
+    },
+    {
+      "id": "tile_5",
+      "text": "Fleabag"
+    },
+    {
+      "id": "tile_6",
+      "text": "Dr. Mindy Lahiri"
+    },
+    {
+      "id": "tile_7",
+      "text": "Miriam Maisel"
+    },
+    {
+      "id": "tile_8",
+      "text": "Kimmy Schmidt"
+    },
+    {
+      "id": "tile_9",
+      "text": "Stan Beeman"
+    },
+    {
+      "id": "tile_10",
+      "text": "Philip Jennings"
+    },
+    {
+      "id": "tile_11",
+      "text": "Elliot Alderson"
+    },
+    {
+      "id": "tile_12",
+      "text": "Elizabeth Jennings"
+    },
+    {
+      "id": "tile_13",
+      "text": "Dolores"
+    },
+    {
+      "id": "tile_14",
+      "text": "Matthew Rhys"
+    },
+    {
+      "id": "tile_15",
+      "text": "Villanelle"
+    },
+    {
+      "id": "tile_16",
+      "text": "Norman Bates"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "The Americans universe",
+      "connection_type": "same_show",
+      "difficulty": 1,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_12",
+        "tile_14"
+      ],
+      "explanation": "Philip Jennings and Elizabeth Jennings are the lead characters of The Americans; Stan Beeman is their FBI-agent neighbor; Matthew Rhys is the actor who played Philip Jennings. All four tiles belong to the FX Cold War drama The Americans."
+    },
+    {
+      "id": "group_2",
+      "name": "TV female characters who independently build their own enterprise by their series' end",
+      "connection_type": "female_character_who_builds_independent_enterprise_by_series_end",
+      "difficulty": 2,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Fleabag (Fleabag) runs her own guinea-pig-themed café; Dr. Mindy Lahiri (The Mindy Project) opens her own fertility clinic; Miriam Maisel (The Marvelous Mrs. Maisel) builds a solo stand-up comedy career; Kimmy Schmidt (Unbreakable Kimmy Schmidt) launches her own children's book series. All four women end their series having independently created a professional enterprise."
+    },
+    {
+      "id": "group_3",
+      "name": "Beloved TV characters killed shockingly in a mid-series episode — not a season or series finale",
+      "connection_type": "character_killed_shockingly_mid_series_not_in_finale",
+      "difficulty": 3,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Poussey Washington (Orange Is the New Black, S4E12 of 13), Opie Winston (Sons of Anarchy, S5E3), Oberyn Martell (Game of Thrones, S4E8 of 10), and Eddard Stark (Game of Thrones, S1E9 of 10) were all beloved characters killed in episodes that were not season or series finales, each death shocking audiences mid-run."
+    },
+    {
+      "id": "group_4",
+      "name": "TV characters revealed to be living with a constructed or hidden alternate identity",
+      "connection_type": "tv_character_with_constructed_or_split_secret_identity",
+      "difficulty": 4,
+      "tiles": [
+        "tile_11",
+        "tile_13",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Elliot Alderson (Mr. Robot) is revealed to have a split personality — his alter ego 'Mr. Robot' is a constructed persona he does not initially recognize; Dolores (Westworld) is a host whose memories and identity are layered constructions revealed across multiple seasons; Villanelle (Killing Eve) operates entirely through a series of constructed false identities as a professional assassin; Norman Bates (Bates Motel) gradually assumes his dead mother Norma's identity, eventually dissociating fully into her persona. All four characters are defined by a hidden or constructed alternate self."
+    }
+  ]
+}
