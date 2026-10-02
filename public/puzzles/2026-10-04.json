@@ -1,0 +1,124 @@
+{
+  "date": "2026-10-04",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Nucky Thompson"
+    },
+    {
+      "id": "tile_2",
+      "text": "Pine Valley"
+    },
+    {
+      "id": "tile_3",
+      "text": "Steve Buscemi"
+    },
+    {
+      "id": "tile_4",
+      "text": "\"We're all just extras in other people's fantasies.\""
+    },
+    {
+      "id": "tile_5",
+      "text": "Alicia Florrick"
+    },
+    {
+      "id": "tile_6",
+      "text": "Jackie Peyton"
+    },
+    {
+      "id": "tile_7",
+      "text": "Nancy Botwin"
+    },
+    {
+      "id": "tile_8",
+      "text": "Roy Donovan"
+    },
+    {
+      "id": "tile_9",
+      "text": "Dr. Gregory House"
+    },
+    {
+      "id": "tile_10",
+      "text": "Jimmy Darmody"
+    },
+    {
+      "id": "tile_11",
+      "text": "Nikki Heat"
+    },
+    {
+      "id": "tile_12",
+      "text": "Richard Castle"
+    },
+    {
+      "id": "tile_13",
+      "text": "Liz Lemon"
+    },
+    {
+      "id": "tile_14",
+      "text": "Boardwalk Empire"
+    },
+    {
+      "id": "tile_15",
+      "text": "Carcetti"
+    },
+    {
+      "id": "tile_16",
+      "text": "Aidan Gillen"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Boardwalk Empire universe",
+      "connection_type": "same_show",
+      "difficulty": 1,
+      "tiles": [
+        "tile_1",
+        "tile_3",
+        "tile_10",
+        "tile_14"
+      ],
+      "explanation": "Nucky Thompson (character), Steve Buscemi (actor who plays Nucky), Jimmy Darmody (character), and Boardwalk Empire (show title) are all from HBO's Boardwalk Empire. Steve Buscemi is not paired with Nucky Thompson in a trivially revealing way here because multiple tiles create ambiguity."
+    },
+    {
+      "id": "group_2",
+      "name": "TV protagonists who are lawyers or married to/closely tied to a political power structure and defined by a moral compromise in their very first episode",
+      "connection_type": "protagonist_defined_by_opening_moral_compromise",
+      "difficulty": 2,
+      "tiles": [
+        "tile_5",
+        "tile_8",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Alicia Florrick (The Good Wife — stands by scandal-ridden husband in pilot), Roy Donovan (Ray Donovan — fixes crimes for the powerful from episode one), Carcetti (The Wire — makes his first political deal at the expense of principle in his debut arc), and Aidan Gillen (played both Carcetti and Peter Baelish, characters defined by initial moral compromise that reshapes everything). The group connects characters or actors whose defining trait is established via a first-episode or debut moral compromise tied to power."
+    },
+    {
+      "id": "group_3",
+      "name": "Characters whose job title appears in the show's title — but they are never actually seen doing that job on screen",
+      "connection_type": "character_job_in_title_never_depicted_on_screen",
+      "difficulty": 3,
+      "tiles": [
+        "tile_6",
+        "tile_7",
+        "tile_9",
+        "tile_13"
+      ],
+      "explanation": "Jackie Peyton (Nurse Jackie — a nurse, but the show focuses on her addiction and personal life; nursing is backdrop not foreground), Nancy Botwin (Weeds — a 'weed' dealer but never depicted as a gardener despite the title's double meaning), Dr. Gregory House (House — titled after him but he avoids patients and rarely performs medicine directly on screen), and Liz Lemon (30 Rock — her job as TV writer/showrunner is the title premise but her actual writing work is almost never depicted). Each character's professional role names or implies the show, yet the work itself is conspicuously absent from what we actually watch them do."
+    },
+    {
+      "id": "group_4",
+      "name": "Fictional alter egos invented by real TV characters to deceive someone they love",
+      "connection_type": "fictional_alter_ego_created_to_deceive_loved_one",
+      "difficulty": 4,
+      "tiles": [
+        "tile_2",
+        "tile_4",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Pine Valley (the fictional soap opera setting in All My Children, which Castle character Richard Castle uses as an alias backdrop for a fake identity he constructs), Nikki Heat (the fictional character Richard Castle writes based on Kate Beckett — a fictional alter ego of a real person, created to court her), Richard Castle (himself a pen name — Richard Edgar Castle is a pseudonym the character uses professionally, concealing his real name Richard Alexander Rogers), and the quote 'We're all just extras in other people's fantasies' (spoken by a character maintaining a fabricated persona to a partner who doesn't know the truth — from Halt and Catch Fire's Cameron Howe). These four tiles all connect to the theme of fictional alter egos or pen names constructed specifically to deceive or shape a romantic or familial relationship."
+    }
+  ]
+}
