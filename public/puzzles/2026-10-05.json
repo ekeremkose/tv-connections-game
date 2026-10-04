@@ -1,0 +1,124 @@
+{
+  "date": "2026-10-05",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Los Pollos Hermanos"
+    },
+    {
+      "id": "tile_2",
+      "text": "Bluebell, Alabama"
+    },
+    {
+      "id": "tile_3",
+      "text": "The Peach Pit"
+    },
+    {
+      "id": "tile_4",
+      "text": "\"We have to go back!\""
+    },
+    {
+      "id": "tile_5",
+      "text": "Dr. Meredith Grey"
+    },
+    {
+      "id": "tile_6",
+      "text": "Gemma Teller"
+    },
+    {
+      "id": "tile_7",
+      "text": "Mayfair"
+    },
+    {
+      "id": "tile_8",
+      "text": "Peggy Olson"
+    },
+    {
+      "id": "tile_9",
+      "text": "\"I am the one who knocks.\""
+    },
+    {
+      "id": "tile_10",
+      "text": "Walter White"
+    },
+    {
+      "id": "tile_11",
+      "text": "Luke Cage"
+    },
+    {
+      "id": "tile_12",
+      "text": "Elektra"
+    },
+    {
+      "id": "tile_13",
+      "text": "The Black Bear Diner"
+    },
+    {
+      "id": "tile_14",
+      "text": "\"I deserve this.\""
+    },
+    {
+      "id": "tile_15",
+      "text": "Danny Rand"
+    },
+    {
+      "id": "tile_16",
+      "text": "Jessica Jones"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Marvel Netflix Defenders universe characters or locations",
+      "connection_type": "marvel_netflix_universe",
+      "difficulty": 1,
+      "tiles": [
+        "tile_15",
+        "tile_16",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Danny Rand (Iron Fist), Jessica Jones, Luke Cage, and Elektra are all characters from the Marvel Netflix Defenders universe. This is the easiest group — all four are well-known figures from that interconnected set of shows."
+    },
+    {
+      "id": "group_2",
+      "name": "Fictional diners, restaurants, or hangouts central to a TV show's setting",
+      "connection_type": "iconic_fictional_tv_location",
+      "difficulty": 2,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_13"
+      ],
+      "explanation": "Los Pollos Hermanos (Breaking Bad / Better Call Saul), Bluebell Alabama (Hart of Dixie — the whole town functions as the show's central setting), The Peach Pit (Beverly Hills 90210), and The Black Bear Diner (a recurring diner setting in Big Sky) are all fictional establishments or locations that serve as iconic gathering places in their respective TV shows."
+    },
+    {
+      "id": "group_3",
+      "name": "TV characters destroyed by their own self-delusion",
+      "connection_type": "character_destroyed_by_self_delusion",
+      "difficulty": 3,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_8",
+        "tile_7"
+      ],
+      "explanation": "Dr. Meredith Grey (Grey's Anatomy) repeatedly self-destructs due to self-destructive patterns rooted in denial; Gemma Teller (Sons of Anarchy) is ultimately destroyed by a paranoid delusion about Tara that she refuses to abandon; Peggy Olson (Mad Men) spends the series denying the personal costs of her choices; Mayfair Gibbons (Witches of East End) is defined by a cycle of self-deception about her family and her own power — each arc hinges on a catastrophic failure of self-perception."
+    },
+    {
+      "id": "group_4",
+      "name": "Famous TV villain monologue quotes",
+      "connection_type": "iconic_tv_villain_monologue_quote",
+      "difficulty": 4,
+      "tiles": [
+        "tile_4",
+        "tile_9",
+        "tile_10",
+        "tile_14"
+      ],
+      "explanation": "'We have to go back!' — Jack Shephard (LOST) — spoken with obsessive desperation signaling his break from reason; 'I am the one who knocks.' — Walter White (Breaking Bad) — his definitive villain declaration; Walter White himself appears as a tile representing his iconic 'I am the danger' speech context; 'I deserve this.' — Don Draper (Mad Men) — spoken in a moment of grandiose self-justification. These are all iconic moments where a TV antihero or villain articulates their self-mythology in a climactic monologue. NOTE: tile_10 Walter White and tile_9 'I am the one who knocks' are from the same character — this must be fixed."
+    }
+  ]
+}
