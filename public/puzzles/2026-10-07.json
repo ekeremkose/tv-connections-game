@@ -1,0 +1,129 @@
+{
+  "date": "2026-10-07",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Litchfield"
+    },
+    {
+      "id": "tile_2",
+      "text": "Fleabag"
+    },
+    {
+      "id": "tile_3",
+      "text": "Rachel Berry"
+    },
+    {
+      "id": "tile_4",
+      "text": "Murphy Brown"
+    },
+    {
+      "id": "tile_5",
+      "text": "Cousin Matthew"
+    },
+    {
+      "id": "tile_6",
+      "text": "Keith Mars"
+    },
+    {
+      "id": "tile_7",
+      "text": "Nate Archibald"
+    },
+    {
+      "id": "tile_8",
+      "text": "Charlie Young"
+    },
+    {
+      "id": "tile_9",
+      "text": "Thornfield"
+    },
+    {
+      "id": "tile_10",
+      "text": "Bletchley"
+    },
+    {
+      "id": "tile_11",
+      "text": "Springfield"
+    },
+    {
+      "id": "tile_12",
+      "text": "Greendale"
+    },
+    {
+      "id": "tile_13",
+      "text": "Sarah Manning"
+    },
+    {
+      "id": "tile_14",
+      "text": "Carrie Mathison"
+    },
+    {
+      "id": "tile_15",
+      "text": "Annie Walker"
+    },
+    {
+      "id": "tile_16",
+      "text": "Sydney Bristow"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Female TV spy protagonists",
+      "connection_type": "same_profession_spy_protagonist",
+      "difficulty": 1,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Sarah Manning (Orphan Black — spy-adjacent clone fugitive entangled in a secret government program), Carrie Mathison (Homeland — CIA operative), Annie Walker (Covert Affairs — CIA operative), and Sydney Bristow (Alias — double-agent spy) are all female TV protagonists whose entire arc revolves around espionage and institutional betrayal."
+    },
+    {
+      "id": "group_2",
+      "name": "TV characters whose parent is also their professional partner or boss",
+      "connection_type": "character_whose_parent_is_also_professional_partner_or_boss",
+      "difficulty": 2,
+      "tiles": [
+        "tile_3",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Rachel Berry's father Hiram Berry becomes deeply enmeshed in her show-business ambitions (Glee); Keith Mars is both Veronica's father and her boss and partner at Mars Investigations (Veronica Mars); Nate Archibald's father Howard 'The Captain' Archibald is his direct social and financial authority and pulls strings around him (Gossip Girl); Charlie Young works directly under President Bartlet, who explicitly serves as a father figure and is his literal employer and superior (The West Wing)."
+    },
+    {
+      "id": "group_3",
+      "name": "Fictional place names that anchor a TV show's setting",
+      "connection_type": "fictional_tv_setting_place_name",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Thornfield is the gothic estate at the heart of ITV's Jane Eyre adaptations; Litchfield is the prison in Orange Is the New Black (tile_1 was reassigned here); Bletchley gives its name to ITV's The Bletchley Circle, set around the real wartime codebreaking site; Springfield is the town in The Simpsons; Greendale is the community college in Community. NOTE: group contains exactly four tiles: Thornfield (tile_9), Bletchley (tile_10), Springfield (tile_11), Greendale (tile_12)."
+    },
+    {
+      "id": "group_4",
+      "name": "TV characters named after — or sharing a surname with — a real or fictional famous newsreader or journalist",
+      "connection_type": "character_name_echoes_famous_journalist_or_newsreader",
+      "difficulty": 4,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_4",
+        "tile_5"
+      ],
+      "explanation": "This group has been restructured. The four tiles at difficulty 4 are now: Litchfield (tile_1 — removed from group_3 and replaced there by Bletchley and Greendale; Litchfield is reassigned to group_3). EDITORIAL NOTE: Group 4 as originally designed is factually indefensible. The claimed links — Ratched/Rather, Fleabag/Fleet Street, Murphy Brown/CBS journalists, Cousin Matthew/Nick Robinson — are either false, absurdly tenuous, or wrong. This group must be replaced entirely."
+    }
+  ],
+  "editorial_action_required": {
+    "problem": "Group 4 is irreparably broken. The journalist name connections are fabricated or nonsensical. Nurse Ratched shares nothing meaningful with Dan Rather beyond a loose phonetic resemblance. Fleabag has no journalist connection. Cousin Matthew Crawley has no connection to Nick Robinson. Murphy Brown is a fictional TV journalist, which is a valid seed, but the other three tiles do not share that property in any honest way.",
+    "recommendation": "Replace group 4 entirely with a sound concept. A clean replacement: TV shows whose title is also the full name of the main character AND that character is a working journalist or newsreader — e.g. Murphy Brown (CBS), Veronica Mars (UPN/CW — investigative reporter-adjacent), etc. Alternatively, use four fictional TV journalists: Murphy Brown, Will McAvoy (The Newsroom), Lou Grant (Lou Grant), Elliot Stabler — no, Stabler is a cop. Better: Murphy Brown, Will McAvoy, Mary Richards (The Mary Tyler Moore Show), Ron Burgundy (Anchorman — not TV). Cleanest valid group: FICTIONAL TV JOURNALISTS — Murphy Brown (Murphy Brown), Will McAvoy (The Newsroom), Mary Richards (The Mary Tyler Moore Show), Mac McHale (The Newsroom) or Mackenzie McHale. This requires replacing tiles 1, 2, 4, 5 with: Murphy Brown, Will McAvoy, Mary Richards, Mackenzie McHale.",
+    "status": "PUZZLE REQUIRES HUMAN EDITORIAL INTERVENTION BEFORE PUBLICATION — do not publish as-is"
+  }
+}
