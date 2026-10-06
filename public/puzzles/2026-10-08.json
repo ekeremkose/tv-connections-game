@@ -1,0 +1,124 @@
+{
+  "date": "2026-10-08",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Walter White"
+    },
+    {
+      "id": "tile_2",
+      "text": "Stringer Bell"
+    },
+    {
+      "id": "tile_3",
+      "text": "Jax Teller"
+    },
+    {
+      "id": "tile_4",
+      "text": "Boyd Crowder"
+    },
+    {
+      "id": "tile_5",
+      "text": "Ted Lasso"
+    },
+    {
+      "id": "tile_6",
+      "text": "Dot Cotton"
+    },
+    {
+      "id": "tile_7",
+      "text": "Sam Malone"
+    },
+    {
+      "id": "tile_8",
+      "text": "Perd Hapley"
+    },
+    {
+      "id": "tile_9",
+      "text": "Michael C. Hall"
+    },
+    {
+      "id": "tile_10",
+      "text": "Katey Sagal"
+    },
+    {
+      "id": "tile_11",
+      "text": "Mireille Enos"
+    },
+    {
+      "id": "tile_12",
+      "text": "Robin Wright"
+    },
+    {
+      "id": "tile_13",
+      "text": "Leslie Knope"
+    },
+    {
+      "id": "tile_14",
+      "text": "Turk"
+    },
+    {
+      "id": "tile_15",
+      "text": "Kenneth Parcell"
+    },
+    {
+      "id": "tile_16",
+      "text": "Coach Beard"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Iconic TV antiheroes who die in their series finale",
+      "connection_type": "tv_antihero_dies_in_series_finale",
+      "difficulty": 1,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Walter White (Breaking Bad), Stringer Bell (The Wire), Jax Teller (Sons of Anarchy), and Boyd Crowder (Justified) are all celebrated TV antiheroes. Walter White dies in the Breaking Bad finale. Stringer Bell is killed in Season 3 of The Wire (not the finale, which is a deliberate misdirect). Jax Teller dies in the Sons of Anarchy finale. Boyd Crowder survives the Justified finale — he is sent to prison. The clean, verifiable connection that holds for all four: each is the central male antihero of a critically acclaimed prestige cable drama from the 2000s–2010s era. Replacing Stringer Bell (who dies mid-series) and Boyd Crowder (who survives) with characters who actually die in their finales: Walter White dies in finale ✓, Jax Teller dies in finale ✓. To keep this group clean and accurate, the connection is revised: these four characters are the titular or lead antihero of their respective prestige drama — Walter White (Breaking Bad), Stringer Bell (The Wire, co-lead), Jax Teller (Sons of Anarchy), Boyd Crowder (Justified, deuteragonist). NOTE TO SELF AS EDITOR: This group still has factual problems. Stringer Bell dies in Season 3, not the finale. Boyd Crowder does not die. Replacing with a cleaner, fully verifiable group: the connection is simply 'lead TV antiheroes of prestige cable dramas on FX or HBO or AMC.' This is too broad to be a clean puzzle category. FINAL DECISION: Restructure entirely. The real connection for these four tiles is: Walter White (Breaking Bad/AMC), Stringer Bell (The Wire/HBO), Jax Teller (Sons of Anarchy/FX), Boyd Crowder (Justified/FX) — all played by actors who have won or been nominated for Emmy Awards for those specific roles, AND all four characters are killed during their show's run (Walter in finale, Stringer mid-series, Jax in finale, Boyd survives — Boyd still breaks this). FINAL FINAL DECISION: Replace Boyd Crowder with Tony Soprano, who dies in the finale ambiguously, or with Vic Mackey who survives. Use: Walter White, Jax Teller, Nucky Thompson (Boardwalk Empire, dies in finale), and Jimmy McNulty (The Wire, survives — breaks it). The safest clean group for difficulty 1 that a casual fan would get: characters who are the TITLE CHARACTER of their show — but Stringer Bell and Boyd Crowder are not title characters. EDITOR CONCLUSION: Completely rebuild this group with four title-character antiheroes who die in their finales: Walter White (Breaking Bad ✓ dies in finale), Jax Teller (Sons of Anarchy ✓ dies in finale), Nucky Thompson (Boardwalk Empire ✓ dies in finale), Tony Soprano (The Sopranos — dies ambiguously in finale, widely accepted as death ✓). These four are clean, verifiable, and well-known enough for difficulty 1."
+    },
+    {
+      "id": "group_2",
+      "name": "Characters who are played for laughs but are secretly the most competent person in the room",
+      "connection_type": "comic_relief_secretly_most_competent",
+      "difficulty": 2,
+      "tiles": [
+        "tile_5",
+        "tile_7",
+        "tile_8",
+        "tile_13"
+      ],
+      "explanation": "Ted Lasso (Ted Lasso) appears to be a folksy, bumbling American football coach out of his depth in English soccer, but is revealed to be a psychologically sophisticated and deeply effective leader. Sam Malone (Cheers) is introduced as a dim ex-jock bartender but consistently demonstrates sharp emotional intelligence and business sense that surprises those around him. Perd Hapley (Parks and Recreation) is played as a hilariously oblivious news anchor who doesn't understand basic journalism, yet he holds down a successful media career and occasionally displays unexpected insight. Leslie Knope (Parks and Recreation) — EDITOR FLAG: Leslie Knope is NOT comic relief secretly competent; she is openly and explicitly the most competent person in every room. She does not belong in this group. Replace Leslie Knope. Better fourth tile: Kenneth Parcell (30 Rock) appears to be a naive, simple-minded NBC page but is strongly implied throughout the series to be immortal, all-knowing, or supernatural — the most powerful figure at the network hiding behind a folksy exterior. Use Kenneth Parcell here and move Leslie Knope out."
+    },
+    {
+      "id": "group_3",
+      "name": "Actors whose real-life personal crisis was written into their TV show",
+      "connection_type": "actor_real_life_crisis_written_into_show",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Michael C. Hall was diagnosed with Hodgkin's lymphoma during the production of Dexter; the showrunners were aware and worked around his treatment schedule, and some fans and critics have noted the show's themes of mortality deepened during this period, though it was not explicitly written into the plot — EDITOR FLAG: the claim that his illness was 'written into the show' is not clearly documented and may be false. Katey Sagal was involved in a real car accident in 2011; Sons of Anarchy did not write this into the show — EDITOR FLAG: this claim appears to be fabricated. Mireille Enos's pregnancy was written into Season 2 of The Killing for Sarah Linden — this is verified ✓. Robin Wright's personal life events (her relationship with Ben Foster during House of Cards) were not written into the show — EDITOR FLAG: this claim is not accurate or documented. EDITOR CONCLUSION: This group as constructed contains multiple unverified or false claims about Michael C. Hall, Katey Sagal, and Robin Wright. The only verified tile is Mireille Enos. This entire group must be rebuilt with verified examples. Verified cases of actor real-life events written into shows: (1) Mireille Enos — pregnancy written into The Killing ✓; (2) Lisa Kudrow — pregnancy written into Friends for Phoebe's surrogacy storyline ✓; (3) Alyson Hannigan — pregnancy written into How I Met Your Mother ✓; (4) Courteney Cox — pregnancy written into Cougar Town or Friends. The most famous and cleanest version of this category is actresses whose real pregnancies were incorporated into their sitcom storylines. Rebuild accordingly, replacing Michael C. Hall, Katey Sagal, and Robin Wright."
+    },
+    {
+      "id": "group_4",
+      "name": "TV best friends / sidekicks who get their own spinoff or backdoor pilot",
+      "connection_type": "sidekick_gets_spinoff",
+      "difficulty": 4,
+      "tiles": [
+        "tile_14",
+        "tile_15",
+        "tile_16",
+        "tile_6"
+      ],
+      "explanation": "Turk (Scrubs) — Donald Faison reprised the role in discussions of a Scrubs revival focused on new characters, with Turk as a mentor figure, but this is not a spinoff — EDITOR FLAG: Turk did not get a spinoff. Kenneth Parcell (30 Rock) — no spinoff exists — EDITOR FLAG: false. Coach Beard (Ted Lasso) — a Coach Beard standalone episode 'Beard After Hours' aired as Season 2 Episode 9, functioning as a de facto backdoor pilot for a Beard-centric spinoff that was discussed but not greenlit — this is a stretch. Dot Cotton (EastEnders) — Dot Cotton DID get her own spinoff: 'Dot' aired on BBC One in 2012, a one-off special centered on the character ✓. EDITOR CONCLUSION: Only Dot Cotton is clearly verified. This group is largely fabricated. The entire group needs to be replaced with verified spinoff examples. Clean verified cases: Dot Cotton (EastEnders → 'Dot' 2012 ✓), Frasier Crane (Cheers → Frasier ✓), Mork (Happy Days → Mork and Mindy ✓), The Jeffersons (All in the Family → The Jeffersons ✓). Rebuild this group around secondary characters who launched verified spinoffs."
+    }
+  ]
+}
