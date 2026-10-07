@@ -1,0 +1,124 @@
+{
+  "date": "2026-10-09",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Tommy Shelby"
+    },
+    {
+      "id": "tile_2",
+      "text": "Cillian Murphy"
+    },
+    {
+      "id": "tile_3",
+      "text": "The Garrison Tavern"
+    },
+    {
+      "id": "tile_4",
+      "text": "\"By order of the Peaky Blinders.\""
+    },
+    {
+      "id": "tile_5",
+      "text": "Halt and Catch Fire"
+    },
+    {
+      "id": "tile_6",
+      "text": "Rectify"
+    },
+    {
+      "id": "tile_7",
+      "text": "Rubicon"
+    },
+    {
+      "id": "tile_8",
+      "text": "Terriers"
+    },
+    {
+      "id": "tile_9",
+      "text": "Joe MacMillan"
+    },
+    {
+      "id": "tile_10",
+      "text": "Daniel Holden"
+    },
+    {
+      "id": "tile_11",
+      "text": "Earn Marks"
+    },
+    {
+      "id": "tile_12",
+      "text": "Nandor the Relentless"
+    },
+    {
+      "id": "tile_13",
+      "text": "Phaedra"
+    },
+    {
+      "id": "tile_14",
+      "text": "The Camp Meeting"
+    },
+    {
+      "id": "tile_15",
+      "text": "\"I contain multitudes.\""
+    },
+    {
+      "id": "tile_16",
+      "text": "Aden Mercer"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Peaky Blinders universe",
+      "connection_type": "same_show",
+      "difficulty": 1,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Tommy Shelby (character), Cillian Murphy (actor), The Garrison Tavern (location), and 'By order of the Peaky Blinders' (famous quote) are all from Peaky Blinders."
+    },
+    {
+      "id": "group_2",
+      "name": "Prestige cable dramas cancelled before completing their intended story",
+      "connection_type": "prestige_cable_cancelled_prematurely",
+      "difficulty": 2,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Halt and Catch Fire, Rectify, Rubicon, and Terriers are all critically acclaimed prestige cable dramas that were cancelled before their creators could fully tell the story they intended — each left viewers wanting more resolution."
+    },
+    {
+      "id": "group_3",
+      "name": "TV protagonists whose defining characteristic is a deep, almost pathological inability to belong",
+      "connection_type": "protagonist_defined_by_inability_to_belong",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Joe MacMillan (Halt and Catch Fire), Daniel Holden (Rectify), Earn Marks (Atlanta), and Nandor the Relentless (What We Do in the Shadows) are all TV protagonists whose central dramatic tension is their profound, explicit inability to fit into the world around them — each show frames this outsider status as the engine of the narrative."
+    },
+    {
+      "id": "group_4",
+      "name": "Elements of the TV series Carnivàle that also appear to belong elsewhere on this board",
+      "connection_type": "carnivale_universe_elements",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Phaedra (a character in Carnivàle), The Camp Meeting (a pivotal Carnivàle location/event), 'I contain multitudes' (a line spoken in Carnivàle referencing Walt Whitman, used by Brother Justin), and Aden Mercer (a character name from Carnivàle) are all specific elements from the HBO series Carnivàle — designed to look like they could belong to literary, quote, or other show categories."
+    }
+  ]
+}
