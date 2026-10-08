@@ -1,0 +1,124 @@
+{
+  "date": "2026-10-10",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Nurse Jackie"
+    },
+    {
+      "id": "tile_2",
+      "text": "Weeds"
+    },
+    {
+      "id": "tile_3",
+      "text": "Shameless"
+    },
+    {
+      "id": "tile_4",
+      "text": "Mom"
+    },
+    {
+      "id": "tile_5",
+      "text": "Vic Mackey"
+    },
+    {
+      "id": "tile_6",
+      "text": "Al Swearengen"
+    },
+    {
+      "id": "tile_7",
+      "text": "Tony Soprano"
+    },
+    {
+      "id": "tile_8",
+      "text": "Frank Gallagher"
+    },
+    {
+      "id": "tile_9",
+      "text": "Cecily Strong"
+    },
+    {
+      "id": "tile_10",
+      "text": "Tina Fey"
+    },
+    {
+      "id": "tile_11",
+      "text": "Keegan-Michael Key"
+    },
+    {
+      "id": "tile_12",
+      "text": "Maya Rudolph"
+    },
+    {
+      "id": "tile_13",
+      "text": "\"I'm not a bad guy. I'm a good guy who does bad things.\""
+    },
+    {
+      "id": "tile_14",
+      "text": "Crestwood Hills"
+    },
+    {
+      "id": "tile_15",
+      "text": "The Gull & Anchor"
+    },
+    {
+      "id": "tile_16",
+      "text": "\"Pain is not the worst thing.\""
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "TV shows whose protagonist is defined by a secret addiction",
+      "connection_type": "protagonist_has_central_hidden_addiction",
+      "difficulty": 1,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Nurse Jackie (Jackie is addicted to pills), Weeds (Nancy becomes a drug dealer to fund her addiction to her lifestyle, and addiction is the show's central metaphor), Shameless (Frank Gallagher is an alcoholic whose addiction drives the plot), and Mom (Christy and Bonnie are recovering alcoholics) all center on a protagonist defined by a substance addiction."
+    },
+    {
+      "id": "group_2",
+      "name": "TV antiheroes whose authority rests on fear, not law",
+      "connection_type": "antihero_rules_by_fear_not_legitimate_authority",
+      "difficulty": 2,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Vic Mackey (The Shield) runs his Strike Team through intimidation; Al Swearengen (Deadwood) controls Deadwood through violence and threat; Tony Soprano (The Sopranos) leads through fear; Frank Gallagher (Shameless) dominates his household purely through dysfunction and psychological fear — none wield legitimate institutional authority, only personal terror. Note: Frank Gallagher is a red herring linking back to the Shameless tile, but the connection here is the shared trait across different shows."
+    },
+    {
+      "id": "group_3",
+      "name": "SNL cast members who went on to star in their own sitcom or comedy series",
+      "connection_type": "snl_alumna_who_headlined_own_sitcom",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Cecily Strong (Schmigadoon!), Tina Fey (30 Rock), Keegan-Michael Key (Key & Peele, then The Prom on Netflix), and Maya Rudolph (Forever, then Loot) are all Saturday Night Live alumni who became lead stars of their own comedy series after SNL."
+    },
+    {
+      "id": "group_4",
+      "name": "Things that look like they belong to one specific show but actually belong to four different ones",
+      "connection_type": "trap_fictional_show_elements_misattributed",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Each tile looks like it belongs to a prestige crime drama but actually comes from a lesser-known or unexpected show. 'I'm not a bad guy. I'm a good guy who does bad things.' is a line from Rescue Me (Tommy Gavin), not The Sopranos or The Shield as players assume. Crestwood Hills is the fictional suburb in HBO's Sharp Objects, not a crime show. The Gull & Anchor is the pub central to Broadchurch, not a U.S. drama. 'Pain is not the worst thing.' is a key line from the medical drama getting-on (UK), not from a prestige antihero series. All four appear to cluster around one show but each belongs to a completely different one."
+    }
+  ]
+}
