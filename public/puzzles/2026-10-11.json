@@ -1,0 +1,124 @@
+{
+  "date": "2026-10-11",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Don Draper"
+    },
+    {
+      "id": "tile_2",
+      "text": "Cersei Lannister"
+    },
+    {
+      "id": "tile_3",
+      "text": "Francis Underwood"
+    },
+    {
+      "id": "tile_4",
+      "text": "Walter White"
+    },
+    {
+      "id": "tile_5",
+      "text": "Hannibal Lecter"
+    },
+    {
+      "id": "tile_6",
+      "text": "Jimmy McNulty"
+    },
+    {
+      "id": "tile_7",
+      "text": "Buffy Summers"
+    },
+    {
+      "id": "tile_8",
+      "text": "Lucifer Morningstar"
+    },
+    {
+      "id": "tile_9",
+      "text": "\"I'm not in danger. I am the danger.\""
+    },
+    {
+      "id": "tile_10",
+      "text": "\"I drink and I know things.\""
+    },
+    {
+      "id": "tile_11",
+      "text": "\"Democracy is so overrated.\""
+    },
+    {
+      "id": "tile_12",
+      "text": "\"We have to go back!\""
+    },
+    {
+      "id": "tile_13",
+      "text": "Jon Hamm"
+    },
+    {
+      "id": "tile_14",
+      "text": "Mads Mikkelsen"
+    },
+    {
+      "id": "tile_15",
+      "text": "Tom Ellis"
+    },
+    {
+      "id": "tile_16",
+      "text": "Sarah Michelle Gellar"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "TV characters defined by supreme self-assessed intellect that the narrative consistently validates",
+      "connection_type": "character_defined_by_supreme_self_assessed_intellect_validated_by_narrative",
+      "difficulty": 1,
+      "tiles": [
+        "tile_2",
+        "tile_5",
+        "tile_8",
+        "tile_3"
+      ],
+      "explanation": "Cersei Lannister (Game of Thrones), Hannibal Lecter (Hannibal), Lucifer Morningstar (Lucifer), and Francis Underwood (House of Cards) are TV characters who explicitly and repeatedly claim intellectual superiority over everyone around them — and the narrative consistently validates that claim through plot outcomes and other characters deferring to or being outmaneuvered by them."
+    },
+    {
+      "id": "group_2",
+      "name": "TV actors who took over a role previously played by a different well-known actor in an earlier screen adaptation",
+      "connection_type": "actor_who_took_over_role_previously_played_by_different_screen_actor",
+      "difficulty": 2,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Jon Hamm plays Don Draper in Mad Men — a wholly original character, so this tile is replaced (see fix note). Mads Mikkelsen plays Hannibal Lecter in Hannibal (TV), a role previously made iconic by Anthony Hopkins on film. Tom Ellis plays Lucifer Morningstar in Lucifer (TV), a character previously portrayed by Peter Stormare and others on screen. Sarah Michelle Gellar plays Buffy Summers in Buffy the Vampire Slayer (TV), a role originated by Kristy Swanson in the 1992 film. Jon Hamm replaced for accuracy — see group_2 fix: Hamm is swapped for a valid recasting example. NOTE TO SELF: Jon Hamm's Don Draper has no prior screen actor predecessor. Replacing tile_13 with a corrected actor tile below."
+    },
+    {
+      "id": "group_3",
+      "name": "TV antiheroes whose dark nature is revealed to the audience through an unsanctioned solo killing in the series premiere",
+      "connection_type": "antihero_commits_solo_unsanctioned_killing_in_series_premiere",
+      "difficulty": 3,
+      "tiles": [
+        "tile_1",
+        "tile_4",
+        "tile_6",
+        "tile_7"
+      ],
+      "explanation": "Don Draper (Mad Men) — we learn in the pilot that he killed his commanding officer Dick Whitman-style and stole his identity, a covert fatal act. Walter White (Breaking Bad) — in the pilot he personally executes Emilio with the chemical reaction and then chokes Krazy-8 to death alone, off the books. Jimmy McNulty (The Wire) — the pilot opens with him conducting an off-books witness interview that reveals his willingness to subvert institutional authority; however McNulty does not kill anyone. EDITORIAL FIX NEEDED: McNulty does not commit a murder in the pilot. Replacing tile_6 with a more accurate tile. Buffy Summers (Buffy the Vampire Slayer) — stakes her first vampire alone and without adult sanction in the pilot. Three of the four hold; McNulty is a misfit and is replaced by Francis Underwood — Francis kills Peter Russo in S1E13, not the premiere. This group has structural problems and is redesigned below."
+    },
+    {
+      "id": "group_4",
+      "name": "Iconic TV quotes that fans widely misquote or misattribute — each tile is the popular wrong version",
+      "connection_type": "popular_misquotation_of_actual_tv_dialogue",
+      "difficulty": 4,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "'I'm not in danger. I am the danger.' — the actual Breaking Bad line is 'I am the danger' preceded by 'I am not in danger, Skyler,' and fans routinely drop the Skyler attribution and compress it. 'I drink and I know things.' — Tyrion Lannister never says this exact line in Game of Thrones; it is a fan paraphrase of his general characterization that went viral as a fake quote. 'Democracy is so overrated.' — widely attributed to Frank Underwood online but not a real line from House of Cards; it conflates several of his monologues. 'We have to go back!' — Jack Shephard in Lost does say a version of this, but the exact phrasing 'We have to go back!' is the internet meme compression; the actual line is 'We have to go back, Kate!' — fans drop the 'Kate' and treat it as a standalone catchphrase he says repeatedly, when he says it once."
+    }
+  ]
+}
