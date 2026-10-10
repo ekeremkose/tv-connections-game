@@ -1,0 +1,124 @@
+{
+  "date": "2026-10-12",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Raylan Givens"
+    },
+    {
+      "id": "tile_2",
+      "text": "Boyd Crowder"
+    },
+    {
+      "id": "tile_3",
+      "text": "Harlan County"
+    },
+    {
+      "id": "tile_4",
+      "text": "\"You should've run.\""
+    },
+    {
+      "id": "tile_5",
+      "text": "Pacey Witter"
+    },
+    {
+      "id": "tile_6",
+      "text": "Noel Crane"
+    },
+    {
+      "id": "tile_7",
+      "text": "Jordan Catalano"
+    },
+    {
+      "id": "tile_8",
+      "text": "Logan Huntzberger"
+    },
+    {
+      "id": "tile_9",
+      "text": "Burn Notice"
+    },
+    {
+      "id": "tile_10",
+      "text": "Covert Affairs"
+    },
+    {
+      "id": "tile_11",
+      "text": "In Plain Sight"
+    },
+    {
+      "id": "tile_12",
+      "text": "White Collar"
+    },
+    {
+      "id": "tile_13",
+      "text": "\"I'm not a lawyer, I'm a criminal.\""
+    },
+    {
+      "id": "tile_14",
+      "text": "Alan Shore"
+    },
+    {
+      "id": "tile_15",
+      "text": "Patty Hewes"
+    },
+    {
+      "id": "tile_16",
+      "text": "Jimmy McGill"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Justified universe",
+      "connection_type": "same_show",
+      "difficulty": 1,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Raylan Givens (protagonist), Boyd Crowder (antagonist), Harlan County (setting), and 'You should've run.' (Raylan's pre-shooting catchphrase) are all from the FX series Justified. Walton Goggins was replaced with Boyd Crowder to avoid having an actor name alongside the character he plays."
+    },
+    {
+      "id": "group_2",
+      "name": "The polarizing 'other guy' in a famous TV love triangle",
+      "connection_type": "rival_love_interest_in_iconic_tv_love_triangle",
+      "difficulty": 2,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Pacey Witter (Dawson's Creek — the electric rival to Dawson for Joey's heart), Noel Crane (Felicity — Team Noel vs. Ben), Jordan Catalano (My So-Called Life — the brooding object of Angela's obsession, rival to Brian Krakow), and Logan Huntzberger (Gilmore Girls — the rival to Jess and Dean for Rory) are all the charged 'other guy' who split TV fanbases in iconic love triangles."
+    },
+    {
+      "id": "group_3",
+      "name": "USA Network shows whose lead is a skilled professional cut off from their institution",
+      "connection_type": "usa_network_show_lead_is_burned_or_institutionally_cut_off_professional",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Burn Notice (spy burned by the CIA), Covert Affairs (CIA operative navigating institutional betrayal), In Plain Sight (US Marshal operating outside normal channels in witness protection), and White Collar (ex-con consultant working under FBI supervision after being caught) are all USA Network shows centered on a skilled professional whose relationship with their institution is fractured or unconventional."
+    },
+    {
+      "id": "group_4",
+      "name": "TV lawyers whose defining trait is weaponizing the law for personal or financial gain rather than justice",
+      "connection_type": "tv_lawyer_who_weaponizes_law_for_personal_gain",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "'I'm not a lawyer, I'm a criminal.' (Saul Goodman's self-description in Breaking Bad/Better Call Saul), Alan Shore (Boston Legal — brilliant attorney who routinely bends ethics for clients and personal glory), Patty Hewes (Damages — ruthless litigator who manipulates everyone around her for leverage and victory), and Jimmy McGill (Better Call Saul — the origin story of a man who twists legal practice into self-serving gamesmanship) are all TV lawyers defined by using the law as a weapon rather than a shield."
+    }
+  ]
+}
