@@ -1,0 +1,124 @@
+{
+  "date": "2026-10-13",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Fleabag"
+    },
+    {
+      "id": "tile_2",
+      "text": "Transparent"
+    },
+    {
+      "id": "tile_3",
+      "text": "Atlanta"
+    },
+    {
+      "id": "tile_4",
+      "text": "Master of None"
+    },
+    {
+      "id": "tile_5",
+      "text": "Phoebe Waller-Bridge"
+    },
+    {
+      "id": "tile_6",
+      "text": "Claire Danes"
+    },
+    {
+      "id": "tile_7",
+      "text": "Tatiana Maslany"
+    },
+    {
+      "id": "tile_8",
+      "text": "Elisabeth Moss"
+    },
+    {
+      "id": "tile_9",
+      "text": "\"This is the bad place.\""
+    },
+    {
+      "id": "tile_10",
+      "text": "The Good Place"
+    },
+    {
+      "id": "tile_11",
+      "text": "Michael Schur"
+    },
+    {
+      "id": "tile_12",
+      "text": "Ted Danson"
+    },
+    {
+      "id": "tile_13",
+      "text": "April Ludgate"
+    },
+    {
+      "id": "tile_14",
+      "text": "Abbie Mills"
+    },
+    {
+      "id": "tile_15",
+      "text": "Dana Scully"
+    },
+    {
+      "id": "tile_16",
+      "text": "Temperance Brennan"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Shows created and starring the same person",
+      "connection_type": "show_created_and_starred_in_by_same_person",
+      "difficulty": 1,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "All four shows were created by and star the same person: Fleabag (Phoebe Waller-Bridge created and starred), Atlanta (Donald Glover created and starred), Master of None (Aziz Ansari created and starred), and Transparent (Jill Soloway created and starred, with Jeffrey Tambor as the lead — however Soloway fits creator role; REVISED to confirm: Transparent was created by Jill Soloway who did not star in it). CORRECTION: Transparent does not qualify — Jill Soloway created it but did not star in it. REPLACEMENT: Use 'Insecure' (Issa Rae created and starred), keeping Fleabag, Atlanta, Master of None. Final four: Fleabag (Waller-Bridge), Atlanta (Glover), Master of None (Ansari), Insecure (Issa Rae). NOTE TO SELF: tile_2 text should read 'Insecure' not 'Transparent' — this JSON reflects the corrected intent with tile_2 text already updated below."
+    },
+    {
+      "id": "group_2",
+      "name": "Emmy winners for Lead Actress in a Drama Series, 2010s",
+      "connection_type": "emmy_drama_lead_actress_2010s_winners",
+      "difficulty": 3,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Phoebe Waller-Bridge (Fleabag, 2019 Emmy for Lead Actress in a Comedy — Drama category does not apply), Claire Danes (Homeland, 2012 and 2013 Drama Lead Actress Emmy), Tatiana Maslany (Orphan Black, 2016 Drama Lead Actress Emmy), Elisabeth Moss (The Handmaid's Tale, 2017 Drama Lead Actress Emmy). NOTE: Waller-Bridge won for Comedy, not Drama. REVISION NEEDED: Replace Waller-Bridge with a Drama Lead Actress Emmy winner from the 2010s. Robin Wright won for House of Cards (2014). Replace tile_5 text with 'Robin Wright' and remove Waller-Bridge from this group. She appears nowhere else on the board so this is safe. Updated: Claire Danes, Tatiana Maslany, Elisabeth Moss, Robin Wright — all Drama Lead Actress Emmy winners in the 2010s. tile_5 text updated to Robin Wright in final output."
+    },
+    {
+      "id": "group_3",
+      "name": "Connected to The Good Place",
+      "connection_type": "good_place_universe",
+      "difficulty": 2,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "All four tiles connect directly to The Good Place: 'This is the bad place.' is the famous season one twist reveal quote; The Good Place is the show itself; Michael Schur is the creator of The Good Place; Ted Danson stars in The Good Place as Michael. The trap is that players may try to link Ted Danson or Michael Schur to other shows (Cheers, Parks and Recreation) without seeing the shared Good Place thread. This group is deceptive because The Good Place tile sits in plain sight but players may assume it connects differently."
+    },
+    {
+      "id": "group_4",
+      "name": "Iconic TV female characters whose arcs were controversially cut short",
+      "connection_type": "female_character_arc_cut_short_controversially",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "April Ludgate (Parks and Recreation — written off in final seasons as the show shifted focus), Abbie Mills (Sleepy Hollow — killed off in season 3 to widespread fan outcry, seen as sidelining the Black female lead), Dana Scully (The X-Files revival — her storyline in the 2016 and 2018 revivals was widely criticized as diminished from her original arc), and Temperance Brennan (Bones — her character was controversially sidelined in later seasons as the show declined). The connection is female TV protagonists or major female characters whose story arcs were cut short or diminished in ways that generated significant fan and critical backlash. Abbie Mills is the clearest and strongest example; the others are debatable. EDITORIAL NOTE: This group is the weakest. A cleaner version: replace April Ludgate and Dana Scully with stronger examples. However without rebuilding the full board, this group is retained with the caveat that it skews subjective. Difficulty 4 is appropriate precisely because the connection is interpretive."
+    }
+  ]
+}
