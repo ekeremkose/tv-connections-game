@@ -1,0 +1,124 @@
+{
+  "date": "2026-10-14",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Westworld"
+    },
+    {
+      "id": "tile_2",
+      "text": "Mare of Easttown"
+    },
+    {
+      "id": "tile_3",
+      "text": "Northern Exposure"
+    },
+    {
+      "id": "tile_4",
+      "text": "Southland"
+    },
+    {
+      "id": "tile_5",
+      "text": "Shiv Roy"
+    },
+    {
+      "id": "tile_6",
+      "text": "Roman Roy"
+    },
+    {
+      "id": "tile_7",
+      "text": "Kendall Roy"
+    },
+    {
+      "id": "tile_8",
+      "text": "Logan Roy"
+    },
+    {
+      "id": "tile_9",
+      "text": "Fargo"
+    },
+    {
+      "id": "tile_10",
+      "text": "Deadwood"
+    },
+    {
+      "id": "tile_11",
+      "text": "Dallas"
+    },
+    {
+      "id": "tile_12",
+      "text": "Nashville"
+    },
+    {
+      "id": "tile_13",
+      "text": "Tony Goldwyn"
+    },
+    {
+      "id": "tile_14",
+      "text": "Kiefer Sutherland"
+    },
+    {
+      "id": "tile_15",
+      "text": "Martin Sheen"
+    },
+    {
+      "id": "tile_16",
+      "text": "Geena Davis"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Members of the Roy family (Succession)",
+      "connection_type": "same_show_characters",
+      "difficulty": 1,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Shiv Roy, Roman Roy, Kendall Roy, and Logan Roy are all members of the Roy family in HBO's Succession."
+    },
+    {
+      "id": "group_2",
+      "name": "TV show titles that contain a compass direction",
+      "connection_type": "show_title_contains_compass_direction",
+      "difficulty": 2,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Westworld (WEST), Mare of Easttown (EAST), Northern Exposure (NORTH), and Southland (SOUTH) each contain a cardinal compass direction embedded in the title."
+    },
+    {
+      "id": "group_3",
+      "name": "TV dramas named after real U.S. cities or towns",
+      "connection_type": "show_named_after_real_us_city",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Fargo (Fargo, ND), Deadwood (Deadwood, SD), Dallas (Dallas, TX), and Nashville (Nashville, TN) are all TV dramas whose titles are the names of real American cities or towns. The trap: these look similar to the compass-direction group, but none of these titles contain a compass direction."
+    },
+    {
+      "id": "group_4",
+      "name": "Actors who played a U.S. President in a TV series",
+      "connection_type": "actor_played_us_president_on_tv",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Tony Goldwyn played President Fitzgerald Grant in Scandal, Kiefer Sutherland played President Tom Kirkman in Designated Survivor, Martin Sheen played President Jed Bartlet in The West Wing, and Geena Davis played President Mackenzie Allen in Commander in Chief."
+    }
+  ]
+}
