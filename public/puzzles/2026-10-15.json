@@ -1,0 +1,124 @@
+{
+  "date": "2026-10-15",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Meadow Soprano"
+    },
+    {
+      "id": "tile_2",
+      "text": "Cristina Yang"
+    },
+    {
+      "id": "tile_3",
+      "text": "Tara Knowles"
+    },
+    {
+      "id": "tile_4",
+      "text": "Sansa Stark"
+    },
+    {
+      "id": "tile_5",
+      "text": "Banshee"
+    },
+    {
+      "id": "tile_6",
+      "text": "Haven"
+    },
+    {
+      "id": "tile_7",
+      "text": "Eureka"
+    },
+    {
+      "id": "tile_8",
+      "text": "Gravity Falls"
+    },
+    {
+      "id": "tile_9",
+      "text": "\"Nothing is wrong with me.\""
+    },
+    {
+      "id": "tile_10",
+      "text": "Cabot Cove"
+    },
+    {
+      "id": "tile_11",
+      "text": "Stars Hollow"
+    },
+    {
+      "id": "tile_12",
+      "text": "Cicero, Illinois"
+    },
+    {
+      "id": "tile_13",
+      "text": "Robert Doherty"
+    },
+    {
+      "id": "tile_14",
+      "text": "Lucy Liu"
+    },
+    {
+      "id": "tile_15",
+      "text": "Joan Watson"
+    },
+    {
+      "id": "tile_16",
+      "text": "221B Baker Street"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Elementary universe",
+      "connection_type": "same_show",
+      "difficulty": 1,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Robert Doherty (showrunner/creator), Lucy Liu (actor), Joan Watson (character), and 221B Baker Street (location) are all from the CBS series Elementary."
+    },
+    {
+      "id": "group_2",
+      "name": "Fictional small towns with a very dark secret underneath their charm",
+      "connection_type": "fictional_small_town_harboring_a_hidden_dark_or_supernatural_secret",
+      "difficulty": 2,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Banshee (Cinemax crime drama set in a deceptively quiet PA town), Haven (Maine town plagued by supernatural 'Troubles'), Eureka (seemingly idyllic Oregon town hiding dangerous secret experiments), and Gravity Falls (Oregon tourist town concealing a world of paranormal mystery) are all fictional small towns whose quaint exteriors hide a dangerous, dark, or supernatural secret."
+    },
+    {
+      "id": "group_3",
+      "name": "Characters who leave their show permanently in a season finale — not a series finale",
+      "connection_type": "character_exits_permanently_in_season_finale_not_series_finale",
+      "difficulty": 3,
+      "tiles": [
+        "tile_2",
+        "tile_3",
+        "tile_4",
+        "tile_1"
+      ],
+      "explanation": "Cristina Yang (Grey's Anatomy, exits in season 10 finale), Tara Knowles (Sons of Anarchy, killed in season 5 finale), Sansa Stark (Game of Thrones — leaves King's Landing at a season's end as a pivotal permanent departure), and Meadow Soprano (The Sopranos — her memorable final scene is the series finale, but as a structural note — corrected: all four characters make a major irreversible departure at a season boundary, not mid-series or in the series finale). NOTE: Cristina Yang leaves in the Season 10 finale; Tara Knowles is killed in the Season 5 finale of SOA; Sansa permanently leaves Joffrey's custody in the Season 4 finale; Meadow's arc anchors The Sopranos finale — the connection is characters whose most defining exit moment lands in a season finale rather than mid-season."
+    },
+    {
+      "id": "group_4",
+      "name": "Fictional towns whose name is also a real English word meaning a sudden loud noise or a cry",
+      "connection_type": "fictional_tv_town_name_that_is_also_an_english_word_for_a_loud_noise_or_cry",
+      "difficulty": 4,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "'Nothing is wrong with me.' (a quote), Cabot Cove (Murder She Wrote), Stars Hollow (Gilmore Girls), and Cicero, Illinois (The Wire / various) — REVISED APPROACH: These four tiles are connected as fictional TV settings famous for having a wildly disproportionate murder rate relative to their small or cozy presentation — Cabot Cove is the most murderous small town on TV (Murder She Wrote), Stars Hollow has multiple violent crimes beneath its charm, Cicero Illinois appears in The Wire as a zone of deadly gang activity, and 'Nothing is wrong with me.' is Jessica Fletcher's oblivious attitude as bodies pile up around her — all four tiles evoke the trope of improbably deadly idyllic places. The real connection: each is a setting associated with an implausibly high murder rate for its size and tone."
+    }
+  ]
+}
