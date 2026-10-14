@@ -1,0 +1,124 @@
+{
+  "date": "2026-10-16",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Pawnee, Indiana"
+    },
+    {
+      "id": "tile_2",
+      "text": "Dillon, Texas"
+    },
+    {
+      "id": "tile_3",
+      "text": "Port Charles, New York"
+    },
+    {
+      "id": "tile_4",
+      "text": "Rosewood, Pennsylvania"
+    },
+    {
+      "id": "tile_5",
+      "text": "Mindy Kaling"
+    },
+    {
+      "id": "tile_6",
+      "text": "Lena Waithe"
+    },
+    {
+      "id": "tile_7",
+      "text": "Donald Glover"
+    },
+    {
+      "id": "tile_8",
+      "text": "Phoebe Waller-Bridge"
+    },
+    {
+      "id": "tile_9",
+      "text": "Nurse Ratched"
+    },
+    {
+      "id": "tile_10",
+      "text": "Hannibal Lecter"
+    },
+    {
+      "id": "tile_11",
+      "text": "Norman Bates"
+    },
+    {
+      "id": "tile_12",
+      "text": "Dexter Morgan"
+    },
+    {
+      "id": "tile_13",
+      "text": "Manifest"
+    },
+    {
+      "id": "tile_14",
+      "text": "Lucifer"
+    },
+    {
+      "id": "tile_15",
+      "text": "Jericho"
+    },
+    {
+      "id": "tile_16",
+      "text": "Designated Survivor"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "TV shows cancelled then revived on a different platform",
+      "connection_type": "fan_saved_cancelled_then_revived_on_different_platform",
+      "difficulty": 1,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Manifest (NBC → Netflix), Lucifer (Fox → Netflix), Jericho (CBS → Season 2 renewed after massive fan campaign), and Designated Survivor (ABC → Netflix) were all cancelled by their original networks and revived or continued on a different platform due to audience demand."
+    },
+    {
+      "id": "group_2",
+      "name": "Fictional TV towns whose name is also a real U.S. town",
+      "connection_type": "fictional_tv_town_shares_exact_name_with_real_us_town",
+      "difficulty": 2,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Pawnee, Indiana (Parks and Recreation), Dillon, Texas (Friday Night Lights), Port Charles, New York (General Hospital), and Rosewood, Pennsylvania (Pretty Little Liars) are all fictional TV settings that share their exact name with a real U.S. town or city."
+    },
+    {
+      "id": "group_3",
+      "name": "Writers who also star in the TV show they created",
+      "connection_type": "showrunner_writer_who_also_stars_in_own_show",
+      "difficulty": 3,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Mindy Kaling created and starred in The Mindy Project; Lena Waithe co-wrote and starred in Master of None and created and appeared in The Chi; Donald Glover created and starred in Atlanta; Phoebe Waller-Bridge created and starred in Fleabag — each is a writer/creator who also appears as a lead performer in their own show."
+    },
+    {
+      "id": "group_4",
+      "name": "Iconic characters who got their own TV prequel or origin series",
+      "connection_type": "iconic_character_who_became_lead_of_tv_prequel_or_origin_series",
+      "difficulty": 4,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Nurse Ratched (One Flew Over the Cuckoo's Nest → Ratched on Netflix), Hannibal Lecter (Silence of the Lambs / Red Dragon → Hannibal on NBC), Norman Bates (Psycho → Bates Motel on A&E), and Dexter Morgan (Dexter → Dexter: New Blood on Showtime, a revival continuing his story) are all iconic film or TV characters given full-length TV series expanding their story."
+    }
+  ]
+}
