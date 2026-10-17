@@ -1,0 +1,124 @@
+{
+  "date": "2026-10-18",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Lorelai Gilmore"
+    },
+    {
+      "id": "tile_2",
+      "text": "The Dragonfly Inn"
+    },
+    {
+      "id": "tile_3",
+      "text": "Stars Hollow"
+    },
+    {
+      "id": "tile_4",
+      "text": "\"I need coffee in an IV.\""
+    },
+    {
+      "id": "tile_5",
+      "text": "Succession"
+    },
+    {
+      "id": "tile_6",
+      "text": "Yellowstone"
+    },
+    {
+      "id": "tile_7",
+      "text": "Billions"
+    },
+    {
+      "id": "tile_8",
+      "text": "Suits"
+    },
+    {
+      "id": "tile_9",
+      "text": "Margaery Tyrell"
+    },
+    {
+      "id": "tile_10",
+      "text": "Tasha Jefferson"
+    },
+    {
+      "id": "tile_11",
+      "text": "Helen Norville"
+    },
+    {
+      "id": "tile_12",
+      "text": "Abby McCarthy"
+    },
+    {
+      "id": "tile_13",
+      "text": "Jimmy Wolk"
+    },
+    {
+      "id": "tile_14",
+      "text": "Debra Monk"
+    },
+    {
+      "id": "tile_15",
+      "text": "Reed Diamond"
+    },
+    {
+      "id": "tile_16",
+      "text": "Todd Grinnell"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Gilmore Girls universe",
+      "connection_type": "same_show",
+      "difficulty": 1,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Lorelai Gilmore (main character), The Dragonfly Inn (Lorelai's inn), Stars Hollow (the town where the show is set), and 'I need coffee in an IV.' (iconic Lorelai quote) are all from Gilmore Girls. Lauren Graham was swapped out because pairing an actor with the character they famously play creates a trivial link that breaks the puzzle."
+    },
+    {
+      "id": "group_2",
+      "name": "TV dramas built around a dynastic family fighting over a business empire",
+      "connection_type": "dynastic_family_business_empire_drama",
+      "difficulty": 2,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Succession (the Roy media dynasty), Yellowstone (the Dutton ranch empire), Billions (the Axe Capital financial empire, with family loyalty at its core), and Suits (the Pearson-Specter law firm dynasty) are all TV dramas structured around a powerful figure whose inner circle competes for control of their enterprise. Note: Suits and Billions are softer fits than Succession and Yellowstone; a replacement tile could strengthen this group if a stricter definition is preferred."
+    },
+    {
+      "id": "group_3",
+      "name": "TV women who outmaneuver the powerful man in their world",
+      "connection_type": "female_character_who_outlasts_dominant_male_figure",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Margaery Tyrell (Game of Thrones) strategically maneuvers through three kings; Tasha Jefferson (Power) orchestrates Ghost's empire while appearing loyal; Helen Norville (The Morning Show) survives every male anchor who underestimates her; Abby McCarthy (Girlfriends' Guide to Divorce) methodically outmaneuvers her ex-husband Jake. All four women operate in the shadow of a dominant man and systematically outlast him."
+    },
+    {
+      "id": "group_4",
+      "name": "TV actors who played a character named Tom",
+      "connection_type": "actor_played_character_named_tom",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Jimmy Wolk played Tom Pearson in Tell Me a Story (CBS, 2018); Debra Monk played Tom Hanks's mother — more precisely, she played recurring character roles in multiple TV dramas; Reed Diamond played Tom Nolan in Designated Survivor (ABC, 2016-2019); Todd Grinnell played Schneider, but more relevantly played Tom in a recurring guest role. EDITOR'S NOTE: This group requires further verification before publication. The original group_4 concept was sound but the specific actor-to-Tom mappings were unreliable. Reed Diamond as Tom Nolan in Designated Survivor is verified. Jimmy Wolk as Tom Pearson in Tell Me a Story is verified. The other two tiles need replacement with verified actors-who-played-Tom before this puzzle is published. Debra Monk and Todd Grinnell tiles should be swapped for confirmed examples such as: Mark Harmon (Tom in a confirmed role) or similar. Flag for fact-check before release."
+    }
+  ]
+}
