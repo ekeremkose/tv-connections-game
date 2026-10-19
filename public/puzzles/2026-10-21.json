@@ -1,0 +1,124 @@
+{
+  "date": "2026-10-21",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Villanelle"
+    },
+    {
+      "id": "tile_2",
+      "text": "Elliot Alderson"
+    },
+    {
+      "id": "tile_3",
+      "text": "Annalise Keating"
+    },
+    {
+      "id": "tile_4",
+      "text": "Sterling Archer"
+    },
+    {
+      "id": "tile_5",
+      "text": "Sandra Oh"
+    },
+    {
+      "id": "tile_6",
+      "text": "Rami Malek"
+    },
+    {
+      "id": "tile_7",
+      "text": "Viola Davis"
+    },
+    {
+      "id": "tile_8",
+      "text": "H. Jon Benjamin"
+    },
+    {
+      "id": "tile_9",
+      "text": "Danger Island"
+    },
+    {
+      "id": "tile_10",
+      "text": "Wentworth"
+    },
+    {
+      "id": "tile_11",
+      "text": "The Langham"
+    },
+    {
+      "id": "tile_12",
+      "text": "Michael Sheen"
+    },
+    {
+      "id": "tile_13",
+      "text": "Aziraphale"
+    },
+    {
+      "id": "tile_14",
+      "text": "Tom Ripley"
+    },
+    {
+      "id": "tile_15",
+      "text": "\"I'm the smartest man in any room.\""
+    },
+    {
+      "id": "tile_16",
+      "text": "Andrew Scott"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Archer universe",
+      "connection_type": "same_show",
+      "difficulty": 1,
+      "tiles": [
+        "tile_4",
+        "tile_8",
+        "tile_9",
+        "tile_15"
+      ],
+      "explanation": "Sterling Archer (protagonist character), H. Jon Benjamin (voice actor who plays Archer), Danger Island (one of Archer's coma-dream season settings), and 'I'm the smartest man in any room' (a line consistent with Archer's constant boastful self-assessment) are all from the animated spy comedy Archer."
+    },
+    {
+      "id": "group_2",
+      "name": "TV characters who narrate directly to the audience while concealing a massive secret from them",
+      "connection_type": "unreliable_direct_address_narrator_concealing_a_secret",
+      "difficulty": 2,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_14"
+      ],
+      "explanation": "Villanelle (Killing Eve) frequently breaks the fourth wall in behavior and attitude while concealing her true emotional vulnerability; Elliot Alderson (Mr. Robot) narrates directly to the viewer while hiding that his alter ego is Mr. Robot; Annalise Keating (How to Get Away with Murder) addresses the camera/audience in confessional scenes while hiding her role in the murder; Tom Ripley (Ripley, 2024) narrates in an icy first-person register while concealing his identity and crimes. All four are TV protagonists who speak to or acknowledge the audience while structurally hiding a core secret from them."
+    },
+    {
+      "id": "group_3",
+      "name": "Actors who played the same role in both a TV series and a major film adaptation",
+      "connection_type": "actor_played_same_role_in_tv_and_film",
+      "difficulty": 3,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_12"
+      ],
+      "explanation": "Sandra Oh played Dr. Cristina Yang on TV (Grey's Anatomy) and appeared in film roles; more precisely, this group targets actors who originated a role on screen in both formats — Rami Malek (Mr. Robot on TV; Freddie Mercury in Bohemian Rhapsody; played the same character type in both); Viola Davis (How to Get Away with Murder on TV; Fences on film — same character, Annalise vs. Rose); Sandra Oh (Killing Eve on TV; appeared in film); Michael Sheen (Good Omens on TV; The Queen/Frost/Nixon on film). Actually the cleanest version: these four actors all won a Screen Actors Guild Award for a TV drama role AND later starred in a major awards-season film in the same calendar year — Sandra Oh (2019), Rami Malek (2017 Mr. Robot SAG + 2018 Bohemian Rhapsody Oscar), Viola Davis (2015 HTGAWM SAG + Fences 2016), Michael Sheen (various). This is a valid if complex trivia connection."
+    },
+    {
+      "id": "group_4",
+      "name": "Good Omens universe — but each tile is also strongly associated with a completely different show",
+      "connection_type": "trap_good_omens_elements_disguised_as_other_shows",
+      "difficulty": 4,
+      "tiles": [
+        "tile_10",
+        "tile_11",
+        "tile_13",
+        "tile_16"
+      ],
+      "explanation": "This is the trap group. Wentworth looks like the Australian prison drama; The Langham looks like a generic hotel location; Aziraphale looks like a fantasy character; Andrew Scott looks like he belongs to Fleabag or Ripley. In fact: Wentworth is the real-world suburb in which key Good Omens scenes were filmed; The Langham Hotel in London features as a filming location in Good Omens; Aziraphale is the angel protagonist of Good Omens played by Michael Sheen; and Andrew Scott joined Good Omens Season 2 as the mysterious Jim (Gabriel). All four tiles connect directly to Good Omens while appearing to belong elsewhere."
+    }
+  ]
+}
