@@ -1,0 +1,124 @@
+{
+  "date": "2026-10-22",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Pushing Daisies"
+    },
+    {
+      "id": "tile_2",
+      "text": "Freaks and Geeks"
+    },
+    {
+      "id": "tile_3",
+      "text": "Firefly"
+    },
+    {
+      "id": "tile_4",
+      "text": "My So-Called Life"
+    },
+    {
+      "id": "tile_5",
+      "text": "Veronica Mars"
+    },
+    {
+      "id": "tile_6",
+      "text": "Forever"
+    },
+    {
+      "id": "tile_7",
+      "text": "Constantine"
+    },
+    {
+      "id": "tile_8",
+      "text": "Galavant"
+    },
+    {
+      "id": "tile_9",
+      "text": "Richard Castle"
+    },
+    {
+      "id": "tile_10",
+      "text": "Temperance Brennan"
+    },
+    {
+      "id": "tile_11",
+      "text": "Jessica Fletcher"
+    },
+    {
+      "id": "tile_12",
+      "text": "Adrian Monk"
+    },
+    {
+      "id": "tile_13",
+      "text": "Pamela Adlon"
+    },
+    {
+      "id": "tile_14",
+      "text": "Lena Headey"
+    },
+    {
+      "id": "tile_15",
+      "text": "Anna Torv"
+    },
+    {
+      "id": "tile_16",
+      "text": "Katja Herbers"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Beloved cancelled shows whose fanbases fought to revive them on another platform or in a new format",
+      "connection_type": "fan_saved_cancelled_revived_different_platform",
+      "difficulty": 1,
+      "tiles": [
+        "tile_3",
+        "tile_2",
+        "tile_5",
+        "tile_4"
+      ],
+      "explanation": "Firefly was cancelled by Fox after one season and fan outcry led to the theatrical film Serenity. Freaks and Geeks was cancelled after one season and developed a massive cult following that kept it in the cultural conversation for decades. Veronica Mars was cancelled by UPN/The CW, then revived via a fan-funded Kickstarter film and later a Hulu revival season. My So-Called Life was cancelled after one season by ABC despite intense fan campaigns to save it. All four are defining examples of passionate fanbases refusing to let a cancelled show disappear."
+    },
+    {
+      "id": "group_2",
+      "name": "TV crime or mystery protagonists whose full name is shared with or directly inspired by a real published author",
+      "connection_type": "character_full_name_matches_real_author",
+      "difficulty": 2,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Richard Castle (Castle, ABC) is himself a fictional crime novelist whose in-universe novels were published as real books under the Richard Castle byline. Temperance Brennan (Bones, Fox) shares her name and profession with forensic anthropologist Kathy Reichs, who writes the real Temperance Brennan novel series. Jessica Fletcher (Murder, She Wrote, CBS) is a mystery novelist whose fictional books were published as real tie-in novels under the Jessica Fletcher byline. Adrian Monk (Monk, USA) is inspired by the real crime writer and Monk tie-in novels were published under Lee Goldberg's name but branded as by the character — and Monk himself is a consulting detective in the tradition of literary sleuths whose cases were novelized. All four protagonists have a documented real-world publishing identity attached to their fictional author or detective personas."
+    },
+    {
+      "id": "group_3",
+      "name": "Shows cancelled after one or two seasons despite receiving Emmy nominations for craft or technical achievement",
+      "connection_type": "one_or_two_seasons_cancelled_despite_emmy_craft_nomination",
+      "difficulty": 3,
+      "tiles": [
+        "tile_1",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Pushing Daisies (ABC) won multiple Emmy Awards for Outstanding Art Direction and Outstanding Costumes before being cancelled mid-story after its second season. Forever (ABC) was cancelled after one season despite strong audience response and technical praise. Constantine (NBC) was cancelled after one season and received an Emmy nomination for Outstanding Special Visual Effects. Galavant (ABC) ran for two short seasons and its original songs and musical craft received Emmy attention before cancellation. All four were cut down while still receiving recognition for their technical or creative artistry."
+    },
+    {
+      "id": "group_4",
+      "name": "Actresses who played a lead character regularly haunted by visions or voices of the dead",
+      "connection_type": "actress_played_character_haunted_by_dead_visions_voices",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Pamela Adlon in Better Things plays Sam Fox, who experiences vivid hallucinatory visits from her deceased father Phil throughout the later seasons of the show. Lena Headey in The Sarah Connor Chronicles plays Sarah Connor, who is persistently haunted by visions of Kyle Reese and other dead figures from her past, including dream sequences of people she has lost. Anna Torv in Fringe plays Olivia Dunham, who is haunted by visions of Peter Bishop during the season in which he has been erased from existence — seeing a dead or erased man who appears only to her. Katja Herbers in Evil plays Kristen Bouchard, who is repeatedly visited by visions of demonic and deceased figures, including the man she killed, whose apparition returns to torment her across multiple seasons."
+    }
+  ]
+}
