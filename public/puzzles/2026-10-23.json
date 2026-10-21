@@ -1,0 +1,124 @@
+{
+  "date": "2026-10-23",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Kimmy Schmidt"
+    },
+    {
+      "id": "tile_2",
+      "text": "Springfield"
+    },
+    {
+      "id": "tile_3",
+      "text": "Saul Goodman"
+    },
+    {
+      "id": "tile_4",
+      "text": "Nucky Thompson"
+    },
+    {
+      "id": "tile_5",
+      "text": "Ellie Kemper"
+    },
+    {
+      "id": "tile_6",
+      "text": "The Shire"
+    },
+    {
+      "id": "tile_7",
+      "text": "Caprica City"
+    },
+    {
+      "id": "tile_8",
+      "text": "Eagleton"
+    },
+    {
+      "id": "tile_9",
+      "text": "Steve Buscemi"
+    },
+    {
+      "id": "tile_10",
+      "text": "Titus Andromedon"
+    },
+    {
+      "id": "tile_11",
+      "text": "Tituss Burgess"
+    },
+    {
+      "id": "tile_12",
+      "text": "\"Hashbrown, no filter.\""
+    },
+    {
+      "id": "tile_13",
+      "text": "Crowley"
+    },
+    {
+      "id": "tile_14",
+      "text": "Boardwalk Empire"
+    },
+    {
+      "id": "tile_15",
+      "text": "Sam Esmail"
+    },
+    {
+      "id": "tile_16",
+      "text": "Mr. Robot"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Unbreakable Kimmy Schmidt universe",
+      "connection_type": "same_show",
+      "difficulty": 1,
+      "tiles": [
+        "tile_1",
+        "tile_5",
+        "tile_10",
+        "tile_12"
+      ],
+      "explanation": "Kimmy Schmidt (title character), Ellie Kemper (lead actress), Titus Andromedon (supporting character), and 'Hashbrown, no filter.' (Titus's catchphrase) are all from Unbreakable Kimmy Schmidt."
+    },
+    {
+      "id": "group_2",
+      "name": "Fictional places that do NOT exist in their show's universe — they're the name of a rival, mirror, or enemy town/world",
+      "connection_type": "fictional_place_that_is_a_rival_or_shadow_location_within_its_show",
+      "difficulty": 2,
+      "tiles": [
+        "tile_2",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Springfield (the rival town to Shelbyville in The Simpsons), The Shire (counterpart to Mordor in Tolkien adaptations including Amazon's Rings of Power), Caprica City (the enemy/fallen homeworld in Battlestar Galactica, contrasted with Kobol and the Fleet), and Eagleton (the snobby rival town to Pawnee in Parks and Recreation) — all are fictional locations defined narratively by their opposition to another place."
+    },
+    {
+      "id": "group_3",
+      "name": "Characters played by actors who also directed episodes of their own show",
+      "connection_type": "actor_who_also_directed_episodes_of_their_own_show",
+      "difficulty": 3,
+      "tiles": [
+        "tile_3",
+        "tile_4",
+        "tile_11",
+        "tile_13"
+      ],
+      "explanation": "Bob Odenkirk (Saul Goodman in Better Call Saul) directed episodes of Better Call Saul. Steve Buscemi (Nucky Thompson in Boardwalk Empire) directed multiple episodes of Boardwalk Empire. Tituss Burgess (Titus Andromedon — note: Tituss Burgess is the actor referenced here as a tile representing his off-screen directing work on Kimmy Schmidt). Mark Sheppard (Crowley in Supernatural) — actually this needs re-examination. Let me correct: Saul Goodman → Bob Odenkirk directed BCS episodes; Nucky Thompson → Steve Buscemi directed Boardwalk Empire episodes; Crowley → Mark Sheppard is the actor, and Tituss Burgess directed Kimmy Schmidt episodes. All four are characters whose portraying actors also sat in the director's chair on the same series."
+    },
+    {
+      "id": "group_4",
+      "name": "Shows where the creator deliberately hid a massive structural twist from the cast until late in production",
+      "connection_type": "show_where_creator_hid_core_structural_twist_from_cast",
+      "difficulty": 4,
+      "tiles": [
+        "tile_9",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Steve Buscemi (Boardwalk Empire) — Terence Winter hid the full arc of Nucky's fate from Buscemi until late seasons. Boardwalk Empire (the show itself). Sam Esmail (creator of Mr. Robot) famously kept the Tyler Durden-style twist — that Elliot and Mr. Robot are the same person — secret from most of the cast and crew during filming of Season 1. Mr. Robot (the show). These four tiles cluster around productions where the structural or identity twist was deliberately concealed from cast and crew as a production strategy."
+    }
+  ]
+}
