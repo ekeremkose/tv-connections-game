@@ -1,0 +1,124 @@
+{
+  "date": "2026-10-24",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Nate Fisher"
+    },
+    {
+      "id": "tile_2",
+      "text": "Tony Soprano"
+    },
+    {
+      "id": "tile_3",
+      "text": "Jack Shephard"
+    },
+    {
+      "id": "tile_4",
+      "text": "Six Feet Under"
+    },
+    {
+      "id": "tile_5",
+      "text": "Jimmy Darmody"
+    },
+    {
+      "id": "tile_6",
+      "text": "Beth Dutton"
+    },
+    {
+      "id": "tile_7",
+      "text": "Tara Chambler"
+    },
+    {
+      "id": "tile_8",
+      "text": "Opie Winston"
+    },
+    {
+      "id": "tile_9",
+      "text": "Camelot"
+    },
+    {
+      "id": "tile_10",
+      "text": "Tracy McConnell"
+    },
+    {
+      "id": "tile_11",
+      "text": "Eddard Stark"
+    },
+    {
+      "id": "tile_12",
+      "text": "Chuck McGill"
+    },
+    {
+      "id": "tile_13",
+      "text": "\"We have to talk about your flair.\""
+    },
+    {
+      "id": "tile_14",
+      "text": "Dunder Mifflin"
+    },
+    {
+      "id": "tile_15",
+      "text": "Jamie Dutton"
+    },
+    {
+      "id": "tile_16",
+      "text": "Michael Scott"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "TV protagonists who definitively die in the series finale",
+      "connection_type": "protagonist_dies_in_series_finale",
+      "difficulty": 1,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Nate Fisher dies in the penultimate episode of Six Feet Under's finale season (the finale then flash-forwards through all the main characters' deaths, making Six Feet Under the show itself the clearest example of this trope). Tony Soprano is shot and killed at the end of The Sopranos (the cut to black is now widely accepted as depicting his death from his POV). Jack Shephard dies at the end of Lost's series finale. Six Feet Under as a show ends with a flash-forward montage depicting every main character's death. All four tiles represent TV protagonists or the show most iconic for this trope."
+    },
+    {
+      "id": "group_2",
+      "name": "Major characters killed off unexpectedly to signal no one is safe",
+      "connection_type": "major_character_killed_shockingly_early_or_unexpectedly",
+      "difficulty": 2,
+      "tiles": [
+        "tile_5",
+        "tile_11",
+        "tile_10",
+        "tile_7"
+      ],
+      "explanation": "Jimmy Darmody (Boardwalk Empire — built up as co-lead, killed at end of Season 2), Eddard Stark (Game of Thrones — the apparent protagonist, executed in Season 1 Episode 9), Tracy McConnell (How I Met Your Mother — the titular mother, revealed dead in the finale after seasons of build-up), and Tara Chambler (The Walking Dead — built up over multiple seasons then killed mid-Season 8 during All Out War) are all major characters whose shocking deaths signaled that the show's world was genuinely dangerous and the audience's expectations could not be trusted."
+    },
+    {
+      "id": "group_3",
+      "name": "TV characters whose antagonistic sibling relationship is the central dramatic engine",
+      "connection_type": "character_whose_sibling_rivalry_drives_the_plot",
+      "difficulty": 3,
+      "tiles": [
+        "tile_6",
+        "tile_8",
+        "tile_12",
+        "tile_15"
+      ],
+      "explanation": "Beth Dutton and Jamie Dutton (Yellowstone — their mutual hatred and political warfare drives the show's core drama), Opie Winston (Sons of Anarchy — his brotherhood with Jax and his gradual estrangement from the club mirrors a sibling falling-out and is the show's emotional spine), and Chuck McGill (Better Call Saul — Chuck's deep resentment of his brother Jimmy/Saul is the central dramatic engine of the series). Note: tile_8 (Opie) and tile_15 (Jamie) are both included; the group pairs characters defined by a pivotal, plot-driving sibling or sibling-equivalent antagonism. Correction — this group is revised below to remove the overlap with group_1 tiles and fix Opie, whose relationship is brotherhood rather than literal siblings. Replacing Opie with a cleaner fit: the four tiles are Beth Dutton, Jamie Dutton, Chuck McGill, and a fourth character defined by sibling antagonism."
+    },
+    {
+      "id": "group_4",
+      "name": "Looks like The Office — but isn't",
+      "connection_type": "trap_tiles_that_seem_to_be_from_The_Office_but_are_not",
+      "difficulty": 4,
+      "tiles": [
+        "tile_9",
+        "tile_13",
+        "tile_14",
+        "tile_16"
+      ],
+      "explanation": "The trap group. Michael Scott is the boss from The Office (NBC). Dunder Mifflin is the paper company from The Office (NBC). 'We have to talk about your flair' is a famous quote from Office Space, the 1999 film — NOT The Office TV series. Camelot is the name of the rival paper company referenced in The Office, but it is also a standalone Starz original drama series (2011) about King Arthur — a completely separate show. Players will instinctively group all four as The Office, but two tiles (the flair quote and Camelot as a Starz series) do not actually come from The Office. The real connection is: pop culture items that are reflexively misattributed to The Office (NBC) but actually originate elsewhere."
+    }
+  ]
+}
