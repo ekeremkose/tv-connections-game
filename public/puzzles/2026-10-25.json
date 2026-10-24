@@ -1,0 +1,124 @@
+{
+  "date": "2026-10-25",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Chidi Anagonye"
+    },
+    {
+      "id": "tile_2",
+      "text": "Rust Cohle"
+    },
+    {
+      "id": "tile_3",
+      "text": "Dr. Cox"
+    },
+    {
+      "id": "tile_4",
+      "text": "Tara Maclay"
+    },
+    {
+      "id": "tile_5",
+      "text": "Albuquerque"
+    },
+    {
+      "id": "tile_6",
+      "text": "Atlantic City"
+    },
+    {
+      "id": "tile_7",
+      "text": "Baltimore"
+    },
+    {
+      "id": "tile_8",
+      "text": "New Orleans"
+    },
+    {
+      "id": "tile_9",
+      "text": "Yellowjackets"
+    },
+    {
+      "id": "tile_10",
+      "text": "Pose"
+    },
+    {
+      "id": "tile_11",
+      "text": "Halt and Catch Fire"
+    },
+    {
+      "id": "tile_12",
+      "text": "The Americans"
+    },
+    {
+      "id": "tile_13",
+      "text": "Carrie Coon"
+    },
+    {
+      "id": "tile_14",
+      "text": "Matthew McConaughey"
+    },
+    {
+      "id": "tile_15",
+      "text": "Zach Gilford"
+    },
+    {
+      "id": "tile_16",
+      "text": "Melanie Lynskey"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Shows set in a U.S. city that is also the title's setting but never named in the title",
+      "connection_type": "show_set_in_a_specific_us_city_not_named_in_the_title",
+      "difficulty": 1,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Albuquerque (Breaking Bad), Atlantic City (Boardwalk Empire), Baltimore (The Wire), and New Orleans (Treme) are all cities that are the unmistakable primary setting of a prestige TV drama whose title does not contain the city's name."
+    },
+    {
+      "id": "group_2",
+      "name": "TV characters who are the moral philosopher of their show — but are deeply personally broken",
+      "connection_type": "character_is_resident_moral_philosopher_but_personally_broken",
+      "difficulty": 2,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Chidi Anagonye (The Good Place) lectures endlessly on ethics while being paralyzed by indecision; Rust Cohle (True Detective) delivers nihilistic philosophical monologues while being emotionally destroyed; Dr. Cox (Scrubs) espouses idealistic medicine while being a self-sabotaging cynic; Tara Maclay (Buffy the Vampire Slayer) is the gentle moral anchor of the Scoobies while suffering from profound self-worth issues rooted in her abusive past."
+    },
+    {
+      "id": "group_3",
+      "name": "Shows whose series finale was set at least partly in the distant past via flashback or time shift — not the show's present",
+      "connection_type": "series_finale_set_partly_in_a_different_time_period_from_main_timeline",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Yellowjackets, Pose, Halt and Catch Fire, and The Americans each concluded their series with a finale that used a significant time jump or period shift — either flashing back to an earlier era or jumping years forward — as a structural device to resolve their central emotional arcs, rather than ending in the show's established present-day timeline."
+    },
+    {
+      "id": "group_4",
+      "name": "Actors who played a parent who discovers their child has been living a secret life",
+      "connection_type": "actor_played_parent_who_discovers_childs_secret_life_on_tv",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Carrie Coon (The Leftovers — her character uncovers her brother's hidden departure-cult involvement, and in later seasons grapples with her daughter's secret choices), Matthew McConaughey (True Detective — Rust investigates a cult whose victims include children kept secret from their parents), Zach Gilford (Friday Night Lights — Matt Saracen uncovers his absent father's hidden second life during wartime), and Melanie Lynskey (Yellowjackets — Shauna's daughter's entire secret social and romantic life is a running revelation to her mother) all played characters whose central dramatic turn involves discovering a child's concealed existence."
+    }
+  ]
+}
