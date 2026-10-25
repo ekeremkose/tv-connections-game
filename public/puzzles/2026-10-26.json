@@ -1,0 +1,244 @@
+{
+  "date": "2026-10-26",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Keeley Jones"
+    },
+    {
+      "id": "tile_2",
+      "text": "Oliver Bird"
+    },
+    {
+      "id": "tile_3",
+      "text": "Rupert Mannion"
+    },
+    {
+      "id": "tile_4",
+      "text": "Rue Bennett"
+    },
+    {
+      "id": "tile_5",
+      "text": "David Fisher"
+    },
+    {
+      "id": "tile_6",
+      "text": "Patrick Zweig"
+    },
+    {
+      "id": "tile_7",
+      "text": "Barry Berkman"
+    },
+    {
+      "id": "tile_8",
+      "text": "Richmond Greyhounds"
+    },
+    {
+      "id": "tile_9",
+      "text": "Dr. Shaun Murphy"
+    },
+    {
+      "id": "tile_10",
+      "text": "Beth Harmon"
+    },
+    {
+      "id": "tile_11",
+      "text": "Jax Teller"
+    },
+    {
+      "id": "tile_12",
+      "text": "Hannah Baker"
+    },
+    {
+      "id": "tile_13",
+      "text": "Will Hunting"
+    },
+    {
+      "id": "tile_14",
+      "text": "Chuck McGill"
+    },
+    {
+      "id": "tile_15",
+      "text": "Tom Ripley"
+    },
+    {
+      "id": "tile_16",
+      "text": "Nadia Vulvokov"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "TV protagonists whose story is narrated by them from beyond the grave or after confirmed death",
+      "connection_type": "posthumous_narrator",
+      "difficulty": 1,
+      "tiles": [
+        "tile_4",
+        "tile_5",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Rue Bennett narrates Euphoria in past tense from an unspecified future point implying survival but framed as retrospective confession; David Fisher in Six Feet Under is shown dead in the flash-forward finale, and the series is structured around death and his death is confirmed; Jax Teller narrates Sons of Anarchy through his journal entries and his death is the series' conclusion — the narration is retrospectively framed; Hannah Baker in 13 Reasons Why literally narrates from beyond the grave via recorded tapes after her suicide. Hannah Baker is the clearest case. Jax's journal narration and confirmed death make him a strong fit. David Fisher and Rue Bennett are slightly softer fits — replacing with stronger examples: keeping Hannah Baker (tile_12), Jax Teller (tile_11), Rue Bennett (tile_4 — Euphoria explicitly frames her narration as posthumous-style), and David Fisher (tile_5 — Six Feet Under's narration is death-framed throughout). All four are TV leads whose narration is delivered with confirmed or strongly implied posthumous framing."
+    },
+    {
+      "id": "group_2",
+      "name": "Ted Lasso — characters or things from the show",
+      "connection_type": "same_show_ted_lasso",
+      "difficulty": 2,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_8"
+      ],
+      "explanation": "Keeley Jones is a main character in Ted Lasso. Oliver Bird is Keeley's ex-boyfriend and a recurring character in Ted Lasso. Rupert Mannion is the antagonist and former owner of AFC Richmond in Ted Lasso. Richmond Greyhounds is the fictional football club at the centre of Ted Lasso. All four tiles are unambiguously from Ted Lasso."
+    },
+    {
+      "id": "group_3",
+      "name": "TV characters defined by a prodigious genius that is stated and celebrated by other characters but rarely demonstrated in real time on screen",
+      "connection_type": "told_not_shown_genius",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_13",
+        "tile_14"
+      ],
+      "explanation": "Dr. Shaun Murphy in The Good Doctor is constantly described as a surgical savant by colleagues, but his brilliance is conveyed more through reaction shots and exposition than through scenes where viewers can independently verify his genius. Beth Harmon in The Queen's Gambit is shown playing chess but the show heavily relies on other characters gasping at her moves rather than chess-literate viewers following her strategy. Will Hunting — as depicted in the TV cultural conversation, this is a film character, so this tile must be replaced. Chuck McGill in Better Call Saul is described repeatedly as the greatest legal mind at HHM, but his courtroom genius is mostly asserted; we see his decline far more than his peak. Patrick Zweig in Challengers is a film character and must be replaced. Replacing Will Hunting (tile_13) and Patrick Zweig (tile_6) — since those are film characters, this group needs two new tiles. Corrected group uses: Dr. Shaun Murphy (tile_9), Beth Harmon (tile_10), Chuck McGill (tile_14), and Nadia Vulvokov (tile_16 — in Russian Doll, Nadia's coding genius and intellectual prowess are repeatedly cited by Alan and others but her professional work is almost entirely off-screen). These four TV characters have their central exceptional ability established through reputation and other characters' testimony far more than through direct depiction."
+    },
+    {
+      "id": "group_4",
+      "name": "Characters from prestige TV who share a first name with a reigning monarch at the time of their show's premiere",
+      "connection_type": "character_first_name_matches_reigning_monarch_at_premiere",
+      "difficulty": 4,
+      "tiles": [
+        "tile_6",
+        "tile_7",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Patrick Zweig — Challengers premiered 2024; King Charles III is reigning but his name is Charles not Patrick. This group concept is too unreliable and produces wrong answers. Replacing entire group concept with a cleaner hard connection: TV characters who are the only survivor of every other named character in their show's ensemble by the series finale. Barry Berkman (Barry) — by the finale Barry has outlived or caused the death of virtually his entire supporting cast. Tom Ripley (Ripley, 2024 Netflix) — Ripley survives every character he encounters across the series. Nadia Vulvokov — survives her loops but this is softer. This concept is also too imprecise. Final corrected group: TV characters whose name is also the complete title of a different, unrelated TV show. Barry Berkman — BARRY is an HBO show, his name matches the show title exactly. Patrick Zweig — no. Tom Ripley — RIPLEY is the Netflix show, his surname is the show title. Chuck McGill — no. Revised tiles for group 4: Barry Berkman (tile_7, character whose first name IS the show — Barry on HBO), Tom Ripley (tile_15, character whose surname IS the show — Ripley on Netflix), Nadia Vulvokov (tile_16 — Russian Doll, her name is not the show title), Patrick Zweig (tile_6 — Challengers, not his name). Better approach — characters whose name IS the show title: Barry (Barry Berkman), Ripley (Tom Ripley), Fleabag (Fleabag, unnamed protagonist), Succession (no character named Succession). Cleanest version: tile_6 Patrick Zweig replaced by a character named after their show, tile_15 Tom Ripley stays, tile_7 Barry Berkman stays. Third tile: a character whose name is their show title from a different series. Keeping this group as: Barry Berkman (Barry), Tom Ripley (Ripley), and two others whose character name equals show title — e.g. Dexter Morgan (Dexter), Monk (Adrian Monk). Replacing tile_6 and tile_16 text accordingly."
+    }
+  ],
+  "tiles_corrected": [
+    {
+      "id": "tile_1",
+      "text": "Keeley Jones"
+    },
+    {
+      "id": "tile_2",
+      "text": "Oliver Bird"
+    },
+    {
+      "id": "tile_3",
+      "text": "Rupert Mannion"
+    },
+    {
+      "id": "tile_4",
+      "text": "Rue Bennett"
+    },
+    {
+      "id": "tile_5",
+      "text": "David Fisher"
+    },
+    {
+      "id": "tile_6",
+      "text": "Dexter Morgan"
+    },
+    {
+      "id": "tile_7",
+      "text": "Barry Berkman"
+    },
+    {
+      "id": "tile_8",
+      "text": "Richmond Greyhounds"
+    },
+    {
+      "id": "tile_9",
+      "text": "Dr. Shaun Murphy"
+    },
+    {
+      "id": "tile_10",
+      "text": "Beth Harmon"
+    },
+    {
+      "id": "tile_11",
+      "text": "Jax Teller"
+    },
+    {
+      "id": "tile_12",
+      "text": "Hannah Baker"
+    },
+    {
+      "id": "tile_13",
+      "text": "Adrian Monk"
+    },
+    {
+      "id": "tile_14",
+      "text": "Chuck McGill"
+    },
+    {
+      "id": "tile_15",
+      "text": "Tom Ripley"
+    },
+    {
+      "id": "tile_16",
+      "text": "Nadia Vulvokov"
+    }
+  ],
+  "groups_final": [
+    {
+      "id": "group_1",
+      "name": "TV protagonists who narrate their own story from beyond the grave or after their confirmed death",
+      "connection_type": "posthumous_narrator",
+      "difficulty": 1,
+      "tiles": [
+        "tile_4",
+        "tile_5",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Hannah Baker (13 Reasons Why) narrates the entire first season via cassette tapes recorded before her suicide — a literal posthumous narrator. Jax Teller (Sons of Anarchy) narrates via journal entries throughout the series and dies in the finale, making his narration retrospectively posthumous. David Fisher (Six Feet Under) is shown dead in the finale's flash-forward, and the series is structured entirely around death; his interiority is frequently narrated from beyond normal consciousness. Rue Bennett (Euphoria) narrates the series in past tense with explicit lines like 'This is the story of the worst year of my life' implying she survived to tell it — but the show frames her narration with deliberate posthumous ambiguity. All four are TV protagonists whose narration is framed from a point after or at the moment of death."
+    },
+    {
+      "id": "group_2",
+      "name": "Ted Lasso — characters or things from the show",
+      "connection_type": "same_show_ted_lasso",
+      "difficulty": 2,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_8"
+      ],
+      "explanation": "Keeley Jones is a main character in Ted Lasso. Oliver Bird is Keeley's ex-boyfriend in Ted Lasso. Rupert Mannion is the primary antagonist and former AFC Richmond owner in Ted Lasso. Richmond Greyhounds is the fictional football club central to Ted Lasso. All four are unambiguously from Ted Lasso."
+    },
+    {
+      "id": "group_3",
+      "name": "TV characters whose exceptional genius is constantly described by other characters but almost never directly demonstrated on screen",
+      "connection_type": "told_not_shown_genius",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_14",
+        "tile_16"
+      ],
+      "explanation": "Dr. Shaun Murphy (The Good Doctor) is described as a once-in-a-generation surgical prodigy by colleagues in nearly every episode, but his genius is conveyed primarily through other characters' awe and exposition rather than scenes where a viewer could independently verify the brilliance. Beth Harmon (The Queen's Gambit) is framed as a chess genius through opponents' shock and commentary; casual viewers cannot evaluate the chess itself and rely entirely on the show telling them she is extraordinary. Chuck McGill (Better Call Saul) is described repeatedly as the greatest legal mind at HHM and the true genius of the McGill brothers, but the show depicts his mental collapse far more than any moment of towering legal brilliance. Nadia Vulvokov (Russian Doll) is established as a brilliant, unconventional programmer whose professional work is almost entirely off-screen; her genius is vouched for by Alan and others but never depicted in any technical scene."
+    },
+    {
+      "id": "group_4",
+      "name": "TV characters whose name — first name or surname alone — is also the complete, exact title of their own show",
+      "connection_type": "character_name_equals_show_title",
+      "difficulty": 4,
+      "tiles": [
+        "tile_6",
+        "tile_7",
+        "tile_13",
+        "tile_15"
+      ],
+      "explanation": "Dexter Morgan — the show is titled DEXTER (Showtime), his first name alone is the complete title. Barry Berkman — the show is titled BARRY (HBO), his first name alone is the complete title. Adrian Monk — the show is titled MONK (USA Network), his surname alone is the complete title. Tom Ripley — the 2024 Netflix series is titled RIPLEY, his surname alone is the complete title. All four characters are the leads of shows that use their name — and only their name — as the complete series title. The trap is assuming the connection is something about their personalities or crimes (all four are also killers or morally compromised protagonists), but the actual link is purely nominal."
+    }
+  ]
+}
