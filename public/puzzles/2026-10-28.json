@@ -1,0 +1,124 @@
+{
+  "date": "2026-10-28",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Midge Maisel"
+    },
+    {
+      "id": "tile_2",
+      "text": "Fleabag"
+    },
+    {
+      "id": "tile_3",
+      "text": "Carrie Bradshaw"
+    },
+    {
+      "id": "tile_4",
+      "text": "Nurse Jackie"
+    },
+    {
+      "id": "tile_5",
+      "text": "The Bamboo Lounge"
+    },
+    {
+      "id": "tile_6",
+      "text": "The Titty Twister"
+    },
+    {
+      "id": "tile_7",
+      "text": "The Leaky Tap"
+    },
+    {
+      "id": "tile_8",
+      "text": "The Alibi Room"
+    },
+    {
+      "id": "tile_9",
+      "text": "James Spader"
+    },
+    {
+      "id": "tile_10",
+      "text": "Allison Janney"
+    },
+    {
+      "id": "tile_11",
+      "text": "André Braugher"
+    },
+    {
+      "id": "tile_12",
+      "text": "Kyle Chandler"
+    },
+    {
+      "id": "tile_13",
+      "text": "Julianna Margulies"
+    },
+    {
+      "id": "tile_14",
+      "text": "Idris Elba"
+    },
+    {
+      "id": "tile_15",
+      "text": "Helen Mirren"
+    },
+    {
+      "id": "tile_16",
+      "text": "Matthew Rhys"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "TV female characters who speak directly to the audience while concealing a secret compulsion or addiction",
+      "connection_type": "female_tv_character_breaks_fourth_wall_while_hiding_addiction_or_compulsion",
+      "difficulty": 1,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Midge Maisel (The Marvelous Mrs. Maisel) performs stand-up as direct address while concealing her chaotic personal life and compulsive need for the spotlight; Fleabag (Fleabag) speaks directly to camera while concealing devastating grief and self-destructive impulses; Carrie Bradshaw (Sex and the City) narrates to the audience while concealing her compulsive romantic dependency; Nurse Jackie (Nurse Jackie) presents a competent face to the world while hiding a serious opioid addiction — all four are TV female protagonists who directly address the viewer yet carefully conceal their defining compulsion."
+    },
+    {
+      "id": "group_2",
+      "name": "Fictional bars that serve as the nerve center of their show's criminal world",
+      "connection_type": "fictional_bar_that_is_the_criminal_hub_of_its_show",
+      "difficulty": 2,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "The Bamboo Lounge (The Sopranos) is the gathering place for Tony Soprano's crew and a key site for criminal dealings; The Titty Twister (From Dusk Till Dawn: The Series) is the vampire biker bar at the center of the show's criminal and supernatural underworld; The Leaky Tap (Peaky Blinders) is the Shelby family's pub and primary operational base; The Alibi Room (Shameless US) is the neighborhood bar where Frank Gallagher and others plot petty schemes and criminal dealings. All four are fictional bars functioning as the criminal heart of their respective shows."
+    },
+    {
+      "id": "group_3",
+      "name": "Won an Emmy for a TV role — but are far more famous for a blockbuster film franchise",
+      "connection_type": "emmy_winning_actor_better_known_for_film_franchise",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "James Spader won Emmy Awards for The Practice and Boston Legal but is globally recognized as Ultron in the Avengers film franchise; Allison Janney won four Emmy Awards for The West Wing but earned her widest blockbuster audience through the Bring It On and other major film releases, and won an Academy Award for I, Tonya; André Braugher won Emmy Awards for Homicide: Life on the Street and Brooklyn Nine-Nine while also being celebrated for major films like Glory; Kyle Chandler won an Emmy for Friday Night Lights but is now globally recognized from the Godzilla franchise blockbusters. All four are Emmy-winning TV actors whose broadest mainstream recognition comes from major film franchises."
+    },
+    {
+      "id": "group_4",
+      "name": "Major film stars who made a landmark TV comeback playing a character defined by a slow unraveling or decline",
+      "connection_type": "film_star_returned_to_tv_with_character_defined_by_decline_or_unraveling",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Julianna Margulies, known from films and ER, returned to prestige TV in The Good Wife as Alicia Florrick — a woman whose marriage, identity and moral clarity slowly unravel across the series; Idris Elba, celebrated as a film star, anchored Luther on BBC as a detective whose psychological state and personal life progressively disintegrate across each series; Helen Mirren, one of cinema's most decorated stars, took the TV role of DCI Jane Tennison in Prime Suspect — a character defined across the full run by professional and personal decline including alcoholism; Matthew Rhys, known from film work, starred in HBO's Perry Mason revival as a deeply traumatized, self-destructing man slowly forced to reconstruct himself from ruin. All four are prestige film actors who chose TV roles specifically defined by a character's unraveling or decline as their central dramatic arc."
+    }
+  ]
+}
