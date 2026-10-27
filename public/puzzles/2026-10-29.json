@@ -1,0 +1,124 @@
+{
+  "date": "2026-10-29",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Raylan Givens"
+    },
+    {
+      "id": "tile_2",
+      "text": "The Peach Pit"
+    },
+    {
+      "id": "tile_3",
+      "text": "Paddy's Pub"
+    },
+    {
+      "id": "tile_4",
+      "text": "Timothy Olyphant"
+    },
+    {
+      "id": "tile_5",
+      "text": "MacLaren's Pub"
+    },
+    {
+      "id": "tile_6",
+      "text": "Harlan, Kentucky"
+    },
+    {
+      "id": "tile_7",
+      "text": "The Bennigan's"
+    },
+    {
+      "id": "tile_8",
+      "text": "The Boar's Nest"
+    },
+    {
+      "id": "tile_9",
+      "text": "Walt Whitman"
+    },
+    {
+      "id": "tile_10",
+      "text": "Genovia"
+    },
+    {
+      "id": "tile_11",
+      "text": "Walton's Mountain"
+    },
+    {
+      "id": "tile_12",
+      "text": "Florin"
+    },
+    {
+      "id": "tile_13",
+      "text": "Eagleton"
+    },
+    {
+      "id": "tile_14",
+      "text": "Vic Mackey"
+    },
+    {
+      "id": "tile_15",
+      "text": "Pawnee"
+    },
+    {
+      "id": "tile_16",
+      "text": "Bal Harbour"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Justified — people, places, and touchstones",
+      "connection_type": "same_show",
+      "difficulty": 1,
+      "tiles": [
+        "tile_1",
+        "tile_4",
+        "tile_6",
+        "tile_9"
+      ],
+      "explanation": "Raylan Givens is the protagonist of Justified; Timothy Olyphant plays him; Harlan, Kentucky is the primary setting; and Walt Whitman is the poet Raylan repeatedly quotes throughout the series ('I contain multitudes' etc.)."
+    },
+    {
+      "id": "group_2",
+      "name": "The undisputed social hub of its show",
+      "connection_type": "central_hangout_location",
+      "difficulty": 2,
+      "tiles": [
+        "tile_2",
+        "tile_5",
+        "tile_3",
+        "tile_8"
+      ],
+      "explanation": "The Peach Pit is the central diner hangout of Beverly Hills, 90210; MacLaren's Pub is the core gathering place of How I Met Your Mother; Paddy's Pub is the bar owned and frequented by the gang in It's Always Sunny in Philadelphia; The Boar's Nest is the bar that serves as the social center of The Dukes of Hazzard."
+    },
+    {
+      "id": "group_3",
+      "name": "Fictional TV towns in Indiana — or towns that border Pawnee",
+      "connection_type": "fictional_locations_in_parks_and_recreation_universe",
+      "difficulty": 3,
+      "tiles": [
+        "tile_7",
+        "tile_13",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Pawnee, Eagleton, Bal Harbour, and The Bennigan's are all locations or references within the Parks and Recreation universe. Pawnee is the main city; Eagleton is its snooty rival; Bal Harbour is a fictional Florida city mentioned in the show's lore; The Bennigan's is a location referenced in Pawnee's history. NOTE: This group needs revision — Bal Harbour and The Bennigan's are not solidly Parks and Rec fictional towns. See replacement note below."
+    },
+    {
+      "id": "group_4",
+      "name": "Fictional kingdoms or principalities in live-action TV or TV movies",
+      "connection_type": "fictional_nation_or_kingdom_in_live_action_tv",
+      "difficulty": 4,
+      "tiles": [
+        "tile_10",
+        "tile_11",
+        "tile_12",
+        "tile_14"
+      ],
+      "explanation": "Genovia is the fictional principality in The Princess Diaries TV films; Walton's Mountain is the fictional Virginia mountain community in The Waltons; Florin is the fictional kingdom in The Princess Bride (TV adaptations); Vic Mackey is placed here as a trap tile — he is a corrupt cop from The Shield, not a fictional kingdom."
+    }
+  ]
+}
