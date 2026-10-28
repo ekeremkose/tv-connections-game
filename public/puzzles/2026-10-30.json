@@ -1,0 +1,124 @@
+{
+  "date": "2026-10-30",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Storybrooke"
+    },
+    {
+      "id": "tile_2",
+      "text": "Pawnee"
+    },
+    {
+      "id": "tile_3",
+      "text": "Bluebell"
+    },
+    {
+      "id": "tile_4",
+      "text": "Rosewood"
+    },
+    {
+      "id": "tile_5",
+      "text": "Sharon Horgan"
+    },
+    {
+      "id": "tile_6",
+      "text": "Shonda Rhimes"
+    },
+    {
+      "id": "tile_7",
+      "text": "Jenji Kohan"
+    },
+    {
+      "id": "tile_8",
+      "text": "Marti Noxon"
+    },
+    {
+      "id": "tile_9",
+      "text": "Lord Benton"
+    },
+    {
+      "id": "tile_10",
+      "text": "Declan Harp"
+    },
+    {
+      "id": "tile_11",
+      "text": "Grace Emberly"
+    },
+    {
+      "id": "tile_12",
+      "text": "Fort James"
+    },
+    {
+      "id": "tile_13",
+      "text": "Penelope García"
+    },
+    {
+      "id": "tile_14",
+      "text": "Hardison"
+    },
+    {
+      "id": "tile_15",
+      "text": "Felicity Smoak"
+    },
+    {
+      "id": "tile_16",
+      "text": "Abby Sciuto"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Iconic fictional small towns from popular TV dramas and comedies",
+      "connection_type": "fictional_tv_town",
+      "difficulty": 1,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Storybrooke is the cursed town in Once Upon a Time; Pawnee is the Indiana town in Parks and Recreation; Bluebell is the Alabama town in Hart of Dixie; Rosewood is the Pennsylvania town in Pretty Little Liars. All are beloved fictional TV towns that serve as the central setting of their respective series."
+    },
+    {
+      "id": "group_2",
+      "name": "Female TV creators who also served as showrunner on their flagship series",
+      "connection_type": "female_tv_creator_showrunner",
+      "difficulty": 2,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Sharon Horgan co-created and showran Catastrophe and created Bad Sisters; Shonda Rhimes created and showran Grey's Anatomy and Scandal; Jenji Kohan created and showran Weeds and Orange Is the New Black; Marti Noxon created and showran UnREAL and Dietland. All four are women who held both creator and showrunner credits on major prestige television series."
+    },
+    {
+      "id": "group_3",
+      "name": "Characters and locations from Frontier (Netflix/Discovery Canada)",
+      "connection_type": "same_show_frontier",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "All four tiles are from the Netflix/Discovery Canada historical drama Frontier: Declan Harp (Jason Momoa) is the half-Irish, half-Cree protagonist; Lord Benton (Alun Armstrong) is the brutal antagonist and Governor of Fort James; Grace Emberly (Jessica Matten) is a key recurring character; and Fort James is the Hudson's Bay Company stronghold that serves as the central location of conflict throughout the series."
+    },
+    {
+      "id": "group_4",
+      "name": "TV's beloved tech and forensics support characters — the team's indispensable genius in the chair",
+      "connection_type": "tv_tech_genius_support_character",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Penelope García (Criminal Minds) is the BAU's eccentric computer analyst; Hardison (Leverage) is the team's hacker and tech expert; Felicity Smoak (Arrow) is the IT genius who becomes Team Arrow's operations lead; Abby Sciuto (NCIS) is the beloved forensic scientist in her iconic lab. All four are celebrated in-universe as irreplaceable technical geniuses who support their team from behind a screen rather than in the field, and all four became fan favorites whose personalities often overshadowed their ostensibly supporting roles."
+    }
+  ]
+}
