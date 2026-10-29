@@ -1,0 +1,124 @@
+{
+  "date": "2026-10-31",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Alma Garret"
+    },
+    {
+      "id": "tile_2",
+      "text": "The Gem Saloon"
+    },
+    {
+      "id": "tile_3",
+      "text": "Ian McShane"
+    },
+    {
+      "id": "tile_4",
+      "text": "\"Pain or damage don't end the world.\""
+    },
+    {
+      "id": "tile_5",
+      "text": "Westworld"
+    },
+    {
+      "id": "tile_6",
+      "text": "Severance"
+    },
+    {
+      "id": "tile_7",
+      "text": "The Prisoner"
+    },
+    {
+      "id": "tile_8",
+      "text": "Dark"
+    },
+    {
+      "id": "tile_9",
+      "text": "Selina Meyer"
+    },
+    {
+      "id": "tile_10",
+      "text": "Cordelia Chase"
+    },
+    {
+      "id": "tile_11",
+      "text": "Kimberley Walsh"
+    },
+    {
+      "id": "tile_12",
+      "text": "Andrea Harrison"
+    },
+    {
+      "id": "tile_13",
+      "text": "Fleabag"
+    },
+    {
+      "id": "tile_14",
+      "text": "Enlightened"
+    },
+    {
+      "id": "tile_15",
+      "text": "Killing Eve"
+    },
+    {
+      "id": "tile_16",
+      "text": "Julia"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Deadwood universe",
+      "connection_type": "same_show",
+      "difficulty": 1,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Alma Garret (character), The Gem Saloon (location), Ian McShane (actor who played Al Swearengen), and 'Pain or damage don't end the world' (iconic quote) are all from Deadwood."
+    },
+    {
+      "id": "group_2",
+      "name": "TV shows where the entire premise collapses once you learn the true nature of the 'world'",
+      "connection_type": "show_whose_world_is_revealed_as_constructed_simulated_or_artificial",
+      "difficulty": 2,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Westworld (theme park is a simulation run by AI), Severance (employees' minds are surgically split — their work world is literally manufactured), The Prisoner (the entire Village is a constructed psychological trap), and Dark (characters eventually discover their timeline loops are engineered by a hidden apparatus) all hinge on the reveal that the world the characters inhabit is not what it appears — it is designed, controlled, or artificial."
+    },
+    {
+      "id": "group_3",
+      "name": "Characters who are vice presidents — but never presidents",
+      "connection_type": "tv_character_who_holds_or_held_the_office_of_vice_president_but_never_becomes_president",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Selina Meyer (Veep) serves as Vice President for most of the series before her failed presidential runs; Cordelia Chase (Angel/Buffy) becomes Vice-Queen/Regent of Pylea but is never full ruler; Kimberley Walsh (The Thick of It) is the bumbling deputy to the minister; Andrea Harrison (The Walking Dead) is voted vice chair of the prison council but never leads — each holds a second-in-command position and is never fully elevated to the top role."
+    },
+    {
+      "id": "group_4",
+      "name": "Shows whose title is also the name of a real person — but not the character the show is about",
+      "connection_type": "show_title_matches_a_real_persons_name_but_the_show_is_not_about_that_person",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "Fleabag is the nickname of an unnamed character — 'Fleabag' is not a real person's name, but the show is named for its protagonist's alias, not a real individual; Enlightened stars Laura Dern as Amy Jellicoe — 'Enlightened' is an adjective, not a person; Killing Eve is named for the character Eve Polastri but 'Killing Eve' is a phrase, not a person — however, 'Julia' (HBO, 2022) is titled after Julia Child, a real person, yet the show fictionalizes her TV career rather than being a documentary; and 'Killing Eve' is named for a fictional character. The real trap: Fleabag, Enlightened, Killing Eve, and Julia all have one-word-or-short titles that players associate with their protagonist, but only Julia shares its title with a verified real historical figure the show dramatizes — making players assume all four are 'shows named after their protagonist' when the actual link is that all four titles are the name used to address or describe the lead character within the show's world, never used as her legal name by other characters."
+    }
+  ]
+}
