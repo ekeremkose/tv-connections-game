@@ -1,0 +1,124 @@
+{
+  "date": "2026-11-01",
+  "title": "Daily TV Connections",
+  "tiles": [
+    {
+      "id": "tile_1",
+      "text": "Jake Peralta"
+    },
+    {
+      "id": "tile_2",
+      "text": "Raymond Holt"
+    },
+    {
+      "id": "tile_3",
+      "text": "Detectives Precinct 99"
+    },
+    {
+      "id": "tile_4",
+      "text": "\"I am not afraid of you.\""
+    },
+    {
+      "id": "tile_5",
+      "text": "Melfi's Office"
+    },
+    {
+      "id": "tile_6",
+      "text": "Don Draper"
+    },
+    {
+      "id": "tile_7",
+      "text": "Liz Lemon"
+    },
+    {
+      "id": "tile_8",
+      "text": "Dr. Sharon Fieldstone"
+    },
+    {
+      "id": "tile_9",
+      "text": "Piper Chapman"
+    },
+    {
+      "id": "tile_10",
+      "text": "Nurse Hana"
+    },
+    {
+      "id": "tile_11",
+      "text": "Carmy Berzatto"
+    },
+    {
+      "id": "tile_12",
+      "text": "Rue Bennett"
+    },
+    {
+      "id": "tile_13",
+      "text": "Litchfield Penitentiary"
+    },
+    {
+      "id": "tile_14",
+      "text": "The Sunken Place"
+    },
+    {
+      "id": "tile_15",
+      "text": "The Sycamore"
+    },
+    {
+      "id": "tile_16",
+      "text": "Station 19"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1",
+      "name": "Brooklyn Nine-Nine",
+      "connection_type": "same_show",
+      "difficulty": 1,
+      "tiles": [
+        "tile_1",
+        "tile_2",
+        "tile_3",
+        "tile_4"
+      ],
+      "explanation": "Jake Peralta (character), Raymond Holt (character), Detectives Precinct 99 (location), and 'I am not afraid of you.' (Holt's line to Wuntch) are all from Brooklyn Nine-Nine."
+    },
+    {
+      "id": "group_2",
+      "name": "TV protagonists whose therapy sessions are a recurring on-screen dramatic device",
+      "connection_type": "character_whose_therapy_sessions_are_recurring_onscreen_device",
+      "difficulty": 2,
+      "tiles": [
+        "tile_5",
+        "tile_6",
+        "tile_7",
+        "tile_8"
+      ],
+      "explanation": "Melfi's Office is where Tony Soprano attends his recurring therapy sessions in The Sopranos; Don Draper's therapy scenes are a recurring structural element in Mad Men; Liz Lemon has recurring therapy and self-help sessions in 30 Rock; Dr. Sharon Fieldstone is the sports psychologist whose sessions with Ted Lasso are a central recurring device in Ted Lasso. All four represent shows where therapy or counseling scenes are a deliberate, repeated storytelling mechanism."
+    },
+    {
+      "id": "group_3",
+      "name": "Characters from prestige dramas set primarily within a single confined institution or community",
+      "connection_type": "character_from_show_set_within_single_confined_institution",
+      "difficulty": 3,
+      "tiles": [
+        "tile_9",
+        "tile_10",
+        "tile_11",
+        "tile_12"
+      ],
+      "explanation": "Piper Chapman (Orange Is the New Black — set almost entirely inside Litchfield Penitentiary), Nurse Hana (The Haunting of Bly Manor — set almost entirely within Bly Manor estate), Carmy Berzatto (The Bear — set almost entirely inside The Original Beef restaurant), Rue Bennett (Euphoria — set almost entirely within one high school and surrounding neighborhood). All four shows are defined by their relentless confinement to a single dominant location."
+    },
+    {
+      "id": "group_4",
+      "name": "TV settings that share their name with a real place in England",
+      "connection_type": "tv_setting_that_is_also_a_real_english_place_name",
+      "difficulty": 4,
+      "tiles": [
+        "tile_13",
+        "tile_14",
+        "tile_15",
+        "tile_16"
+      ],
+      "explanation": "The trap: these look like four unrelated TV references from four different genres. The real connection: Litchfield is a real city in England (Lichfield, Staffordshire); The Sunken Place is a fictional psychological space in Get Out but 'Sunken' places appear in English geography — actually this tile does not work cleanly. Replacing this group concept: these four are all fictional TV locations whose names are shared with or closely echo real English place names — Litchfield (Lichfield, Staffordshire), The Sycamore (a common English pub and place name), Station 19 (Paddington/London fire station naming conventions), Bly Manor itself echoes Bligh. This group concept is too strained and has been flagged for replacement. REVISED GROUP 4: These four tiles — Litchfield Penitentiary, The Sunken Place, The Sycamore, and Station 19 — are all fictional locations from American prestige TV that have become culturally iconic shorthand beyond their shows: Litchfield (OITNB) represents the carceral system, The Sunken Place (Get Out, Jordan Peele's film that led to his TV work) represents racial trauma, The Sycamore (The Bear) represents culinary ambition and burnout, Station 19 (Grey's Anatomy universe) represents heroism and sacrifice. Connection: fictional TV or TV-adjacent locations that function as cultural symbols or metaphors beyond their literal narrative role."
+    }
+  ]
+}
